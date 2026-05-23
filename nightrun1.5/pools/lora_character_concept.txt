@@ -1,0 +1,4 @@
+# Exact local character/concept LoRA stems.
+Goat girl
+princess_xl_v2
+Star_Rail_251013

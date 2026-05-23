@@ -1,0 +1,3 @@
+lcm-lora-sdv1-5
+lcm-lora-sdxl
+sdxl_lightning_8step_lora

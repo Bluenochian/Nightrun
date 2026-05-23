@@ -1,0 +1,601 @@
+# Eye color and eye-detail descriptors.
+red eyes, sharp eyes
+red eyes, glowing eyes
+red eyes, star-like pupils
+red eyes, slit pupils
+red eyes, bright catchlights
+red eyes, wet glossy highlights
+red eyes, sleepy half-lidded gaze
+red eyes, intense eye contact
+red eyes, soft reflective eyes
+red eyes, small sparkle highlights
+red eyes, dramatic eyeliner
+red eyes, perfect eye detail
+red eyes, heart catchlights
+red eyes, crystal reflections
+red eyes, moon-shaped catchlights
+red eyes, predatory gaze
+red eyes, seductive half-lidded gaze
+red eyes, watery highlights
+red eyes, neon ring pupils
+red eyes, glowing lash line
+red eyes, subtle tears
+red eyes, sharp vampire stare
+red eyes, gem-like iris detail
+red eyes, glowing ring iris
+red eyes, sharp lower lashes
+red eyes, soft upper lashes
+red eyes, bright anime catchlights
+red eyes, clear symmetrical eyes
+red eyes, hypnotic gaze
+red eyes, moonlit eye reflection
+crimson eyes, sharp eyes
+crimson eyes, glowing eyes
+crimson eyes, star-like pupils
+crimson eyes, slit pupils
+crimson eyes, bright catchlights
+crimson eyes, wet glossy highlights
+crimson eyes, sleepy half-lidded gaze
+crimson eyes, intense eye contact
+crimson eyes, soft reflective eyes
+crimson eyes, small sparkle highlights
+crimson eyes, dramatic eyeliner
+crimson eyes, perfect eye detail
+crimson eyes, heart catchlights
+crimson eyes, crystal reflections
+crimson eyes, moon-shaped catchlights
+crimson eyes, predatory gaze
+crimson eyes, seductive half-lidded gaze
+crimson eyes, watery highlights
+crimson eyes, neon ring pupils
+crimson eyes, glowing lash line
+crimson eyes, subtle tears
+crimson eyes, sharp vampire stare
+crimson eyes, gem-like iris detail
+crimson eyes, glowing ring iris
+crimson eyes, sharp lower lashes
+crimson eyes, soft upper lashes
+crimson eyes, bright anime catchlights
+crimson eyes, clear symmetrical eyes
+crimson eyes, hypnotic gaze
+crimson eyes, moonlit eye reflection
+blue eyes, sharp eyes
+blue eyes, glowing eyes
+blue eyes, star-like pupils
+blue eyes, slit pupils
+blue eyes, bright catchlights
+blue eyes, wet glossy highlights
+blue eyes, sleepy half-lidded gaze
+blue eyes, intense eye contact
+blue eyes, soft reflective eyes
+blue eyes, small sparkle highlights
+blue eyes, dramatic eyeliner
+blue eyes, perfect eye detail
+blue eyes, heart catchlights
+blue eyes, crystal reflections
+blue eyes, moon-shaped catchlights
+blue eyes, predatory gaze
+blue eyes, seductive half-lidded gaze
+blue eyes, watery highlights
+blue eyes, neon ring pupils
+blue eyes, glowing lash line
+blue eyes, subtle tears
+blue eyes, sharp vampire stare
+blue eyes, gem-like iris detail
+blue eyes, glowing ring iris
+blue eyes, sharp lower lashes
+blue eyes, soft upper lashes
+blue eyes, bright anime catchlights
+blue eyes, clear symmetrical eyes
+blue eyes, hypnotic gaze
+blue eyes, moonlit eye reflection
+cyan eyes, sharp eyes
+cyan eyes, glowing eyes
+cyan eyes, star-like pupils
+cyan eyes, slit pupils
+cyan eyes, bright catchlights
+cyan eyes, wet glossy highlights
+cyan eyes, sleepy half-lidded gaze
+cyan eyes, intense eye contact
+cyan eyes, soft reflective eyes
+cyan eyes, small sparkle highlights
+cyan eyes, dramatic eyeliner
+cyan eyes, perfect eye detail
+cyan eyes, heart catchlights
+cyan eyes, crystal reflections
+cyan eyes, moon-shaped catchlights
+cyan eyes, predatory gaze
+cyan eyes, seductive half-lidded gaze
+cyan eyes, watery highlights
+cyan eyes, neon ring pupils
+cyan eyes, glowing lash line
+cyan eyes, subtle tears
+cyan eyes, sharp vampire stare
+cyan eyes, gem-like iris detail
+cyan eyes, glowing ring iris
+cyan eyes, sharp lower lashes
+cyan eyes, soft upper lashes
+cyan eyes, bright anime catchlights
+cyan eyes, clear symmetrical eyes
+cyan eyes, hypnotic gaze
+cyan eyes, moonlit eye reflection
+gold eyes, sharp eyes
+gold eyes, glowing eyes
+gold eyes, star-like pupils
+gold eyes, slit pupils
+gold eyes, bright catchlights
+gold eyes, wet glossy highlights
+gold eyes, sleepy half-lidded gaze
+gold eyes, intense eye contact
+gold eyes, soft reflective eyes
+gold eyes, small sparkle highlights
+gold eyes, dramatic eyeliner
+gold eyes, perfect eye detail
+gold eyes, heart catchlights
+gold eyes, crystal reflections
+gold eyes, moon-shaped catchlights
+gold eyes, predatory gaze
+gold eyes, seductive half-lidded gaze
+gold eyes, watery highlights
+gold eyes, neon ring pupils
+gold eyes, glowing lash line
+gold eyes, subtle tears
+gold eyes, sharp vampire stare
+gold eyes, gem-like iris detail
+gold eyes, glowing ring iris
+gold eyes, sharp lower lashes
+gold eyes, soft upper lashes
+gold eyes, bright anime catchlights
+gold eyes, clear symmetrical eyes
+gold eyes, hypnotic gaze
+gold eyes, moonlit eye reflection
+emerald green eyes, sharp eyes
+emerald green eyes, glowing eyes
+emerald green eyes, star-like pupils
+emerald green eyes, slit pupils
+emerald green eyes, bright catchlights
+emerald green eyes, wet glossy highlights
+emerald green eyes, sleepy half-lidded gaze
+emerald green eyes, intense eye contact
+emerald green eyes, soft reflective eyes
+emerald green eyes, small sparkle highlights
+emerald green eyes, dramatic eyeliner
+emerald green eyes, perfect eye detail
+emerald green eyes, heart catchlights
+emerald green eyes, crystal reflections
+emerald green eyes, moon-shaped catchlights
+emerald green eyes, predatory gaze
+emerald green eyes, seductive half-lidded gaze
+emerald green eyes, watery highlights
+emerald green eyes, neon ring pupils
+emerald green eyes, glowing lash line
+emerald green eyes, subtle tears
+emerald green eyes, sharp vampire stare
+emerald green eyes, gem-like iris detail
+emerald green eyes, glowing ring iris
+emerald green eyes, sharp lower lashes
+emerald green eyes, soft upper lashes
+emerald green eyes, bright anime catchlights
+emerald green eyes, clear symmetrical eyes
+emerald green eyes, hypnotic gaze
+emerald green eyes, moonlit eye reflection
+violet eyes, sharp eyes
+violet eyes, glowing eyes
+violet eyes, star-like pupils
+violet eyes, slit pupils
+violet eyes, bright catchlights
+violet eyes, wet glossy highlights
+violet eyes, sleepy half-lidded gaze
+violet eyes, intense eye contact
+violet eyes, soft reflective eyes
+violet eyes, small sparkle highlights
+violet eyes, dramatic eyeliner
+violet eyes, perfect eye detail
+violet eyes, heart catchlights
+violet eyes, crystal reflections
+violet eyes, moon-shaped catchlights
+violet eyes, predatory gaze
+violet eyes, seductive half-lidded gaze
+violet eyes, watery highlights
+violet eyes, neon ring pupils
+violet eyes, glowing lash line
+violet eyes, subtle tears
+violet eyes, sharp vampire stare
+violet eyes, gem-like iris detail
+violet eyes, glowing ring iris
+violet eyes, sharp lower lashes
+violet eyes, soft upper lashes
+violet eyes, bright anime catchlights
+violet eyes, clear symmetrical eyes
+violet eyes, hypnotic gaze
+violet eyes, moonlit eye reflection
+silver eyes, sharp eyes
+silver eyes, glowing eyes
+silver eyes, star-like pupils
+silver eyes, slit pupils
+silver eyes, bright catchlights
+silver eyes, wet glossy highlights
+silver eyes, sleepy half-lidded gaze
+silver eyes, intense eye contact
+silver eyes, soft reflective eyes
+silver eyes, small sparkle highlights
+silver eyes, dramatic eyeliner
+silver eyes, perfect eye detail
+silver eyes, heart catchlights
+silver eyes, crystal reflections
+silver eyes, moon-shaped catchlights
+silver eyes, predatory gaze
+silver eyes, seductive half-lidded gaze
+silver eyes, watery highlights
+silver eyes, neon ring pupils
+silver eyes, glowing lash line
+silver eyes, subtle tears
+silver eyes, sharp vampire stare
+silver eyes, gem-like iris detail
+silver eyes, glowing ring iris
+silver eyes, sharp lower lashes
+silver eyes, soft upper lashes
+silver eyes, bright anime catchlights
+silver eyes, clear symmetrical eyes
+silver eyes, hypnotic gaze
+silver eyes, moonlit eye reflection
+pink eyes, sharp eyes
+pink eyes, glowing eyes
+pink eyes, star-like pupils
+pink eyes, slit pupils
+pink eyes, bright catchlights
+pink eyes, wet glossy highlights
+pink eyes, sleepy half-lidded gaze
+pink eyes, intense eye contact
+pink eyes, soft reflective eyes
+pink eyes, small sparkle highlights
+pink eyes, dramatic eyeliner
+pink eyes, perfect eye detail
+pink eyes, heart catchlights
+pink eyes, crystal reflections
+pink eyes, moon-shaped catchlights
+pink eyes, predatory gaze
+pink eyes, seductive half-lidded gaze
+pink eyes, watery highlights
+pink eyes, neon ring pupils
+pink eyes, glowing lash line
+pink eyes, subtle tears
+pink eyes, sharp vampire stare
+pink eyes, gem-like iris detail
+pink eyes, glowing ring iris
+pink eyes, sharp lower lashes
+pink eyes, soft upper lashes
+pink eyes, bright anime catchlights
+pink eyes, clear symmetrical eyes
+pink eyes, hypnotic gaze
+pink eyes, moonlit eye reflection
+heterochromia eyes, sharp eyes
+heterochromia eyes, glowing eyes
+heterochromia eyes, star-like pupils
+heterochromia eyes, slit pupils
+heterochromia eyes, bright catchlights
+heterochromia eyes, wet glossy highlights
+heterochromia eyes, sleepy half-lidded gaze
+heterochromia eyes, intense eye contact
+heterochromia eyes, soft reflective eyes
+heterochromia eyes, small sparkle highlights
+heterochromia eyes, dramatic eyeliner
+heterochromia eyes, perfect eye detail
+heterochromia eyes, heart catchlights
+heterochromia eyes, crystal reflections
+heterochromia eyes, moon-shaped catchlights
+heterochromia eyes, predatory gaze
+heterochromia eyes, seductive half-lidded gaze
+heterochromia eyes, watery highlights
+heterochromia eyes, neon ring pupils
+heterochromia eyes, glowing lash line
+heterochromia eyes, subtle tears
+heterochromia eyes, sharp vampire stare
+heterochromia eyes, gem-like iris detail
+heterochromia eyes, glowing ring iris
+heterochromia eyes, sharp lower lashes
+heterochromia eyes, soft upper lashes
+heterochromia eyes, bright anime catchlights
+heterochromia eyes, clear symmetrical eyes
+heterochromia eyes, hypnotic gaze
+heterochromia eyes, moonlit eye reflection
+holographic eyes, sharp eyes
+holographic eyes, glowing eyes
+holographic eyes, star-like pupils
+holographic eyes, slit pupils
+holographic eyes, bright catchlights
+holographic eyes, wet glossy highlights
+holographic eyes, sleepy half-lidded gaze
+holographic eyes, intense eye contact
+holographic eyes, soft reflective eyes
+holographic eyes, small sparkle highlights
+holographic eyes, dramatic eyeliner
+holographic eyes, perfect eye detail
+holographic eyes, heart catchlights
+holographic eyes, crystal reflections
+holographic eyes, moon-shaped catchlights
+holographic eyes, predatory gaze
+holographic eyes, seductive half-lidded gaze
+holographic eyes, watery highlights
+holographic eyes, neon ring pupils
+holographic eyes, glowing lash line
+holographic eyes, subtle tears
+holographic eyes, sharp vampire stare
+holographic eyes, gem-like iris detail
+holographic eyes, glowing ring iris
+holographic eyes, sharp lower lashes
+holographic eyes, soft upper lashes
+holographic eyes, bright anime catchlights
+holographic eyes, clear symmetrical eyes
+holographic eyes, hypnotic gaze
+holographic eyes, moonlit eye reflection
+glowing white eyes, sharp eyes
+glowing white eyes, glowing eyes
+glowing white eyes, star-like pupils
+glowing white eyes, slit pupils
+glowing white eyes, bright catchlights
+glowing white eyes, wet glossy highlights
+glowing white eyes, sleepy half-lidded gaze
+glowing white eyes, intense eye contact
+glowing white eyes, soft reflective eyes
+glowing white eyes, small sparkle highlights
+glowing white eyes, dramatic eyeliner
+glowing white eyes, perfect eye detail
+glowing white eyes, heart catchlights
+glowing white eyes, crystal reflections
+glowing white eyes, moon-shaped catchlights
+glowing white eyes, predatory gaze
+glowing white eyes, seductive half-lidded gaze
+glowing white eyes, watery highlights
+glowing white eyes, neon ring pupils
+glowing white eyes, glowing lash line
+glowing white eyes, subtle tears
+glowing white eyes, sharp vampire stare
+glowing white eyes, gem-like iris detail
+glowing white eyes, glowing ring iris
+glowing white eyes, sharp lower lashes
+glowing white eyes, soft upper lashes
+glowing white eyes, bright anime catchlights
+glowing white eyes, clear symmetrical eyes
+glowing white eyes, hypnotic gaze
+glowing white eyes, moonlit eye reflection
+ruby red eyes, sharp eyes
+ruby red eyes, glowing eyes
+ruby red eyes, star-like pupils
+ruby red eyes, slit pupils
+ruby red eyes, bright catchlights
+ruby red eyes, wet glossy highlights
+ruby red eyes, sleepy half-lidded gaze
+ruby red eyes, intense eye contact
+ruby red eyes, soft reflective eyes
+ruby red eyes, small sparkle highlights
+ruby red eyes, dramatic eyeliner
+ruby red eyes, perfect eye detail
+ruby red eyes, heart catchlights
+ruby red eyes, crystal reflections
+ruby red eyes, moon-shaped catchlights
+ruby red eyes, predatory gaze
+ruby red eyes, seductive half-lidded gaze
+ruby red eyes, watery highlights
+ruby red eyes, neon ring pupils
+ruby red eyes, glowing lash line
+ruby red eyes, subtle tears
+ruby red eyes, sharp vampire stare
+ruby red eyes, gem-like iris detail
+ruby red eyes, glowing ring iris
+ruby red eyes, sharp lower lashes
+ruby red eyes, soft upper lashes
+ruby red eyes, bright anime catchlights
+ruby red eyes, clear symmetrical eyes
+ruby red eyes, hypnotic gaze
+ruby red eyes, moonlit eye reflection
+ice blue eyes, sharp eyes
+ice blue eyes, glowing eyes
+ice blue eyes, star-like pupils
+ice blue eyes, slit pupils
+ice blue eyes, bright catchlights
+ice blue eyes, wet glossy highlights
+ice blue eyes, sleepy half-lidded gaze
+ice blue eyes, intense eye contact
+ice blue eyes, soft reflective eyes
+ice blue eyes, small sparkle highlights
+ice blue eyes, dramatic eyeliner
+ice blue eyes, perfect eye detail
+ice blue eyes, heart catchlights
+ice blue eyes, crystal reflections
+ice blue eyes, moon-shaped catchlights
+ice blue eyes, predatory gaze
+ice blue eyes, seductive half-lidded gaze
+ice blue eyes, watery highlights
+ice blue eyes, neon ring pupils
+ice blue eyes, glowing lash line
+ice blue eyes, subtle tears
+ice blue eyes, sharp vampire stare
+ice blue eyes, gem-like iris detail
+ice blue eyes, glowing ring iris
+ice blue eyes, sharp lower lashes
+ice blue eyes, soft upper lashes
+ice blue eyes, bright anime catchlights
+ice blue eyes, clear symmetrical eyes
+ice blue eyes, hypnotic gaze
+ice blue eyes, moonlit eye reflection
+electric cyan eyes, sharp eyes
+electric cyan eyes, glowing eyes
+electric cyan eyes, star-like pupils
+electric cyan eyes, slit pupils
+electric cyan eyes, bright catchlights
+electric cyan eyes, wet glossy highlights
+electric cyan eyes, sleepy half-lidded gaze
+electric cyan eyes, intense eye contact
+electric cyan eyes, soft reflective eyes
+electric cyan eyes, small sparkle highlights
+electric cyan eyes, dramatic eyeliner
+electric cyan eyes, perfect eye detail
+electric cyan eyes, heart catchlights
+electric cyan eyes, crystal reflections
+electric cyan eyes, moon-shaped catchlights
+electric cyan eyes, predatory gaze
+electric cyan eyes, seductive half-lidded gaze
+electric cyan eyes, watery highlights
+electric cyan eyes, neon ring pupils
+electric cyan eyes, glowing lash line
+electric cyan eyes, subtle tears
+electric cyan eyes, sharp vampire stare
+electric cyan eyes, gem-like iris detail
+electric cyan eyes, glowing ring iris
+electric cyan eyes, sharp lower lashes
+electric cyan eyes, soft upper lashes
+electric cyan eyes, bright anime catchlights
+electric cyan eyes, clear symmetrical eyes
+electric cyan eyes, hypnotic gaze
+electric cyan eyes, moonlit eye reflection
+amber gold eyes, sharp eyes
+amber gold eyes, glowing eyes
+amber gold eyes, star-like pupils
+amber gold eyes, slit pupils
+amber gold eyes, bright catchlights
+amber gold eyes, wet glossy highlights
+amber gold eyes, sleepy half-lidded gaze
+amber gold eyes, intense eye contact
+amber gold eyes, soft reflective eyes
+amber gold eyes, small sparkle highlights
+amber gold eyes, dramatic eyeliner
+amber gold eyes, perfect eye detail
+amber gold eyes, heart catchlights
+amber gold eyes, crystal reflections
+amber gold eyes, moon-shaped catchlights
+amber gold eyes, predatory gaze
+amber gold eyes, seductive half-lidded gaze
+amber gold eyes, watery highlights
+amber gold eyes, neon ring pupils
+amber gold eyes, glowing lash line
+amber gold eyes, subtle tears
+amber gold eyes, sharp vampire stare
+amber gold eyes, gem-like iris detail
+amber gold eyes, glowing ring iris
+amber gold eyes, sharp lower lashes
+amber gold eyes, soft upper lashes
+amber gold eyes, bright anime catchlights
+amber gold eyes, clear symmetrical eyes
+amber gold eyes, hypnotic gaze
+amber gold eyes, moonlit eye reflection
+rose pink eyes, sharp eyes
+rose pink eyes, glowing eyes
+rose pink eyes, star-like pupils
+rose pink eyes, slit pupils
+rose pink eyes, bright catchlights
+rose pink eyes, wet glossy highlights
+rose pink eyes, sleepy half-lidded gaze
+rose pink eyes, intense eye contact
+rose pink eyes, soft reflective eyes
+rose pink eyes, small sparkle highlights
+rose pink eyes, dramatic eyeliner
+rose pink eyes, perfect eye detail
+rose pink eyes, heart catchlights
+rose pink eyes, crystal reflections
+rose pink eyes, moon-shaped catchlights
+rose pink eyes, predatory gaze
+rose pink eyes, seductive half-lidded gaze
+rose pink eyes, watery highlights
+rose pink eyes, neon ring pupils
+rose pink eyes, glowing lash line
+rose pink eyes, subtle tears
+rose pink eyes, sharp vampire stare
+rose pink eyes, gem-like iris detail
+rose pink eyes, glowing ring iris
+rose pink eyes, sharp lower lashes
+rose pink eyes, soft upper lashes
+rose pink eyes, bright anime catchlights
+rose pink eyes, clear symmetrical eyes
+rose pink eyes, hypnotic gaze
+rose pink eyes, moonlit eye reflection
+black sclera red iris eyes, sharp eyes
+black sclera red iris eyes, glowing eyes
+black sclera red iris eyes, star-like pupils
+black sclera red iris eyes, slit pupils
+black sclera red iris eyes, bright catchlights
+black sclera red iris eyes, wet glossy highlights
+black sclera red iris eyes, sleepy half-lidded gaze
+black sclera red iris eyes, intense eye contact
+black sclera red iris eyes, soft reflective eyes
+black sclera red iris eyes, small sparkle highlights
+black sclera red iris eyes, dramatic eyeliner
+black sclera red iris eyes, perfect eye detail
+black sclera red iris eyes, heart catchlights
+black sclera red iris eyes, crystal reflections
+black sclera red iris eyes, moon-shaped catchlights
+black sclera red iris eyes, predatory gaze
+black sclera red iris eyes, seductive half-lidded gaze
+black sclera red iris eyes, watery highlights
+black sclera red iris eyes, neon ring pupils
+black sclera red iris eyes, glowing lash line
+black sclera red iris eyes, subtle tears
+black sclera red iris eyes, sharp vampire stare
+black sclera red iris eyes, gem-like iris detail
+black sclera red iris eyes, glowing ring iris
+black sclera red iris eyes, sharp lower lashes
+black sclera red iris eyes, soft upper lashes
+black sclera red iris eyes, bright anime catchlights
+black sclera red iris eyes, clear symmetrical eyes
+black sclera red iris eyes, hypnotic gaze
+black sclera red iris eyes, moonlit eye reflection
+two-tone blue pink eyes, sharp eyes
+two-tone blue pink eyes, glowing eyes
+two-tone blue pink eyes, star-like pupils
+two-tone blue pink eyes, slit pupils
+two-tone blue pink eyes, bright catchlights
+two-tone blue pink eyes, wet glossy highlights
+two-tone blue pink eyes, sleepy half-lidded gaze
+two-tone blue pink eyes, intense eye contact
+two-tone blue pink eyes, soft reflective eyes
+two-tone blue pink eyes, small sparkle highlights
+two-tone blue pink eyes, dramatic eyeliner
+two-tone blue pink eyes, perfect eye detail
+two-tone blue pink eyes, heart catchlights
+two-tone blue pink eyes, crystal reflections
+two-tone blue pink eyes, moon-shaped catchlights
+two-tone blue pink eyes, predatory gaze
+two-tone blue pink eyes, seductive half-lidded gaze
+two-tone blue pink eyes, watery highlights
+two-tone blue pink eyes, neon ring pupils
+two-tone blue pink eyes, glowing lash line
+two-tone blue pink eyes, subtle tears
+two-tone blue pink eyes, sharp vampire stare
+two-tone blue pink eyes, gem-like iris detail
+two-tone blue pink eyes, glowing ring iris
+two-tone blue pink eyes, sharp lower lashes
+two-tone blue pink eyes, soft upper lashes
+two-tone blue pink eyes, bright anime catchlights
+two-tone blue pink eyes, clear symmetrical eyes
+two-tone blue pink eyes, hypnotic gaze
+two-tone blue pink eyes, moonlit eye reflection
+glowing teal eyes, sharp eyes
+glowing teal eyes, glowing eyes
+glowing teal eyes, star-like pupils
+glowing teal eyes, slit pupils
+glowing teal eyes, bright catchlights
+glowing teal eyes, wet glossy highlights
+glowing teal eyes, sleepy half-lidded gaze
+glowing teal eyes, intense eye contact
+glowing teal eyes, soft reflective eyes
+glowing teal eyes, small sparkle highlights
+glowing teal eyes, dramatic eyeliner
+glowing teal eyes, perfect eye detail
+glowing teal eyes, heart catchlights
+glowing teal eyes, crystal reflections
+glowing teal eyes, moon-shaped catchlights
+glowing teal eyes, predatory gaze
+glowing teal eyes, seductive half-lidded gaze
+glowing teal eyes, watery highlights
+glowing teal eyes, neon ring pupils
+glowing teal eyes, glowing lash line
+glowing teal eyes, subtle tears
+glowing teal eyes, sharp vampire stare
+glowing teal eyes, gem-like iris detail
+glowing teal eyes, glowing ring iris
+glowing teal eyes, sharp lower lashes
+glowing teal eyes, soft upper lashes
+glowing teal eyes, bright anime catchlights
+glowing teal eyes, clear symmetrical eyes
+glowing teal eyes, hypnotic gaze
+glowing teal eyes, moonlit eye reflection

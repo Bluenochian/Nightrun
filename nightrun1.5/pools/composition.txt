@@ -1,0 +1,481 @@
+# Composition and visual hierarchy descriptors.
+clean focal point, face remains dominant
+clean focal point, readable small thumbnail
+clean focal point, no clutter
+clean focal point, outfit readable
+clean focal point, hands readable
+clean focal point, hair silhouette clear
+clean focal point, effects do not obscure anatomy
+clean focal point, background supports the subject
+clean focal point, pose readable
+clean focal point, leg silhouette clear
+clean focal point, clean crop
+clean focal point, no awkward tangent lines
+clean focal point, visual weight balanced
+clean focal point, primary light points to face
+clean focal point, materials readable
+clean focal point, scene tells a clear story
+strong silhouette, face remains dominant
+strong silhouette, readable small thumbnail
+strong silhouette, no clutter
+strong silhouette, outfit readable
+strong silhouette, hands readable
+strong silhouette, hair silhouette clear
+strong silhouette, effects do not obscure anatomy
+strong silhouette, background supports the subject
+strong silhouette, pose readable
+strong silhouette, leg silhouette clear
+strong silhouette, clean crop
+strong silhouette, no awkward tangent lines
+strong silhouette, visual weight balanced
+strong silhouette, primary light points to face
+strong silhouette, materials readable
+strong silhouette, scene tells a clear story
+foreground depth, face remains dominant
+foreground depth, readable small thumbnail
+foreground depth, no clutter
+foreground depth, outfit readable
+foreground depth, hands readable
+foreground depth, hair silhouette clear
+foreground depth, effects do not obscure anatomy
+foreground depth, background supports the subject
+foreground depth, pose readable
+foreground depth, leg silhouette clear
+foreground depth, clean crop
+foreground depth, no awkward tangent lines
+foreground depth, visual weight balanced
+foreground depth, primary light points to face
+foreground depth, materials readable
+foreground depth, scene tells a clear story
+centered poster composition, face remains dominant
+centered poster composition, readable small thumbnail
+centered poster composition, no clutter
+centered poster composition, outfit readable
+centered poster composition, hands readable
+centered poster composition, hair silhouette clear
+centered poster composition, effects do not obscure anatomy
+centered poster composition, background supports the subject
+centered poster composition, pose readable
+centered poster composition, leg silhouette clear
+centered poster composition, clean crop
+centered poster composition, no awkward tangent lines
+centered poster composition, visual weight balanced
+centered poster composition, primary light points to face
+centered poster composition, materials readable
+centered poster composition, scene tells a clear story
+asymmetrical composition, face remains dominant
+asymmetrical composition, readable small thumbnail
+asymmetrical composition, no clutter
+asymmetrical composition, outfit readable
+asymmetrical composition, hands readable
+asymmetrical composition, hair silhouette clear
+asymmetrical composition, effects do not obscure anatomy
+asymmetrical composition, background supports the subject
+asymmetrical composition, pose readable
+asymmetrical composition, leg silhouette clear
+asymmetrical composition, clean crop
+asymmetrical composition, no awkward tangent lines
+asymmetrical composition, visual weight balanced
+asymmetrical composition, primary light points to face
+asymmetrical composition, materials readable
+asymmetrical composition, scene tells a clear story
+deliberate negative space, face remains dominant
+deliberate negative space, readable small thumbnail
+deliberate negative space, no clutter
+deliberate negative space, outfit readable
+deliberate negative space, hands readable
+deliberate negative space, hair silhouette clear
+deliberate negative space, effects do not obscure anatomy
+deliberate negative space, background supports the subject
+deliberate negative space, pose readable
+deliberate negative space, leg silhouette clear
+deliberate negative space, clean crop
+deliberate negative space, no awkward tangent lines
+deliberate negative space, visual weight balanced
+deliberate negative space, primary light points to face
+deliberate negative space, materials readable
+deliberate negative space, scene tells a clear story
+rim light subject separation, face remains dominant
+rim light subject separation, readable small thumbnail
+rim light subject separation, no clutter
+rim light subject separation, outfit readable
+rim light subject separation, hands readable
+rim light subject separation, hair silhouette clear
+rim light subject separation, effects do not obscure anatomy
+rim light subject separation, background supports the subject
+rim light subject separation, pose readable
+rim light subject separation, leg silhouette clear
+rim light subject separation, clean crop
+rim light subject separation, no awkward tangent lines
+rim light subject separation, visual weight balanced
+rim light subject separation, primary light points to face
+rim light subject separation, materials readable
+rim light subject separation, scene tells a clear story
+halo aligned behind head, face remains dominant
+halo aligned behind head, readable small thumbnail
+halo aligned behind head, no clutter
+halo aligned behind head, outfit readable
+halo aligned behind head, hands readable
+halo aligned behind head, hair silhouette clear
+halo aligned behind head, effects do not obscure anatomy
+halo aligned behind head, background supports the subject
+halo aligned behind head, pose readable
+halo aligned behind head, leg silhouette clear
+halo aligned behind head, clean crop
+halo aligned behind head, no awkward tangent lines
+halo aligned behind head, visual weight balanced
+halo aligned behind head, primary light points to face
+halo aligned behind head, materials readable
+halo aligned behind head, scene tells a clear story
+arched background framing, face remains dominant
+arched background framing, readable small thumbnail
+arched background framing, no clutter
+arched background framing, outfit readable
+arched background framing, hands readable
+arched background framing, hair silhouette clear
+arched background framing, effects do not obscure anatomy
+arched background framing, background supports the subject
+arched background framing, pose readable
+arched background framing, leg silhouette clear
+arched background framing, clean crop
+arched background framing, no awkward tangent lines
+arched background framing, visual weight balanced
+arched background framing, primary light points to face
+arched background framing, materials readable
+arched background framing, scene tells a clear story
+floor reflections as secondary detail, face remains dominant
+floor reflections as secondary detail, readable small thumbnail
+floor reflections as secondary detail, no clutter
+floor reflections as secondary detail, outfit readable
+floor reflections as secondary detail, hands readable
+floor reflections as secondary detail, hair silhouette clear
+floor reflections as secondary detail, effects do not obscure anatomy
+floor reflections as secondary detail, background supports the subject
+floor reflections as secondary detail, pose readable
+floor reflections as secondary detail, leg silhouette clear
+floor reflections as secondary detail, clean crop
+floor reflections as secondary detail, no awkward tangent lines
+floor reflections as secondary detail, visual weight balanced
+floor reflections as secondary detail, primary light points to face
+floor reflections as secondary detail, materials readable
+floor reflections as secondary detail, scene tells a clear story
+environmental storytelling at the edges, face remains dominant
+environmental storytelling at the edges, readable small thumbnail
+environmental storytelling at the edges, no clutter
+environmental storytelling at the edges, outfit readable
+environmental storytelling at the edges, hands readable
+environmental storytelling at the edges, hair silhouette clear
+environmental storytelling at the edges, effects do not obscure anatomy
+environmental storytelling at the edges, background supports the subject
+environmental storytelling at the edges, pose readable
+environmental storytelling at the edges, leg silhouette clear
+environmental storytelling at the edges, clean crop
+environmental storytelling at the edges, no awkward tangent lines
+environmental storytelling at the edges, visual weight balanced
+environmental storytelling at the edges, primary light points to face
+environmental storytelling at the edges, materials readable
+environmental storytelling at the edges, scene tells a clear story
+balanced character and background detail, face remains dominant
+balanced character and background detail, readable small thumbnail
+balanced character and background detail, no clutter
+balanced character and background detail, outfit readable
+balanced character and background detail, hands readable
+balanced character and background detail, hair silhouette clear
+balanced character and background detail, effects do not obscure anatomy
+balanced character and background detail, background supports the subject
+balanced character and background detail, pose readable
+balanced character and background detail, leg silhouette clear
+balanced character and background detail, clean crop
+balanced character and background detail, no awkward tangent lines
+balanced character and background detail, visual weight balanced
+balanced character and background detail, primary light points to face
+balanced character and background detail, materials readable
+balanced character and background detail, scene tells a clear story
+rich scene depth, face remains dominant
+rich scene depth, readable small thumbnail
+rich scene depth, no clutter
+rich scene depth, outfit readable
+rich scene depth, hands readable
+rich scene depth, hair silhouette clear
+rich scene depth, effects do not obscure anatomy
+rich scene depth, background supports the subject
+rich scene depth, pose readable
+rich scene depth, leg silhouette clear
+rich scene depth, clean crop
+rich scene depth, no awkward tangent lines
+rich scene depth, visual weight balanced
+rich scene depth, primary light points to face
+rich scene depth, materials readable
+rich scene depth, scene tells a clear story
+iconic key visual composition, face remains dominant
+iconic key visual composition, readable small thumbnail
+iconic key visual composition, no clutter
+iconic key visual composition, outfit readable
+iconic key visual composition, hands readable
+iconic key visual composition, hair silhouette clear
+iconic key visual composition, effects do not obscure anatomy
+iconic key visual composition, background supports the subject
+iconic key visual composition, pose readable
+iconic key visual composition, leg silhouette clear
+iconic key visual composition, clean crop
+iconic key visual composition, no awkward tangent lines
+iconic key visual composition, visual weight balanced
+iconic key visual composition, primary light points to face
+iconic key visual composition, materials readable
+iconic key visual composition, scene tells a clear story
+premium character splash art staging, face remains dominant
+premium character splash art staging, readable small thumbnail
+premium character splash art staging, no clutter
+premium character splash art staging, outfit readable
+premium character splash art staging, hands readable
+premium character splash art staging, hair silhouette clear
+premium character splash art staging, effects do not obscure anatomy
+premium character splash art staging, background supports the subject
+premium character splash art staging, pose readable
+premium character splash art staging, leg silhouette clear
+premium character splash art staging, clean crop
+premium character splash art staging, no awkward tangent lines
+premium character splash art staging, visual weight balanced
+premium character splash art staging, primary light points to face
+premium character splash art staging, materials readable
+premium character splash art staging, scene tells a clear story
+soft depth of field, face remains dominant
+soft depth of field, readable small thumbnail
+soft depth of field, no clutter
+soft depth of field, outfit readable
+soft depth of field, hands readable
+soft depth of field, hair silhouette clear
+soft depth of field, effects do not obscure anatomy
+soft depth of field, background supports the subject
+soft depth of field, pose readable
+soft depth of field, leg silhouette clear
+soft depth of field, clean crop
+soft depth of field, no awkward tangent lines
+soft depth of field, visual weight balanced
+soft depth of field, primary light points to face
+soft depth of field, materials readable
+soft depth of field, scene tells a clear story
+symmetrical gothic framing, face remains dominant
+symmetrical gothic framing, readable small thumbnail
+symmetrical gothic framing, no clutter
+symmetrical gothic framing, outfit readable
+symmetrical gothic framing, hands readable
+symmetrical gothic framing, hair silhouette clear
+symmetrical gothic framing, effects do not obscure anatomy
+symmetrical gothic framing, background supports the subject
+symmetrical gothic framing, pose readable
+symmetrical gothic framing, leg silhouette clear
+symmetrical gothic framing, clean crop
+symmetrical gothic framing, no awkward tangent lines
+symmetrical gothic framing, visual weight balanced
+symmetrical gothic framing, primary light points to face
+symmetrical gothic framing, materials readable
+symmetrical gothic framing, scene tells a clear story
+diagonal light beam toward face, face remains dominant
+diagonal light beam toward face, readable small thumbnail
+diagonal light beam toward face, no clutter
+diagonal light beam toward face, outfit readable
+diagonal light beam toward face, hands readable
+diagonal light beam toward face, hair silhouette clear
+diagonal light beam toward face, effects do not obscure anatomy
+diagonal light beam toward face, background supports the subject
+diagonal light beam toward face, pose readable
+diagonal light beam toward face, leg silhouette clear
+diagonal light beam toward face, clean crop
+diagonal light beam toward face, no awkward tangent lines
+diagonal light beam toward face, visual weight balanced
+diagonal light beam toward face, primary light points to face
+diagonal light beam toward face, materials readable
+diagonal light beam toward face, scene tells a clear story
+subtle foreground blur, face remains dominant
+subtle foreground blur, readable small thumbnail
+subtle foreground blur, no clutter
+subtle foreground blur, outfit readable
+subtle foreground blur, hands readable
+subtle foreground blur, hair silhouette clear
+subtle foreground blur, effects do not obscure anatomy
+subtle foreground blur, background supports the subject
+subtle foreground blur, pose readable
+subtle foreground blur, leg silhouette clear
+subtle foreground blur, clean crop
+subtle foreground blur, no awkward tangent lines
+subtle foreground blur, visual weight balanced
+subtle foreground blur, primary light points to face
+subtle foreground blur, materials readable
+subtle foreground blur, scene tells a clear story
+clear visual hierarchy, face remains dominant
+clear visual hierarchy, readable small thumbnail
+clear visual hierarchy, no clutter
+clear visual hierarchy, outfit readable
+clear visual hierarchy, hands readable
+clear visual hierarchy, hair silhouette clear
+clear visual hierarchy, effects do not obscure anatomy
+clear visual hierarchy, background supports the subject
+clear visual hierarchy, pose readable
+clear visual hierarchy, leg silhouette clear
+clear visual hierarchy, clean crop
+clear visual hierarchy, no awkward tangent lines
+clear visual hierarchy, visual weight balanced
+clear visual hierarchy, primary light points to face
+clear visual hierarchy, materials readable
+clear visual hierarchy, scene tells a clear story
+fashion editorial framing, face remains dominant
+fashion editorial framing, readable small thumbnail
+fashion editorial framing, no clutter
+fashion editorial framing, outfit readable
+fashion editorial framing, hands readable
+fashion editorial framing, hair silhouette clear
+fashion editorial framing, effects do not obscure anatomy
+fashion editorial framing, background supports the subject
+fashion editorial framing, pose readable
+fashion editorial framing, leg silhouette clear
+fashion editorial framing, clean crop
+fashion editorial framing, no awkward tangent lines
+fashion editorial framing, visual weight balanced
+fashion editorial framing, primary light points to face
+fashion editorial framing, materials readable
+fashion editorial framing, scene tells a clear story
+triangular body silhouette, face remains dominant
+triangular body silhouette, readable small thumbnail
+triangular body silhouette, no clutter
+triangular body silhouette, outfit readable
+triangular body silhouette, hands readable
+triangular body silhouette, hair silhouette clear
+triangular body silhouette, effects do not obscure anatomy
+triangular body silhouette, background supports the subject
+triangular body silhouette, pose readable
+triangular body silhouette, leg silhouette clear
+triangular body silhouette, clean crop
+triangular body silhouette, no awkward tangent lines
+triangular body silhouette, visual weight balanced
+triangular body silhouette, primary light points to face
+triangular body silhouette, materials readable
+triangular body silhouette, scene tells a clear story
+S-curve pose composition, face remains dominant
+S-curve pose composition, readable small thumbnail
+S-curve pose composition, no clutter
+S-curve pose composition, outfit readable
+S-curve pose composition, hands readable
+S-curve pose composition, hair silhouette clear
+S-curve pose composition, effects do not obscure anatomy
+S-curve pose composition, background supports the subject
+S-curve pose composition, pose readable
+S-curve pose composition, leg silhouette clear
+S-curve pose composition, clean crop
+S-curve pose composition, no awkward tangent lines
+S-curve pose composition, visual weight balanced
+S-curve pose composition, primary light points to face
+S-curve pose composition, materials readable
+S-curve pose composition, scene tells a clear story
+strong vertical poster layout, face remains dominant
+strong vertical poster layout, readable small thumbnail
+strong vertical poster layout, no clutter
+strong vertical poster layout, outfit readable
+strong vertical poster layout, hands readable
+strong vertical poster layout, hair silhouette clear
+strong vertical poster layout, effects do not obscure anatomy
+strong vertical poster layout, background supports the subject
+strong vertical poster layout, pose readable
+strong vertical poster layout, leg silhouette clear
+strong vertical poster layout, clean crop
+strong vertical poster layout, no awkward tangent lines
+strong vertical poster layout, visual weight balanced
+strong vertical poster layout, primary light points to face
+strong vertical poster layout, materials readable
+strong vertical poster layout, scene tells a clear story
+wide cinematic spacing, face remains dominant
+wide cinematic spacing, readable small thumbnail
+wide cinematic spacing, no clutter
+wide cinematic spacing, outfit readable
+wide cinematic spacing, hands readable
+wide cinematic spacing, hair silhouette clear
+wide cinematic spacing, effects do not obscure anatomy
+wide cinematic spacing, background supports the subject
+wide cinematic spacing, pose readable
+wide cinematic spacing, leg silhouette clear
+wide cinematic spacing, clean crop
+wide cinematic spacing, no awkward tangent lines
+wide cinematic spacing, visual weight balanced
+wide cinematic spacing, primary light points to face
+wide cinematic spacing, materials readable
+wide cinematic spacing, scene tells a clear story
+mirror reflection composition, face remains dominant
+mirror reflection composition, readable small thumbnail
+mirror reflection composition, no clutter
+mirror reflection composition, outfit readable
+mirror reflection composition, hands readable
+mirror reflection composition, hair silhouette clear
+mirror reflection composition, effects do not obscure anatomy
+mirror reflection composition, background supports the subject
+mirror reflection composition, pose readable
+mirror reflection composition, leg silhouette clear
+mirror reflection composition, clean crop
+mirror reflection composition, no awkward tangent lines
+mirror reflection composition, visual weight balanced
+mirror reflection composition, primary light points to face
+mirror reflection composition, materials readable
+mirror reflection composition, scene tells a clear story
+curtain-framed portrait, face remains dominant
+curtain-framed portrait, readable small thumbnail
+curtain-framed portrait, no clutter
+curtain-framed portrait, outfit readable
+curtain-framed portrait, hands readable
+curtain-framed portrait, hair silhouette clear
+curtain-framed portrait, effects do not obscure anatomy
+curtain-framed portrait, background supports the subject
+curtain-framed portrait, pose readable
+curtain-framed portrait, leg silhouette clear
+curtain-framed portrait, clean crop
+curtain-framed portrait, no awkward tangent lines
+curtain-framed portrait, visual weight balanced
+curtain-framed portrait, primary light points to face
+curtain-framed portrait, materials readable
+curtain-framed portrait, scene tells a clear story
+staircase leading lines, face remains dominant
+staircase leading lines, readable small thumbnail
+staircase leading lines, no clutter
+staircase leading lines, outfit readable
+staircase leading lines, hands readable
+staircase leading lines, hair silhouette clear
+staircase leading lines, effects do not obscure anatomy
+staircase leading lines, background supports the subject
+staircase leading lines, pose readable
+staircase leading lines, leg silhouette clear
+staircase leading lines, clean crop
+staircase leading lines, no awkward tangent lines
+staircase leading lines, visual weight balanced
+staircase leading lines, primary light points to face
+staircase leading lines, materials readable
+staircase leading lines, scene tells a clear story
+moon halo composition, face remains dominant
+moon halo composition, readable small thumbnail
+moon halo composition, no clutter
+moon halo composition, outfit readable
+moon halo composition, hands readable
+moon halo composition, hair silhouette clear
+moon halo composition, effects do not obscure anatomy
+moon halo composition, background supports the subject
+moon halo composition, pose readable
+moon halo composition, leg silhouette clear
+moon halo composition, clean crop
+moon halo composition, no awkward tangent lines
+moon halo composition, visual weight balanced
+moon halo composition, primary light points to face
+moon halo composition, materials readable
+moon halo composition, scene tells a clear story
+foreground object framing, face remains dominant
+foreground object framing, readable small thumbnail
+foreground object framing, no clutter
+foreground object framing, outfit readable
+foreground object framing, hands readable
+foreground object framing, hair silhouette clear
+foreground object framing, effects do not obscure anatomy
+foreground object framing, background supports the subject
+foreground object framing, pose readable
+foreground object framing, leg silhouette clear
+foreground object framing, clean crop
+foreground object framing, no awkward tangent lines
+foreground object framing, visual weight balanced
+foreground object framing, primary light points to face
+foreground object framing, materials readable
+foreground object framing, scene tells a clear story

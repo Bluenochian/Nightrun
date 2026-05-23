@@ -1,0 +1,541 @@
+# Color palette and grade descriptors.
+crimson and black palette, controlled contrast
+crimson and black palette, rich shadows
+crimson and black palette, clean highlights
+crimson and black palette, premium color grading
+crimson and black palette, cinematic mood
+crimson and black palette, glossy reflections
+crimson and black palette, not oversaturated
+crimson and black palette, clear focal colors
+crimson and black palette, deep blacks
+crimson and black palette, skin tones preserved
+crimson and black palette, glow kept controlled
+crimson and black palette, premium finish
+cyan and magenta palette, controlled contrast
+cyan and magenta palette, rich shadows
+cyan and magenta palette, clean highlights
+cyan and magenta palette, premium color grading
+cyan and magenta palette, cinematic mood
+cyan and magenta palette, glossy reflections
+cyan and magenta palette, not oversaturated
+cyan and magenta palette, clear focal colors
+cyan and magenta palette, deep blacks
+cyan and magenta palette, skin tones preserved
+cyan and magenta palette, glow kept controlled
+cyan and magenta palette, premium finish
+teal and gold palette, controlled contrast
+teal and gold palette, rich shadows
+teal and gold palette, clean highlights
+teal and gold palette, premium color grading
+teal and gold palette, cinematic mood
+teal and gold palette, glossy reflections
+teal and gold palette, not oversaturated
+teal and gold palette, clear focal colors
+teal and gold palette, deep blacks
+teal and gold palette, skin tones preserved
+teal and gold palette, glow kept controlled
+teal and gold palette, premium finish
+silver and blue palette, controlled contrast
+silver and blue palette, rich shadows
+silver and blue palette, clean highlights
+silver and blue palette, premium color grading
+silver and blue palette, cinematic mood
+silver and blue palette, glossy reflections
+silver and blue palette, not oversaturated
+silver and blue palette, clear focal colors
+silver and blue palette, deep blacks
+silver and blue palette, skin tones preserved
+silver and blue palette, glow kept controlled
+silver and blue palette, premium finish
+black and gold palette, controlled contrast
+black and gold palette, rich shadows
+black and gold palette, clean highlights
+black and gold palette, premium color grading
+black and gold palette, cinematic mood
+black and gold palette, glossy reflections
+black and gold palette, not oversaturated
+black and gold palette, clear focal colors
+black and gold palette, deep blacks
+black and gold palette, skin tones preserved
+black and gold palette, glow kept controlled
+black and gold palette, premium finish
+violet and rose palette, controlled contrast
+violet and rose palette, rich shadows
+violet and rose palette, clean highlights
+violet and rose palette, premium color grading
+violet and rose palette, cinematic mood
+violet and rose palette, glossy reflections
+violet and rose palette, not oversaturated
+violet and rose palette, clear focal colors
+violet and rose palette, deep blacks
+violet and rose palette, skin tones preserved
+violet and rose palette, glow kept controlled
+violet and rose palette, premium finish
+warm candle amber palette, controlled contrast
+warm candle amber palette, rich shadows
+warm candle amber palette, clean highlights
+warm candle amber palette, premium color grading
+warm candle amber palette, cinematic mood
+warm candle amber palette, glossy reflections
+warm candle amber palette, not oversaturated
+warm candle amber palette, clear focal colors
+warm candle amber palette, deep blacks
+warm candle amber palette, skin tones preserved
+warm candle amber palette, glow kept controlled
+warm candle amber palette, premium finish
+cold moonlit blue palette, controlled contrast
+cold moonlit blue palette, rich shadows
+cold moonlit blue palette, clean highlights
+cold moonlit blue palette, premium color grading
+cold moonlit blue palette, cinematic mood
+cold moonlit blue palette, glossy reflections
+cold moonlit blue palette, not oversaturated
+cold moonlit blue palette, clear focal colors
+cold moonlit blue palette, deep blacks
+cold moonlit blue palette, skin tones preserved
+cold moonlit blue palette, glow kept controlled
+cold moonlit blue palette, premium finish
+red moon monochrome palette, controlled contrast
+red moon monochrome palette, rich shadows
+red moon monochrome palette, clean highlights
+red moon monochrome palette, premium color grading
+red moon monochrome palette, cinematic mood
+red moon monochrome palette, glossy reflections
+red moon monochrome palette, not oversaturated
+red moon monochrome palette, clear focal colors
+red moon monochrome palette, deep blacks
+red moon monochrome palette, skin tones preserved
+red moon monochrome palette, glow kept controlled
+red moon monochrome palette, premium finish
+iridescent rainbow palette, controlled contrast
+iridescent rainbow palette, rich shadows
+iridescent rainbow palette, clean highlights
+iridescent rainbow palette, premium color grading
+iridescent rainbow palette, cinematic mood
+iridescent rainbow palette, glossy reflections
+iridescent rainbow palette, not oversaturated
+iridescent rainbow palette, clear focal colors
+iridescent rainbow palette, deep blacks
+iridescent rainbow palette, skin tones preserved
+iridescent rainbow palette, glow kept controlled
+iridescent rainbow palette, premium finish
+opal white palette, controlled contrast
+opal white palette, rich shadows
+opal white palette, clean highlights
+opal white palette, premium color grading
+opal white palette, cinematic mood
+opal white palette, glossy reflections
+opal white palette, not oversaturated
+opal white palette, clear focal colors
+opal white palette, deep blacks
+opal white palette, skin tones preserved
+opal white palette, glow kept controlled
+opal white palette, premium finish
+deep emerald palette, controlled contrast
+deep emerald palette, rich shadows
+deep emerald palette, clean highlights
+deep emerald palette, premium color grading
+deep emerald palette, cinematic mood
+deep emerald palette, glossy reflections
+deep emerald palette, not oversaturated
+deep emerald palette, clear focal colors
+deep emerald palette, deep blacks
+deep emerald palette, skin tones preserved
+deep emerald palette, glow kept controlled
+deep emerald palette, premium finish
+obsidian and neon cyan palette, controlled contrast
+obsidian and neon cyan palette, rich shadows
+obsidian and neon cyan palette, clean highlights
+obsidian and neon cyan palette, premium color grading
+obsidian and neon cyan palette, cinematic mood
+obsidian and neon cyan palette, glossy reflections
+obsidian and neon cyan palette, not oversaturated
+obsidian and neon cyan palette, clear focal colors
+obsidian and neon cyan palette, deep blacks
+obsidian and neon cyan palette, skin tones preserved
+obsidian and neon cyan palette, glow kept controlled
+obsidian and neon cyan palette, premium finish
+snow white and electric blue palette, controlled contrast
+snow white and electric blue palette, rich shadows
+snow white and electric blue palette, clean highlights
+snow white and electric blue palette, premium color grading
+snow white and electric blue palette, cinematic mood
+snow white and electric blue palette, glossy reflections
+snow white and electric blue palette, not oversaturated
+snow white and electric blue palette, clear focal colors
+snow white and electric blue palette, deep blacks
+snow white and electric blue palette, skin tones preserved
+snow white and electric blue palette, glow kept controlled
+snow white and electric blue palette, premium finish
+velvet red and dark teal palette, controlled contrast
+velvet red and dark teal palette, rich shadows
+velvet red and dark teal palette, clean highlights
+velvet red and dark teal palette, premium color grading
+velvet red and dark teal palette, cinematic mood
+velvet red and dark teal palette, glossy reflections
+velvet red and dark teal palette, not oversaturated
+velvet red and dark teal palette, clear focal colors
+velvet red and dark teal palette, deep blacks
+velvet red and dark teal palette, skin tones preserved
+velvet red and dark teal palette, glow kept controlled
+velvet red and dark teal palette, premium finish
+black lace and ruby palette, controlled contrast
+black lace and ruby palette, rich shadows
+black lace and ruby palette, clean highlights
+black lace and ruby palette, premium color grading
+black lace and ruby palette, cinematic mood
+black lace and ruby palette, glossy reflections
+black lace and ruby palette, not oversaturated
+black lace and ruby palette, clear focal colors
+black lace and ruby palette, deep blacks
+black lace and ruby palette, skin tones preserved
+black lace and ruby palette, glow kept controlled
+black lace and ruby palette, premium finish
+silver fog and crimson palette, controlled contrast
+silver fog and crimson palette, rich shadows
+silver fog and crimson palette, clean highlights
+silver fog and crimson palette, premium color grading
+silver fog and crimson palette, cinematic mood
+silver fog and crimson palette, glossy reflections
+silver fog and crimson palette, not oversaturated
+silver fog and crimson palette, clear focal colors
+silver fog and crimson palette, deep blacks
+silver fog and crimson palette, skin tones preserved
+silver fog and crimson palette, glow kept controlled
+silver fog and crimson palette, premium finish
+violet neon and black palette, controlled contrast
+violet neon and black palette, rich shadows
+violet neon and black palette, clean highlights
+violet neon and black palette, premium color grading
+violet neon and black palette, cinematic mood
+violet neon and black palette, glossy reflections
+violet neon and black palette, not oversaturated
+violet neon and black palette, clear focal colors
+violet neon and black palette, deep blacks
+violet neon and black palette, skin tones preserved
+violet neon and black palette, glow kept controlled
+violet neon and black palette, premium finish
+warm gold and ivory palette, controlled contrast
+warm gold and ivory palette, rich shadows
+warm gold and ivory palette, clean highlights
+warm gold and ivory palette, premium color grading
+warm gold and ivory palette, cinematic mood
+warm gold and ivory palette, glossy reflections
+warm gold and ivory palette, not oversaturated
+warm gold and ivory palette, clear focal colors
+warm gold and ivory palette, deep blacks
+warm gold and ivory palette, skin tones preserved
+warm gold and ivory palette, glow kept controlled
+warm gold and ivory palette, premium finish
+deep blue and rose palette, controlled contrast
+deep blue and rose palette, rich shadows
+deep blue and rose palette, clean highlights
+deep blue and rose palette, premium color grading
+deep blue and rose palette, cinematic mood
+deep blue and rose palette, glossy reflections
+deep blue and rose palette, not oversaturated
+deep blue and rose palette, clear focal colors
+deep blue and rose palette, deep blacks
+deep blue and rose palette, skin tones preserved
+deep blue and rose palette, glow kept controlled
+deep blue and rose palette, premium finish
+icy cyan and white palette, controlled contrast
+icy cyan and white palette, rich shadows
+icy cyan and white palette, clean highlights
+icy cyan and white palette, premium color grading
+icy cyan and white palette, cinematic mood
+icy cyan and white palette, glossy reflections
+icy cyan and white palette, not oversaturated
+icy cyan and white palette, clear focal colors
+icy cyan and white palette, deep blacks
+icy cyan and white palette, skin tones preserved
+icy cyan and white palette, glow kept controlled
+icy cyan and white palette, premium finish
+midnight blue and orange palette, controlled contrast
+midnight blue and orange palette, rich shadows
+midnight blue and orange palette, clean highlights
+midnight blue and orange palette, premium color grading
+midnight blue and orange palette, cinematic mood
+midnight blue and orange palette, glossy reflections
+midnight blue and orange palette, not oversaturated
+midnight blue and orange palette, clear focal colors
+midnight blue and orange palette, deep blacks
+midnight blue and orange palette, skin tones preserved
+midnight blue and orange palette, glow kept controlled
+midnight blue and orange palette, premium finish
+emerald and black palette, controlled contrast
+emerald and black palette, rich shadows
+emerald and black palette, clean highlights
+emerald and black palette, premium color grading
+emerald and black palette, cinematic mood
+emerald and black palette, glossy reflections
+emerald and black palette, not oversaturated
+emerald and black palette, clear focal colors
+emerald and black palette, deep blacks
+emerald and black palette, skin tones preserved
+emerald and black palette, glow kept controlled
+emerald and black palette, premium finish
+scarlet and silver palette, controlled contrast
+scarlet and silver palette, rich shadows
+scarlet and silver palette, clean highlights
+scarlet and silver palette, premium color grading
+scarlet and silver palette, cinematic mood
+scarlet and silver palette, glossy reflections
+scarlet and silver palette, not oversaturated
+scarlet and silver palette, clear focal colors
+scarlet and silver palette, deep blacks
+scarlet and silver palette, skin tones preserved
+scarlet and silver palette, glow kept controlled
+scarlet and silver palette, premium finish
+purple and gold palette, controlled contrast
+purple and gold palette, rich shadows
+purple and gold palette, clean highlights
+purple and gold palette, premium color grading
+purple and gold palette, cinematic mood
+purple and gold palette, glossy reflections
+purple and gold palette, not oversaturated
+purple and gold palette, clear focal colors
+purple and gold palette, deep blacks
+purple and gold palette, skin tones preserved
+purple and gold palette, glow kept controlled
+purple and gold palette, premium finish
+wet neon cyan palette, controlled contrast
+wet neon cyan palette, rich shadows
+wet neon cyan palette, clean highlights
+wet neon cyan palette, premium color grading
+wet neon cyan palette, cinematic mood
+wet neon cyan palette, glossy reflections
+wet neon cyan palette, not oversaturated
+wet neon cyan palette, clear focal colors
+wet neon cyan palette, deep blacks
+wet neon cyan palette, skin tones preserved
+wet neon cyan palette, glow kept controlled
+wet neon cyan palette, premium finish
+moon silver and black palette, controlled contrast
+moon silver and black palette, rich shadows
+moon silver and black palette, clean highlights
+moon silver and black palette, premium color grading
+moon silver and black palette, cinematic mood
+moon silver and black palette, glossy reflections
+moon silver and black palette, not oversaturated
+moon silver and black palette, clear focal colors
+moon silver and black palette, deep blacks
+moon silver and black palette, skin tones preserved
+moon silver and black palette, glow kept controlled
+moon silver and black palette, premium finish
+rose pink and obsidian palette, controlled contrast
+rose pink and obsidian palette, rich shadows
+rose pink and obsidian palette, clean highlights
+rose pink and obsidian palette, premium color grading
+rose pink and obsidian palette, cinematic mood
+rose pink and obsidian palette, glossy reflections
+rose pink and obsidian palette, not oversaturated
+rose pink and obsidian palette, clear focal colors
+rose pink and obsidian palette, deep blacks
+rose pink and obsidian palette, skin tones preserved
+rose pink and obsidian palette, glow kept controlled
+rose pink and obsidian palette, premium finish
+blue flame and charcoal palette, controlled contrast
+blue flame and charcoal palette, rich shadows
+blue flame and charcoal palette, clean highlights
+blue flame and charcoal palette, premium color grading
+blue flame and charcoal palette, cinematic mood
+blue flame and charcoal palette, glossy reflections
+blue flame and charcoal palette, not oversaturated
+blue flame and charcoal palette, clear focal colors
+blue flame and charcoal palette, deep blacks
+blue flame and charcoal palette, skin tones preserved
+blue flame and charcoal palette, glow kept controlled
+blue flame and charcoal palette, premium finish
+opal rainbow and white palette, controlled contrast
+opal rainbow and white palette, rich shadows
+opal rainbow and white palette, clean highlights
+opal rainbow and white palette, premium color grading
+opal rainbow and white palette, cinematic mood
+opal rainbow and white palette, glossy reflections
+opal rainbow and white palette, not oversaturated
+opal rainbow and white palette, clear focal colors
+opal rainbow and white palette, deep blacks
+opal rainbow and white palette, skin tones preserved
+opal rainbow and white palette, glow kept controlled
+opal rainbow and white palette, premium finish
+amber candle and burgundy palette, controlled contrast
+amber candle and burgundy palette, rich shadows
+amber candle and burgundy palette, clean highlights
+amber candle and burgundy palette, premium color grading
+amber candle and burgundy palette, cinematic mood
+amber candle and burgundy palette, glossy reflections
+amber candle and burgundy palette, not oversaturated
+amber candle and burgundy palette, clear focal colors
+amber candle and burgundy palette, deep blacks
+amber candle and burgundy palette, skin tones preserved
+amber candle and burgundy palette, glow kept controlled
+amber candle and burgundy palette, premium finish
+storm blue and steel palette, controlled contrast
+storm blue and steel palette, rich shadows
+storm blue and steel palette, clean highlights
+storm blue and steel palette, premium color grading
+storm blue and steel palette, cinematic mood
+storm blue and steel palette, glossy reflections
+storm blue and steel palette, not oversaturated
+storm blue and steel palette, clear focal colors
+storm blue and steel palette, deep blacks
+storm blue and steel palette, skin tones preserved
+storm blue and steel palette, glow kept controlled
+storm blue and steel palette, premium finish
+teal flame and violet palette, controlled contrast
+teal flame and violet palette, rich shadows
+teal flame and violet palette, clean highlights
+teal flame and violet palette, premium color grading
+teal flame and violet palette, cinematic mood
+teal flame and violet palette, glossy reflections
+teal flame and violet palette, not oversaturated
+teal flame and violet palette, clear focal colors
+teal flame and violet palette, deep blacks
+teal flame and violet palette, skin tones preserved
+teal flame and violet palette, glow kept controlled
+teal flame and violet palette, premium finish
+red velvet and gold palette, controlled contrast
+red velvet and gold palette, rich shadows
+red velvet and gold palette, clean highlights
+red velvet and gold palette, premium color grading
+red velvet and gold palette, cinematic mood
+red velvet and gold palette, glossy reflections
+red velvet and gold palette, not oversaturated
+red velvet and gold palette, clear focal colors
+red velvet and gold palette, deep blacks
+red velvet and gold palette, skin tones preserved
+red velvet and gold palette, glow kept controlled
+red velvet and gold palette, premium finish
+black pearl and blue palette, controlled contrast
+black pearl and blue palette, rich shadows
+black pearl and blue palette, clean highlights
+black pearl and blue palette, premium color grading
+black pearl and blue palette, cinematic mood
+black pearl and blue palette, glossy reflections
+black pearl and blue palette, not oversaturated
+black pearl and blue palette, clear focal colors
+black pearl and blue palette, deep blacks
+black pearl and blue palette, skin tones preserved
+black pearl and blue palette, glow kept controlled
+black pearl and blue palette, premium finish
+holographic pastel palette, controlled contrast
+holographic pastel palette, rich shadows
+holographic pastel palette, clean highlights
+holographic pastel palette, premium color grading
+holographic pastel palette, cinematic mood
+holographic pastel palette, glossy reflections
+holographic pastel palette, not oversaturated
+holographic pastel palette, clear focal colors
+holographic pastel palette, deep blacks
+holographic pastel palette, skin tones preserved
+holographic pastel palette, glow kept controlled
+holographic pastel palette, premium finish
+dark green and warm gold palette, controlled contrast
+dark green and warm gold palette, rich shadows
+dark green and warm gold palette, clean highlights
+dark green and warm gold palette, premium color grading
+dark green and warm gold palette, cinematic mood
+dark green and warm gold palette, glossy reflections
+dark green and warm gold palette, not oversaturated
+dark green and warm gold palette, clear focal colors
+dark green and warm gold palette, deep blacks
+dark green and warm gold palette, skin tones preserved
+dark green and warm gold palette, glow kept controlled
+dark green and warm gold palette, premium finish
+frost blue and lavender palette, controlled contrast
+frost blue and lavender palette, rich shadows
+frost blue and lavender palette, clean highlights
+frost blue and lavender palette, premium color grading
+frost blue and lavender palette, cinematic mood
+frost blue and lavender palette, glossy reflections
+frost blue and lavender palette, not oversaturated
+frost blue and lavender palette, clear focal colors
+frost blue and lavender palette, deep blacks
+frost blue and lavender palette, skin tones preserved
+frost blue and lavender palette, glow kept controlled
+frost blue and lavender palette, premium finish
+blood red and ivory palette, controlled contrast
+blood red and ivory palette, rich shadows
+blood red and ivory palette, clean highlights
+blood red and ivory palette, premium color grading
+blood red and ivory palette, cinematic mood
+blood red and ivory palette, glossy reflections
+blood red and ivory palette, not oversaturated
+blood red and ivory palette, clear focal colors
+blood red and ivory palette, deep blacks
+blood red and ivory palette, skin tones preserved
+blood red and ivory palette, glow kept controlled
+blood red and ivory palette, premium finish
+neon magenta and cyan palette, controlled contrast
+neon magenta and cyan palette, rich shadows
+neon magenta and cyan palette, clean highlights
+neon magenta and cyan palette, premium color grading
+neon magenta and cyan palette, cinematic mood
+neon magenta and cyan palette, glossy reflections
+neon magenta and cyan palette, not oversaturated
+neon magenta and cyan palette, clear focal colors
+neon magenta and cyan palette, deep blacks
+neon magenta and cyan palette, skin tones preserved
+neon magenta and cyan palette, glow kept controlled
+neon magenta and cyan palette, premium finish
+silver mirror and black palette, controlled contrast
+silver mirror and black palette, rich shadows
+silver mirror and black palette, clean highlights
+silver mirror and black palette, premium color grading
+silver mirror and black palette, cinematic mood
+silver mirror and black palette, glossy reflections
+silver mirror and black palette, not oversaturated
+silver mirror and black palette, clear focal colors
+silver mirror and black palette, deep blacks
+silver mirror and black palette, skin tones preserved
+silver mirror and black palette, glow kept controlled
+silver mirror and black palette, premium finish
+copper candle and blue shadow palette, controlled contrast
+copper candle and blue shadow palette, rich shadows
+copper candle and blue shadow palette, clean highlights
+copper candle and blue shadow palette, premium color grading
+copper candle and blue shadow palette, cinematic mood
+copper candle and blue shadow palette, glossy reflections
+copper candle and blue shadow palette, not oversaturated
+copper candle and blue shadow palette, clear focal colors
+copper candle and blue shadow palette, deep blacks
+copper candle and blue shadow palette, skin tones preserved
+copper candle and blue shadow palette, glow kept controlled
+copper candle and blue shadow palette, premium finish
+white rose and crimson palette, controlled contrast
+white rose and crimson palette, rich shadows
+white rose and crimson palette, clean highlights
+white rose and crimson palette, premium color grading
+white rose and crimson palette, cinematic mood
+white rose and crimson palette, glossy reflections
+white rose and crimson palette, not oversaturated
+white rose and crimson palette, clear focal colors
+white rose and crimson palette, deep blacks
+white rose and crimson palette, skin tones preserved
+white rose and crimson palette, glow kept controlled
+white rose and crimson palette, premium finish
+dark plum and silver palette, controlled contrast
+dark plum and silver palette, rich shadows
+dark plum and silver palette, clean highlights
+dark plum and silver palette, premium color grading
+dark plum and silver palette, cinematic mood
+dark plum and silver palette, glossy reflections
+dark plum and silver palette, not oversaturated
+dark plum and silver palette, clear focal colors
+dark plum and silver palette, deep blacks
+dark plum and silver palette, skin tones preserved
+dark plum and silver palette, glow kept controlled
+dark plum and silver palette, premium finish
+orange ember and black palette, controlled contrast
+orange ember and black palette, rich shadows
+orange ember and black palette, clean highlights
+orange ember and black palette, premium color grading
+orange ember and black palette, cinematic mood
+orange ember and black palette, glossy reflections
+orange ember and black palette, not oversaturated
+orange ember and black palette, clear focal colors
+orange ember and black palette, deep blacks
+orange ember and black palette, skin tones preserved
+orange ember and black palette, glow kept controlled
+orange ember and black palette, premium finish

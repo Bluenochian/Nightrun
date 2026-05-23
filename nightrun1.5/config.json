@@ -1,0 +1,767 @@
+{
+  "count": 300,
+  "_checkpoint_note": "Replace this with your own checkpoint filename. Run First Setup.bat to configure automatically.",
+  "checkpoint": "DasiwaIllustriousAnime_alluringabyss.safetensors",
+  "vae": "Automatic",
+  "forge_preset": "xl",
+  "clip_skip": 2,
+  "fixed_prefix": "1girl, solo",
+  "fixed_suffix": "masterpiece, best quality, clean coherent design, sharp focus, high detail, polished lighting",
+  "negative_base": "easynegative, male, man, boy, beard, facial hair, old, elderly, bad hands, deformed hands, fused fingers, extra fingers, missing fingers, broken fingers, awkward hands, crossed eyes, lazy eye, asymmetrical eyes, bad eyes, duplicate face, extra face, multiple girls, low quality, worst quality, mutated limbs, mutated legs, merged legs, merged limbs, simple background, poorly drawn, text, logo, watermark, blurry, oversmoothed, jpeg artifacts, tile border, visible seams, censored, bar censor",
+  "base": {
+    "width": 1344,
+    "height": 768,
+    "steps": 65,
+    "steps_min": 30,
+    "steps_max": 65,
+    "cfg_scale": 5.09,
+    "sampler_name": "Euler a",
+    "scheduler": "Automatic"
+  },
+  "upscale": {
+    "enabled": true,
+    "every_n": 1,
+    "auto_when_base_steps_below": 43,
+    "width": 3072,
+    "height": 1728,
+    "steps": 35,
+    "cfg_scale": 5.09,
+    "sampler_name": "DPM++ 2M",
+    "scheduler": "Karras",
+    "denoising_strength": 0.3,
+    "tile_width": 512,
+    "tile_height": 0,
+    "mask_blur": 30,
+    "padding": 160,
+    "upscaler_index": 3,
+    "redraw_mode": 1
+  },
+  "temperature": {
+    "pause_above_c": 78,
+    "resume_below_c": 66,
+    "check_seconds": 20
+  },
+  "sleep_between_images_seconds": 15,
+  "long_run_chill": {
+    "enabled": true,
+    "only_when_count_over": 100,
+    "every_min_generations": 12,
+    "every_max_generations": 20,
+    "sleep_min_minutes": 5,
+    "sleep_max_minutes": 10
+  },
+  "console": {
+    "color": true,
+    "progress": true,
+    "progress_poll_seconds": 12
+  },
+  "empty_run_cleanup": {
+    "enabled": true,
+    "remember_file": "cleanup.local.json",
+    "image_extensions": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ]
+  },
+  "selection_memory": {
+    "enabled": true,
+    "recent_per_category": 28,
+    "recent_colors": 18,
+    "repeat_penalty": 0.08,
+    "color_repeat_penalty": 0.16,
+    "blue_cyan_extra_penalty": 0.35,
+    "heterochromia_chance": 0.025
+  },
+  "franchise_system": {
+    "enabled": true,
+    "chance": 0.32,
+    "fusion_mode_chance": 0.12,
+    "fusion_risky_pool_chance_multiplier": 0.25,
+    "catalog_py": "franchise_catalog.py",
+    "fields": {
+      "character_archetypes": {
+        "pick": 1
+      },
+      "outfits": {
+        "pick": 1
+      },
+      "environments": {
+        "pick": 1
+      },
+      "props_equipment": {
+        "pick": 1,
+        "chance": 0.75
+      },
+      "factions": {
+        "pick": 1,
+        "chance": 0.35
+      },
+      "technology": {
+        "pick": 1,
+        "chance": 0.35
+      },
+      "magic_system": {
+        "pick": 1,
+        "chance": 0.35
+      },
+      "landscapes": {
+        "pick": 1,
+        "chance": 0.45
+      },
+      "architecture": {
+        "pick": 1,
+        "chance": 0.75
+      },
+      "creatures": {
+        "pick": 1,
+        "chance": 0.28
+      },
+      "ships": {
+        "pick": 1,
+        "chance": 0.24
+      },
+      "droids": {
+        "pick": 1,
+        "chance": 0.22
+      },
+      "lighting_mood": {
+        "pick": 1
+      },
+      "color_palettes": {
+        "pick": 1
+      },
+      "cinematic_language": {
+        "pick": 1
+      },
+      "prompt_modifiers": {
+        "pick": 1,
+        "chance": 0.7
+      }
+    },
+    "risky_generic_pools_when_active": [
+      "concept",
+      "genre",
+      "creature_or_nonhuman",
+      "clothing",
+      "equipment",
+      "environment",
+      "environment_rich",
+      "magic_element",
+      "aura_style",
+      "effects",
+      "effect_layer",
+      "style_layer",
+      "artist_direction",
+      "color_grade"
+    ]
+  },
+  "max_random_loras": 3,
+  "dynamic_prompt": {
+    "enabled": false,
+    "families": [
+      "gothic_vampire",
+      "dark_boudoir",
+      "witch_arcane",
+      "cyber_holographic",
+      "angelic_knight",
+      "ice_winter",
+      "dragon_ocean",
+      "warrior_commander"
+    ],
+    "hair_chance": 0.75,
+    "eyes_chance": 0.65,
+    "glamour_pose_chance": 0.65,
+    "stocking_chance": 0.72,
+    "body_focus_chance": 0.52,
+    "scene_depth_chance": 0.8,
+    "style_chance": 0.68,
+    "_note": "Experimental theme-family system. Disabled by default. Leave as-is unless you know what it does."
+  },
+  "prompt_pools": [
+    {
+      "name": "concept",
+      "file": "pools/concept.txt",
+      "pick": 1
+    },
+    {
+      "name": "genre",
+      "file": "pools/genre.txt",
+      "pick": 1,
+      "chance": 0.5
+    },
+    {
+      "name": "abstract_idea",
+      "file": "pools/abstract_idea.txt",
+      "pick": 1,
+      "chance": 0.2
+    },
+    {
+      "name": "character",
+      "file": "pools/character.txt",
+      "pick": 1,
+      "chance": 0.9
+    },
+    {
+      "name": "creature_or_nonhuman",
+      "file": "pools/creature_and_nonhuman.txt",
+      "pick": 1,
+      "chance": 0.18
+    },
+    {
+      "name": "hair",
+      "file": "pools/hair.txt",
+      "pick": 1,
+      "chance": 0.8
+    },
+    {
+      "name": "eyes",
+      "file": "pools/eyes.txt",
+      "pick": 1,
+      "chance": 0.7
+    },
+    {
+      "name": "clothing",
+      "file": "pools/clothing.txt",
+      "pick": 1,
+      "chance": 0.75
+    },
+    {
+      "name": "pose",
+      "file": "pools/pose.txt",
+      "pick": 1,
+      "chance": 0.75
+    },
+    {
+      "name": "body_pose",
+      "file": "pools/body_pose.txt",
+      "pick": 1,
+      "chance": 0.55
+    },
+    {
+      "name": "safe_pose",
+      "file": "pools/safe_pose.txt",
+      "pick": 1,
+      "chance": 0.5
+    },
+    {
+      "name": "glamour_pose",
+      "file": "pools/glamour_pose.txt",
+      "pick": 1,
+      "chance": 0.5
+    },
+    {
+      "name": "expression",
+      "file": "pools/expression.txt",
+      "pick": 1,
+      "chance": 0.65
+    },
+    {
+      "name": "sensual_layer",
+      "file": "pools/sensual_layer.txt",
+      "pick": 1,
+      "chance": 0.45
+    },
+    {
+      "name": "body_focus",
+      "file": "pools/body_focus.txt",
+      "pick": 1,
+      "chance": 0.38
+    },
+    {
+      "name": "stocking_layer",
+      "file": "pools/stocking_layer.txt",
+      "pick": 1,
+      "chance": 0.62
+    },
+    {
+      "name": "equipment",
+      "file": "pools/equipment.txt",
+      "pick": 1,
+      "chance": 0.2,
+      "boost_if_any": [
+        {
+          "choices": [
+            "genre",
+            "environment",
+            "magic_element"
+          ],
+          "chance": 0.46
+        }
+      ]
+    },
+    {
+      "name": "environment",
+      "file": "pools/environment.txt",
+      "pick": 1,
+      "chance": 0.78
+    },
+    {
+      "name": "environment_rich",
+      "file": "pools/environment_rich.txt",
+      "pick": 1,
+      "chance": 0.52
+    },
+    {
+      "name": "time_and_weather",
+      "file": "pools/time_and_weather.txt",
+      "pick": 1,
+      "chance": 0.45
+    },
+    {
+      "name": "lighting",
+      "file": "pools/lighting.txt",
+      "pick": 1,
+      "chance": 0.8
+    },
+    {
+      "name": "camera",
+      "file": "pools/camera.txt",
+      "pick": 1,
+      "chance": 0.55
+    },
+    {
+      "name": "scene_depth",
+      "file": "pools/scene_depth.txt",
+      "pick": 2,
+      "chance": 0.7
+    },
+    {
+      "name": "scene_embellishment",
+      "file": "pools/scene_embellishment.txt",
+      "pick": 1,
+      "chance": 0.55
+    },
+    {
+      "name": "magic_element",
+      "file": "pools/magic_element.txt",
+      "pick": 1,
+      "chance": 0.58
+    },
+    {
+      "name": "aura_style",
+      "file": "pools/aura_style.txt",
+      "pick": 1,
+      "chance": 0.48
+    },
+    {
+      "name": "effects",
+      "file": "pools/effects.txt",
+      "pick": 1,
+      "chance": 0.58
+    },
+    {
+      "name": "style_layer",
+      "file": "pools/style_layer.txt",
+      "pick": 1,
+      "chance": 0.72
+    },
+    {
+      "name": "effect_layer",
+      "file": "pools/effect_layer.txt",
+      "pick": 1,
+      "chance": 0.58
+    },
+    {
+      "name": "artist_direction",
+      "file": "pools/artist_direction.txt",
+      "pick": 1,
+      "chance": 0.45
+    },
+    {
+      "name": "color_grade",
+      "file": "pools/color_grade.txt",
+      "pick": 1,
+      "chance": 0.48
+    },
+    {
+      "name": "composition",
+      "file": "pools/composition.txt",
+      "pick": 1,
+      "chance": 0.7
+    },
+    {
+      "name": "quality_style",
+      "file": "pools/quality_style.txt",
+      "pick": 1,
+      "chance": 0.52
+    },
+    {
+      "name": "detail",
+      "file": "pools/detail.txt",
+      "pick": 1,
+      "chance": 0.52
+    }
+  ],
+  "always_loras": [
+    {
+      "name": "DarkerThanDarkIllustriousV1",
+      "min": 0.22,
+      "max": 0.62
+    },
+    {
+      "name": "PerfectEyesXL",
+      "min": 0.68,
+      "max": 1
+    },
+    {
+      "name": "detailer_v5",
+      "min": 0.3,
+      "max": 1
+    }
+  ],
+  "random_loras": [
+    {
+      "name": "dasiwa-ill-colorful-detail-style-1561-39",
+      "min": 0.2,
+      "max": 0.48,
+      "chance": 0.4
+    },
+    {
+      "name": "Super_Eye_Detailer_By_Stable_Yogi_SDPD0",
+      "min": 0.12,
+      "max": 0.28,
+      "chance": 0.25
+    },
+    {
+      "name": "Super_Multi_Detailer_By_Stable_Yogi_A1",
+      "min": 0.16,
+      "max": 0.34,
+      "chance": 0.25
+    },
+    {
+      "name": "Semi-realism_illustrious",
+      "min": 0.12,
+      "max": 0.28,
+      "chance": 0.25
+    },
+    {
+      "name": "S1 Dramatic Lighting Illustrious_V2",
+      "min": 0.16,
+      "max": 0.36,
+      "chance": 0.3
+    },
+    {
+      "name": "Glowing_Spot_Color_-_Illustrious",
+      "min": 0.18,
+      "max": 0.38,
+      "chance": 0.28
+    },
+    {
+      "name": "NeonGlowILL",
+      "min": 0.12,
+      "max": 0.34,
+      "chance": 0.22
+    },
+    {
+      "name": "holographiccolor-000009",
+      "min": 0.12,
+      "max": 0.32,
+      "chance": 0.18
+    },
+    {
+      "name": "glowing_and_light_particles_sdxl-000010",
+      "min": 0.1,
+      "max": 0.24,
+      "chance": 0.2
+    },
+    {
+      "name": "Aura_r1",
+      "min": 0.1,
+      "max": 0.24,
+      "chance": 0.16
+    },
+    {
+      "name": "Aura_Phantasy_illu",
+      "min": 0.1,
+      "max": 0.25,
+      "chance": 0.16
+    },
+    {
+      "name": "MoriiMee_Gothic_Niji_Style_Illustrious_r1",
+      "min": 0.14,
+      "max": 0.32,
+      "chance": 0.22
+    },
+    {
+      "name": "USNR STYLE_XL_lokr",
+      "min": 0.08,
+      "max": 0.22,
+      "chance": 0.12
+    },
+    {
+      "name": "StS_detail_slider_v1",
+      "min": 0.35,
+      "max": 0.9,
+      "chance": 0.18
+    },
+    {
+      "name": "Detail-Slider-V3-By-Stable_yogi",
+      "min": 0.16,
+      "max": 0.42,
+      "chance": 0.18
+    },
+    {
+      "name": "DarkerThanDarkV1",
+      "min": 0.22,
+      "max": 0.55,
+      "chance": 0.22
+    },
+    {
+      "name": "c0l0urgl0wXLP",
+      "min": 0.2,
+      "max": 0.52,
+      "chance": 0.2
+    },
+    {
+      "name": "ppw_v7_Illuv1.0",
+      "min": 0.18,
+      "max": 0.45,
+      "chance": 0.18
+    },
+    {
+      "name": "laser_light_clothes_v0.5-pony",
+      "min": 0.16,
+      "max": 0.42,
+      "chance": 0.14
+    },
+    {
+      "name": "NOOB_vp1_detailer_by_volnovik_v1",
+      "min": 0.12,
+      "max": 0.3,
+      "chance": 0.16
+    }
+  ],
+  "lora_scan": {
+    "enabled": true,
+    "skip_missing_when_folder_found": true,
+    "fallback_to_raw_names_when_no_lora_folder": true,
+    "aliases": {
+      "DarkerThanBlackIllustrious": "DarkerThanDarkIllustriousV1",
+      "DarkerThanDarkV0.8": "DarkerThanDarkV1",
+      "Darker Than Dark": "DarkerThanDarkV1",
+      "SDXL_Lightning_LoRAs": "sdxl_lightning_8step_lora",
+      "Holographic color style": "holographiccolor-000009",
+      "Pony; People's Works v1-v6": "ppw_v7_Illuv1.0",
+      "Laser light clothes": "laser_light_clothes_v0.5-pony",
+      "DetailedEyes XL": "PerfectEyesXL",
+      "Illustrious_V2": "S1 Dramatic Lighting Illustrious_V2",
+      "Aura": "Aura_r1",
+      "Aura_illu": "Aura_Phantasy_illu",
+      "Glowing and Light Particles - SD3.5/Flux/SDXL/Pony": "glowing_and_light_particles_sdxl-000010",
+      "glowing_and_light_particles_sd3.5": "glowing_and_light_particles_sdxl-000010",
+      "USNR STYLE_XL_loha": "USNR STYLE_XL_lokr",
+      "Hizake": "LHizake-000009",
+      "ma1ma1helmes_b": "ma1ma1helmes_b-000014",
+      "ponyv5_noobV065S_1_adamW": "ponyv5_noobV065S_1_adamW-000013",
+      "ppw_v7_Illuv1.0_1_r2": "ppw_v7_Illuv1.0",
+      "angel_wings_v10": "angel_wings_v10-09",
+      "wings": "wings-000020",
+      "WingsOfValoriaIL": "WingsOfValoriaIL-000019",
+      "Zoda": "Zoda_anima",
+      "zoda_v.01_SDXL_adafactor": "zoda_v1_sdxl"
+    },
+    "folders": [
+      "models/Lora",
+      "models/Lora/SDXL",
+      "models/Lora/Illustrious",
+      "models/Lora/Pony",
+      "models/Lora/Characters",
+      "models/Lora/Style",
+      "models/Lora/Concepts",
+      "models/Lora/HSR",
+      "models/Lora/Genshin",
+      "models/Lora/Warhammer"
+    ]
+  },
+  "negative_pools": [
+    {
+      "file": "pools/negative_extra.txt"
+    }
+  ],
+  "lora_pools": [
+    {
+      "name": "style_lora_from_pool",
+      "file": "pools/lora_style.txt",
+      "chance": 0.55,
+      "pick_min": 0,
+      "pick_max": 1,
+      "weight_min": 0.18,
+      "weight_max": 0.5
+    },
+    {
+      "name": "detail_lora_from_pool",
+      "file": "pools/lora_detail.txt",
+      "chance": 0.35,
+      "pick_min": 0,
+      "pick_max": 1,
+      "weight_min": 0.12,
+      "weight_max": 0.38
+    },
+    {
+      "name": "aura_effect_lora_from_pool",
+      "file": "pools/lora_aura_effect.txt",
+      "chance": 0.35,
+      "pick_min": 0,
+      "pick_max": 1,
+      "weight_min": 0.1,
+      "weight_max": 0.36
+    },
+    {
+      "name": "character_concept_lora_from_pool",
+      "file": "pools/lora_character_concept.txt",
+      "chance": 0.18,
+      "pick_min": 0,
+      "pick_max": 1,
+      "weight_min": 0.28,
+      "weight_max": 0.58
+    },
+    {
+      "name": "hsr_lora_from_pool",
+      "file": "pools/hsr_character_loras.txt",
+      "chance": 0.08,
+      "pick_min": 0,
+      "pick_max": 1,
+      "weight_min": 0.28,
+      "weight_max": 0.55
+    }
+  ],
+  "max_total_loras": 7,
+  "lora_synergies": [
+    {
+      "name": "gothic_shadow_support",
+      "when_any": [
+        "DarkerThanDarkIllustriousV1",
+        "DarkerThanDarkV1",
+        "g0th1cPXL",
+        "MoriiMee_Gothic_Niji_Style_Illustrious_r1",
+        "MoriiMee_Gothic_Realistic"
+      ],
+      "chance": 0.62,
+      "pick_min": 1,
+      "pick_max": 2,
+      "weight_min": 0.12,
+      "weight_max": 0.36,
+      "candidates": [
+        {
+          "name": "S1 Dramatic Lighting Illustrious_V2",
+          "min": 0.16,
+          "max": 0.34
+        },
+        {
+          "name": "Dramatic Lighting Slider",
+          "min": 0.12,
+          "max": 0.32
+        },
+        {
+          "name": "Aura_r1",
+          "min": 0.1,
+          "max": 0.24
+        },
+        {
+          "name": "Glowing_Spot_Color_-_Illustrious",
+          "min": 0.16,
+          "max": 0.34
+        }
+      ]
+    },
+    {
+      "name": "holographic_glow_support",
+      "when_any": [
+        "holographiccolor-000009",
+        "c0l0urgl0wXLP",
+        "NeonGlowILL",
+        "laser_light_clothes_v0.5-pony"
+      ],
+      "chance": 0.68,
+      "pick_min": 1,
+      "pick_max": 2,
+      "weight_min": 0.1,
+      "weight_max": 0.34,
+      "candidates": [
+        {
+          "name": "glowing_and_light_particles_sdxl-000010",
+          "min": 0.1,
+          "max": 0.24
+        },
+        {
+          "name": "Glowing_Spot_Color_-_Illustrious",
+          "min": 0.16,
+          "max": 0.34
+        },
+        {
+          "name": "NeonGlowILL",
+          "min": 0.12,
+          "max": 0.32
+        },
+        {
+          "name": "Aura_Phantasy_illu",
+          "min": 0.1,
+          "max": 0.24
+        }
+      ]
+    },
+    {
+      "name": "wing_angel_support",
+      "when_any": [
+        "angel_wings_v10-09",
+        "w1ngsXLP",
+        "wings-000020",
+        "WingsOfValoriaIL-000019"
+      ],
+      "chance": 0.7,
+      "pick_min": 1,
+      "pick_max": 1,
+      "weight_min": 0.16,
+      "weight_max": 0.38,
+      "candidates": [
+        {
+          "name": "landing_wings",
+          "min": 0.16,
+          "max": 0.36
+        },
+        {
+          "name": "Aura_Phantasy_illu",
+          "min": 0.1,
+          "max": 0.24
+        },
+        {
+          "name": "Glowing_Spot_Color_-_Illustrious",
+          "min": 0.14,
+          "max": 0.3
+        }
+      ]
+    },
+    {
+      "name": "character_detail_support",
+      "when_any": [
+        "Star_Rail_251013",
+        "princess_xl_v2",
+        "Goat girl"
+      ],
+      "chance": 0.55,
+      "pick_min": 1,
+      "pick_max": 1,
+      "weight_min": 0.12,
+      "weight_max": 0.3,
+      "candidates": [
+        {
+          "name": "Super_Eye_Detailer_By_Stable_Yogi_SDPD0",
+          "min": 0.12,
+          "max": 0.26
+        },
+        {
+          "name": "Super_Multi_Detailer_By_Stable_Yogi_A1",
+          "min": 0.14,
+          "max": 0.3
+        },
+        {
+          "name": "dasiwa-ill-colorful-detail-style-1561-39",
+          "min": 0.18,
+          "max": 0.36
+        }
+      ]
+    }
+  ]
+}

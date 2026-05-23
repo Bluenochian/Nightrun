@@ -1,0 +1,561 @@
+# Expression descriptors.
+calm confident expression
+slight smile
+soft smile
+dangerous grin
+melancholic gaze
+serious stare
+playful fang smile
+quiet mysterious smile
+cold queenly expression
+gentle dreamy expression
+villainess smile
+focused battle expression
+soft blush, composed face
+sleepy elegant gaze
+wide-eyed magic glow
+smug smile, refined mood
+romantic longing gaze
+haunting blank stare
+warm inviting smile
+sharp predatory gaze
+soft smile, direct eye contact
+soft smile, glossy lips
+soft smile, sharp eyelashes
+soft smile, soft blush
+soft smile, fangs visible
+soft smile, red lipstick
+soft smile, black lipstick
+soft smile, subtle tears
+soft smile, sensual mood
+soft smile, dramatic face shadow
+smug smile, direct eye contact
+smug smile, glossy lips
+smug smile, sharp eyelashes
+smug smile, soft blush
+smug smile, fangs visible
+smug smile, red lipstick
+smug smile, black lipstick
+smug smile, subtle tears
+smug smile, sensual mood
+smug smile, dramatic face shadow
+dangerous grin, direct eye contact
+dangerous grin, glossy lips
+dangerous grin, sharp eyelashes
+dangerous grin, soft blush
+dangerous grin, fangs visible
+dangerous grin, red lipstick
+dangerous grin, black lipstick
+dangerous grin, subtle tears
+dangerous grin, sensual mood
+dangerous grin, dramatic face shadow
+bedroom eyes, direct eye contact
+bedroom eyes, glossy lips
+bedroom eyes, sharp eyelashes
+bedroom eyes, soft blush
+bedroom eyes, fangs visible
+bedroom eyes, red lipstick
+bedroom eyes, black lipstick
+bedroom eyes, subtle tears
+bedroom eyes, sensual mood
+bedroom eyes, dramatic face shadow
+half-lidded gaze, direct eye contact
+half-lidded gaze, glossy lips
+half-lidded gaze, sharp eyelashes
+half-lidded gaze, soft blush
+half-lidded gaze, fangs visible
+half-lidded gaze, red lipstick
+half-lidded gaze, black lipstick
+half-lidded gaze, subtle tears
+half-lidded gaze, sensual mood
+half-lidded gaze, dramatic face shadow
+cold stare, direct eye contact
+cold stare, glossy lips
+cold stare, sharp eyelashes
+cold stare, soft blush
+cold stare, fangs visible
+cold stare, red lipstick
+cold stare, black lipstick
+cold stare, subtle tears
+cold stare, sensual mood
+cold stare, dramatic face shadow
+gentle blush, direct eye contact
+gentle blush, glossy lips
+gentle blush, sharp eyelashes
+gentle blush, soft blush
+gentle blush, fangs visible
+gentle blush, red lipstick
+gentle blush, black lipstick
+gentle blush, subtle tears
+gentle blush, sensual mood
+gentle blush, dramatic face shadow
+fang smile, direct eye contact
+fang smile, glossy lips
+fang smile, sharp eyelashes
+fang smile, soft blush
+fang smile, fangs visible
+fang smile, red lipstick
+fang smile, black lipstick
+fang smile, subtle tears
+fang smile, sensual mood
+fang smile, dramatic face shadow
+open mouth smile, direct eye contact
+open mouth smile, glossy lips
+open mouth smile, sharp eyelashes
+open mouth smile, soft blush
+open mouth smile, fangs visible
+open mouth smile, red lipstick
+open mouth smile, black lipstick
+open mouth smile, subtle tears
+open mouth smile, sensual mood
+open mouth smile, dramatic face shadow
+biting lower lip, direct eye contact
+biting lower lip, glossy lips
+biting lower lip, sharp eyelashes
+biting lower lip, soft blush
+biting lower lip, fangs visible
+biting lower lip, red lipstick
+biting lower lip, black lipstick
+biting lower lip, subtle tears
+biting lower lip, sensual mood
+biting lower lip, dramatic face shadow
+dreamy gaze, direct eye contact
+dreamy gaze, glossy lips
+dreamy gaze, sharp eyelashes
+dreamy gaze, soft blush
+dreamy gaze, fangs visible
+dreamy gaze, red lipstick
+dreamy gaze, black lipstick
+dreamy gaze, subtle tears
+dreamy gaze, sensual mood
+dreamy gaze, dramatic face shadow
+teasing expression, direct eye contact
+teasing expression, glossy lips
+teasing expression, sharp eyelashes
+teasing expression, soft blush
+teasing expression, fangs visible
+teasing expression, red lipstick
+teasing expression, black lipstick
+teasing expression, subtle tears
+teasing expression, sensual mood
+teasing expression, dramatic face shadow
+villainess smirk, direct eye contact
+villainess smirk, glossy lips
+villainess smirk, sharp eyelashes
+villainess smirk, soft blush
+villainess smirk, fangs visible
+villainess smirk, red lipstick
+villainess smirk, black lipstick
+villainess smirk, subtle tears
+villainess smirk, sensual mood
+villainess smirk, dramatic face shadow
+melancholic stare, direct eye contact
+melancholic stare, glossy lips
+melancholic stare, sharp eyelashes
+melancholic stare, soft blush
+melancholic stare, fangs visible
+melancholic stare, red lipstick
+melancholic stare, black lipstick
+melancholic stare, subtle tears
+melancholic stare, sensual mood
+melancholic stare, dramatic face shadow
+confident smile, direct eye contact
+confident smile, glossy lips
+confident smile, sharp eyelashes
+confident smile, soft blush
+confident smile, fangs visible
+confident smile, red lipstick
+confident smile, black lipstick
+confident smile, subtle tears
+confident smile, sensual mood
+confident smile, dramatic face shadow
+flustered expression, direct eye contact
+flustered expression, glossy lips
+flustered expression, sharp eyelashes
+flustered expression, soft blush
+flustered expression, fangs visible
+flustered expression, red lipstick
+flustered expression, black lipstick
+flustered expression, subtle tears
+flustered expression, sensual mood
+flustered expression, dramatic face shadow
+predatory gaze, direct eye contact
+predatory gaze, glossy lips
+predatory gaze, sharp eyelashes
+predatory gaze, soft blush
+predatory gaze, fangs visible
+predatory gaze, red lipstick
+predatory gaze, black lipstick
+predatory gaze, subtle tears
+predatory gaze, sensual mood
+predatory gaze, dramatic face shadow
+elegant bored expression, direct eye contact
+elegant bored expression, glossy lips
+elegant bored expression, sharp eyelashes
+elegant bored expression, soft blush
+elegant bored expression, fangs visible
+elegant bored expression, red lipstick
+elegant bored expression, black lipstick
+elegant bored expression, subtle tears
+elegant bored expression, sensual mood
+elegant bored expression, dramatic face shadow
+romantic longing eyes, direct eye contact
+romantic longing eyes, glossy lips
+romantic longing eyes, sharp eyelashes
+romantic longing eyes, soft blush
+romantic longing eyes, fangs visible
+romantic longing eyes, red lipstick
+romantic longing eyes, black lipstick
+romantic longing eyes, subtle tears
+romantic longing eyes, sensual mood
+romantic longing eyes, dramatic face shadow
+wide glowing eyes, direct eye contact
+wide glowing eyes, glossy lips
+wide glowing eyes, sharp eyelashes
+wide glowing eyes, soft blush
+wide glowing eyes, fangs visible
+wide glowing eyes, red lipstick
+wide glowing eyes, black lipstick
+wide glowing eyes, subtle tears
+wide glowing eyes, sensual mood
+wide glowing eyes, dramatic face shadow
+soft smile, lip gloss highlight
+soft smile, clean teeth detail
+soft smile, soft cheek blush
+soft smile, eyeliner detail
+soft smile, face framed by hair
+soft smile, dramatic mouth shadow
+soft smile, clear nose highlight
+soft smile, symmetrical face
+smug smile, lip gloss highlight
+smug smile, clean teeth detail
+smug smile, soft cheek blush
+smug smile, eyeliner detail
+smug smile, face framed by hair
+smug smile, dramatic mouth shadow
+smug smile, clear nose highlight
+smug smile, symmetrical face
+dangerous grin, lip gloss highlight
+dangerous grin, clean teeth detail
+dangerous grin, soft cheek blush
+dangerous grin, eyeliner detail
+dangerous grin, face framed by hair
+dangerous grin, dramatic mouth shadow
+dangerous grin, clear nose highlight
+dangerous grin, symmetrical face
+bedroom eyes, lip gloss highlight
+bedroom eyes, clean teeth detail
+bedroom eyes, soft cheek blush
+bedroom eyes, eyeliner detail
+bedroom eyes, face framed by hair
+bedroom eyes, dramatic mouth shadow
+bedroom eyes, clear nose highlight
+bedroom eyes, symmetrical face
+half-lidded gaze, lip gloss highlight
+half-lidded gaze, clean teeth detail
+half-lidded gaze, soft cheek blush
+half-lidded gaze, eyeliner detail
+half-lidded gaze, face framed by hair
+half-lidded gaze, dramatic mouth shadow
+half-lidded gaze, clear nose highlight
+half-lidded gaze, symmetrical face
+cold stare, lip gloss highlight
+cold stare, clean teeth detail
+cold stare, soft cheek blush
+cold stare, eyeliner detail
+cold stare, face framed by hair
+cold stare, dramatic mouth shadow
+cold stare, clear nose highlight
+cold stare, symmetrical face
+gentle blush, lip gloss highlight
+gentle blush, clean teeth detail
+gentle blush, soft cheek blush
+gentle blush, eyeliner detail
+gentle blush, face framed by hair
+gentle blush, dramatic mouth shadow
+gentle blush, clear nose highlight
+gentle blush, symmetrical face
+fang smile, lip gloss highlight
+fang smile, clean teeth detail
+fang smile, soft cheek blush
+fang smile, eyeliner detail
+fang smile, face framed by hair
+fang smile, dramatic mouth shadow
+fang smile, clear nose highlight
+fang smile, symmetrical face
+open mouth smile, lip gloss highlight
+open mouth smile, clean teeth detail
+open mouth smile, soft cheek blush
+open mouth smile, eyeliner detail
+open mouth smile, face framed by hair
+open mouth smile, dramatic mouth shadow
+open mouth smile, clear nose highlight
+open mouth smile, symmetrical face
+biting lower lip, lip gloss highlight
+biting lower lip, clean teeth detail
+biting lower lip, soft cheek blush
+biting lower lip, eyeliner detail
+biting lower lip, face framed by hair
+biting lower lip, dramatic mouth shadow
+biting lower lip, clear nose highlight
+biting lower lip, symmetrical face
+dreamy gaze, lip gloss highlight
+dreamy gaze, clean teeth detail
+dreamy gaze, soft cheek blush
+dreamy gaze, eyeliner detail
+dreamy gaze, face framed by hair
+dreamy gaze, dramatic mouth shadow
+dreamy gaze, clear nose highlight
+dreamy gaze, symmetrical face
+teasing expression, lip gloss highlight
+teasing expression, clean teeth detail
+teasing expression, soft cheek blush
+teasing expression, eyeliner detail
+teasing expression, face framed by hair
+teasing expression, dramatic mouth shadow
+teasing expression, clear nose highlight
+teasing expression, symmetrical face
+villainess smirk, lip gloss highlight
+villainess smirk, clean teeth detail
+villainess smirk, soft cheek blush
+villainess smirk, eyeliner detail
+villainess smirk, face framed by hair
+villainess smirk, dramatic mouth shadow
+villainess smirk, clear nose highlight
+villainess smirk, symmetrical face
+melancholic stare, lip gloss highlight
+melancholic stare, clean teeth detail
+melancholic stare, soft cheek blush
+melancholic stare, eyeliner detail
+melancholic stare, face framed by hair
+melancholic stare, dramatic mouth shadow
+melancholic stare, clear nose highlight
+melancholic stare, symmetrical face
+confident smile, lip gloss highlight
+confident smile, clean teeth detail
+confident smile, soft cheek blush
+confident smile, eyeliner detail
+confident smile, face framed by hair
+confident smile, dramatic mouth shadow
+confident smile, clear nose highlight
+confident smile, symmetrical face
+flustered expression, lip gloss highlight
+flustered expression, clean teeth detail
+flustered expression, soft cheek blush
+flustered expression, eyeliner detail
+flustered expression, face framed by hair
+flustered expression, dramatic mouth shadow
+flustered expression, clear nose highlight
+flustered expression, symmetrical face
+predatory gaze, lip gloss highlight
+predatory gaze, clean teeth detail
+predatory gaze, soft cheek blush
+predatory gaze, eyeliner detail
+predatory gaze, face framed by hair
+predatory gaze, dramatic mouth shadow
+predatory gaze, clear nose highlight
+predatory gaze, symmetrical face
+elegant bored expression, lip gloss highlight
+elegant bored expression, clean teeth detail
+elegant bored expression, soft cheek blush
+elegant bored expression, eyeliner detail
+elegant bored expression, face framed by hair
+elegant bored expression, dramatic mouth shadow
+elegant bored expression, clear nose highlight
+elegant bored expression, symmetrical face
+romantic longing eyes, lip gloss highlight
+romantic longing eyes, clean teeth detail
+romantic longing eyes, soft cheek blush
+romantic longing eyes, eyeliner detail
+romantic longing eyes, face framed by hair
+romantic longing eyes, dramatic mouth shadow
+romantic longing eyes, clear nose highlight
+romantic longing eyes, symmetrical face
+wide glowing eyes, lip gloss highlight
+wide glowing eyes, clean teeth detail
+wide glowing eyes, soft cheek blush
+wide glowing eyes, eyeliner detail
+wide glowing eyes, face framed by hair
+wide glowing eyes, dramatic mouth shadow
+wide glowing eyes, clear nose highlight
+wide glowing eyes, symmetrical face
+soft parted lips, direct eye contact
+soft parted lips, glossy lips
+soft parted lips, sharp eyelashes
+soft parted lips, soft blush
+soft parted lips, fangs visible
+soft parted lips, red lipstick
+soft parted lips, black lipstick
+soft parted lips, subtle tears
+soft parted lips, sensual mood
+soft parted lips, dramatic face shadow
+soft parted lips, lip gloss highlight
+soft parted lips, clean teeth detail
+soft parted lips, soft cheek blush
+soft parted lips, eyeliner detail
+soft parted lips, face framed by hair
+soft parted lips, dramatic mouth shadow
+soft parted lips, clear nose highlight
+soft parted lips, symmetrical face
+quiet smile, direct eye contact
+quiet smile, glossy lips
+quiet smile, sharp eyelashes
+quiet smile, soft blush
+quiet smile, fangs visible
+quiet smile, red lipstick
+quiet smile, black lipstick
+quiet smile, subtle tears
+quiet smile, sensual mood
+quiet smile, dramatic face shadow
+quiet smile, lip gloss highlight
+quiet smile, clean teeth detail
+quiet smile, soft cheek blush
+quiet smile, eyeliner detail
+quiet smile, face framed by hair
+quiet smile, dramatic mouth shadow
+quiet smile, clear nose highlight
+quiet smile, symmetrical face
+sharp smile, direct eye contact
+sharp smile, glossy lips
+sharp smile, sharp eyelashes
+sharp smile, soft blush
+sharp smile, fangs visible
+sharp smile, red lipstick
+sharp smile, black lipstick
+sharp smile, subtle tears
+sharp smile, sensual mood
+sharp smile, dramatic face shadow
+sharp smile, lip gloss highlight
+sharp smile, clean teeth detail
+sharp smile, soft cheek blush
+sharp smile, eyeliner detail
+sharp smile, face framed by hair
+sharp smile, dramatic mouth shadow
+sharp smile, clear nose highlight
+sharp smile, symmetrical face
+playful smirk, direct eye contact
+playful smirk, glossy lips
+playful smirk, sharp eyelashes
+playful smirk, soft blush
+playful smirk, fangs visible
+playful smirk, red lipstick
+playful smirk, black lipstick
+playful smirk, subtle tears
+playful smirk, sensual mood
+playful smirk, dramatic face shadow
+playful smirk, lip gloss highlight
+playful smirk, clean teeth detail
+playful smirk, soft cheek blush
+playful smirk, eyeliner detail
+playful smirk, face framed by hair
+playful smirk, dramatic mouth shadow
+playful smirk, clear nose highlight
+playful smirk, symmetrical face
+cold amused gaze, direct eye contact
+cold amused gaze, glossy lips
+cold amused gaze, sharp eyelashes
+cold amused gaze, soft blush
+cold amused gaze, fangs visible
+cold amused gaze, red lipstick
+cold amused gaze, black lipstick
+cold amused gaze, subtle tears
+cold amused gaze, sensual mood
+cold amused gaze, dramatic face shadow
+cold amused gaze, lip gloss highlight
+cold amused gaze, clean teeth detail
+cold amused gaze, soft cheek blush
+cold amused gaze, eyeliner detail
+cold amused gaze, face framed by hair
+cold amused gaze, dramatic mouth shadow
+cold amused gaze, clear nose highlight
+cold amused gaze, symmetrical face
+inviting gaze, direct eye contact
+inviting gaze, glossy lips
+inviting gaze, sharp eyelashes
+inviting gaze, soft blush
+inviting gaze, fangs visible
+inviting gaze, red lipstick
+inviting gaze, black lipstick
+inviting gaze, subtle tears
+inviting gaze, sensual mood
+inviting gaze, dramatic face shadow
+inviting gaze, lip gloss highlight
+inviting gaze, clean teeth detail
+inviting gaze, soft cheek blush
+inviting gaze, eyeliner detail
+inviting gaze, face framed by hair
+inviting gaze, dramatic mouth shadow
+inviting gaze, clear nose highlight
+inviting gaze, symmetrical face
+serene expression, direct eye contact
+serene expression, glossy lips
+serene expression, sharp eyelashes
+serene expression, soft blush
+serene expression, fangs visible
+serene expression, red lipstick
+serene expression, black lipstick
+serene expression, subtle tears
+serene expression, sensual mood
+serene expression, dramatic face shadow
+serene expression, lip gloss highlight
+serene expression, clean teeth detail
+serene expression, soft cheek blush
+serene expression, eyeliner detail
+serene expression, face framed by hair
+serene expression, dramatic mouth shadow
+serene expression, clear nose highlight
+serene expression, symmetrical face
+commanding stare, direct eye contact
+commanding stare, glossy lips
+commanding stare, sharp eyelashes
+commanding stare, soft blush
+commanding stare, fangs visible
+commanding stare, red lipstick
+commanding stare, black lipstick
+commanding stare, subtle tears
+commanding stare, sensual mood
+commanding stare, dramatic face shadow
+commanding stare, lip gloss highlight
+commanding stare, clean teeth detail
+commanding stare, soft cheek blush
+commanding stare, eyeliner detail
+commanding stare, face framed by hair
+commanding stare, dramatic mouth shadow
+commanding stare, clear nose highlight
+commanding stare, symmetrical face
+subtle grin, direct eye contact
+subtle grin, glossy lips
+subtle grin, sharp eyelashes
+subtle grin, soft blush
+subtle grin, fangs visible
+subtle grin, red lipstick
+subtle grin, black lipstick
+subtle grin, subtle tears
+subtle grin, sensual mood
+subtle grin, dramatic face shadow
+subtle grin, lip gloss highlight
+subtle grin, clean teeth detail
+subtle grin, soft cheek blush
+subtle grin, eyeliner detail
+subtle grin, face framed by hair
+subtle grin, dramatic mouth shadow
+subtle grin, clear nose highlight
+subtle grin, symmetrical face
+gentle fang smile, direct eye contact
+gentle fang smile, glossy lips
+gentle fang smile, sharp eyelashes
+gentle fang smile, soft blush
+gentle fang smile, fangs visible
+gentle fang smile, red lipstick
+gentle fang smile, black lipstick
+gentle fang smile, subtle tears
+gentle fang smile, sensual mood
+gentle fang smile, dramatic face shadow
+gentle fang smile, lip gloss highlight
+gentle fang smile, clean teeth detail
+gentle fang smile, soft cheek blush
+gentle fang smile, eyeliner detail
+gentle fang smile, face framed by hair
+gentle fang smile, dramatic mouth shadow
+gentle fang smile, clear nose highlight
+gentle fang smile, symmetrical face

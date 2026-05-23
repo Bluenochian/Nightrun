@@ -1,0 +1,961 @@
+# Equipment, props, tools, weapons, and carried objects.
+engraved longsword, held naturally, readable hand pose
+engraved longsword, visible at the hip, not hiding the face
+engraved longsword, foreground prop, clean silhouette
+engraved longsword, small glowing detail, controlled highlights
+engraved longsword, worn material texture
+engraved longsword, world-appropriate design
+engraved longsword, cinematic prop focus
+engraved longsword, does not clutter the composition
+engraved longsword, matching outfit and environment
+engraved longsword, premium accessory rendering
+engraved longsword, clear scale and perspective
+engraved longsword, secondary focal detail
+silver rapier, held naturally, readable hand pose
+silver rapier, visible at the hip, not hiding the face
+silver rapier, foreground prop, clean silhouette
+silver rapier, small glowing detail, controlled highlights
+silver rapier, worn material texture
+silver rapier, world-appropriate design
+silver rapier, cinematic prop focus
+silver rapier, does not clutter the composition
+silver rapier, matching outfit and environment
+silver rapier, premium accessory rendering
+silver rapier, clear scale and perspective
+silver rapier, secondary focal detail
+black katana, held naturally, readable hand pose
+black katana, visible at the hip, not hiding the face
+black katana, foreground prop, clean silhouette
+black katana, small glowing detail, controlled highlights
+black katana, worn material texture
+black katana, world-appropriate design
+black katana, cinematic prop focus
+black katana, does not clutter the composition
+black katana, matching outfit and environment
+black katana, premium accessory rendering
+black katana, clear scale and perspective
+black katana, secondary focal detail
+rune staff, held naturally, readable hand pose
+rune staff, visible at the hip, not hiding the face
+rune staff, foreground prop, clean silhouette
+rune staff, small glowing detail, controlled highlights
+rune staff, worn material texture
+rune staff, world-appropriate design
+rune staff, cinematic prop focus
+rune staff, does not clutter the composition
+rune staff, matching outfit and environment
+rune staff, premium accessory rendering
+rune staff, clear scale and perspective
+rune staff, secondary focal detail
+crystal wand, held naturally, readable hand pose
+crystal wand, visible at the hip, not hiding the face
+crystal wand, foreground prop, clean silhouette
+crystal wand, small glowing detail, controlled highlights
+crystal wand, worn material texture
+crystal wand, world-appropriate design
+crystal wand, cinematic prop focus
+crystal wand, does not clutter the composition
+crystal wand, matching outfit and environment
+crystal wand, premium accessory rendering
+crystal wand, clear scale and perspective
+crystal wand, secondary focal detail
+brass telescope, held naturally, readable hand pose
+brass telescope, visible at the hip, not hiding the face
+brass telescope, foreground prop, clean silhouette
+brass telescope, small glowing detail, controlled highlights
+brass telescope, worn material texture
+brass telescope, world-appropriate design
+brass telescope, cinematic prop focus
+brass telescope, does not clutter the composition
+brass telescope, matching outfit and environment
+brass telescope, premium accessory rendering
+brass telescope, clear scale and perspective
+brass telescope, secondary focal detail
+arcane spellbook, held naturally, readable hand pose
+arcane spellbook, visible at the hip, not hiding the face
+arcane spellbook, foreground prop, clean silhouette
+arcane spellbook, small glowing detail, controlled highlights
+arcane spellbook, worn material texture
+arcane spellbook, world-appropriate design
+arcane spellbook, cinematic prop focus
+arcane spellbook, does not clutter the composition
+arcane spellbook, matching outfit and environment
+arcane spellbook, premium accessory rendering
+arcane spellbook, clear scale and perspective
+arcane spellbook, secondary focal detail
+floating grimoire, held naturally, readable hand pose
+floating grimoire, visible at the hip, not hiding the face
+floating grimoire, foreground prop, clean silhouette
+floating grimoire, small glowing detail, controlled highlights
+floating grimoire, worn material texture
+floating grimoire, world-appropriate design
+floating grimoire, cinematic prop focus
+floating grimoire, does not clutter the composition
+floating grimoire, matching outfit and environment
+floating grimoire, premium accessory rendering
+floating grimoire, clear scale and perspective
+floating grimoire, secondary focal detail
+lantern staff, held naturally, readable hand pose
+lantern staff, visible at the hip, not hiding the face
+lantern staff, foreground prop, clean silhouette
+lantern staff, small glowing detail, controlled highlights
+lantern staff, worn material texture
+lantern staff, world-appropriate design
+lantern staff, cinematic prop focus
+lantern staff, does not clutter the composition
+lantern staff, matching outfit and environment
+lantern staff, premium accessory rendering
+lantern staff, clear scale and perspective
+lantern staff, secondary focal detail
+ritual dagger, held naturally, readable hand pose
+ritual dagger, visible at the hip, not hiding the face
+ritual dagger, foreground prop, clean silhouette
+ritual dagger, small glowing detail, controlled highlights
+ritual dagger, worn material texture
+ritual dagger, world-appropriate design
+ritual dagger, cinematic prop focus
+ritual dagger, does not clutter the composition
+ritual dagger, matching outfit and environment
+ritual dagger, premium accessory rendering
+ritual dagger, clear scale and perspective
+ritual dagger, secondary focal detail
+rose-handled pistol, held naturally, readable hand pose
+rose-handled pistol, visible at the hip, not hiding the face
+rose-handled pistol, foreground prop, clean silhouette
+rose-handled pistol, small glowing detail, controlled highlights
+rose-handled pistol, worn material texture
+rose-handled pistol, world-appropriate design
+rose-handled pistol, cinematic prop focus
+rose-handled pistol, does not clutter the composition
+rose-handled pistol, matching outfit and environment
+rose-handled pistol, premium accessory rendering
+rose-handled pistol, clear scale and perspective
+rose-handled pistol, secondary focal detail
+antique revolver, held naturally, readable hand pose
+antique revolver, visible at the hip, not hiding the face
+antique revolver, foreground prop, clean silhouette
+antique revolver, small glowing detail, controlled highlights
+antique revolver, worn material texture
+antique revolver, world-appropriate design
+antique revolver, cinematic prop focus
+antique revolver, does not clutter the composition
+antique revolver, matching outfit and environment
+antique revolver, premium accessory rendering
+antique revolver, clear scale and perspective
+antique revolver, secondary focal detail
+scrap metal rifle, held naturally, readable hand pose
+scrap metal rifle, visible at the hip, not hiding the face
+scrap metal rifle, foreground prop, clean silhouette
+scrap metal rifle, small glowing detail, controlled highlights
+scrap metal rifle, worn material texture
+scrap metal rifle, world-appropriate design
+scrap metal rifle, cinematic prop focus
+scrap metal rifle, does not clutter the composition
+scrap metal rifle, matching outfit and environment
+scrap metal rifle, premium accessory rendering
+scrap metal rifle, clear scale and perspective
+scrap metal rifle, secondary focal detail
+compact blaster, held naturally, readable hand pose
+compact blaster, visible at the hip, not hiding the face
+compact blaster, foreground prop, clean silhouette
+compact blaster, small glowing detail, controlled highlights
+compact blaster, worn material texture
+compact blaster, world-appropriate design
+compact blaster, cinematic prop focus
+compact blaster, does not clutter the composition
+compact blaster, matching outfit and environment
+compact blaster, premium accessory rendering
+compact blaster, clear scale and perspective
+compact blaster, secondary focal detail
+laser pistol, held naturally, readable hand pose
+laser pistol, visible at the hip, not hiding the face
+laser pistol, foreground prop, clean silhouette
+laser pistol, small glowing detail, controlled highlights
+laser pistol, worn material texture
+laser pistol, world-appropriate design
+laser pistol, cinematic prop focus
+laser pistol, does not clutter the composition
+laser pistol, matching outfit and environment
+laser pistol, premium accessory rendering
+laser pistol, clear scale and perspective
+laser pistol, secondary focal detail
+plasma cutter, held naturally, readable hand pose
+plasma cutter, visible at the hip, not hiding the face
+plasma cutter, foreground prop, clean silhouette
+plasma cutter, small glowing detail, controlled highlights
+plasma cutter, worn material texture
+plasma cutter, world-appropriate design
+plasma cutter, cinematic prop focus
+plasma cutter, does not clutter the composition
+plasma cutter, matching outfit and environment
+plasma cutter, premium accessory rendering
+plasma cutter, clear scale and perspective
+plasma cutter, secondary focal detail
+energy saber, held naturally, readable hand pose
+energy saber, visible at the hip, not hiding the face
+energy saber, foreground prop, clean silhouette
+energy saber, small glowing detail, controlled highlights
+energy saber, worn material texture
+energy saber, world-appropriate design
+energy saber, cinematic prop focus
+energy saber, does not clutter the composition
+energy saber, matching outfit and environment
+energy saber, premium accessory rendering
+energy saber, clear scale and perspective
+energy saber, secondary focal detail
+hologram projector, held naturally, readable hand pose
+hologram projector, visible at the hip, not hiding the face
+hologram projector, foreground prop, clean silhouette
+hologram projector, small glowing detail, controlled highlights
+hologram projector, worn material texture
+hologram projector, world-appropriate design
+hologram projector, cinematic prop focus
+hologram projector, does not clutter the composition
+hologram projector, matching outfit and environment
+hologram projector, premium accessory rendering
+hologram projector, clear scale and perspective
+hologram projector, secondary focal detail
+star map device, held naturally, readable hand pose
+star map device, visible at the hip, not hiding the face
+star map device, foreground prop, clean silhouette
+star map device, small glowing detail, controlled highlights
+star map device, worn material texture
+star map device, world-appropriate design
+star map device, cinematic prop focus
+star map device, does not clutter the composition
+star map device, matching outfit and environment
+star map device, premium accessory rendering
+star map device, clear scale and perspective
+star map device, secondary focal detail
+cyberdeck, held naturally, readable hand pose
+cyberdeck, visible at the hip, not hiding the face
+cyberdeck, foreground prop, clean silhouette
+cyberdeck, small glowing detail, controlled highlights
+cyberdeck, worn material texture
+cyberdeck, world-appropriate design
+cyberdeck, cinematic prop focus
+cyberdeck, does not clutter the composition
+cyberdeck, matching outfit and environment
+cyberdeck, premium accessory rendering
+cyberdeck, clear scale and perspective
+cyberdeck, secondary focal detail
+data shard, held naturally, readable hand pose
+data shard, visible at the hip, not hiding the face
+data shard, foreground prop, clean silhouette
+data shard, small glowing detail, controlled highlights
+data shard, worn material texture
+data shard, world-appropriate design
+data shard, cinematic prop focus
+data shard, does not clutter the composition
+data shard, matching outfit and environment
+data shard, premium accessory rendering
+data shard, clear scale and perspective
+data shard, secondary focal detail
+mechanical halo, held naturally, readable hand pose
+mechanical halo, visible at the hip, not hiding the face
+mechanical halo, foreground prop, clean silhouette
+mechanical halo, small glowing detail, controlled highlights
+mechanical halo, worn material texture
+mechanical halo, world-appropriate design
+mechanical halo, cinematic prop focus
+mechanical halo, does not clutter the composition
+mechanical halo, matching outfit and environment
+mechanical halo, premium accessory rendering
+mechanical halo, clear scale and perspective
+mechanical halo, secondary focal detail
+drone companion, held naturally, readable hand pose
+drone companion, visible at the hip, not hiding the face
+drone companion, foreground prop, clean silhouette
+drone companion, small glowing detail, controlled highlights
+drone companion, worn material texture
+drone companion, world-appropriate design
+drone companion, cinematic prop focus
+drone companion, does not clutter the composition
+drone companion, matching outfit and environment
+drone companion, premium accessory rendering
+drone companion, clear scale and perspective
+drone companion, secondary focal detail
+gas mask, held naturally, readable hand pose
+gas mask, visible at the hip, not hiding the face
+gas mask, foreground prop, clean silhouette
+gas mask, small glowing detail, controlled highlights
+gas mask, worn material texture
+gas mask, world-appropriate design
+gas mask, cinematic prop focus
+gas mask, does not clutter the composition
+gas mask, matching outfit and environment
+gas mask, premium accessory rendering
+gas mask, clear scale and perspective
+gas mask, secondary focal detail
+radiation meter, held naturally, readable hand pose
+radiation meter, visible at the hip, not hiding the face
+radiation meter, foreground prop, clean silhouette
+radiation meter, small glowing detail, controlled highlights
+radiation meter, worn material texture
+radiation meter, world-appropriate design
+radiation meter, cinematic prop focus
+radiation meter, does not clutter the composition
+radiation meter, matching outfit and environment
+radiation meter, premium accessory rendering
+radiation meter, clear scale and perspective
+radiation meter, secondary focal detail
+survival backpack, held naturally, readable hand pose
+survival backpack, visible at the hip, not hiding the face
+survival backpack, foreground prop, clean silhouette
+survival backpack, small glowing detail, controlled highlights
+survival backpack, worn material texture
+survival backpack, world-appropriate design
+survival backpack, cinematic prop focus
+survival backpack, does not clutter the composition
+survival backpack, matching outfit and environment
+survival backpack, premium accessory rendering
+survival backpack, clear scale and perspective
+survival backpack, secondary focal detail
+medical injector, held naturally, readable hand pose
+medical injector, visible at the hip, not hiding the face
+medical injector, foreground prop, clean silhouette
+medical injector, small glowing detail, controlled highlights
+medical injector, worn material texture
+medical injector, world-appropriate design
+medical injector, cinematic prop focus
+medical injector, does not clutter the composition
+medical injector, matching outfit and environment
+medical injector, premium accessory rendering
+medical injector, clear scale and perspective
+medical injector, secondary focal detail
+tool belt, held naturally, readable hand pose
+tool belt, visible at the hip, not hiding the face
+tool belt, foreground prop, clean silhouette
+tool belt, small glowing detail, controlled highlights
+tool belt, worn material texture
+tool belt, world-appropriate design
+tool belt, cinematic prop focus
+tool belt, does not clutter the composition
+tool belt, matching outfit and environment
+tool belt, premium accessory rendering
+tool belt, clear scale and perspective
+tool belt, secondary focal detail
+grappling hook, held naturally, readable hand pose
+grappling hook, visible at the hip, not hiding the face
+grappling hook, foreground prop, clean silhouette
+grappling hook, small glowing detail, controlled highlights
+grappling hook, worn material texture
+grappling hook, world-appropriate design
+grappling hook, cinematic prop focus
+grappling hook, does not clutter the composition
+grappling hook, matching outfit and environment
+grappling hook, premium accessory rendering
+grappling hook, clear scale and perspective
+grappling hook, secondary focal detail
+lockpick kit, held naturally, readable hand pose
+lockpick kit, visible at the hip, not hiding the face
+lockpick kit, foreground prop, clean silhouette
+lockpick kit, small glowing detail, controlled highlights
+lockpick kit, worn material texture
+lockpick kit, world-appropriate design
+lockpick kit, cinematic prop focus
+lockpick kit, does not clutter the composition
+lockpick kit, matching outfit and environment
+lockpick kit, premium accessory rendering
+lockpick kit, clear scale and perspective
+lockpick kit, secondary focal detail
+potion vial belt, held naturally, readable hand pose
+potion vial belt, visible at the hip, not hiding the face
+potion vial belt, foreground prop, clean silhouette
+potion vial belt, small glowing detail, controlled highlights
+potion vial belt, worn material texture
+potion vial belt, world-appropriate design
+potion vial belt, cinematic prop focus
+potion vial belt, does not clutter the composition
+potion vial belt, matching outfit and environment
+potion vial belt, premium accessory rendering
+potion vial belt, clear scale and perspective
+potion vial belt, secondary focal detail
+alchemist flask, held naturally, readable hand pose
+alchemist flask, visible at the hip, not hiding the face
+alchemist flask, foreground prop, clean silhouette
+alchemist flask, small glowing detail, controlled highlights
+alchemist flask, worn material texture
+alchemist flask, world-appropriate design
+alchemist flask, cinematic prop focus
+alchemist flask, does not clutter the composition
+alchemist flask, matching outfit and environment
+alchemist flask, premium accessory rendering
+alchemist flask, clear scale and perspective
+alchemist flask, secondary focal detail
+divination orb, held naturally, readable hand pose
+divination orb, visible at the hip, not hiding the face
+divination orb, foreground prop, clean silhouette
+divination orb, small glowing detail, controlled highlights
+divination orb, worn material texture
+divination orb, world-appropriate design
+divination orb, cinematic prop focus
+divination orb, does not clutter the composition
+divination orb, matching outfit and environment
+divination orb, premium accessory rendering
+divination orb, clear scale and perspective
+divination orb, secondary focal detail
+tarot deck, held naturally, readable hand pose
+tarot deck, visible at the hip, not hiding the face
+tarot deck, foreground prop, clean silhouette
+tarot deck, small glowing detail, controlled highlights
+tarot deck, worn material texture
+tarot deck, world-appropriate design
+tarot deck, cinematic prop focus
+tarot deck, does not clutter the composition
+tarot deck, matching outfit and environment
+tarot deck, premium accessory rendering
+tarot deck, clear scale and perspective
+tarot deck, secondary focal detail
+silver mirror, held naturally, readable hand pose
+silver mirror, visible at the hip, not hiding the face
+silver mirror, foreground prop, clean silhouette
+silver mirror, small glowing detail, controlled highlights
+silver mirror, worn material texture
+silver mirror, world-appropriate design
+silver mirror, cinematic prop focus
+silver mirror, does not clutter the composition
+silver mirror, matching outfit and environment
+silver mirror, premium accessory rendering
+silver mirror, clear scale and perspective
+silver mirror, secondary focal detail
+black parasol, held naturally, readable hand pose
+black parasol, visible at the hip, not hiding the face
+black parasol, foreground prop, clean silhouette
+black parasol, small glowing detail, controlled highlights
+black parasol, worn material texture
+black parasol, world-appropriate design
+black parasol, cinematic prop focus
+black parasol, does not clutter the composition
+black parasol, matching outfit and environment
+black parasol, premium accessory rendering
+black parasol, clear scale and perspective
+black parasol, secondary focal detail
+lace fan, held naturally, readable hand pose
+lace fan, visible at the hip, not hiding the face
+lace fan, foreground prop, clean silhouette
+lace fan, small glowing detail, controlled highlights
+lace fan, worn material texture
+lace fan, world-appropriate design
+lace fan, cinematic prop focus
+lace fan, does not clutter the composition
+lace fan, matching outfit and environment
+lace fan, premium accessory rendering
+lace fan, clear scale and perspective
+lace fan, secondary focal detail
+candle holder, held naturally, readable hand pose
+candle holder, visible at the hip, not hiding the face
+candle holder, foreground prop, clean silhouette
+candle holder, small glowing detail, controlled highlights
+candle holder, worn material texture
+candle holder, world-appropriate design
+candle holder, cinematic prop focus
+candle holder, does not clutter the composition
+candle holder, matching outfit and environment
+candle holder, premium accessory rendering
+candle holder, clear scale and perspective
+candle holder, secondary focal detail
+chalice, held naturally, readable hand pose
+chalice, visible at the hip, not hiding the face
+chalice, foreground prop, clean silhouette
+chalice, small glowing detail, controlled highlights
+chalice, worn material texture
+chalice, world-appropriate design
+chalice, cinematic prop focus
+chalice, does not clutter the composition
+chalice, matching outfit and environment
+chalice, premium accessory rendering
+chalice, clear scale and perspective
+chalice, secondary focal detail
+ornate key ring, held naturally, readable hand pose
+ornate key ring, visible at the hip, not hiding the face
+ornate key ring, foreground prop, clean silhouette
+ornate key ring, small glowing detail, controlled highlights
+ornate key ring, worn material texture
+ornate key ring, world-appropriate design
+ornate key ring, cinematic prop focus
+ornate key ring, does not clutter the composition
+ornate key ring, matching outfit and environment
+ornate key ring, premium accessory rendering
+ornate key ring, clear scale and perspective
+ornate key ring, secondary focal detail
+golden pocket watch, held naturally, readable hand pose
+golden pocket watch, visible at the hip, not hiding the face
+golden pocket watch, foreground prop, clean silhouette
+golden pocket watch, small glowing detail, controlled highlights
+golden pocket watch, worn material texture
+golden pocket watch, world-appropriate design
+golden pocket watch, cinematic prop focus
+golden pocket watch, does not clutter the composition
+golden pocket watch, matching outfit and environment
+golden pocket watch, premium accessory rendering
+golden pocket watch, clear scale and perspective
+golden pocket watch, secondary focal detail
+compass, held naturally, readable hand pose
+compass, visible at the hip, not hiding the face
+compass, foreground prop, clean silhouette
+compass, small glowing detail, controlled highlights
+compass, worn material texture
+compass, world-appropriate design
+compass, cinematic prop focus
+compass, does not clutter the composition
+compass, matching outfit and environment
+compass, premium accessory rendering
+compass, clear scale and perspective
+compass, secondary focal detail
+ancient map scroll, held naturally, readable hand pose
+ancient map scroll, visible at the hip, not hiding the face
+ancient map scroll, foreground prop, clean silhouette
+ancient map scroll, small glowing detail, controlled highlights
+ancient map scroll, worn material texture
+ancient map scroll, world-appropriate design
+ancient map scroll, cinematic prop focus
+ancient map scroll, does not clutter the composition
+ancient map scroll, matching outfit and environment
+ancient map scroll, premium accessory rendering
+ancient map scroll, clear scale and perspective
+ancient map scroll, secondary focal detail
+monster hunter crossbow, held naturally, readable hand pose
+monster hunter crossbow, visible at the hip, not hiding the face
+monster hunter crossbow, foreground prop, clean silhouette
+monster hunter crossbow, small glowing detail, controlled highlights
+monster hunter crossbow, worn material texture
+monster hunter crossbow, world-appropriate design
+monster hunter crossbow, cinematic prop focus
+monster hunter crossbow, does not clutter the composition
+monster hunter crossbow, matching outfit and environment
+monster hunter crossbow, premium accessory rendering
+monster hunter crossbow, clear scale and perspective
+monster hunter crossbow, secondary focal detail
+bow and quiver, held naturally, readable hand pose
+bow and quiver, visible at the hip, not hiding the face
+bow and quiver, foreground prop, clean silhouette
+bow and quiver, small glowing detail, controlled highlights
+bow and quiver, worn material texture
+bow and quiver, world-appropriate design
+bow and quiver, cinematic prop focus
+bow and quiver, does not clutter the composition
+bow and quiver, matching outfit and environment
+bow and quiver, premium accessory rendering
+bow and quiver, clear scale and perspective
+bow and quiver, secondary focal detail
+shield, held naturally, readable hand pose
+shield, visible at the hip, not hiding the face
+shield, foreground prop, clean silhouette
+shield, small glowing detail, controlled highlights
+shield, worn material texture
+shield, world-appropriate design
+shield, cinematic prop focus
+shield, does not clutter the composition
+shield, matching outfit and environment
+shield, premium accessory rendering
+shield, clear scale and perspective
+shield, secondary focal detail
+spear, held naturally, readable hand pose
+spear, visible at the hip, not hiding the face
+spear, foreground prop, clean silhouette
+spear, small glowing detail, controlled highlights
+spear, worn material texture
+spear, world-appropriate design
+spear, cinematic prop focus
+spear, does not clutter the composition
+spear, matching outfit and environment
+spear, premium accessory rendering
+spear, clear scale and perspective
+spear, secondary focal detail
+battle axe, held naturally, readable hand pose
+battle axe, visible at the hip, not hiding the face
+battle axe, foreground prop, clean silhouette
+battle axe, small glowing detail, controlled highlights
+battle axe, worn material texture
+battle axe, world-appropriate design
+battle axe, cinematic prop focus
+battle axe, does not clutter the composition
+battle axe, matching outfit and environment
+battle axe, premium accessory rendering
+battle axe, clear scale and perspective
+battle axe, secondary focal detail
+war hammer, held naturally, readable hand pose
+war hammer, visible at the hip, not hiding the face
+war hammer, foreground prop, clean silhouette
+war hammer, small glowing detail, controlled highlights
+war hammer, worn material texture
+war hammer, world-appropriate design
+war hammer, cinematic prop focus
+war hammer, does not clutter the composition
+war hammer, matching outfit and environment
+war hammer, premium accessory rendering
+war hammer, clear scale and perspective
+war hammer, secondary focal detail
+scythe, held naturally, readable hand pose
+scythe, visible at the hip, not hiding the face
+scythe, foreground prop, clean silhouette
+scythe, small glowing detail, controlled highlights
+scythe, worn material texture
+scythe, world-appropriate design
+scythe, cinematic prop focus
+scythe, does not clutter the composition
+scythe, matching outfit and environment
+scythe, premium accessory rendering
+scythe, clear scale and perspective
+scythe, secondary focal detail
+chain whip, held naturally, readable hand pose
+chain whip, visible at the hip, not hiding the face
+chain whip, foreground prop, clean silhouette
+chain whip, small glowing detail, controlled highlights
+chain whip, worn material texture
+chain whip, world-appropriate design
+chain whip, cinematic prop focus
+chain whip, does not clutter the composition
+chain whip, matching outfit and environment
+chain whip, premium accessory rendering
+chain whip, clear scale and perspective
+chain whip, secondary focal detail
+throwing knives, held naturally, readable hand pose
+throwing knives, visible at the hip, not hiding the face
+throwing knives, foreground prop, clean silhouette
+throwing knives, small glowing detail, controlled highlights
+throwing knives, worn material texture
+throwing knives, world-appropriate design
+throwing knives, cinematic prop focus
+throwing knives, does not clutter the composition
+throwing knives, matching outfit and environment
+throwing knives, premium accessory rendering
+throwing knives, clear scale and perspective
+throwing knives, secondary focal detail
+holy symbol, held naturally, readable hand pose
+holy symbol, visible at the hip, not hiding the face
+holy symbol, foreground prop, clean silhouette
+holy symbol, small glowing detail, controlled highlights
+holy symbol, worn material texture
+holy symbol, world-appropriate design
+holy symbol, cinematic prop focus
+holy symbol, does not clutter the composition
+holy symbol, matching outfit and environment
+holy symbol, premium accessory rendering
+holy symbol, clear scale and perspective
+holy symbol, secondary focal detail
+sigil notebook, held naturally, readable hand pose
+sigil notebook, visible at the hip, not hiding the face
+sigil notebook, foreground prop, clean silhouette
+sigil notebook, small glowing detail, controlled highlights
+sigil notebook, worn material texture
+sigil notebook, world-appropriate design
+sigil notebook, cinematic prop focus
+sigil notebook, does not clutter the composition
+sigil notebook, matching outfit and environment
+sigil notebook, premium accessory rendering
+sigil notebook, clear scale and perspective
+sigil notebook, secondary focal detail
+EMF meter, held naturally, readable hand pose
+EMF meter, visible at the hip, not hiding the face
+EMF meter, foreground prop, clean silhouette
+EMF meter, small glowing detail, controlled highlights
+EMF meter, worn material texture
+EMF meter, world-appropriate design
+EMF meter, cinematic prop focus
+EMF meter, does not clutter the composition
+EMF meter, matching outfit and environment
+EMF meter, premium accessory rendering
+EMF meter, clear scale and perspective
+EMF meter, secondary focal detail
+flashlight, held naturally, readable hand pose
+flashlight, visible at the hip, not hiding the face
+flashlight, foreground prop, clean silhouette
+flashlight, small glowing detail, controlled highlights
+flashlight, worn material texture
+flashlight, world-appropriate design
+flashlight, cinematic prop focus
+flashlight, does not clutter the composition
+flashlight, matching outfit and environment
+flashlight, premium accessory rendering
+flashlight, clear scale and perspective
+flashlight, secondary focal detail
+satchel of herbs, held naturally, readable hand pose
+satchel of herbs, visible at the hip, not hiding the face
+satchel of herbs, foreground prop, clean silhouette
+satchel of herbs, small glowing detail, controlled highlights
+satchel of herbs, worn material texture
+satchel of herbs, world-appropriate design
+satchel of herbs, cinematic prop focus
+satchel of herbs, does not clutter the composition
+satchel of herbs, matching outfit and environment
+satchel of herbs, premium accessory rendering
+satchel of herbs, clear scale and perspective
+satchel of herbs, secondary focal detail
+crystal crown, held naturally, readable hand pose
+crystal crown, visible at the hip, not hiding the face
+crystal crown, foreground prop, clean silhouette
+crystal crown, small glowing detail, controlled highlights
+crystal crown, worn material texture
+crystal crown, world-appropriate design
+crystal crown, cinematic prop focus
+crystal crown, does not clutter the composition
+crystal crown, matching outfit and environment
+crystal crown, premium accessory rendering
+crystal crown, clear scale and perspective
+crystal crown, secondary focal detail
+gem pendant, held naturally, readable hand pose
+gem pendant, visible at the hip, not hiding the face
+gem pendant, foreground prop, clean silhouette
+gem pendant, small glowing detail, controlled highlights
+gem pendant, worn material texture
+gem pendant, world-appropriate design
+gem pendant, cinematic prop focus
+gem pendant, does not clutter the composition
+gem pendant, matching outfit and environment
+gem pendant, premium accessory rendering
+gem pendant, clear scale and perspective
+gem pendant, secondary focal detail
+skull lantern, held naturally, readable hand pose
+skull lantern, visible at the hip, not hiding the face
+skull lantern, foreground prop, clean silhouette
+skull lantern, small glowing detail, controlled highlights
+skull lantern, worn material texture
+skull lantern, world-appropriate design
+skull lantern, cinematic prop focus
+skull lantern, does not clutter the composition
+skull lantern, matching outfit and environment
+skull lantern, premium accessory rendering
+skull lantern, clear scale and perspective
+skull lantern, secondary focal detail
+music box, held naturally, readable hand pose
+music box, visible at the hip, not hiding the face
+music box, foreground prop, clean silhouette
+music box, small glowing detail, controlled highlights
+music box, worn material texture
+music box, world-appropriate design
+music box, cinematic prop focus
+music box, does not clutter the composition
+music box, matching outfit and environment
+music box, premium accessory rendering
+music box, clear scale and perspective
+music box, secondary focal detail
+violin, held naturally, readable hand pose
+violin, visible at the hip, not hiding the face
+violin, foreground prop, clean silhouette
+violin, small glowing detail, controlled highlights
+violin, worn material texture
+violin, world-appropriate design
+violin, cinematic prop focus
+violin, does not clutter the composition
+violin, matching outfit and environment
+violin, premium accessory rendering
+violin, clear scale and perspective
+violin, secondary focal detail
+microphone, held naturally, readable hand pose
+microphone, visible at the hip, not hiding the face
+microphone, foreground prop, clean silhouette
+microphone, small glowing detail, controlled highlights
+microphone, worn material texture
+microphone, world-appropriate design
+microphone, cinematic prop focus
+microphone, does not clutter the composition
+microphone, matching outfit and environment
+microphone, premium accessory rendering
+microphone, clear scale and perspective
+microphone, secondary focal detail
+camera, held naturally, readable hand pose
+camera, visible at the hip, not hiding the face
+camera, foreground prop, clean silhouette
+camera, small glowing detail, controlled highlights
+camera, worn material texture
+camera, world-appropriate design
+camera, cinematic prop focus
+camera, does not clutter the composition
+camera, matching outfit and environment
+camera, premium accessory rendering
+camera, clear scale and perspective
+camera, secondary focal detail
+field radio, held naturally, readable hand pose
+field radio, visible at the hip, not hiding the face
+field radio, foreground prop, clean silhouette
+field radio, small glowing detail, controlled highlights
+field radio, worn material texture
+field radio, world-appropriate design
+field radio, cinematic prop focus
+field radio, does not clutter the composition
+field radio, matching outfit and environment
+field radio, premium accessory rendering
+field radio, clear scale and perspective
+field radio, secondary focal detail
+binoculars, held naturally, readable hand pose
+binoculars, visible at the hip, not hiding the face
+binoculars, foreground prop, clean silhouette
+binoculars, small glowing detail, controlled highlights
+binoculars, worn material texture
+binoculars, world-appropriate design
+binoculars, cinematic prop focus
+binoculars, does not clutter the composition
+binoculars, matching outfit and environment
+binoculars, premium accessory rendering
+binoculars, clear scale and perspective
+binoculars, secondary focal detail
+utility gloves, held naturally, readable hand pose
+utility gloves, visible at the hip, not hiding the face
+utility gloves, foreground prop, clean silhouette
+utility gloves, small glowing detail, controlled highlights
+utility gloves, worn material texture
+utility gloves, world-appropriate design
+utility gloves, cinematic prop focus
+utility gloves, does not clutter the composition
+utility gloves, matching outfit and environment
+utility gloves, premium accessory rendering
+utility gloves, clear scale and perspective
+utility gloves, secondary focal detail
+armored gauntlet, held naturally, readable hand pose
+armored gauntlet, visible at the hip, not hiding the face
+armored gauntlet, foreground prop, clean silhouette
+armored gauntlet, small glowing detail, controlled highlights
+armored gauntlet, worn material texture
+armored gauntlet, world-appropriate design
+armored gauntlet, cinematic prop focus
+armored gauntlet, does not clutter the composition
+armored gauntlet, matching outfit and environment
+armored gauntlet, premium accessory rendering
+armored gauntlet, clear scale and perspective
+armored gauntlet, secondary focal detail
+thigh holster, held naturally, readable hand pose
+thigh holster, visible at the hip, not hiding the face
+thigh holster, foreground prop, clean silhouette
+thigh holster, small glowing detail, controlled highlights
+thigh holster, worn material texture
+thigh holster, world-appropriate design
+thigh holster, cinematic prop focus
+thigh holster, does not clutter the composition
+thigh holster, matching outfit and environment
+thigh holster, premium accessory rendering
+thigh holster, clear scale and perspective
+thigh holster, secondary focal detail
+shoulder holster, held naturally, readable hand pose
+shoulder holster, visible at the hip, not hiding the face
+shoulder holster, foreground prop, clean silhouette
+shoulder holster, small glowing detail, controlled highlights
+shoulder holster, worn material texture
+shoulder holster, world-appropriate design
+shoulder holster, cinematic prop focus
+shoulder holster, does not clutter the composition
+shoulder holster, matching outfit and environment
+shoulder holster, premium accessory rendering
+shoulder holster, clear scale and perspective
+shoulder holster, secondary focal detail
+tool drone, held naturally, readable hand pose
+tool drone, visible at the hip, not hiding the face
+tool drone, foreground prop, clean silhouette
+tool drone, small glowing detail, controlled highlights
+tool drone, worn material texture
+tool drone, world-appropriate design
+tool drone, cinematic prop focus
+tool drone, does not clutter the composition
+tool drone, matching outfit and environment
+tool drone, premium accessory rendering
+tool drone, clear scale and perspective
+tool drone, secondary focal detail
+portable terminal, held naturally, readable hand pose
+portable terminal, visible at the hip, not hiding the face
+portable terminal, foreground prop, clean silhouette
+portable terminal, small glowing detail, controlled highlights
+portable terminal, worn material texture
+portable terminal, world-appropriate design
+portable terminal, cinematic prop focus
+portable terminal, does not clutter the composition
+portable terminal, matching outfit and environment
+portable terminal, premium accessory rendering
+portable terminal, clear scale and perspective
+portable terminal, secondary focal detail
+oxygen mask, held naturally, readable hand pose
+oxygen mask, visible at the hip, not hiding the face
+oxygen mask, foreground prop, clean silhouette
+oxygen mask, small glowing detail, controlled highlights
+oxygen mask, worn material texture
+oxygen mask, world-appropriate design
+oxygen mask, cinematic prop focus
+oxygen mask, does not clutter the composition
+oxygen mask, matching outfit and environment
+oxygen mask, premium accessory rendering
+oxygen mask, clear scale and perspective
+oxygen mask, secondary focal detail
+space helmet, held naturally, readable hand pose
+space helmet, visible at the hip, not hiding the face
+space helmet, foreground prop, clean silhouette
+space helmet, small glowing detail, controlled highlights
+space helmet, worn material texture
+space helmet, world-appropriate design
+space helmet, cinematic prop focus
+space helmet, does not clutter the composition
+space helmet, matching outfit and environment
+space helmet, premium accessory rendering
+space helmet, clear scale and perspective
+space helmet, secondary focal detail
+pilot helmet, held naturally, readable hand pose
+pilot helmet, visible at the hip, not hiding the face
+pilot helmet, foreground prop, clean silhouette
+pilot helmet, small glowing detail, controlled highlights
+pilot helmet, worn material texture
+pilot helmet, world-appropriate design
+pilot helmet, cinematic prop focus
+pilot helmet, does not clutter the composition
+pilot helmet, matching outfit and environment
+pilot helmet, premium accessory rendering
+pilot helmet, clear scale and perspective
+pilot helmet, secondary focal detail
+black feather fan, held naturally, readable hand pose
+black feather fan, visible at the hip, not hiding the face
+black feather fan, foreground prop, clean silhouette
+black feather fan, small glowing detail, controlled highlights
+black feather fan, worn material texture
+black feather fan, world-appropriate design
+black feather fan, cinematic prop focus
+black feather fan, does not clutter the composition
+black feather fan, matching outfit and environment
+black feather fan, premium accessory rendering
+black feather fan, clear scale and perspective
+black feather fan, secondary focal detail
+broom handle, held naturally, readable hand pose
+broom handle, visible at the hip, not hiding the face
+broom handle, foreground prop, clean silhouette
+broom handle, small glowing detail, controlled highlights
+broom handle, worn material texture
+broom handle, world-appropriate design
+broom handle, cinematic prop focus
+broom handle, does not clutter the composition
+broom handle, matching outfit and environment
+broom handle, premium accessory rendering
+broom handle, clear scale and perspective
+broom handle, secondary focal detail
+enchanted quill, held naturally, readable hand pose
+enchanted quill, visible at the hip, not hiding the face
+enchanted quill, foreground prop, clean silhouette
+enchanted quill, small glowing detail, controlled highlights
+enchanted quill, worn material texture
+enchanted quill, world-appropriate design
+enchanted quill, cinematic prop focus
+enchanted quill, does not clutter the composition
+enchanted quill, matching outfit and environment
+enchanted quill, premium accessory rendering
+enchanted quill, clear scale and perspective
+enchanted quill, secondary focal detail
+hourglass pendant, held naturally, readable hand pose
+hourglass pendant, visible at the hip, not hiding the face
+hourglass pendant, foreground prop, clean silhouette
+hourglass pendant, small glowing detail, controlled highlights
+hourglass pendant, worn material texture
+hourglass pendant, world-appropriate design
+hourglass pendant, cinematic prop focus
+hourglass pendant, does not clutter the composition
+hourglass pendant, matching outfit and environment
+hourglass pendant, premium accessory rendering
+hourglass pendant, clear scale and perspective
+hourglass pendant, secondary focal detail
+golden ring on chain, held naturally, readable hand pose
+golden ring on chain, visible at the hip, not hiding the face
+golden ring on chain, foreground prop, clean silhouette
+golden ring on chain, small glowing detail, controlled highlights
+golden ring on chain, worn material texture
+golden ring on chain, world-appropriate design
+golden ring on chain, cinematic prop focus
+golden ring on chain, does not clutter the composition
+golden ring on chain, matching outfit and environment
+golden ring on chain, premium accessory rendering
+golden ring on chain, clear scale and perspective
+golden ring on chain, secondary focal detail

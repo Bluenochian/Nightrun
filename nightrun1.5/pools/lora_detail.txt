@@ -1,0 +1,13 @@
+# Exact local detail/helper LoRA stems.
+age_slider_v4
+dasiwa-ill-colorful-detail-style-1561-39
+Detailer_NoobAI_Incrs_v1
+detailer_v5
+Detail-Slider-V3-By-Stable_yogi
+illustriousXLv01_stabilizer_v1.198
+NOOB_vp1_detailer_by_volnovik_v1
+PerfectEyesXL
+StS_detail_slider_v1
+Super_Eye_Detailer_By_Stable_Yogi_SDPD0
+Super_Multi_Detailer_By_Stable_Yogi_A1
+xl_more_art-full_v1

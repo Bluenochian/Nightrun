@@ -1,0 +1,121 @@
+# Compact quality/style tag clusters.
+masterpiece, best quality, sharp eye detail
+masterpiece, best quality, detailed fabric folds
+masterpiece, best quality, clean composition
+masterpiece, best quality, rich lighting
+masterpiece, best quality, readable face
+masterpiece, best quality, soft painterly shadows
+masterpiece, best quality, luminous highlights
+masterpiece, best quality, clear silhouette
+masterpiece, best quality, elegant color grading
+masterpiece, best quality, detailed hair strands
+masterpiece, best quality, controlled glow
+masterpiece, best quality, clean anatomy
+amazing quality, polished illustration, sharp eye detail
+amazing quality, polished illustration, detailed fabric folds
+amazing quality, polished illustration, clean composition
+amazing quality, polished illustration, rich lighting
+amazing quality, polished illustration, readable face
+amazing quality, polished illustration, soft painterly shadows
+amazing quality, polished illustration, luminous highlights
+amazing quality, polished illustration, clear silhouette
+amazing quality, polished illustration, elegant color grading
+amazing quality, polished illustration, detailed hair strands
+amazing quality, polished illustration, controlled glow
+amazing quality, polished illustration, clean anatomy
+highres, clean anime rendering, sharp eye detail
+highres, clean anime rendering, detailed fabric folds
+highres, clean anime rendering, clean composition
+highres, clean anime rendering, rich lighting
+highres, clean anime rendering, readable face
+highres, clean anime rendering, soft painterly shadows
+highres, clean anime rendering, luminous highlights
+highres, clean anime rendering, clear silhouette
+highres, clean anime rendering, elegant color grading
+highres, clean anime rendering, detailed hair strands
+highres, clean anime rendering, controlled glow
+highres, clean anime rendering, clean anatomy
+premium showcase image, sharp eye detail
+premium showcase image, detailed fabric folds
+premium showcase image, clean composition
+premium showcase image, rich lighting
+premium showcase image, readable face
+premium showcase image, soft painterly shadows
+premium showcase image, luminous highlights
+premium showcase image, clear silhouette
+premium showcase image, elegant color grading
+premium showcase image, detailed hair strands
+premium showcase image, controlled glow
+premium showcase image, clean anatomy
+very aesthetic, cinematic composition, sharp eye detail
+very aesthetic, cinematic composition, detailed fabric folds
+very aesthetic, cinematic composition, clean composition
+very aesthetic, cinematic composition, rich lighting
+very aesthetic, cinematic composition, readable face
+very aesthetic, cinematic composition, soft painterly shadows
+very aesthetic, cinematic composition, luminous highlights
+very aesthetic, cinematic composition, clear silhouette
+very aesthetic, cinematic composition, elegant color grading
+very aesthetic, cinematic composition, detailed hair strands
+very aesthetic, cinematic composition, controlled glow
+very aesthetic, cinematic composition, clean anatomy
+masterpiece, ornate details, sharp eye detail
+masterpiece, ornate details, detailed fabric folds
+masterpiece, ornate details, clean composition
+masterpiece, ornate details, rich lighting
+masterpiece, ornate details, readable face
+masterpiece, ornate details, soft painterly shadows
+masterpiece, ornate details, luminous highlights
+masterpiece, ornate details, clear silhouette
+masterpiece, ornate details, elegant color grading
+masterpiece, ornate details, detailed hair strands
+masterpiece, ornate details, controlled glow
+masterpiece, ornate details, clean anatomy
+best quality, glossy fabric, sharp eye detail
+best quality, glossy fabric, detailed fabric folds
+best quality, glossy fabric, clean composition
+best quality, glossy fabric, rich lighting
+best quality, glossy fabric, readable face
+best quality, glossy fabric, soft painterly shadows
+best quality, glossy fabric, luminous highlights
+best quality, glossy fabric, clear silhouette
+best quality, glossy fabric, elegant color grading
+best quality, glossy fabric, detailed hair strands
+best quality, glossy fabric, controlled glow
+best quality, glossy fabric, clean anatomy
+high detail, atmospheric lighting, sharp eye detail
+high detail, atmospheric lighting, detailed fabric folds
+high detail, atmospheric lighting, clean composition
+high detail, atmospheric lighting, rich lighting
+high detail, atmospheric lighting, readable face
+high detail, atmospheric lighting, soft painterly shadows
+high detail, atmospheric lighting, luminous highlights
+high detail, atmospheric lighting, clear silhouette
+high detail, atmospheric lighting, elegant color grading
+high detail, atmospheric lighting, detailed hair strands
+high detail, atmospheric lighting, controlled glow
+high detail, atmospheric lighting, clean anatomy
+sharp focus, elegant pose, sharp eye detail
+sharp focus, elegant pose, detailed fabric folds
+sharp focus, elegant pose, clean composition
+sharp focus, elegant pose, rich lighting
+sharp focus, elegant pose, readable face
+sharp focus, elegant pose, soft painterly shadows
+sharp focus, elegant pose, luminous highlights
+sharp focus, elegant pose, clear silhouette
+sharp focus, elegant pose, elegant color grading
+sharp focus, elegant pose, detailed hair strands
+sharp focus, elegant pose, controlled glow
+sharp focus, elegant pose, clean anatomy
+premium key visual, sharp eye detail
+premium key visual, detailed fabric folds
+premium key visual, clean composition
+premium key visual, rich lighting
+premium key visual, readable face
+premium key visual, soft painterly shadows
+premium key visual, luminous highlights
+premium key visual, clear silhouette
+premium key visual, elegant color grading
+premium key visual, detailed hair strands
+premium key visual, controlled glow
+premium key visual, clean anatomy

@@ -1,0 +1,25 @@
+# Exact local LoRA stems from models/Lora. Keep these as filenames without extension.
+748cm_illu
+748cm_S
+amateurQuiron_Style_iLus
+c0l0urgl0wXLP
+cryosistyle
+cryostyle
+DarkerThanDarkV1
+Expressive_H
+g0th1cPXL
+Hades_Art_Style
+illus01_style_collection_elpe_v0.22
+incase-ilff-v3-4
+LHizake-000009
+ma1ma1helmes_b-000014
+MoriiMee_Gothic_Niji_Style_Illustrious_r1
+MoriiMee_Gothic_Realistic
+ponyv5_noobV065S_1_adamW-000013
+ppw_v7_Illuv1.0
+Semi-realism_illustrious
+USNR STYLE_XL_lokr
+Zoda_anima
+zoda_v.01
+zoda_v1_sdxl
+ZodaPlus

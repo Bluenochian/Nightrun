@@ -1,0 +1,721 @@
+# Legacy body pose pool, neutral.
+standing in three-quarter view, natural fingers
+standing in three-quarter view, confident posture
+standing in three-quarter view, calm predatory smile
+standing in three-quarter view, flowing fabric motion
+standing in three-quarter view, hair moving in wind
+standing in three-quarter view, readable hand pose
+standing in three-quarter view, elegant silhouette
+standing in three-quarter view, strong eye contact
+standing in three-quarter view, relaxed pose
+standing in three-quarter view, dramatic cape movement
+standing in three-quarter view, sensual posture
+standing in three-quarter view, glamour framing
+standing in three-quarter view, stockings visible
+standing in three-quarter view, garter detail visible
+standing in three-quarter view, cleavage subtly emphasized
+standing in three-quarter view, collarbone visible
+standing in three-quarter view, long gloves visible
+standing in three-quarter view, hips turned toward viewer
+standing in three-quarter view, dress slit visible
+standing in three-quarter view, confident teasing mood
+standing in three-quarter view, clear leg silhouette
+standing in three-quarter view, shoulders angled elegantly
+standing in three-quarter view, soft S-curve posture
+standing in three-quarter view, outfit folds readable
+standing in three-quarter view, necklace centered
+standing in three-quarter view, legs arranged cleanly
+standing in three-quarter view, hands placed naturally
+standing in three-quarter view, stocking texture visible
+standing in three-quarter view, soft confident gaze
+standing in three-quarter view, camera-facing body angle
+standing in three-quarter view, balanced weight shift
+standing in three-quarter view, dramatic fashion stance
+sitting on a throne, natural fingers
+sitting on a throne, confident posture
+sitting on a throne, calm predatory smile
+sitting on a throne, flowing fabric motion
+sitting on a throne, hair moving in wind
+sitting on a throne, readable hand pose
+sitting on a throne, elegant silhouette
+sitting on a throne, strong eye contact
+sitting on a throne, relaxed pose
+sitting on a throne, dramatic cape movement
+sitting on a throne, sensual posture
+sitting on a throne, glamour framing
+sitting on a throne, stockings visible
+sitting on a throne, garter detail visible
+sitting on a throne, cleavage subtly emphasized
+sitting on a throne, collarbone visible
+sitting on a throne, long gloves visible
+sitting on a throne, hips turned toward viewer
+sitting on a throne, dress slit visible
+sitting on a throne, confident teasing mood
+sitting on a throne, clear leg silhouette
+sitting on a throne, shoulders angled elegantly
+sitting on a throne, soft S-curve posture
+sitting on a throne, outfit folds readable
+sitting on a throne, necklace centered
+sitting on a throne, legs arranged cleanly
+sitting on a throne, hands placed naturally
+sitting on a throne, stocking texture visible
+sitting on a throne, soft confident gaze
+sitting on a throne, camera-facing body angle
+sitting on a throne, balanced weight shift
+sitting on a throne, dramatic fashion stance
+leaning against a stone arch, natural fingers
+leaning against a stone arch, confident posture
+leaning against a stone arch, calm predatory smile
+leaning against a stone arch, flowing fabric motion
+leaning against a stone arch, hair moving in wind
+leaning against a stone arch, readable hand pose
+leaning against a stone arch, elegant silhouette
+leaning against a stone arch, strong eye contact
+leaning against a stone arch, relaxed pose
+leaning against a stone arch, dramatic cape movement
+leaning against a stone arch, sensual posture
+leaning against a stone arch, glamour framing
+leaning against a stone arch, stockings visible
+leaning against a stone arch, garter detail visible
+leaning against a stone arch, cleavage subtly emphasized
+leaning against a stone arch, collarbone visible
+leaning against a stone arch, long gloves visible
+leaning against a stone arch, hips turned toward viewer
+leaning against a stone arch, dress slit visible
+leaning against a stone arch, confident teasing mood
+leaning against a stone arch, clear leg silhouette
+leaning against a stone arch, shoulders angled elegantly
+leaning against a stone arch, soft S-curve posture
+leaning against a stone arch, outfit folds readable
+leaning against a stone arch, necklace centered
+leaning against a stone arch, legs arranged cleanly
+leaning against a stone arch, hands placed naturally
+leaning against a stone arch, stocking texture visible
+leaning against a stone arch, soft confident gaze
+leaning against a stone arch, camera-facing body angle
+leaning against a stone arch, balanced weight shift
+leaning against a stone arch, dramatic fashion stance
+one hand near chest, natural fingers
+one hand near chest, confident posture
+one hand near chest, calm predatory smile
+one hand near chest, flowing fabric motion
+one hand near chest, hair moving in wind
+one hand near chest, readable hand pose
+one hand near chest, elegant silhouette
+one hand near chest, strong eye contact
+one hand near chest, relaxed pose
+one hand near chest, dramatic cape movement
+one hand near chest, sensual posture
+one hand near chest, glamour framing
+one hand near chest, stockings visible
+one hand near chest, garter detail visible
+one hand near chest, cleavage subtly emphasized
+one hand near chest, collarbone visible
+one hand near chest, long gloves visible
+one hand near chest, hips turned toward viewer
+one hand near chest, dress slit visible
+one hand near chest, confident teasing mood
+one hand near chest, clear leg silhouette
+one hand near chest, shoulders angled elegantly
+one hand near chest, soft S-curve posture
+one hand near chest, outfit folds readable
+one hand near chest, necklace centered
+one hand near chest, legs arranged cleanly
+one hand near chest, hands placed naturally
+one hand near chest, stocking texture visible
+one hand near chest, soft confident gaze
+one hand near chest, camera-facing body angle
+one hand near chest, balanced weight shift
+one hand near chest, dramatic fashion stance
+reaching toward viewer, natural fingers
+reaching toward viewer, confident posture
+reaching toward viewer, calm predatory smile
+reaching toward viewer, flowing fabric motion
+reaching toward viewer, hair moving in wind
+reaching toward viewer, readable hand pose
+reaching toward viewer, elegant silhouette
+reaching toward viewer, strong eye contact
+reaching toward viewer, relaxed pose
+reaching toward viewer, dramatic cape movement
+reaching toward viewer, sensual posture
+reaching toward viewer, glamour framing
+reaching toward viewer, stockings visible
+reaching toward viewer, garter detail visible
+reaching toward viewer, cleavage subtly emphasized
+reaching toward viewer, collarbone visible
+reaching toward viewer, long gloves visible
+reaching toward viewer, hips turned toward viewer
+reaching toward viewer, dress slit visible
+reaching toward viewer, confident teasing mood
+reaching toward viewer, clear leg silhouette
+reaching toward viewer, shoulders angled elegantly
+reaching toward viewer, soft S-curve posture
+reaching toward viewer, outfit folds readable
+reaching toward viewer, necklace centered
+reaching toward viewer, legs arranged cleanly
+reaching toward viewer, hands placed naturally
+reaching toward viewer, stocking texture visible
+reaching toward viewer, soft confident gaze
+reaching toward viewer, camera-facing body angle
+reaching toward viewer, balanced weight shift
+reaching toward viewer, dramatic fashion stance
+holding a glowing orb, natural fingers
+holding a glowing orb, confident posture
+holding a glowing orb, calm predatory smile
+holding a glowing orb, flowing fabric motion
+holding a glowing orb, hair moving in wind
+holding a glowing orb, readable hand pose
+holding a glowing orb, elegant silhouette
+holding a glowing orb, strong eye contact
+holding a glowing orb, relaxed pose
+holding a glowing orb, dramatic cape movement
+holding a glowing orb, sensual posture
+holding a glowing orb, glamour framing
+holding a glowing orb, stockings visible
+holding a glowing orb, garter detail visible
+holding a glowing orb, cleavage subtly emphasized
+holding a glowing orb, collarbone visible
+holding a glowing orb, long gloves visible
+holding a glowing orb, hips turned toward viewer
+holding a glowing orb, dress slit visible
+holding a glowing orb, confident teasing mood
+holding a glowing orb, clear leg silhouette
+holding a glowing orb, shoulders angled elegantly
+holding a glowing orb, soft S-curve posture
+holding a glowing orb, outfit folds readable
+holding a glowing orb, necklace centered
+holding a glowing orb, legs arranged cleanly
+holding a glowing orb, hands placed naturally
+holding a glowing orb, stocking texture visible
+holding a glowing orb, soft confident gaze
+holding a glowing orb, camera-facing body angle
+holding a glowing orb, balanced weight shift
+holding a glowing orb, dramatic fashion stance
+holding a sword downward, natural fingers
+holding a sword downward, confident posture
+holding a sword downward, calm predatory smile
+holding a sword downward, flowing fabric motion
+holding a sword downward, hair moving in wind
+holding a sword downward, readable hand pose
+holding a sword downward, elegant silhouette
+holding a sword downward, strong eye contact
+holding a sword downward, relaxed pose
+holding a sword downward, dramatic cape movement
+holding a sword downward, sensual posture
+holding a sword downward, glamour framing
+holding a sword downward, stockings visible
+holding a sword downward, garter detail visible
+holding a sword downward, cleavage subtly emphasized
+holding a sword downward, collarbone visible
+holding a sword downward, long gloves visible
+holding a sword downward, hips turned toward viewer
+holding a sword downward, dress slit visible
+holding a sword downward, confident teasing mood
+holding a sword downward, clear leg silhouette
+holding a sword downward, shoulders angled elegantly
+holding a sword downward, soft S-curve posture
+holding a sword downward, outfit folds readable
+holding a sword downward, necklace centered
+holding a sword downward, legs arranged cleanly
+holding a sword downward, hands placed naturally
+holding a sword downward, stocking texture visible
+holding a sword downward, soft confident gaze
+holding a sword downward, camera-facing body angle
+holding a sword downward, balanced weight shift
+holding a sword downward, dramatic fashion stance
+hands folded elegantly, natural fingers
+hands folded elegantly, confident posture
+hands folded elegantly, calm predatory smile
+hands folded elegantly, flowing fabric motion
+hands folded elegantly, hair moving in wind
+hands folded elegantly, readable hand pose
+hands folded elegantly, elegant silhouette
+hands folded elegantly, strong eye contact
+hands folded elegantly, relaxed pose
+hands folded elegantly, dramatic cape movement
+hands folded elegantly, sensual posture
+hands folded elegantly, glamour framing
+hands folded elegantly, stockings visible
+hands folded elegantly, garter detail visible
+hands folded elegantly, cleavage subtly emphasized
+hands folded elegantly, collarbone visible
+hands folded elegantly, long gloves visible
+hands folded elegantly, hips turned toward viewer
+hands folded elegantly, dress slit visible
+hands folded elegantly, confident teasing mood
+hands folded elegantly, clear leg silhouette
+hands folded elegantly, shoulders angled elegantly
+hands folded elegantly, soft S-curve posture
+hands folded elegantly, outfit folds readable
+hands folded elegantly, necklace centered
+hands folded elegantly, legs arranged cleanly
+hands folded elegantly, hands placed naturally
+hands folded elegantly, stocking texture visible
+hands folded elegantly, soft confident gaze
+hands folded elegantly, camera-facing body angle
+hands folded elegantly, balanced weight shift
+hands folded elegantly, dramatic fashion stance
+one hand touching hair, natural fingers
+one hand touching hair, confident posture
+one hand touching hair, calm predatory smile
+one hand touching hair, flowing fabric motion
+one hand touching hair, hair moving in wind
+one hand touching hair, readable hand pose
+one hand touching hair, elegant silhouette
+one hand touching hair, strong eye contact
+one hand touching hair, relaxed pose
+one hand touching hair, dramatic cape movement
+one hand touching hair, sensual posture
+one hand touching hair, glamour framing
+one hand touching hair, stockings visible
+one hand touching hair, garter detail visible
+one hand touching hair, cleavage subtly emphasized
+one hand touching hair, collarbone visible
+one hand touching hair, long gloves visible
+one hand touching hair, hips turned toward viewer
+one hand touching hair, dress slit visible
+one hand touching hair, confident teasing mood
+one hand touching hair, clear leg silhouette
+one hand touching hair, shoulders angled elegantly
+one hand touching hair, soft S-curve posture
+one hand touching hair, outfit folds readable
+one hand touching hair, necklace centered
+one hand touching hair, legs arranged cleanly
+one hand touching hair, hands placed naturally
+one hand touching hair, stocking texture visible
+one hand touching hair, soft confident gaze
+one hand touching hair, camera-facing body angle
+one hand touching hair, balanced weight shift
+one hand touching hair, dramatic fashion stance
+walking forward, natural fingers
+walking forward, confident posture
+walking forward, calm predatory smile
+walking forward, flowing fabric motion
+walking forward, hair moving in wind
+walking forward, readable hand pose
+walking forward, elegant silhouette
+walking forward, strong eye contact
+walking forward, relaxed pose
+walking forward, dramatic cape movement
+walking forward, sensual posture
+walking forward, glamour framing
+walking forward, stockings visible
+walking forward, garter detail visible
+walking forward, cleavage subtly emphasized
+walking forward, collarbone visible
+walking forward, long gloves visible
+walking forward, hips turned toward viewer
+walking forward, dress slit visible
+walking forward, confident teasing mood
+walking forward, clear leg silhouette
+walking forward, shoulders angled elegantly
+walking forward, soft S-curve posture
+walking forward, outfit folds readable
+walking forward, necklace centered
+walking forward, legs arranged cleanly
+walking forward, hands placed naturally
+walking forward, stocking texture visible
+walking forward, soft confident gaze
+walking forward, camera-facing body angle
+walking forward, balanced weight shift
+walking forward, dramatic fashion stance
+looking down from a low angle, natural fingers
+looking down from a low angle, confident posture
+looking down from a low angle, calm predatory smile
+looking down from a low angle, flowing fabric motion
+looking down from a low angle, hair moving in wind
+looking down from a low angle, readable hand pose
+looking down from a low angle, elegant silhouette
+looking down from a low angle, strong eye contact
+looking down from a low angle, relaxed pose
+looking down from a low angle, dramatic cape movement
+looking down from a low angle, sensual posture
+looking down from a low angle, glamour framing
+looking down from a low angle, stockings visible
+looking down from a low angle, garter detail visible
+looking down from a low angle, cleavage subtly emphasized
+looking down from a low angle, collarbone visible
+looking down from a low angle, long gloves visible
+looking down from a low angle, hips turned toward viewer
+looking down from a low angle, dress slit visible
+looking down from a low angle, confident teasing mood
+looking down from a low angle, clear leg silhouette
+looking down from a low angle, shoulders angled elegantly
+looking down from a low angle, soft S-curve posture
+looking down from a low angle, outfit folds readable
+looking down from a low angle, necklace centered
+looking down from a low angle, legs arranged cleanly
+looking down from a low angle, hands placed naturally
+looking down from a low angle, stocking texture visible
+looking down from a low angle, soft confident gaze
+looking down from a low angle, camera-facing body angle
+looking down from a low angle, balanced weight shift
+looking down from a low angle, dramatic fashion stance
+kneeling beside reflective water, natural fingers
+kneeling beside reflective water, confident posture
+kneeling beside reflective water, calm predatory smile
+kneeling beside reflective water, flowing fabric motion
+kneeling beside reflective water, hair moving in wind
+kneeling beside reflective water, readable hand pose
+kneeling beside reflective water, elegant silhouette
+kneeling beside reflective water, strong eye contact
+kneeling beside reflective water, relaxed pose
+kneeling beside reflective water, dramatic cape movement
+kneeling beside reflective water, sensual posture
+kneeling beside reflective water, glamour framing
+kneeling beside reflective water, stockings visible
+kneeling beside reflective water, garter detail visible
+kneeling beside reflective water, cleavage subtly emphasized
+kneeling beside reflective water, collarbone visible
+kneeling beside reflective water, long gloves visible
+kneeling beside reflective water, hips turned toward viewer
+kneeling beside reflective water, dress slit visible
+kneeling beside reflective water, confident teasing mood
+kneeling beside reflective water, clear leg silhouette
+kneeling beside reflective water, shoulders angled elegantly
+kneeling beside reflective water, soft S-curve posture
+kneeling beside reflective water, outfit folds readable
+kneeling beside reflective water, necklace centered
+kneeling beside reflective water, legs arranged cleanly
+kneeling beside reflective water, hands placed naturally
+kneeling beside reflective water, stocking texture visible
+kneeling beside reflective water, soft confident gaze
+kneeling beside reflective water, camera-facing body angle
+kneeling beside reflective water, balanced weight shift
+kneeling beside reflective water, dramatic fashion stance
+turning over shoulder, natural fingers
+turning over shoulder, confident posture
+turning over shoulder, calm predatory smile
+turning over shoulder, flowing fabric motion
+turning over shoulder, hair moving in wind
+turning over shoulder, readable hand pose
+turning over shoulder, elegant silhouette
+turning over shoulder, strong eye contact
+turning over shoulder, relaxed pose
+turning over shoulder, dramatic cape movement
+turning over shoulder, sensual posture
+turning over shoulder, glamour framing
+turning over shoulder, stockings visible
+turning over shoulder, garter detail visible
+turning over shoulder, cleavage subtly emphasized
+turning over shoulder, collarbone visible
+turning over shoulder, long gloves visible
+turning over shoulder, hips turned toward viewer
+turning over shoulder, dress slit visible
+turning over shoulder, confident teasing mood
+turning over shoulder, clear leg silhouette
+turning over shoulder, shoulders angled elegantly
+turning over shoulder, soft S-curve posture
+turning over shoulder, outfit folds readable
+turning over shoulder, necklace centered
+turning over shoulder, legs arranged cleanly
+turning over shoulder, hands placed naturally
+turning over shoulder, stocking texture visible
+turning over shoulder, soft confident gaze
+turning over shoulder, camera-facing body angle
+turning over shoulder, balanced weight shift
+turning over shoulder, dramatic fashion stance
+sitting by a window, natural fingers
+sitting by a window, confident posture
+sitting by a window, calm predatory smile
+sitting by a window, flowing fabric motion
+sitting by a window, hair moving in wind
+sitting by a window, readable hand pose
+sitting by a window, elegant silhouette
+sitting by a window, strong eye contact
+sitting by a window, relaxed pose
+sitting by a window, dramatic cape movement
+sitting by a window, sensual posture
+sitting by a window, glamour framing
+sitting by a window, stockings visible
+sitting by a window, garter detail visible
+sitting by a window, cleavage subtly emphasized
+sitting by a window, collarbone visible
+sitting by a window, long gloves visible
+sitting by a window, hips turned toward viewer
+sitting by a window, dress slit visible
+sitting by a window, confident teasing mood
+sitting by a window, clear leg silhouette
+sitting by a window, shoulders angled elegantly
+sitting by a window, soft S-curve posture
+sitting by a window, outfit folds readable
+sitting by a window, necklace centered
+sitting by a window, legs arranged cleanly
+sitting by a window, hands placed naturally
+sitting by a window, stocking texture visible
+sitting by a window, soft confident gaze
+sitting by a window, camera-facing body angle
+sitting by a window, balanced weight shift
+sitting by a window, dramatic fashion stance
+arms slightly open, natural fingers
+arms slightly open, confident posture
+arms slightly open, calm predatory smile
+arms slightly open, flowing fabric motion
+arms slightly open, hair moving in wind
+arms slightly open, readable hand pose
+arms slightly open, elegant silhouette
+arms slightly open, strong eye contact
+arms slightly open, relaxed pose
+arms slightly open, dramatic cape movement
+arms slightly open, sensual posture
+arms slightly open, glamour framing
+arms slightly open, stockings visible
+arms slightly open, garter detail visible
+arms slightly open, cleavage subtly emphasized
+arms slightly open, collarbone visible
+arms slightly open, long gloves visible
+arms slightly open, hips turned toward viewer
+arms slightly open, dress slit visible
+arms slightly open, confident teasing mood
+arms slightly open, clear leg silhouette
+arms slightly open, shoulders angled elegantly
+arms slightly open, soft S-curve posture
+arms slightly open, outfit folds readable
+arms slightly open, necklace centered
+arms slightly open, legs arranged cleanly
+arms slightly open, hands placed naturally
+arms slightly open, stocking texture visible
+arms slightly open, soft confident gaze
+arms slightly open, camera-facing body angle
+arms slightly open, balanced weight shift
+arms slightly open, dramatic fashion stance
+hand raised toward moonlight, natural fingers
+hand raised toward moonlight, confident posture
+hand raised toward moonlight, calm predatory smile
+hand raised toward moonlight, flowing fabric motion
+hand raised toward moonlight, hair moving in wind
+hand raised toward moonlight, readable hand pose
+hand raised toward moonlight, elegant silhouette
+hand raised toward moonlight, strong eye contact
+hand raised toward moonlight, relaxed pose
+hand raised toward moonlight, dramatic cape movement
+hand raised toward moonlight, sensual posture
+hand raised toward moonlight, glamour framing
+hand raised toward moonlight, stockings visible
+hand raised toward moonlight, garter detail visible
+hand raised toward moonlight, cleavage subtly emphasized
+hand raised toward moonlight, collarbone visible
+hand raised toward moonlight, long gloves visible
+hand raised toward moonlight, hips turned toward viewer
+hand raised toward moonlight, dress slit visible
+hand raised toward moonlight, confident teasing mood
+hand raised toward moonlight, clear leg silhouette
+hand raised toward moonlight, shoulders angled elegantly
+hand raised toward moonlight, soft S-curve posture
+hand raised toward moonlight, outfit folds readable
+hand raised toward moonlight, necklace centered
+hand raised toward moonlight, legs arranged cleanly
+hand raised toward moonlight, hands placed naturally
+hand raised toward moonlight, stocking texture visible
+hand raised toward moonlight, soft confident gaze
+hand raised toward moonlight, camera-facing body angle
+hand raised toward moonlight, balanced weight shift
+hand raised toward moonlight, dramatic fashion stance
+holding a candle, natural fingers
+holding a candle, confident posture
+holding a candle, calm predatory smile
+holding a candle, flowing fabric motion
+holding a candle, hair moving in wind
+holding a candle, readable hand pose
+holding a candle, elegant silhouette
+holding a candle, strong eye contact
+holding a candle, relaxed pose
+holding a candle, dramatic cape movement
+holding a candle, sensual posture
+holding a candle, glamour framing
+holding a candle, stockings visible
+holding a candle, garter detail visible
+holding a candle, cleavage subtly emphasized
+holding a candle, collarbone visible
+holding a candle, long gloves visible
+holding a candle, hips turned toward viewer
+holding a candle, dress slit visible
+holding a candle, confident teasing mood
+holding a candle, clear leg silhouette
+holding a candle, shoulders angled elegantly
+holding a candle, soft S-curve posture
+holding a candle, outfit folds readable
+holding a candle, necklace centered
+holding a candle, legs arranged cleanly
+holding a candle, hands placed naturally
+holding a candle, stocking texture visible
+holding a candle, soft confident gaze
+holding a candle, camera-facing body angle
+holding a candle, balanced weight shift
+holding a candle, dramatic fashion stance
+playing a violin, natural fingers
+playing a violin, confident posture
+playing a violin, calm predatory smile
+playing a violin, flowing fabric motion
+playing a violin, hair moving in wind
+playing a violin, readable hand pose
+playing a violin, elegant silhouette
+playing a violin, strong eye contact
+playing a violin, relaxed pose
+playing a violin, dramatic cape movement
+playing a violin, sensual posture
+playing a violin, glamour framing
+playing a violin, stockings visible
+playing a violin, garter detail visible
+playing a violin, cleavage subtly emphasized
+playing a violin, collarbone visible
+playing a violin, long gloves visible
+playing a violin, hips turned toward viewer
+playing a violin, dress slit visible
+playing a violin, confident teasing mood
+playing a violin, clear leg silhouette
+playing a violin, shoulders angled elegantly
+playing a violin, soft S-curve posture
+playing a violin, outfit folds readable
+playing a violin, necklace centered
+playing a violin, legs arranged cleanly
+playing a violin, hands placed naturally
+playing a violin, stocking texture visible
+playing a violin, soft confident gaze
+playing a violin, camera-facing body angle
+playing a violin, balanced weight shift
+playing a violin, dramatic fashion stance
+holding a tarot card, natural fingers
+holding a tarot card, confident posture
+holding a tarot card, calm predatory smile
+holding a tarot card, flowing fabric motion
+holding a tarot card, hair moving in wind
+holding a tarot card, readable hand pose
+holding a tarot card, elegant silhouette
+holding a tarot card, strong eye contact
+holding a tarot card, relaxed pose
+holding a tarot card, dramatic cape movement
+holding a tarot card, sensual posture
+holding a tarot card, glamour framing
+holding a tarot card, stockings visible
+holding a tarot card, garter detail visible
+holding a tarot card, cleavage subtly emphasized
+holding a tarot card, collarbone visible
+holding a tarot card, long gloves visible
+holding a tarot card, hips turned toward viewer
+holding a tarot card, dress slit visible
+holding a tarot card, confident teasing mood
+holding a tarot card, clear leg silhouette
+holding a tarot card, shoulders angled elegantly
+holding a tarot card, soft S-curve posture
+holding a tarot card, outfit folds readable
+holding a tarot card, necklace centered
+holding a tarot card, legs arranged cleanly
+holding a tarot card, hands placed naturally
+holding a tarot card, stocking texture visible
+holding a tarot card, soft confident gaze
+holding a tarot card, camera-facing body angle
+holding a tarot card, balanced weight shift
+holding a tarot card, dramatic fashion stance
+casting magic with one hand, natural fingers
+casting magic with one hand, confident posture
+casting magic with one hand, calm predatory smile
+casting magic with one hand, flowing fabric motion
+casting magic with one hand, hair moving in wind
+casting magic with one hand, readable hand pose
+casting magic with one hand, elegant silhouette
+casting magic with one hand, strong eye contact
+casting magic with one hand, relaxed pose
+casting magic with one hand, dramatic cape movement
+casting magic with one hand, sensual posture
+casting magic with one hand, glamour framing
+casting magic with one hand, stockings visible
+casting magic with one hand, garter detail visible
+casting magic with one hand, cleavage subtly emphasized
+casting magic with one hand, collarbone visible
+casting magic with one hand, long gloves visible
+casting magic with one hand, hips turned toward viewer
+casting magic with one hand, dress slit visible
+casting magic with one hand, confident teasing mood
+casting magic with one hand, clear leg silhouette
+casting magic with one hand, shoulders angled elegantly
+casting magic with one hand, soft S-curve posture
+casting magic with one hand, outfit folds readable
+casting magic with one hand, necklace centered
+casting magic with one hand, legs arranged cleanly
+casting magic with one hand, hands placed naturally
+casting magic with one hand, stocking texture visible
+casting magic with one hand, soft confident gaze
+casting magic with one hand, camera-facing body angle
+casting magic with one hand, balanced weight shift
+casting magic with one hand, dramatic fashion stance
+sitting on a velvet sofa, natural fingers
+sitting on a velvet sofa, confident posture
+sitting on a velvet sofa, calm predatory smile
+sitting on a velvet sofa, flowing fabric motion
+sitting on a velvet sofa, hair moving in wind
+sitting on a velvet sofa, readable hand pose
+sitting on a velvet sofa, elegant silhouette
+sitting on a velvet sofa, strong eye contact
+sitting on a velvet sofa, relaxed pose
+sitting on a velvet sofa, dramatic cape movement
+sitting on a velvet sofa, sensual posture
+sitting on a velvet sofa, glamour framing
+sitting on a velvet sofa, stockings visible
+sitting on a velvet sofa, garter detail visible
+sitting on a velvet sofa, cleavage subtly emphasized
+sitting on a velvet sofa, collarbone visible
+sitting on a velvet sofa, long gloves visible
+sitting on a velvet sofa, hips turned toward viewer
+sitting on a velvet sofa, dress slit visible
+sitting on a velvet sofa, confident teasing mood
+sitting on a velvet sofa, clear leg silhouette
+sitting on a velvet sofa, shoulders angled elegantly
+sitting on a velvet sofa, soft S-curve posture
+sitting on a velvet sofa, outfit folds readable
+sitting on a velvet sofa, necklace centered
+sitting on a velvet sofa, legs arranged cleanly
+sitting on a velvet sofa, hands placed naturally
+sitting on a velvet sofa, stocking texture visible
+sitting on a velvet sofa, soft confident gaze
+sitting on a velvet sofa, camera-facing body angle
+sitting on a velvet sofa, balanced weight shift
+sitting on a velvet sofa, dramatic fashion stance
+reclining on a chaise lounge, natural fingers
+reclining on a chaise lounge, confident posture
+reclining on a chaise lounge, calm predatory smile
+reclining on a chaise lounge, flowing fabric motion
+reclining on a chaise lounge, hair moving in wind
+reclining on a chaise lounge, readable hand pose
+reclining on a chaise lounge, elegant silhouette
+reclining on a chaise lounge, strong eye contact
+reclining on a chaise lounge, relaxed pose
+reclining on a chaise lounge, dramatic cape movement
+reclining on a chaise lounge, sensual posture
+reclining on a chaise lounge, glamour framing
+reclining on a chaise lounge, stockings visible
+reclining on a chaise lounge, garter detail visible
+reclining on a chaise lounge, cleavage subtly emphasized
+reclining on a chaise lounge, collarbone visible
+reclining on a chaise lounge, long gloves visible
+reclining on a chaise lounge, hips turned toward viewer
+reclining on a chaise lounge, dress slit visible
+reclining on a chaise lounge, confident teasing mood
+reclining on a chaise lounge, clear leg silhouette
+reclining on a chaise lounge, shoulders angled elegantly
+reclining on a chaise lounge, soft S-curve posture
+reclining on a chaise lounge, outfit folds readable
+reclining on a chaise lounge, necklace centered
+reclining on a chaise lounge, legs arranged cleanly
+reclining on a chaise lounge, hands placed naturally
+reclining on a chaise lounge, stocking texture visible
+reclining on a chaise lounge, soft confident gaze
+reclining on a chaise lounge, camera-facing body angle
+reclining on a chaise lounge, balanced weight shift
+reclining on a chaise lounge, dramatic fashion stance
+leaning over a candle table, natural fingers
+leaning over a candle table, confident posture
+leaning over a candle table, calm predatory smile
+leaning over a candle table, flowing fabric motion
+leaning over a candle table, hair moving in wind
+leaning over a candle table, readable hand pose
+leaning over a candle table, elegant silhouette
+leaning over a candle table, strong eye contact
+leaning over a candle table, relaxed pose
+leaning over a candle table, dramatic cape movement
+leaning over a candle table, sensual posture
+leaning over a candle table, glamour framing
+leaning over a candle table, stockings visible
+leaning over a candle table, garter detail visible
+leaning over a candle table, cleavage subtly emphasized
+leaning over a candle table, collarbone visible

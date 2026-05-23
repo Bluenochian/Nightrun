@@ -1,0 +1,701 @@
+# Neutral presence descriptors. Theme comes from theme_pack.
+elegant woman, calm confident presence, luxury fashion model energy
+elegant woman, calm confident presence, dark fantasy heroine mood
+elegant woman, calm confident presence, quiet power
+elegant woman, calm confident presence, delicate jewelry focus
+elegant woman, calm confident presence, clean readable expression
+elegant woman, calm confident presence, hair and clothing flowing naturally
+elegant woman, calm confident presence, elegant aura
+elegant woman, calm confident presence, commanding silhouette
+elegant woman, calm confident presence, soft but dangerous gaze
+elegant woman, calm confident presence, polished anime heroine design
+elegant woman, calm confident presence, vampire glamour mood
+elegant woman, calm confident presence, sensual gothic styling
+elegant woman, calm confident presence, confident expression
+elegant woman, calm confident presence, expensive dark fantasy mood
+elegant woman, calm confident presence, romantic dangerous aura
+elegant woman, calm confident presence, magazine cover poise
+elegant woman, calm confident presence, premium character design
+elegant woman, calm confident presence, clear face priority
+elegant woman, calm confident presence, strong fashion silhouette
+elegant woman, calm confident presence, clean readable hands
+mysterious woman, poised expression, luxury fashion model energy
+mysterious woman, poised expression, dark fantasy heroine mood
+mysterious woman, poised expression, quiet power
+mysterious woman, poised expression, delicate jewelry focus
+mysterious woman, poised expression, clean readable expression
+mysterious woman, poised expression, hair and clothing flowing naturally
+mysterious woman, poised expression, elegant aura
+mysterious woman, poised expression, commanding silhouette
+mysterious woman, poised expression, soft but dangerous gaze
+mysterious woman, poised expression, polished anime heroine design
+mysterious woman, poised expression, vampire glamour mood
+mysterious woman, poised expression, sensual gothic styling
+mysterious woman, poised expression, confident expression
+mysterious woman, poised expression, expensive dark fantasy mood
+mysterious woman, poised expression, romantic dangerous aura
+mysterious woman, poised expression, magazine cover poise
+mysterious woman, poised expression, premium character design
+mysterious woman, poised expression, clear face priority
+mysterious woman, poised expression, strong fashion silhouette
+mysterious woman, poised expression, clean readable hands
+regal woman, refined posture, luxury fashion model energy
+regal woman, refined posture, dark fantasy heroine mood
+regal woman, refined posture, quiet power
+regal woman, refined posture, delicate jewelry focus
+regal woman, refined posture, clean readable expression
+regal woman, refined posture, hair and clothing flowing naturally
+regal woman, refined posture, elegant aura
+regal woman, refined posture, commanding silhouette
+regal woman, refined posture, soft but dangerous gaze
+regal woman, refined posture, polished anime heroine design
+regal woman, refined posture, vampire glamour mood
+regal woman, refined posture, sensual gothic styling
+regal woman, refined posture, confident expression
+regal woman, refined posture, expensive dark fantasy mood
+regal woman, refined posture, romantic dangerous aura
+regal woman, refined posture, magazine cover poise
+regal woman, refined posture, premium character design
+regal woman, refined posture, clear face priority
+regal woman, refined posture, strong fashion silhouette
+regal woman, refined posture, clean readable hands
+beautiful woman, sharp eyes, composed mood, luxury fashion model energy
+beautiful woman, sharp eyes, composed mood, dark fantasy heroine mood
+beautiful woman, sharp eyes, composed mood, quiet power
+beautiful woman, sharp eyes, composed mood, delicate jewelry focus
+beautiful woman, sharp eyes, composed mood, clean readable expression
+beautiful woman, sharp eyes, composed mood, hair and clothing flowing naturally
+beautiful woman, sharp eyes, composed mood, elegant aura
+beautiful woman, sharp eyes, composed mood, commanding silhouette
+beautiful woman, sharp eyes, composed mood, soft but dangerous gaze
+beautiful woman, sharp eyes, composed mood, polished anime heroine design
+beautiful woman, sharp eyes, composed mood, vampire glamour mood
+beautiful woman, sharp eyes, composed mood, sensual gothic styling
+beautiful woman, sharp eyes, composed mood, confident expression
+beautiful woman, sharp eyes, composed mood, expensive dark fantasy mood
+beautiful woman, sharp eyes, composed mood, romantic dangerous aura
+beautiful woman, sharp eyes, composed mood, magazine cover poise
+beautiful woman, sharp eyes, composed mood, premium character design
+beautiful woman, sharp eyes, composed mood, clear face priority
+beautiful woman, sharp eyes, composed mood, strong fashion silhouette
+beautiful woman, sharp eyes, composed mood, clean readable hands
+graceful woman, quiet intensity, luxury fashion model energy
+graceful woman, quiet intensity, dark fantasy heroine mood
+graceful woman, quiet intensity, quiet power
+graceful woman, quiet intensity, delicate jewelry focus
+graceful woman, quiet intensity, clean readable expression
+graceful woman, quiet intensity, hair and clothing flowing naturally
+graceful woman, quiet intensity, elegant aura
+graceful woman, quiet intensity, commanding silhouette
+graceful woman, quiet intensity, soft but dangerous gaze
+graceful woman, quiet intensity, polished anime heroine design
+graceful woman, quiet intensity, vampire glamour mood
+graceful woman, quiet intensity, sensual gothic styling
+graceful woman, quiet intensity, confident expression
+graceful woman, quiet intensity, expensive dark fantasy mood
+graceful woman, quiet intensity, romantic dangerous aura
+graceful woman, quiet intensity, magazine cover poise
+graceful woman, quiet intensity, premium character design
+graceful woman, quiet intensity, clear face priority
+graceful woman, quiet intensity, strong fashion silhouette
+graceful woman, quiet intensity, clean readable hands
+powerful woman, controlled expression, luxury fashion model energy
+powerful woman, controlled expression, dark fantasy heroine mood
+powerful woman, controlled expression, quiet power
+powerful woman, controlled expression, delicate jewelry focus
+powerful woman, controlled expression, clean readable expression
+powerful woman, controlled expression, hair and clothing flowing naturally
+powerful woman, controlled expression, elegant aura
+powerful woman, controlled expression, commanding silhouette
+powerful woman, controlled expression, soft but dangerous gaze
+powerful woman, controlled expression, polished anime heroine design
+powerful woman, controlled expression, vampire glamour mood
+powerful woman, controlled expression, sensual gothic styling
+powerful woman, controlled expression, confident expression
+powerful woman, controlled expression, expensive dark fantasy mood
+powerful woman, controlled expression, romantic dangerous aura
+powerful woman, controlled expression, magazine cover poise
+powerful woman, controlled expression, premium character design
+powerful woman, controlled expression, clear face priority
+powerful woman, controlled expression, strong fashion silhouette
+powerful woman, controlled expression, clean readable hands
+romantic woman, soft gaze, luxury fashion model energy
+romantic woman, soft gaze, dark fantasy heroine mood
+romantic woman, soft gaze, quiet power
+romantic woman, soft gaze, delicate jewelry focus
+romantic woman, soft gaze, clean readable expression
+romantic woman, soft gaze, hair and clothing flowing naturally
+romantic woman, soft gaze, elegant aura
+romantic woman, soft gaze, commanding silhouette
+romantic woman, soft gaze, soft but dangerous gaze
+romantic woman, soft gaze, polished anime heroine design
+romantic woman, soft gaze, vampire glamour mood
+romantic woman, soft gaze, sensual gothic styling
+romantic woman, soft gaze, confident expression
+romantic woman, soft gaze, expensive dark fantasy mood
+romantic woman, soft gaze, romantic dangerous aura
+romantic woman, soft gaze, magazine cover poise
+romantic woman, soft gaze, premium character design
+romantic woman, soft gaze, clear face priority
+romantic woman, soft gaze, strong fashion silhouette
+romantic woman, soft gaze, clean readable hands
+serious woman, cinematic face focus, luxury fashion model energy
+serious woman, cinematic face focus, dark fantasy heroine mood
+serious woman, cinematic face focus, quiet power
+serious woman, cinematic face focus, delicate jewelry focus
+serious woman, cinematic face focus, clean readable expression
+serious woman, cinematic face focus, hair and clothing flowing naturally
+serious woman, cinematic face focus, elegant aura
+serious woman, cinematic face focus, commanding silhouette
+serious woman, cinematic face focus, soft but dangerous gaze
+serious woman, cinematic face focus, polished anime heroine design
+serious woman, cinematic face focus, vampire glamour mood
+serious woman, cinematic face focus, sensual gothic styling
+serious woman, cinematic face focus, confident expression
+serious woman, cinematic face focus, expensive dark fantasy mood
+serious woman, cinematic face focus, romantic dangerous aura
+serious woman, cinematic face focus, magazine cover poise
+serious woman, cinematic face focus, premium character design
+serious woman, cinematic face focus, clear face priority
+serious woman, cinematic face focus, strong fashion silhouette
+serious woman, cinematic face focus, clean readable hands
+ethereal woman, delicate features, luxury fashion model energy
+ethereal woman, delicate features, dark fantasy heroine mood
+ethereal woman, delicate features, quiet power
+ethereal woman, delicate features, delicate jewelry focus
+ethereal woman, delicate features, clean readable expression
+ethereal woman, delicate features, hair and clothing flowing naturally
+ethereal woman, delicate features, elegant aura
+ethereal woman, delicate features, commanding silhouette
+ethereal woman, delicate features, soft but dangerous gaze
+ethereal woman, delicate features, polished anime heroine design
+ethereal woman, delicate features, vampire glamour mood
+ethereal woman, delicate features, sensual gothic styling
+ethereal woman, delicate features, confident expression
+ethereal woman, delicate features, expensive dark fantasy mood
+ethereal woman, delicate features, romantic dangerous aura
+ethereal woman, delicate features, magazine cover poise
+ethereal woman, delicate features, premium character design
+ethereal woman, delicate features, clear face priority
+ethereal woman, delicate features, strong fashion silhouette
+ethereal woman, delicate features, clean readable hands
+dramatic woman, intense eye contact, luxury fashion model energy
+dramatic woman, intense eye contact, dark fantasy heroine mood
+dramatic woman, intense eye contact, quiet power
+dramatic woman, intense eye contact, delicate jewelry focus
+dramatic woman, intense eye contact, clean readable expression
+dramatic woman, intense eye contact, hair and clothing flowing naturally
+dramatic woman, intense eye contact, elegant aura
+dramatic woman, intense eye contact, commanding silhouette
+dramatic woman, intense eye contact, soft but dangerous gaze
+dramatic woman, intense eye contact, polished anime heroine design
+dramatic woman, intense eye contact, vampire glamour mood
+dramatic woman, intense eye contact, sensual gothic styling
+dramatic woman, intense eye contact, confident expression
+dramatic woman, intense eye contact, expensive dark fantasy mood
+dramatic woman, intense eye contact, romantic dangerous aura
+dramatic woman, intense eye contact, magazine cover poise
+dramatic woman, intense eye contact, premium character design
+dramatic woman, intense eye contact, clear face priority
+dramatic woman, intense eye contact, strong fashion silhouette
+dramatic woman, intense eye contact, clean readable hands
+queenly presence, composed and dominant, luxury fashion model energy
+queenly presence, composed and dominant, dark fantasy heroine mood
+queenly presence, composed and dominant, quiet power
+queenly presence, composed and dominant, delicate jewelry focus
+queenly presence, composed and dominant, clean readable expression
+queenly presence, composed and dominant, hair and clothing flowing naturally
+queenly presence, composed and dominant, elegant aura
+queenly presence, composed and dominant, commanding silhouette
+queenly presence, composed and dominant, soft but dangerous gaze
+queenly presence, composed and dominant, polished anime heroine design
+queenly presence, composed and dominant, vampire glamour mood
+queenly presence, composed and dominant, sensual gothic styling
+queenly presence, composed and dominant, confident expression
+queenly presence, composed and dominant, expensive dark fantasy mood
+queenly presence, composed and dominant, romantic dangerous aura
+queenly presence, composed and dominant, magazine cover poise
+queenly presence, composed and dominant, premium character design
+queenly presence, composed and dominant, clear face priority
+queenly presence, composed and dominant, strong fashion silhouette
+queenly presence, composed and dominant, clean readable hands
+haunting beauty, not grotesque, luxury fashion model energy
+haunting beauty, not grotesque, dark fantasy heroine mood
+haunting beauty, not grotesque, quiet power
+haunting beauty, not grotesque, delicate jewelry focus
+haunting beauty, not grotesque, clean readable expression
+haunting beauty, not grotesque, hair and clothing flowing naturally
+haunting beauty, not grotesque, elegant aura
+haunting beauty, not grotesque, commanding silhouette
+haunting beauty, not grotesque, soft but dangerous gaze
+haunting beauty, not grotesque, polished anime heroine design
+haunting beauty, not grotesque, vampire glamour mood
+haunting beauty, not grotesque, sensual gothic styling
+haunting beauty, not grotesque, confident expression
+haunting beauty, not grotesque, expensive dark fantasy mood
+haunting beauty, not grotesque, romantic dangerous aura
+haunting beauty, not grotesque, magazine cover poise
+haunting beauty, not grotesque, premium character design
+haunting beauty, not grotesque, clear face priority
+haunting beauty, not grotesque, strong fashion silhouette
+haunting beauty, not grotesque, clean readable hands
+refined gothic elegance, luxury fashion model energy
+refined gothic elegance, dark fantasy heroine mood
+refined gothic elegance, quiet power
+refined gothic elegance, delicate jewelry focus
+refined gothic elegance, clean readable expression
+refined gothic elegance, hair and clothing flowing naturally
+refined gothic elegance, elegant aura
+refined gothic elegance, commanding silhouette
+refined gothic elegance, soft but dangerous gaze
+refined gothic elegance, polished anime heroine design
+refined gothic elegance, vampire glamour mood
+refined gothic elegance, sensual gothic styling
+refined gothic elegance, confident expression
+refined gothic elegance, expensive dark fantasy mood
+refined gothic elegance, romantic dangerous aura
+refined gothic elegance, magazine cover poise
+refined gothic elegance, premium character design
+refined gothic elegance, clear face priority
+refined gothic elegance, strong fashion silhouette
+refined gothic elegance, clean readable hands
+confident noble posture, luxury fashion model energy
+confident noble posture, dark fantasy heroine mood
+confident noble posture, quiet power
+confident noble posture, delicate jewelry focus
+confident noble posture, clean readable expression
+confident noble posture, hair and clothing flowing naturally
+confident noble posture, elegant aura
+confident noble posture, commanding silhouette
+confident noble posture, soft but dangerous gaze
+confident noble posture, polished anime heroine design
+confident noble posture, vampire glamour mood
+confident noble posture, sensual gothic styling
+confident noble posture, confident expression
+confident noble posture, expensive dark fantasy mood
+confident noble posture, romantic dangerous aura
+confident noble posture, magazine cover poise
+confident noble posture, premium character design
+confident noble posture, clear face priority
+confident noble posture, strong fashion silhouette
+confident noble posture, clean readable hands
+face and eyes as primary focus, luxury fashion model energy
+face and eyes as primary focus, dark fantasy heroine mood
+face and eyes as primary focus, quiet power
+face and eyes as primary focus, delicate jewelry focus
+face and eyes as primary focus, clean readable expression
+face and eyes as primary focus, hair and clothing flowing naturally
+face and eyes as primary focus, elegant aura
+face and eyes as primary focus, commanding silhouette
+face and eyes as primary focus, soft but dangerous gaze
+face and eyes as primary focus, polished anime heroine design
+face and eyes as primary focus, vampire glamour mood
+face and eyes as primary focus, sensual gothic styling
+face and eyes as primary focus, confident expression
+face and eyes as primary focus, expensive dark fantasy mood
+face and eyes as primary focus, romantic dangerous aura
+face and eyes as primary focus, magazine cover poise
+face and eyes as primary focus, premium character design
+face and eyes as primary focus, clear face priority
+face and eyes as primary focus, strong fashion silhouette
+face and eyes as primary focus, clean readable hands
+seductive woman, confident gaze, luxury fashion model energy
+seductive woman, confident gaze, dark fantasy heroine mood
+seductive woman, confident gaze, quiet power
+seductive woman, confident gaze, delicate jewelry focus
+seductive woman, confident gaze, clean readable expression
+seductive woman, confident gaze, hair and clothing flowing naturally
+seductive woman, confident gaze, elegant aura
+seductive woman, confident gaze, commanding silhouette
+seductive woman, confident gaze, soft but dangerous gaze
+seductive woman, confident gaze, polished anime heroine design
+seductive woman, confident gaze, vampire glamour mood
+seductive woman, confident gaze, sensual gothic styling
+seductive woman, confident gaze, confident expression
+seductive woman, confident gaze, expensive dark fantasy mood
+seductive woman, confident gaze, romantic dangerous aura
+seductive woman, confident gaze, magazine cover poise
+seductive woman, confident gaze, premium character design
+seductive woman, confident gaze, clear face priority
+seductive woman, confident gaze, strong fashion silhouette
+seductive woman, confident gaze, clean readable hands
+gothic beauty, calm danger, luxury fashion model energy
+gothic beauty, calm danger, dark fantasy heroine mood
+gothic beauty, calm danger, quiet power
+gothic beauty, calm danger, delicate jewelry focus
+gothic beauty, calm danger, clean readable expression
+gothic beauty, calm danger, hair and clothing flowing naturally
+gothic beauty, calm danger, elegant aura
+gothic beauty, calm danger, commanding silhouette
+gothic beauty, calm danger, soft but dangerous gaze
+gothic beauty, calm danger, polished anime heroine design
+gothic beauty, calm danger, vampire glamour mood
+gothic beauty, calm danger, sensual gothic styling
+gothic beauty, calm danger, confident expression
+gothic beauty, calm danger, expensive dark fantasy mood
+gothic beauty, calm danger, romantic dangerous aura
+gothic beauty, calm danger, magazine cover poise
+gothic beauty, calm danger, premium character design
+gothic beauty, calm danger, clear face priority
+gothic beauty, calm danger, strong fashion silhouette
+gothic beauty, calm danger, clean readable hands
+femme fatale presence, luxury fashion model energy
+femme fatale presence, dark fantasy heroine mood
+femme fatale presence, quiet power
+femme fatale presence, delicate jewelry focus
+femme fatale presence, clean readable expression
+femme fatale presence, hair and clothing flowing naturally
+femme fatale presence, elegant aura
+femme fatale presence, commanding silhouette
+femme fatale presence, soft but dangerous gaze
+femme fatale presence, polished anime heroine design
+femme fatale presence, vampire glamour mood
+femme fatale presence, sensual gothic styling
+femme fatale presence, confident expression
+femme fatale presence, expensive dark fantasy mood
+femme fatale presence, romantic dangerous aura
+femme fatale presence, magazine cover poise
+femme fatale presence, premium character design
+femme fatale presence, clear face priority
+femme fatale presence, strong fashion silhouette
+femme fatale presence, clean readable hands
+luxury boudoir model presence, luxury fashion model energy
+luxury boudoir model presence, dark fantasy heroine mood
+luxury boudoir model presence, quiet power
+luxury boudoir model presence, delicate jewelry focus
+luxury boudoir model presence, clean readable expression
+luxury boudoir model presence, hair and clothing flowing naturally
+luxury boudoir model presence, elegant aura
+luxury boudoir model presence, commanding silhouette
+luxury boudoir model presence, soft but dangerous gaze
+luxury boudoir model presence, polished anime heroine design
+luxury boudoir model presence, vampire glamour mood
+luxury boudoir model presence, sensual gothic styling
+luxury boudoir model presence, confident expression
+luxury boudoir model presence, expensive dark fantasy mood
+luxury boudoir model presence, romantic dangerous aura
+luxury boudoir model presence, magazine cover poise
+luxury boudoir model presence, premium character design
+luxury boudoir model presence, clear face priority
+luxury boudoir model presence, strong fashion silhouette
+luxury boudoir model presence, clean readable hands
+vampire aristocrat presence, luxury fashion model energy
+vampire aristocrat presence, dark fantasy heroine mood
+vampire aristocrat presence, quiet power
+vampire aristocrat presence, delicate jewelry focus
+vampire aristocrat presence, clean readable expression
+vampire aristocrat presence, hair and clothing flowing naturally
+vampire aristocrat presence, elegant aura
+vampire aristocrat presence, commanding silhouette
+vampire aristocrat presence, soft but dangerous gaze
+vampire aristocrat presence, polished anime heroine design
+vampire aristocrat presence, vampire glamour mood
+vampire aristocrat presence, sensual gothic styling
+vampire aristocrat presence, confident expression
+vampire aristocrat presence, expensive dark fantasy mood
+vampire aristocrat presence, romantic dangerous aura
+vampire aristocrat presence, magazine cover poise
+vampire aristocrat presence, premium character design
+vampire aristocrat presence, clear face priority
+vampire aristocrat presence, strong fashion silhouette
+vampire aristocrat presence, clean readable hands
+elegant body, luxury fashion model energy
+elegant body, dark fantasy heroine mood
+elegant body, quiet power
+elegant body, delicate jewelry focus
+elegant body, clean readable expression
+elegant body, hair and clothing flowing naturally
+elegant body, elegant aura
+elegant body, commanding silhouette
+elegant body, soft but dangerous gaze
+elegant body, polished anime heroine design
+elegant body, vampire glamour mood
+elegant body, sensual gothic styling
+elegant body, confident expression
+elegant body, expensive dark fantasy mood
+elegant body, romantic dangerous aura
+elegant body, magazine cover poise
+elegant body, premium character design
+elegant body, clear face priority
+elegant body, strong fashion silhouette
+elegant body, clean readable hands
+dark romantic heroine presence, luxury fashion model energy
+dark romantic heroine presence, dark fantasy heroine mood
+dark romantic heroine presence, quiet power
+dark romantic heroine presence, delicate jewelry focus
+dark romantic heroine presence, clean readable expression
+dark romantic heroine presence, hair and clothing flowing naturally
+dark romantic heroine presence, elegant aura
+dark romantic heroine presence, commanding silhouette
+dark romantic heroine presence, soft but dangerous gaze
+dark romantic heroine presence, polished anime heroine design
+dark romantic heroine presence, vampire glamour mood
+dark romantic heroine presence, sensual gothic styling
+dark romantic heroine presence, confident expression
+dark romantic heroine presence, expensive dark fantasy mood
+dark romantic heroine presence, romantic dangerous aura
+dark romantic heroine presence, magazine cover poise
+dark romantic heroine presence, premium character design
+dark romantic heroine presence, clear face priority
+dark romantic heroine presence, strong fashion silhouette
+dark romantic heroine presence, clean readable hands
+villainess charm, luxury fashion model energy
+villainess charm, dark fantasy heroine mood
+villainess charm, quiet power
+villainess charm, delicate jewelry focus
+villainess charm, clean readable expression
+villainess charm, hair and clothing flowing naturally
+villainess charm, elegant aura
+villainess charm, commanding silhouette
+villainess charm, soft but dangerous gaze
+villainess charm, polished anime heroine design
+villainess charm, vampire glamour mood
+villainess charm, sensual gothic styling
+villainess charm, confident expression
+villainess charm, expensive dark fantasy mood
+villainess charm, romantic dangerous aura
+villainess charm, magazine cover poise
+villainess charm, premium character design
+villainess charm, clear face priority
+villainess charm, strong fashion silhouette
+villainess charm, clean readable hands
+confident siren-like presence, luxury fashion model energy
+confident siren-like presence, dark fantasy heroine mood
+confident siren-like presence, quiet power
+confident siren-like presence, delicate jewelry focus
+confident siren-like presence, clean readable expression
+confident siren-like presence, hair and clothing flowing naturally
+confident siren-like presence, elegant aura
+confident siren-like presence, commanding silhouette
+confident siren-like presence, soft but dangerous gaze
+confident siren-like presence, polished anime heroine design
+confident siren-like presence, vampire glamour mood
+confident siren-like presence, sensual gothic styling
+confident siren-like presence, confident expression
+confident siren-like presence, expensive dark fantasy mood
+confident siren-like presence, romantic dangerous aura
+confident siren-like presence, magazine cover poise
+confident siren-like presence, premium character design
+confident siren-like presence, clear face priority
+confident siren-like presence, strong fashion silhouette
+confident siren-like presence, clean readable hands
+regal sensual posture, luxury fashion model energy
+regal sensual posture, dark fantasy heroine mood
+regal sensual posture, quiet power
+regal sensual posture, delicate jewelry focus
+regal sensual posture, clean readable expression
+regal sensual posture, hair and clothing flowing naturally
+regal sensual posture, elegant aura
+regal sensual posture, commanding silhouette
+regal sensual posture, soft but dangerous gaze
+regal sensual posture, polished anime heroine design
+regal sensual posture, vampire glamour mood
+regal sensual posture, sensual gothic styling
+regal sensual posture, confident expression
+regal sensual posture, expensive dark fantasy mood
+regal sensual posture, romantic dangerous aura
+regal sensual posture, magazine cover poise
+regal sensual posture, premium character design
+regal sensual posture, clear face priority
+regal sensual posture, strong fashion silhouette
+regal sensual posture, clean readable hands
+soft dangerous smile, luxury fashion model energy
+soft dangerous smile, dark fantasy heroine mood
+soft dangerous smile, quiet power
+soft dangerous smile, delicate jewelry focus
+soft dangerous smile, clean readable expression
+soft dangerous smile, hair and clothing flowing naturally
+soft dangerous smile, elegant aura
+soft dangerous smile, commanding silhouette
+soft dangerous smile, soft but dangerous gaze
+soft dangerous smile, polished anime heroine design
+soft dangerous smile, vampire glamour mood
+soft dangerous smile, sensual gothic styling
+soft dangerous smile, confident expression
+soft dangerous smile, expensive dark fantasy mood
+soft dangerous smile, romantic dangerous aura
+soft dangerous smile, magazine cover poise
+soft dangerous smile, premium character design
+soft dangerous smile, clear face priority
+soft dangerous smile, strong fashion silhouette
+soft dangerous smile, clean readable hands
+commanding elegance, luxury fashion model energy
+commanding elegance, dark fantasy heroine mood
+commanding elegance, quiet power
+commanding elegance, delicate jewelry focus
+commanding elegance, clean readable expression
+commanding elegance, hair and clothing flowing naturally
+commanding elegance, elegant aura
+commanding elegance, commanding silhouette
+commanding elegance, soft but dangerous gaze
+commanding elegance, polished anime heroine design
+commanding elegance, vampire glamour mood
+commanding elegance, sensual gothic styling
+commanding elegance, confident expression
+commanding elegance, expensive dark fantasy mood
+commanding elegance, romantic dangerous aura
+commanding elegance, magazine cover poise
+commanding elegance, premium character design
+commanding elegance, clear face priority
+commanding elegance, strong fashion silhouette
+commanding elegance, clean readable hands
+mysterious allure, luxury fashion model energy
+mysterious allure, dark fantasy heroine mood
+mysterious allure, quiet power
+mysterious allure, delicate jewelry focus
+mysterious allure, clean readable expression
+mysterious allure, hair and clothing flowing naturally
+mysterious allure, elegant aura
+mysterious allure, commanding silhouette
+mysterious allure, soft but dangerous gaze
+mysterious allure, polished anime heroine design
+mysterious allure, vampire glamour mood
+mysterious allure, sensual gothic styling
+mysterious allure, confident expression
+mysterious allure, expensive dark fantasy mood
+mysterious allure, romantic dangerous aura
+mysterious allure, magazine cover poise
+mysterious allure, premium character design
+mysterious allure, clear face priority
+mysterious allure, strong fashion silhouette
+mysterious allure, clean readable hands
+black lace glamour presence, luxury fashion model energy
+black lace glamour presence, dark fantasy heroine mood
+black lace glamour presence, quiet power
+black lace glamour presence, delicate jewelry focus
+black lace glamour presence, clean readable expression
+black lace glamour presence, hair and clothing flowing naturally
+black lace glamour presence, elegant aura
+black lace glamour presence, commanding silhouette
+black lace glamour presence, soft but dangerous gaze
+black lace glamour presence, polished anime heroine design
+black lace glamour presence, vampire glamour mood
+black lace glamour presence, sensual gothic styling
+black lace glamour presence, confident expression
+black lace glamour presence, expensive dark fantasy mood
+black lace glamour presence, romantic dangerous aura
+black lace glamour presence, magazine cover poise
+black lace glamour presence, premium character design
+black lace glamour presence, clear face priority
+black lace glamour presence, strong fashion silhouette
+black lace glamour presence, clean readable hands
+polished anime heroine, luxury fashion model energy
+polished anime heroine, dark fantasy heroine mood
+polished anime heroine, quiet power
+polished anime heroine, delicate jewelry focus
+polished anime heroine, clean readable expression
+polished anime heroine, hair and clothing flowing naturally
+polished anime heroine, elegant aura
+polished anime heroine, commanding silhouette
+polished anime heroine, soft but dangerous gaze
+polished anime heroine, polished anime heroine design
+polished anime heroine, vampire glamour mood
+polished anime heroine, sensual gothic styling
+polished anime heroine, confident expression
+polished anime heroine, expensive dark fantasy mood
+polished anime heroine, romantic dangerous aura
+polished anime heroine, magazine cover poise
+polished anime heroine, premium character design
+polished anime heroine, clear face priority
+polished anime heroine, strong fashion silhouette
+polished anime heroine, clean readable hands
+gothic fashion model, assured gaze, luxury fashion model energy
+gothic fashion model, assured gaze, dark fantasy heroine mood
+gothic fashion model, assured gaze, quiet power
+gothic fashion model, assured gaze, delicate jewelry focus
+gothic fashion model, assured gaze, clean readable expression
+gothic fashion model, assured gaze, hair and clothing flowing naturally
+gothic fashion model, assured gaze, elegant aura
+gothic fashion model, assured gaze, commanding silhouette
+gothic fashion model, assured gaze, soft but dangerous gaze
+gothic fashion model, assured gaze, polished anime heroine design
+gothic fashion model, assured gaze, vampire glamour mood
+gothic fashion model, assured gaze, sensual gothic styling
+gothic fashion model, assured gaze, confident expression
+gothic fashion model, assured gaze, expensive dark fantasy mood
+gothic fashion model, assured gaze, romantic dangerous aura
+gothic fashion model, assured gaze, magazine cover poise
+gothic fashion model, assured gaze, premium character design
+gothic fashion model, assured gaze, clear face priority
+gothic fashion model, assured gaze, strong fashion silhouette
+gothic fashion model, assured gaze, clean readable hands
+romantic villainess, elegant danger, luxury fashion model energy
+romantic villainess, elegant danger, dark fantasy heroine mood
+romantic villainess, elegant danger, quiet power
+romantic villainess, elegant danger, delicate jewelry focus
+romantic villainess, elegant danger, clean readable expression
+romantic villainess, elegant danger, hair and clothing flowing naturally
+romantic villainess, elegant danger, elegant aura
+romantic villainess, elegant danger, commanding silhouette
+romantic villainess, elegant danger, soft but dangerous gaze
+romantic villainess, elegant danger, polished anime heroine design
+romantic villainess, elegant danger, vampire glamour mood
+romantic villainess, elegant danger, sensual gothic styling
+romantic villainess, elegant danger, confident expression
+romantic villainess, elegant danger, expensive dark fantasy mood
+romantic villainess, elegant danger, romantic dangerous aura
+romantic villainess, elegant danger, magazine cover poise
+romantic villainess, elegant danger, premium character design
+romantic villainess, elegant danger, clear face priority
+romantic villainess, elegant danger, strong fashion silhouette
+romantic villainess, elegant danger, clean readable hands
+moonlit noblewoman, refined allure, luxury fashion model energy
+moonlit noblewoman, refined allure, dark fantasy heroine mood
+moonlit noblewoman, refined allure, quiet power
+moonlit noblewoman, refined allure, delicate jewelry focus
+moonlit noblewoman, refined allure, clean readable expression
+moonlit noblewoman, refined allure, hair and clothing flowing naturally
+moonlit noblewoman, refined allure, elegant aura
+moonlit noblewoman, refined allure, commanding silhouette
+moonlit noblewoman, refined allure, soft but dangerous gaze
+moonlit noblewoman, refined allure, polished anime heroine design
+moonlit noblewoman, refined allure, vampire glamour mood
+moonlit noblewoman, refined allure, sensual gothic styling
+moonlit noblewoman, refined allure, confident expression
+moonlit noblewoman, refined allure, expensive dark fantasy mood
+moonlit noblewoman, refined allure, romantic dangerous aura
+moonlit noblewoman, refined allure, magazine cover poise
+moonlit noblewoman, refined allure, premium character design
+moonlit noblewoman, refined allure, clear face priority
+moonlit noblewoman, refined allure, strong fashion silhouette
+moonlit noblewoman, refined allure, clean readable hands
+dark idol presence, sharp silhouette, luxury fashion model energy
+dark idol presence, sharp silhouette, dark fantasy heroine mood
+dark idol presence, sharp silhouette, quiet power
+dark idol presence, sharp silhouette, delicate jewelry focus
+dark idol presence, sharp silhouette, clean readable expression
+dark idol presence, sharp silhouette, hair and clothing flowing naturally
+dark idol presence, sharp silhouette, elegant aura
+dark idol presence, sharp silhouette, commanding silhouette
+dark idol presence, sharp silhouette, soft but dangerous gaze
+dark idol presence, sharp silhouette, polished anime heroine design
+dark idol presence, sharp silhouette, vampire glamour mood
+dark idol presence, sharp silhouette, sensual gothic styling
+dark idol presence, sharp silhouette, confident expression
+dark idol presence, sharp silhouette, expensive dark fantasy mood
+dark idol presence, sharp silhouette, romantic dangerous aura
+dark idol presence, sharp silhouette, magazine cover poise
+dark idol presence, sharp silhouette, premium character design
+dark idol presence, sharp silhouette, clear face priority
+dark idol presence, sharp silhouette, strong fashion silhouette
+dark idol presence, sharp silhouette, clean readable hands
+mystic commander, composed power, luxury fashion model energy
+mystic commander, composed power, dark fantasy heroine mood
+mystic commander, composed power, quiet power
+mystic commander, composed power, delicate jewelry focus
+mystic commander, composed power, clean readable expression
+mystic commander, composed power, hair and clothing flowing naturally
+mystic commander, composed power, elegant aura
+mystic commander, composed power, commanding silhouette
+mystic commander, composed power, soft but dangerous gaze
+mystic commander, composed power, polished anime heroine design
+mystic commander, composed power, vampire glamour mood
+mystic commander, composed power, sensual gothic styling
+mystic commander, composed power, confident expression
+mystic commander, composed power, expensive dark fantasy mood
+mystic commander, composed power, romantic dangerous aura
+mystic commander, composed power, magazine cover poise
+mystic commander, composed power, premium character design
+mystic commander, composed power, clear face priority
+mystic commander, composed power, strong fashion silhouette
+mystic commander, composed power, clean readable hands

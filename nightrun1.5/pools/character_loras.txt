@@ -1,0 +1,4 @@
+# Legacy compatibility pool. The active config now uses lora_character_concept.txt.
+Goat girl
+princess_xl_v2
+Star_Rail_251013

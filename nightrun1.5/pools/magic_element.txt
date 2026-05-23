@@ -1,0 +1,901 @@
+# Magic/element tags.
+subtle red aura, around the character
+subtle red aura, behind the head
+subtle red aura, near the hands
+subtle red aura, in the foreground
+subtle red aura, across the background
+subtle red aura, on clothing edges
+subtle red aura, reflected on the floor
+subtle red aura, framing the face
+subtle red aura, around the legs
+subtle red aura, behind the shoulders
+subtle red aura, around the weapon
+subtle red aura, inside the archway
+subtle red aura, near the window
+subtle red aura, in the mirror reflection
+subtle red aura, over the water surface
+subtle red aura, between foreground candles
+subtle red aura, around hair strands
+subtle red aura, behind the veil
+subtle red aura, across the dress hem
+subtle red aura, near the collarbone
+blue flame accents, around the character
+blue flame accents, behind the head
+blue flame accents, near the hands
+blue flame accents, in the foreground
+blue flame accents, across the background
+blue flame accents, on clothing edges
+blue flame accents, reflected on the floor
+blue flame accents, framing the face
+blue flame accents, around the legs
+blue flame accents, behind the shoulders
+blue flame accents, around the weapon
+blue flame accents, inside the archway
+blue flame accents, near the window
+blue flame accents, in the mirror reflection
+blue flame accents, over the water surface
+blue flame accents, between foreground candles
+blue flame accents, around hair strands
+blue flame accents, behind the veil
+blue flame accents, across the dress hem
+blue flame accents, near the collarbone
+golden magic particles, around the character
+golden magic particles, behind the head
+golden magic particles, near the hands
+golden magic particles, in the foreground
+golden magic particles, across the background
+golden magic particles, on clothing edges
+golden magic particles, reflected on the floor
+golden magic particles, framing the face
+golden magic particles, around the legs
+golden magic particles, behind the shoulders
+golden magic particles, around the weapon
+golden magic particles, inside the archway
+golden magic particles, near the window
+golden magic particles, in the mirror reflection
+golden magic particles, over the water surface
+golden magic particles, between foreground candles
+golden magic particles, around hair strands
+golden magic particles, behind the veil
+golden magic particles, across the dress hem
+golden magic particles, near the collarbone
+thin black shadow wisps, around the character
+thin black shadow wisps, behind the head
+thin black shadow wisps, near the hands
+thin black shadow wisps, in the foreground
+thin black shadow wisps, across the background
+thin black shadow wisps, on clothing edges
+thin black shadow wisps, reflected on the floor
+thin black shadow wisps, framing the face
+thin black shadow wisps, around the legs
+thin black shadow wisps, behind the shoulders
+thin black shadow wisps, around the weapon
+thin black shadow wisps, inside the archway
+thin black shadow wisps, near the window
+thin black shadow wisps, in the mirror reflection
+thin black shadow wisps, over the water surface
+thin black shadow wisps, between foreground candles
+thin black shadow wisps, around hair strands
+thin black shadow wisps, behind the veil
+thin black shadow wisps, across the dress hem
+thin black shadow wisps, near the collarbone
+cyan holographic fragments, around the character
+cyan holographic fragments, behind the head
+cyan holographic fragments, near the hands
+cyan holographic fragments, in the foreground
+cyan holographic fragments, across the background
+cyan holographic fragments, on clothing edges
+cyan holographic fragments, reflected on the floor
+cyan holographic fragments, framing the face
+cyan holographic fragments, around the legs
+cyan holographic fragments, behind the shoulders
+cyan holographic fragments, around the weapon
+cyan holographic fragments, inside the archway
+cyan holographic fragments, near the window
+cyan holographic fragments, in the mirror reflection
+cyan holographic fragments, over the water surface
+cyan holographic fragments, between foreground candles
+cyan holographic fragments, around hair strands
+cyan holographic fragments, behind the veil
+cyan holographic fragments, across the dress hem
+cyan holographic fragments, near the collarbone
+floating butterfly lights, around the character
+floating butterfly lights, behind the head
+floating butterfly lights, near the hands
+floating butterfly lights, in the foreground
+floating butterfly lights, across the background
+floating butterfly lights, on clothing edges
+floating butterfly lights, reflected on the floor
+floating butterfly lights, framing the face
+floating butterfly lights, around the legs
+floating butterfly lights, behind the shoulders
+floating butterfly lights, around the weapon
+floating butterfly lights, inside the archway
+floating butterfly lights, near the window
+floating butterfly lights, in the mirror reflection
+floating butterfly lights, over the water surface
+floating butterfly lights, between foreground candles
+floating butterfly lights, around hair strands
+floating butterfly lights, behind the veil
+floating butterfly lights, across the dress hem
+floating butterfly lights, near the collarbone
+silver moon dust, around the character
+silver moon dust, behind the head
+silver moon dust, near the hands
+silver moon dust, in the foreground
+silver moon dust, across the background
+silver moon dust, on clothing edges
+silver moon dust, reflected on the floor
+silver moon dust, framing the face
+silver moon dust, around the legs
+silver moon dust, behind the shoulders
+silver moon dust, around the weapon
+silver moon dust, inside the archway
+silver moon dust, near the window
+silver moon dust, in the mirror reflection
+silver moon dust, over the water surface
+silver moon dust, between foreground candles
+silver moon dust, around hair strands
+silver moon dust, behind the veil
+silver moon dust, across the dress hem
+silver moon dust, near the collarbone
+crimson petal storm, around the character
+crimson petal storm, behind the head
+crimson petal storm, near the hands
+crimson petal storm, in the foreground
+crimson petal storm, across the background
+crimson petal storm, on clothing edges
+crimson petal storm, reflected on the floor
+crimson petal storm, framing the face
+crimson petal storm, around the legs
+crimson petal storm, behind the shoulders
+crimson petal storm, around the weapon
+crimson petal storm, inside the archway
+crimson petal storm, near the window
+crimson petal storm, in the mirror reflection
+crimson petal storm, over the water surface
+crimson petal storm, between foreground candles
+crimson petal storm, around hair strands
+crimson petal storm, behind the veil
+crimson petal storm, across the dress hem
+crimson petal storm, near the collarbone
+soft ember drift, around the character
+soft ember drift, behind the head
+soft ember drift, near the hands
+soft ember drift, in the foreground
+soft ember drift, across the background
+soft ember drift, on clothing edges
+soft ember drift, reflected on the floor
+soft ember drift, framing the face
+soft ember drift, around the legs
+soft ember drift, behind the shoulders
+soft ember drift, around the weapon
+soft ember drift, inside the archway
+soft ember drift, near the window
+soft ember drift, in the mirror reflection
+soft ember drift, over the water surface
+soft ember drift, between foreground candles
+soft ember drift, around hair strands
+soft ember drift, behind the veil
+soft ember drift, across the dress hem
+soft ember drift, near the collarbone
+sparkling snow dust, around the character
+sparkling snow dust, behind the head
+sparkling snow dust, near the hands
+sparkling snow dust, in the foreground
+sparkling snow dust, across the background
+sparkling snow dust, on clothing edges
+sparkling snow dust, reflected on the floor
+sparkling snow dust, framing the face
+sparkling snow dust, around the legs
+sparkling snow dust, behind the shoulders
+sparkling snow dust, around the weapon
+sparkling snow dust, inside the archway
+sparkling snow dust, near the window
+sparkling snow dust, in the mirror reflection
+sparkling snow dust, over the water surface
+sparkling snow dust, between foreground candles
+sparkling snow dust, around hair strands
+sparkling snow dust, behind the veil
+sparkling snow dust, across the dress hem
+sparkling snow dust, near the collarbone
+violet arcane sparks, around the character
+violet arcane sparks, behind the head
+violet arcane sparks, near the hands
+violet arcane sparks, in the foreground
+violet arcane sparks, across the background
+violet arcane sparks, on clothing edges
+violet arcane sparks, reflected on the floor
+violet arcane sparks, framing the face
+violet arcane sparks, around the legs
+violet arcane sparks, behind the shoulders
+violet arcane sparks, around the weapon
+violet arcane sparks, inside the archway
+violet arcane sparks, near the window
+violet arcane sparks, in the mirror reflection
+violet arcane sparks, over the water surface
+violet arcane sparks, between foreground candles
+violet arcane sparks, around hair strands
+violet arcane sparks, behind the veil
+violet arcane sparks, across the dress hem
+violet arcane sparks, near the collarbone
+teal bioluminescent glow, around the character
+teal bioluminescent glow, behind the head
+teal bioluminescent glow, near the hands
+teal bioluminescent glow, in the foreground
+teal bioluminescent glow, across the background
+teal bioluminescent glow, on clothing edges
+teal bioluminescent glow, reflected on the floor
+teal bioluminescent glow, framing the face
+teal bioluminescent glow, around the legs
+teal bioluminescent glow, behind the shoulders
+teal bioluminescent glow, around the weapon
+teal bioluminescent glow, inside the archway
+teal bioluminescent glow, near the window
+teal bioluminescent glow, in the mirror reflection
+teal bioluminescent glow, over the water surface
+teal bioluminescent glow, between foreground candles
+teal bioluminescent glow, around hair strands
+teal bioluminescent glow, behind the veil
+teal bioluminescent glow, across the dress hem
+teal bioluminescent glow, near the collarbone
+small star particles, around the character
+small star particles, behind the head
+small star particles, near the hands
+small star particles, in the foreground
+small star particles, across the background
+small star particles, on clothing edges
+small star particles, reflected on the floor
+small star particles, framing the face
+small star particles, around the legs
+small star particles, behind the shoulders
+small star particles, around the weapon
+small star particles, inside the archway
+small star particles, near the window
+small star particles, in the mirror reflection
+small star particles, over the water surface
+small star particles, between foreground candles
+small star particles, around hair strands
+small star particles, behind the veil
+small star particles, across the dress hem
+small star particles, near the collarbone
+glowing eye catchlights, around the character
+glowing eye catchlights, behind the head
+glowing eye catchlights, near the hands
+glowing eye catchlights, in the foreground
+glowing eye catchlights, across the background
+glowing eye catchlights, on clothing edges
+glowing eye catchlights, reflected on the floor
+glowing eye catchlights, framing the face
+glowing eye catchlights, around the legs
+glowing eye catchlights, behind the shoulders
+glowing eye catchlights, around the weapon
+glowing eye catchlights, inside the archway
+glowing eye catchlights, near the window
+glowing eye catchlights, in the mirror reflection
+glowing eye catchlights, over the water surface
+glowing eye catchlights, between foreground candles
+glowing eye catchlights, around hair strands
+glowing eye catchlights, behind the veil
+glowing eye catchlights, across the dress hem
+glowing eye catchlights, near the collarbone
+thin lightning threads, around the character
+thin lightning threads, behind the head
+thin lightning threads, near the hands
+thin lightning threads, in the foreground
+thin lightning threads, across the background
+thin lightning threads, on clothing edges
+thin lightning threads, reflected on the floor
+thin lightning threads, framing the face
+thin lightning threads, around the legs
+thin lightning threads, behind the shoulders
+thin lightning threads, around the weapon
+thin lightning threads, inside the archway
+thin lightning threads, near the window
+thin lightning threads, in the mirror reflection
+thin lightning threads, over the water surface
+thin lightning threads, between foreground candles
+thin lightning threads, around hair strands
+thin lightning threads, behind the veil
+thin lightning threads, across the dress hem
+thin lightning threads, near the collarbone
+halo backlight, around the character
+halo backlight, behind the head
+halo backlight, near the hands
+halo backlight, in the foreground
+halo backlight, across the background
+halo backlight, on clothing edges
+halo backlight, reflected on the floor
+halo backlight, framing the face
+halo backlight, around the legs
+halo backlight, behind the shoulders
+halo backlight, around the weapon
+halo backlight, inside the archway
+halo backlight, near the window
+halo backlight, in the mirror reflection
+halo backlight, over the water surface
+halo backlight, between foreground candles
+halo backlight, around hair strands
+halo backlight, behind the veil
+halo backlight, across the dress hem
+halo backlight, near the collarbone
+transparent glass reflections, around the character
+transparent glass reflections, behind the head
+transparent glass reflections, near the hands
+transparent glass reflections, in the foreground
+transparent glass reflections, across the background
+transparent glass reflections, on clothing edges
+transparent glass reflections, reflected on the floor
+transparent glass reflections, framing the face
+transparent glass reflections, around the legs
+transparent glass reflections, behind the shoulders
+transparent glass reflections, around the weapon
+transparent glass reflections, inside the archway
+transparent glass reflections, near the window
+transparent glass reflections, in the mirror reflection
+transparent glass reflections, over the water surface
+transparent glass reflections, between foreground candles
+transparent glass reflections, around hair strands
+transparent glass reflections, behind the veil
+transparent glass reflections, across the dress hem
+transparent glass reflections, near the collarbone
+rain streaks in backlight, around the character
+rain streaks in backlight, behind the head
+rain streaks in backlight, near the hands
+rain streaks in backlight, in the foreground
+rain streaks in backlight, across the background
+rain streaks in backlight, on clothing edges
+rain streaks in backlight, reflected on the floor
+rain streaks in backlight, framing the face
+rain streaks in backlight, around the legs
+rain streaks in backlight, behind the shoulders
+rain streaks in backlight, around the weapon
+rain streaks in backlight, inside the archway
+rain streaks in backlight, near the window
+rain streaks in backlight, in the mirror reflection
+rain streaks in backlight, over the water surface
+rain streaks in backlight, between foreground candles
+rain streaks in backlight, around hair strands
+rain streaks in backlight, behind the veil
+rain streaks in backlight, across the dress hem
+rain streaks in backlight, near the collarbone
+soft candle smoke, around the character
+soft candle smoke, behind the head
+soft candle smoke, near the hands
+soft candle smoke, in the foreground
+soft candle smoke, across the background
+soft candle smoke, on clothing edges
+soft candle smoke, reflected on the floor
+soft candle smoke, framing the face
+soft candle smoke, around the legs
+soft candle smoke, behind the shoulders
+soft candle smoke, around the weapon
+soft candle smoke, inside the archway
+soft candle smoke, near the window
+soft candle smoke, in the mirror reflection
+soft candle smoke, over the water surface
+soft candle smoke, between foreground candles
+soft candle smoke, around hair strands
+soft candle smoke, behind the veil
+soft candle smoke, across the dress hem
+soft candle smoke, near the collarbone
+black feather particles, around the character
+black feather particles, behind the head
+black feather particles, near the hands
+black feather particles, in the foreground
+black feather particles, across the background
+black feather particles, on clothing edges
+black feather particles, reflected on the floor
+black feather particles, framing the face
+black feather particles, around the legs
+black feather particles, behind the shoulders
+black feather particles, around the weapon
+black feather particles, inside the archway
+black feather particles, near the window
+black feather particles, in the mirror reflection
+black feather particles, over the water surface
+black feather particles, between foreground candles
+black feather particles, around hair strands
+black feather particles, behind the veil
+black feather particles, across the dress hem
+black feather particles, near the collarbone
+rose petal particles, around the character
+rose petal particles, behind the head
+rose petal particles, near the hands
+rose petal particles, in the foreground
+rose petal particles, across the background
+rose petal particles, on clothing edges
+rose petal particles, reflected on the floor
+rose petal particles, framing the face
+rose petal particles, around the legs
+rose petal particles, behind the shoulders
+rose petal particles, around the weapon
+rose petal particles, inside the archway
+rose petal particles, near the window
+rose petal particles, in the mirror reflection
+rose petal particles, over the water surface
+rose petal particles, between foreground candles
+rose petal particles, around hair strands
+rose petal particles, behind the veil
+rose petal particles, across the dress hem
+rose petal particles, near the collarbone
+tiny rune sparks, around the character
+tiny rune sparks, behind the head
+tiny rune sparks, near the hands
+tiny rune sparks, in the foreground
+tiny rune sparks, across the background
+tiny rune sparks, on clothing edges
+tiny rune sparks, reflected on the floor
+tiny rune sparks, framing the face
+tiny rune sparks, around the legs
+tiny rune sparks, behind the shoulders
+tiny rune sparks, around the weapon
+tiny rune sparks, inside the archway
+tiny rune sparks, near the window
+tiny rune sparks, in the mirror reflection
+tiny rune sparks, over the water surface
+tiny rune sparks, between foreground candles
+tiny rune sparks, around hair strands
+tiny rune sparks, behind the veil
+tiny rune sparks, across the dress hem
+tiny rune sparks, near the collarbone
+floating gold leaf, around the character
+floating gold leaf, behind the head
+floating gold leaf, near the hands
+floating gold leaf, in the foreground
+floating gold leaf, across the background
+floating gold leaf, on clothing edges
+floating gold leaf, reflected on the floor
+floating gold leaf, framing the face
+floating gold leaf, around the legs
+floating gold leaf, behind the shoulders
+floating gold leaf, around the weapon
+floating gold leaf, inside the archway
+floating gold leaf, near the window
+floating gold leaf, in the mirror reflection
+floating gold leaf, over the water surface
+floating gold leaf, between foreground candles
+floating gold leaf, around hair strands
+floating gold leaf, behind the veil
+floating gold leaf, across the dress hem
+floating gold leaf, near the collarbone
+red crystal glow, around the character
+red crystal glow, behind the head
+red crystal glow, near the hands
+red crystal glow, in the foreground
+red crystal glow, across the background
+red crystal glow, on clothing edges
+red crystal glow, reflected on the floor
+red crystal glow, framing the face
+red crystal glow, around the legs
+red crystal glow, behind the shoulders
+red crystal glow, around the weapon
+red crystal glow, inside the archway
+red crystal glow, near the window
+red crystal glow, in the mirror reflection
+red crystal glow, over the water surface
+red crystal glow, between foreground candles
+red crystal glow, around hair strands
+red crystal glow, behind the veil
+red crystal glow, across the dress hem
+red crystal glow, near the collarbone
+blue crystal glow, around the character
+blue crystal glow, behind the head
+blue crystal glow, near the hands
+blue crystal glow, in the foreground
+blue crystal glow, across the background
+blue crystal glow, on clothing edges
+blue crystal glow, reflected on the floor
+blue crystal glow, framing the face
+blue crystal glow, around the legs
+blue crystal glow, behind the shoulders
+blue crystal glow, around the weapon
+blue crystal glow, inside the archway
+blue crystal glow, near the window
+blue crystal glow, in the mirror reflection
+blue crystal glow, over the water surface
+blue crystal glow, between foreground candles
+blue crystal glow, around hair strands
+blue crystal glow, behind the veil
+blue crystal glow, across the dress hem
+blue crystal glow, near the collarbone
+iridescent highlights, around the character
+iridescent highlights, behind the head
+iridescent highlights, near the hands
+iridescent highlights, in the foreground
+iridescent highlights, across the background
+iridescent highlights, on clothing edges
+iridescent highlights, reflected on the floor
+iridescent highlights, framing the face
+iridescent highlights, around the legs
+iridescent highlights, behind the shoulders
+iridescent highlights, around the weapon
+iridescent highlights, inside the archway
+iridescent highlights, near the window
+iridescent highlights, in the mirror reflection
+iridescent highlights, over the water surface
+iridescent highlights, between foreground candles
+iridescent highlights, around hair strands
+iridescent highlights, behind the veil
+iridescent highlights, across the dress hem
+iridescent highlights, near the collarbone
+liquid metal reflections, around the character
+liquid metal reflections, behind the head
+liquid metal reflections, near the hands
+liquid metal reflections, in the foreground
+liquid metal reflections, across the background
+liquid metal reflections, on clothing edges
+liquid metal reflections, reflected on the floor
+liquid metal reflections, framing the face
+liquid metal reflections, around the legs
+liquid metal reflections, behind the shoulders
+liquid metal reflections, around the weapon
+liquid metal reflections, inside the archway
+liquid metal reflections, near the window
+liquid metal reflections, in the mirror reflection
+liquid metal reflections, over the water surface
+liquid metal reflections, between foreground candles
+liquid metal reflections, around hair strands
+liquid metal reflections, behind the veil
+liquid metal reflections, across the dress hem
+liquid metal reflections, near the collarbone
+magic circle glow, around the character
+magic circle glow, behind the head
+magic circle glow, near the hands
+magic circle glow, in the foreground
+magic circle glow, across the background
+magic circle glow, on clothing edges
+magic circle glow, reflected on the floor
+magic circle glow, framing the face
+magic circle glow, around the legs
+magic circle glow, behind the shoulders
+magic circle glow, around the weapon
+magic circle glow, inside the archway
+magic circle glow, near the window
+magic circle glow, in the mirror reflection
+magic circle glow, over the water surface
+magic circle glow, between foreground candles
+magic circle glow, around hair strands
+magic circle glow, behind the veil
+magic circle glow, across the dress hem
+magic circle glow, near the collarbone
+glowing ribbon trails, around the character
+glowing ribbon trails, behind the head
+glowing ribbon trails, near the hands
+glowing ribbon trails, in the foreground
+glowing ribbon trails, across the background
+glowing ribbon trails, on clothing edges
+glowing ribbon trails, reflected on the floor
+glowing ribbon trails, framing the face
+glowing ribbon trails, around the legs
+glowing ribbon trails, behind the shoulders
+glowing ribbon trails, around the weapon
+glowing ribbon trails, inside the archway
+glowing ribbon trails, near the window
+glowing ribbon trails, in the mirror reflection
+glowing ribbon trails, over the water surface
+glowing ribbon trails, between foreground candles
+glowing ribbon trails, around hair strands
+glowing ribbon trails, behind the veil
+glowing ribbon trails, across the dress hem
+glowing ribbon trails, near the collarbone
+shadow aura underfoot, around the character
+shadow aura underfoot, behind the head
+shadow aura underfoot, near the hands
+shadow aura underfoot, in the foreground
+shadow aura underfoot, across the background
+shadow aura underfoot, on clothing edges
+shadow aura underfoot, reflected on the floor
+shadow aura underfoot, framing the face
+shadow aura underfoot, around the legs
+shadow aura underfoot, behind the shoulders
+shadow aura underfoot, around the weapon
+shadow aura underfoot, inside the archway
+shadow aura underfoot, near the window
+shadow aura underfoot, in the mirror reflection
+shadow aura underfoot, over the water surface
+shadow aura underfoot, between foreground candles
+shadow aura underfoot, around hair strands
+shadow aura underfoot, behind the veil
+shadow aura underfoot, across the dress hem
+shadow aura underfoot, near the collarbone
+moonbeam shafts, around the character
+moonbeam shafts, behind the head
+moonbeam shafts, near the hands
+moonbeam shafts, in the foreground
+moonbeam shafts, across the background
+moonbeam shafts, on clothing edges
+moonbeam shafts, reflected on the floor
+moonbeam shafts, framing the face
+moonbeam shafts, around the legs
+moonbeam shafts, behind the shoulders
+moonbeam shafts, around the weapon
+moonbeam shafts, inside the archway
+moonbeam shafts, near the window
+moonbeam shafts, in the mirror reflection
+moonbeam shafts, over the water surface
+moonbeam shafts, between foreground candles
+moonbeam shafts, around hair strands
+moonbeam shafts, behind the veil
+moonbeam shafts, across the dress hem
+moonbeam shafts, near the collarbone
+stained glass color spill, around the character
+stained glass color spill, behind the head
+stained glass color spill, near the hands
+stained glass color spill, in the foreground
+stained glass color spill, across the background
+stained glass color spill, on clothing edges
+stained glass color spill, reflected on the floor
+stained glass color spill, framing the face
+stained glass color spill, around the legs
+stained glass color spill, behind the shoulders
+stained glass color spill, around the weapon
+stained glass color spill, inside the archway
+stained glass color spill, near the window
+stained glass color spill, in the mirror reflection
+stained glass color spill, over the water surface
+stained glass color spill, between foreground candles
+stained glass color spill, around hair strands
+stained glass color spill, behind the veil
+stained glass color spill, across the dress hem
+stained glass color spill, near the collarbone
+wet pavement glow, around the character
+wet pavement glow, behind the head
+wet pavement glow, near the hands
+wet pavement glow, in the foreground
+wet pavement glow, across the background
+wet pavement glow, on clothing edges
+wet pavement glow, reflected on the floor
+wet pavement glow, framing the face
+wet pavement glow, around the legs
+wet pavement glow, behind the shoulders
+wet pavement glow, around the weapon
+wet pavement glow, inside the archway
+wet pavement glow, near the window
+wet pavement glow, in the mirror reflection
+wet pavement glow, over the water surface
+wet pavement glow, between foreground candles
+wet pavement glow, around hair strands
+wet pavement glow, behind the veil
+wet pavement glow, across the dress hem
+wet pavement glow, near the collarbone
+neon outline accents, around the character
+neon outline accents, behind the head
+neon outline accents, near the hands
+neon outline accents, in the foreground
+neon outline accents, across the background
+neon outline accents, on clothing edges
+neon outline accents, reflected on the floor
+neon outline accents, framing the face
+neon outline accents, around the legs
+neon outline accents, behind the shoulders
+neon outline accents, around the weapon
+neon outline accents, inside the archway
+neon outline accents, near the window
+neon outline accents, in the mirror reflection
+neon outline accents, over the water surface
+neon outline accents, between foreground candles
+neon outline accents, around hair strands
+neon outline accents, behind the veil
+neon outline accents, across the dress hem
+neon outline accents, near the collarbone
+faint constellation lines, around the character
+faint constellation lines, behind the head
+faint constellation lines, near the hands
+faint constellation lines, in the foreground
+faint constellation lines, across the background
+faint constellation lines, on clothing edges
+faint constellation lines, reflected on the floor
+faint constellation lines, framing the face
+faint constellation lines, around the legs
+faint constellation lines, behind the shoulders
+faint constellation lines, around the weapon
+faint constellation lines, inside the archway
+faint constellation lines, near the window
+faint constellation lines, in the mirror reflection
+faint constellation lines, over the water surface
+faint constellation lines, between foreground candles
+faint constellation lines, around hair strands
+faint constellation lines, behind the veil
+faint constellation lines, across the dress hem
+faint constellation lines, near the collarbone
+gentle volumetric rays, around the character
+gentle volumetric rays, behind the head
+gentle volumetric rays, near the hands
+gentle volumetric rays, in the foreground
+gentle volumetric rays, across the background
+gentle volumetric rays, on clothing edges
+gentle volumetric rays, reflected on the floor
+gentle volumetric rays, framing the face
+gentle volumetric rays, around the legs
+gentle volumetric rays, behind the shoulders
+gentle volumetric rays, around the weapon
+gentle volumetric rays, inside the archway
+gentle volumetric rays, near the window
+gentle volumetric rays, in the mirror reflection
+gentle volumetric rays, over the water surface
+gentle volumetric rays, between foreground candles
+gentle volumetric rays, around hair strands
+gentle volumetric rays, behind the veil
+gentle volumetric rays, across the dress hem
+gentle volumetric rays, near the collarbone
+glowing lace edge, around the character
+glowing lace edge, behind the head
+glowing lace edge, near the hands
+glowing lace edge, in the foreground
+glowing lace edge, across the background
+glowing lace edge, on clothing edges
+glowing lace edge, reflected on the floor
+glowing lace edge, framing the face
+glowing lace edge, around the legs
+glowing lace edge, behind the shoulders
+glowing lace edge, around the weapon
+glowing lace edge, inside the archway
+glowing lace edge, near the window
+glowing lace edge, in the mirror reflection
+glowing lace edge, over the water surface
+glowing lace edge, between foreground candles
+glowing lace edge, around hair strands
+glowing lace edge, behind the veil
+glowing lace edge, across the dress hem
+glowing lace edge, near the collarbone
+violet smoke ribbon, around the character
+violet smoke ribbon, behind the head
+violet smoke ribbon, near the hands
+violet smoke ribbon, in the foreground
+violet smoke ribbon, across the background
+violet smoke ribbon, on clothing edges
+violet smoke ribbon, reflected on the floor
+violet smoke ribbon, framing the face
+violet smoke ribbon, around the legs
+violet smoke ribbon, behind the shoulders
+violet smoke ribbon, around the weapon
+violet smoke ribbon, inside the archway
+violet smoke ribbon, near the window
+violet smoke ribbon, in the mirror reflection
+violet smoke ribbon, over the water surface
+violet smoke ribbon, between foreground candles
+violet smoke ribbon, around hair strands
+violet smoke ribbon, behind the veil
+violet smoke ribbon, across the dress hem
+violet smoke ribbon, near the collarbone
+crystal sparkle burst, around the character
+crystal sparkle burst, behind the head
+crystal sparkle burst, near the hands
+crystal sparkle burst, in the foreground
+crystal sparkle burst, across the background
+crystal sparkle burst, on clothing edges
+crystal sparkle burst, reflected on the floor
+crystal sparkle burst, framing the face
+crystal sparkle burst, around the legs
+crystal sparkle burst, behind the shoulders
+crystal sparkle burst, around the weapon
+crystal sparkle burst, inside the archway
+crystal sparkle burst, near the window
+crystal sparkle burst, in the mirror reflection
+crystal sparkle burst, over the water surface
+crystal sparkle burst, between foreground candles
+crystal sparkle burst, around hair strands
+crystal sparkle burst, behind the veil
+crystal sparkle burst, across the dress hem
+crystal sparkle burst, near the collarbone
+ruby dust trail, around the character
+ruby dust trail, behind the head
+ruby dust trail, near the hands
+ruby dust trail, in the foreground
+ruby dust trail, across the background
+ruby dust trail, on clothing edges
+ruby dust trail, reflected on the floor
+ruby dust trail, framing the face
+ruby dust trail, around the legs
+ruby dust trail, behind the shoulders
+ruby dust trail, around the weapon
+ruby dust trail, inside the archway
+ruby dust trail, near the window
+ruby dust trail, in the mirror reflection
+ruby dust trail, over the water surface
+ruby dust trail, between foreground candles
+ruby dust trail, around hair strands
+ruby dust trail, behind the veil
+ruby dust trail, across the dress hem
+ruby dust trail, near the collarbone
+electric cyan sparks, around the character
+electric cyan sparks, behind the head
+electric cyan sparks, near the hands
+electric cyan sparks, in the foreground
+electric cyan sparks, across the background
+electric cyan sparks, on clothing edges
+electric cyan sparks, reflected on the floor
+electric cyan sparks, framing the face
+electric cyan sparks, around the legs
+electric cyan sparks, behind the shoulders
+electric cyan sparks, around the weapon
+electric cyan sparks, inside the archway
+electric cyan sparks, near the window
+electric cyan sparks, in the mirror reflection
+electric cyan sparks, over the water surface
+electric cyan sparks, between foreground candles
+electric cyan sparks, around hair strands
+electric cyan sparks, behind the veil
+electric cyan sparks, across the dress hem
+electric cyan sparks, near the collarbone
+golden halo shards, around the character
+golden halo shards, behind the head
+golden halo shards, near the hands
+golden halo shards, in the foreground
+golden halo shards, across the background
+golden halo shards, on clothing edges
+golden halo shards, reflected on the floor
+golden halo shards, framing the face
+golden halo shards, around the legs
+golden halo shards, behind the shoulders
+golden halo shards, around the weapon
+golden halo shards, inside the archway
+golden halo shards, near the window
+golden halo shards, in the mirror reflection
+golden halo shards, over the water surface
+golden halo shards, between foreground candles
+golden halo shards, around hair strands
+golden halo shards, behind the veil
+golden halo shards, across the dress hem
+golden halo shards, near the collarbone
+black rose petal drift, around the character
+black rose petal drift, behind the head
+black rose petal drift, near the hands
+black rose petal drift, in the foreground
+black rose petal drift, across the background
+black rose petal drift, on clothing edges
+black rose petal drift, reflected on the floor
+black rose petal drift, framing the face
+black rose petal drift, around the legs
+black rose petal drift, behind the shoulders
+black rose petal drift, around the weapon
+black rose petal drift, inside the archway
+black rose petal drift, near the window
+black rose petal drift, in the mirror reflection
+black rose petal drift, over the water surface
+black rose petal drift, between foreground candles
+black rose petal drift, around hair strands
+black rose petal drift, behind the veil
+black rose petal drift, across the dress hem
+black rose petal drift, near the collarbone
+opal glitter highlights, around the character
+opal glitter highlights, behind the head
+opal glitter highlights, near the hands
+opal glitter highlights, in the foreground
+opal glitter highlights, across the background
+opal glitter highlights, on clothing edges
+opal glitter highlights, reflected on the floor
+opal glitter highlights, framing the face
+opal glitter highlights, around the legs
+opal glitter highlights, behind the shoulders
+opal glitter highlights, around the weapon
+opal glitter highlights, inside the archway
+opal glitter highlights, near the window
+opal glitter highlights, in the mirror reflection
+opal glitter highlights, over the water surface
+opal glitter highlights, between foreground candles
+opal glitter highlights, around hair strands
+opal glitter highlights, behind the veil
+opal glitter highlights, across the dress hem
+opal glitter highlights, near the collarbone
+blue fire wisps, around the character
+blue fire wisps, behind the head
+blue fire wisps, near the hands
+blue fire wisps, in the foreground
+blue fire wisps, across the background
+blue fire wisps, on clothing edges
+blue fire wisps, reflected on the floor
+blue fire wisps, framing the face
+blue fire wisps, around the legs
+blue fire wisps, behind the shoulders
+blue fire wisps, around the weapon
+blue fire wisps, inside the archway
+blue fire wisps, near the window
+blue fire wisps, in the mirror reflection
+blue fire wisps, over the water surface
+blue fire wisps, between foreground candles
+blue fire wisps, around hair strands
+blue fire wisps, behind the veil
+blue fire wisps, across the dress hem
+blue fire wisps, near the collarbone
