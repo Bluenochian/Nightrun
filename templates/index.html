@@ -3,356 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nightrun 3.0 - Web Dashboard</title>
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Orbitron:wght@400;700;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>NIGHTRUN 3.0 - Control Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body { width: 100%; height: 100%; overflow: hidden; }
 
         :root {
-            --primary: #00d9ff;
-            --accent: #ff006e;
             --bg: #0a0e27;
             --card: #1a1f3a;
             --border: #2a2f4a;
             --text: #e0e0ff;
             --text-dim: #808099;
+            --primary: #00d9ff;
+            --accent: #ff006e;
             --success: #00ff41;
             --warning: #ffb700;
             --error: #ff3333;
         }
 
-        html, body {
-            width: 100%;
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            font-family: 'Rajdhani', sans-serif;
+        body {
+            font-family: 'Inter', sans-serif;
             background: var(--bg);
             color: var(--text);
-            overflow: hidden;
         }
 
-        #app {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            height: 100%;
-        }
+        #app { display: flex; flex-direction: column; width: 100%; height: 100%; }
 
         /* HEADER */
         .header {
-            height: 60px;
-            background: linear-gradient(90deg, var(--card) 0%, rgba(26, 31, 58, 0.8) 100%);
+            height: 70px;
+            background: linear-gradient(90deg, var(--card), transparent);
             border-bottom: 1px solid var(--border);
+            padding: 0 24px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 0 24px;
-            gap: 20px;
-            min-height: 60px;
-        }
-
-        .header-left {
-            display: flex;
-            align-items: center;
             gap: 24px;
-            flex: 1;
         }
 
-        .logo {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 18px;
-            font-weight: 900;
-            color: var(--primary);
-            text-shadow: 0 0 10px var(--primary), 0 0 20px rgba(0, 217, 255, 0.5);
-            letter-spacing: 2px;
-        }
+        .header-left { display: flex; align-items: center; gap: 24px; flex: 1; }
+        .logo { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; color: var(--primary); text-shadow: 0 0 12px var(--primary); letter-spacing: 1px; }
+        .theme-badge { padding: 6px 16px; background: rgba(0,217,255,0.1); border: 1px solid var(--primary); border-radius: 20px; font-size: 11px; font-weight: 600; text-transform: uppercase; color: var(--primary); }
 
-        .theme-badge {
-            display: inline-block;
-            padding: 4px 12px;
-            background: rgba(0, 217, 255, 0.1);
-            border: 1px solid var(--primary);
-            border-radius: 20px;
-            font-size: 11px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: var(--primary);
-            transition: all 0.3s ease;
-        }
+        .header-right { display: flex; gap: 12px; align-items: center; }
 
-        .theme-badge.changing {
-            animation: pulse-badge 0.6s ease;
-        }
+        .mode-toggle { display: flex; gap: 2px; background: var(--border); border-radius: 4px; }
+        .mode-btn { padding: 8px 16px; background: transparent; border: none; color: var(--text-dim); cursor: pointer; font-size: 12px; font-weight: 600; text-transform: uppercase; transition: all 0.2s; }
+        .mode-btn.active { background: var(--primary); color: var(--bg); box-shadow: 0 0 12px rgba(0,217,255,0.4); }
 
-        @keyframes pulse-badge {
-            0% { box-shadow: 0 0 8px rgba(0, 217, 255, 0.3); }
-            50% { box-shadow: 0 0 20px rgba(0, 217, 255, 0.8); }
-            100% { box-shadow: 0 0 8px rgba(0, 217, 255, 0.3); }
-        }
+        input[type="number"] { width: 70px; padding: 8px; background: var(--border); border: 1px solid var(--border); color: var(--text); font-family: 'JetBrains Mono', monospace; border-radius: 4px; text-align: center; }
 
-        .header-controls {
-            display: flex;
-            gap: 16px;
-            align-items: center;
-        }
+        .btn { padding: 8px 16px; border: none; border-radius: 4px; font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: all 0.2s; display: flex; align-items: center; gap: 6px; }
+        .btn-launch { background: var(--success); color: var(--bg); }
+        .btn-launch:hover { box-shadow: 0 0 20px rgba(0,255,65,0.6); }
+        .btn-skip { background: var(--warning); color: var(--bg); }
+        .btn-stop { background: var(--error); color: white; }
 
-        .mode-toggle {
-            display: flex;
-            background: var(--border);
-            border-radius: 4px;
-            border: 1px solid var(--border);
-            overflow: hidden;
-        }
+        /* MAIN */
+        .content { flex: 1; display: flex; gap: 0; overflow: hidden; }
 
-        .mode-btn {
-            padding: 6px 12px;
-            border: none;
-            background: transparent;
-            color: var(--text-dim);
-            cursor: pointer;
-            font-family: 'Rajdhani', sans-serif;
-            font-size: 12px;
-            font-weight: 600;
-            transition: all 0.2s;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
+        .left-panel { width: 62%; display: flex; flex-direction: column; position: relative; border-right: 1px solid var(--border); }
+        #bg-canvas { width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 1; }
 
-        .mode-btn.active {
-            background: var(--primary);
-            color: var(--bg);
-            box-shadow: 0 0 12px rgba(0, 217, 255, 0.4);
-        }
+        .preview-container { position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; align-items: center; justify-content: center; z-index: 2; }
+        .preview-placeholder { text-align: center; opacity: 0.3; }
+        .preview-placeholder-icon { font-size: 48px; margin-bottom: 12px; animation: float 3s infinite; }
+        @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
 
-        .mode-btn:hover {
-            color: var(--primary);
-        }
+        #preview { max-width: 95%; max-height: 95%; object-fit: contain; opacity: 0; transition: opacity 0.3s; border-radius: 4px; }
+        #preview.visible { opacity: 1; }
 
-        .count-input {
-            width: 80px;
-            padding: 6px 8px;
-            background: var(--border);
-            border: 1px solid var(--border);
-            border-radius: 4px;
-            color: var(--text);
-            font-family: 'Rajdhani', sans-serif;
-            font-size: 12px;
-            text-align: center;
-        }
+        /* RIGHT PANEL */
+        .right-panel { width: 38%; display: flex; flex-direction: column; background: rgba(26,31,58,0.5); }
 
-        .count-input:focus {
-            outline: none;
-            border-color: var(--primary);
-            box-shadow: 0 0 8px rgba(0, 217, 255, 0.3);
-        }
+        .tabs { display: flex; border-bottom: 1px solid var(--border); background: var(--card); }
+        .tab-btn { flex: 1; padding: 12px; background: transparent; border: none; color: var(--text-dim); cursor: pointer; font-size: 12px; font-weight: 600; text-transform: uppercase; border-bottom: 2px solid transparent; margin-bottom: -1px; transition: all 0.2s; }
+        .tab-btn.active { color: var(--primary); border-bottom-color: var(--primary); }
 
-        .action-buttons {
-            display: flex;
-            gap: 8px;
-        }
+        .tab-content { flex: 1; overflow-y: auto; padding: 16px; display: none; font-family: 'JetBrains Mono', monospace; font-size: 12px; line-height: 1.6; }
+        .tab-content.active { display: block; }
 
-        .btn {
-            padding: 8px 16px;
-            border: none;
-            border-radius: 4px;
-            font-family: 'Rajdhani', sans-serif;
-            font-size: 12px;
-            font-weight: 600;
-            cursor: pointer;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            transition: all 0.2s;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-
-        .btn-launch {
-            background: var(--success);
-            color: var(--bg);
-            box-shadow: 0 0 12px rgba(0, 255, 65, 0.3);
-        }
-
-        .btn-launch:hover {
-            box-shadow: 0 0 20px rgba(0, 255, 65, 0.6);
-        }
-
-        .btn-skip {
-            background: var(--warning);
-            color: var(--bg);
-            box-shadow: 0 0 12px rgba(255, 183, 0, 0.3);
-        }
-
-        .btn-skip:hover {
-            box-shadow: 0 0 20px rgba(255, 183, 0, 0.6);
-        }
-
-        .btn-stop {
-            background: var(--error);
-            color: white;
-            box-shadow: 0 0 12px rgba(255, 51, 51, 0.3);
-        }
-
-        .btn-stop:hover {
-            box-shadow: 0 0 20px rgba(255, 51, 51, 0.6);
-        }
-
-        /* MAIN CONTENT */
-        .content {
-            flex: 1;
-            display: flex;
-            gap: 0;
-            overflow: hidden;
-        }
-
-        .left-panel {
-            width: 62%;
-            display: flex;
-            flex-direction: column;
-            position: relative;
-            border-right: 1px solid var(--border);
-        }
-
-        .canvas-container {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: 1;
-        }
-
-        #bg {
-            width: 100%;
-            height: 100%;
-            display: block;
-        }
-
-        .preview-container {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 2;
-            overflow: hidden;
-        }
-
-        #preview {
-            max-width: 95%;
-            max-height: 95%;
-            object-fit: contain;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-            border-radius: 4px;
-            box-shadow: 0 0 30px rgba(0, 217, 255, 0.2);
-        }
-
-        #preview.visible {
-            opacity: 1;
-        }
-
-        .preview-placeholder {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 0;
-            text-align: center;
-            opacity: 0.4;
-        }
-
-        .preview-placeholder-icon {
-            font-size: 48px;
-            margin-bottom: 12px;
-            animation: float 3s ease-in-out infinite;
-        }
-
-        .preview-placeholder-text {
-            font-size: 14px;
-            color: var(--text-dim);
-            letter-spacing: 1px;
-        }
-
-        @keyframes float {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-10px); }
-        }
-
-        .right-panel {
-            width: 38%;
-            display: flex;
-            flex-direction: column;
-            background: rgba(26, 31, 58, 0.5);
-        }
-
-        .tabs {
-            display: flex;
-            border-bottom: 1px solid var(--border);
-            background: var(--card);
-        }
-
-        .tab-btn {
-            flex: 1;
-            padding: 12px;
-            background: transparent;
-            border: none;
-            color: var(--text-dim);
-            cursor: pointer;
-            font-family: 'Rajdhani', sans-serif;
-            font-size: 12px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            transition: all 0.2s;
-            border-bottom: 2px solid transparent;
-            margin-bottom: -1px;
-        }
-
-        .tab-btn.active {
-            color: var(--primary);
-            border-bottom-color: var(--primary);
-        }
-
-        .tab-btn:hover {
-            color: var(--text);
-        }
-
-        .tab-content {
-            flex: 1;
-            overflow-y: auto;
-            padding: 16px;
-            display: none;
-        }
-
-        .tab-content.active {
-            display: block;
-        }
-
-        /* LOG TAB */
-        #log-content {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 12px;
-            line-height: 1.6;
-        }
-
-        .log-line {
-            padding: 2px 0;
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            animation: fade-in-line 0.3s ease;
-        }
-
+        .log-line { padding: 2px 0; white-space: pre-wrap; word-wrap: break-word; }
         .log-line.green { color: var(--success); }
         .log-line.red { color: var(--error); }
         .log-line.yellow { color: var(--warning); }
@@ -360,290 +93,65 @@
         .log-line.bright-cyan { color: #00ffff; font-weight: 600; }
         .log-line.dim { color: var(--text-dim); }
 
-        @keyframes fade-in-line {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-
         /* PROMPT TAB */
-        #prompt-content {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-
-        .prompt-chips {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-        }
-
-        .chip {
-            padding: 6px 10px;
-            border-radius: 20px;
-            font-size: 11px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            animation: chip-pop 0.3s ease;
-        }
-
-        @keyframes chip-pop {
-            0% { transform: scale(0.8); opacity: 0; }
-            100% { transform: scale(1); opacity: 1; }
-        }
-
-        .chip-colors {
-            --colors: #ff006e, #00d9ff, #00ff41, #ffb700, #ff3333, #a100f2, #f72585, #4361ee;
-        }
-
-        .prompt-full {
-            background: var(--border);
-            border: 1px solid var(--border);
-            border-radius: 4px;
-            padding: 12px;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 11px;
-            color: var(--text-dim);
-            max-height: 300px;
-            overflow-y: auto;
-            white-space: pre-wrap;
-            word-wrap: break-word;
-        }
+        .prompt-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+        .chip { padding: 6px 10px; border-radius: 20px; font-size: 11px; font-weight: 600; text-transform: uppercase; animation: chip-pop 0.3s ease; }
+        @keyframes chip-pop { 0% { transform: scale(0.8); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+        .prompt-full { background: var(--border); border: 1px solid var(--border); border-radius: 4px; padding: 12px; max-height: 300px; overflow-y: auto; font-size: 11px; color: var(--text-dim); white-space: pre-wrap; word-wrap: break-word; }
 
         /* OPTIONS TAB */
-        #options-content {
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-            max-height: 100%;
-            overflow-y: auto;
-        }
+        .options-section { border-bottom: 1px solid var(--border); padding-bottom: 12px; margin-bottom: 12px; }
+        .section-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--primary); margin-bottom: 8px; }
+        .option-item { display: flex; align-items: center; justify-content: space-between; padding: 6px 0; font-size: 12px; }
+        .option-label { flex: 1; color: var(--text-dim); }
+        .option-input { flex: 0 0 150px; padding: 6px 8px; background: var(--border); border: 1px solid var(--border); border-radius: 3px; color: var(--text); font-family: 'JetBrains Mono', monospace; font-size: 11px; }
+        .option-input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 6px rgba(0,217,255,0.2); }
 
-        .options-section {
-            border-bottom: 1px solid var(--border);
-            padding-bottom: 12px;
-        }
+        .save-btn { padding: 8px 16px; background: var(--primary); color: var(--bg); border: none; border-radius: 4px; font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 600; cursor: pointer; text-transform: uppercase; margin-top: 12px; }
 
-        .options-section-title {
-            font-size: 11px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: var(--primary);
-            margin-bottom: 8px;
-        }
+        /* PROGRESS */
+        .progress-container { height: 50px; background: var(--card); border-top: 1px solid var(--border); padding: 12px 24px; display: flex; align-items: center; gap: 16px; }
+        .progress-label { font-size: 11px; font-weight: 600; color: var(--text-dim); min-width: 100px; }
+        .progress-bar { flex: 1; height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
+        .progress-fill { height: 100%; background: linear-gradient(90deg, var(--primary), var(--accent)); width: 0%; transition: width 0.3s ease; box-shadow: 0 0 10px rgba(0,217,255,0.5); }
+        .progress-eta { font-size: 11px; color: var(--text-dim); min-width: 80px; text-align: right; }
 
-        .option-item {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 6px 0;
-            font-size: 12px;
-        }
-
-        .option-label {
-            flex: 1;
-            color: var(--text-dim);
-        }
-
-        .option-input {
-            flex: 0 0 120px;
-            padding: 4px 8px;
-            background: var(--border);
-            border: 1px solid var(--border);
-            border-radius: 3px;
-            color: var(--text);
-            font-family: 'Rajdhani', sans-serif;
-            font-size: 11px;
-            text-align: right;
-        }
-
-        .option-input:focus {
-            outline: none;
-            border-color: var(--primary);
-            box-shadow: 0 0 6px rgba(0, 217, 255, 0.2);
-        }
-
-        .toggle-switch {
-            width: 40px;
-            height: 20px;
-            background: var(--border);
-            border: 1px solid var(--border);
-            border-radius: 10px;
-            position: relative;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-
-        .toggle-switch.on {
-            background: var(--success);
-            border-color: var(--success);
-        }
-
-        .toggle-switch::after {
-            content: '';
-            position: absolute;
-            width: 16px;
-            height: 16px;
-            background: var(--bg);
-            border-radius: 50%;
-            top: 2px;
-            left: 2px;
-            transition: left 0.2s;
-        }
-
-        .toggle-switch.on::after {
-            left: 22px;
-        }
-
-        .config-save-btn {
-            padding: 8px 16px;
-            background: var(--primary);
-            color: var(--bg);
-            border: none;
-            border-radius: 4px;
-            font-family: 'Rajdhani', sans-serif;
-            font-size: 12px;
-            font-weight: 600;
-            cursor: pointer;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-top: 8px;
-        }
-
-        .config-save-btn:hover {
-            box-shadow: 0 0 12px rgba(0, 217, 255, 0.4);
-        }
-
-        /* PROGRESS BAR */
-        .progress-bar-container {
-            height: 44px;
-            background: var(--card);
-            border-top: 1px solid var(--border);
-            padding: 12px 24px;
-            display: flex;
-            align-items: center;
-            gap: 16px;
-        }
-
-        .progress-label {
-            font-size: 11px;
-            font-weight: 600;
-            text-transform: uppercase;
-            color: var(--text-dim);
-            min-width: 80px;
-        }
-
-        .progress-bar {
-            flex: 1;
-            height: 8px;
-            background: var(--border);
-            border-radius: 4px;
-            overflow: hidden;
-            position: relative;
-        }
-
-        .progress-fill {
-            height: 100%;
-            background: linear-gradient(90deg, var(--primary), var(--accent));
-            width: 0%;
-            transition: width 0.3s ease;
-            box-shadow: 0 0 10px rgba(0, 217, 255, 0.5);
-        }
-
-        .progress-eta {
-            font-size: 11px;
-            color: var(--text-dim);
-            min-width: 80px;
-            text-align: right;
-        }
-
-        /* SCROLLBARS */
-        ::-webkit-scrollbar {
-            width: 8px;
-            height: 8px;
-        }
-
-        ::-webkit-scrollbar-track {
-            background: var(--border);
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: var(--text-dim);
-            border-radius: 4px;
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: var(--text);
-        }
-
-        /* THEME-SPECIFIC COLOR OVERRIDES */
-        .theme-cyber { --primary: #00d9ff; --accent: #00ff41; }
-        .theme-neon { --primary: #ff006e; --accent: #00d9ff; }
-        .theme-matrix { --primary: #00ff00; --accent: #004d00; }
-        .theme-dragon { --primary: #ff3d00; --accent: #ffb700; }
-        .theme-fire { --primary: #ff6b35; --accent: #ff006e; }
-        .theme-snow { --primary: #e0f7ff; --accent: #87ceeb; }
-        .theme-steam { --primary: #8b7355; --accent: #d4a574; }
-        .theme-love { --primary: #ff1493; --accent: #ff69b4; }
-        .theme-ocean { --primary: #0099cc; --accent: #00ccff; }
-        .theme-ghost { --primary: #e8e8ff; --accent: #a8a8ff; }
-        .theme-cosmic { --primary: #9d4edd; --accent: #7209b7; }
-        .theme-forest { --primary: #2d6a4f; --accent: #40916c; }
-        .theme-potion { --primary: #7209b7; --accent: #f72585; }
-        .theme-surveillance { --primary: #ff3333; --accent: #cc0000; }
-        .theme-nuclear { --primary: #ffff00; --accent: #ffaa00; }
-        .theme-vampire { --primary: #8b0000; --accent: #ff1493; }
-        .theme-mystery { --primary: #4a4a6a; --accent: #8b7d9b; }
-        .theme-medieval { --primary: #d4a574; --accent: #a68064; }
-        .theme-samurai { --primary: #ff69b4; --accent: #ffb6c1; }
-        .theme-demon { --primary: #ff1493; --accent: #ff6347; }
-        .theme-hologram { --primary: #00d9ff; --accent: #00ff41; }
-        .theme-magic { --primary: #a100f2; --accent: #f72585; }
-        .theme-default { --primary: #00d9ff; --accent: #ff006e; }
-
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: var(--border); }
+        ::-webkit-scrollbar-thumb { background: var(--text-dim); border-radius: 4px; }
     </style>
 </head>
 <body>
     <div id="app">
-        <!-- HEADER -->
         <div class="header">
             <div class="header-left">
                 <div class="logo">◈ NIGHTRUN 3.0</div>
-                <div class="theme-badge" id="theme-badge">Default</div>
+                <div class="theme-badge" id="theme-badge">DEFAULT</div>
             </div>
-            <div class="header-controls">
+            <div class="header-right">
                 <div class="mode-toggle">
                     <button class="mode-btn active" data-mode="base">Base</button>
                     <button class="mode-btn" data-mode="upscale">Upscale</button>
                 </div>
-                <input type="number" class="count-input" id="count-input" value="10" min="1" max="1000">
-                <div class="action-buttons">
-                    <button class="btn btn-launch" id="btn-launch">▶ Launch</button>
-                    <button class="btn btn-skip" id="btn-skip">⏭ Skip</button>
-                    <button class="btn btn-stop" id="btn-stop">■ Stop</button>
-                </div>
+                <input type="number" id="count-input" value="10" min="1">
+                <button class="btn btn-launch" id="btn-launch">▶ Launch</button>
+                <button class="btn btn-skip" id="btn-skip">⏭ Skip</button>
+                <button class="btn btn-stop" id="btn-stop">■ Stop</button>
             </div>
         </div>
 
-        <!-- CONTENT -->
         <div class="content">
-            <!-- LEFT PANEL -->
             <div class="left-panel">
-                <div class="canvas-container">
-                    <canvas id="bg"></canvas>
-                </div>
+                <canvas id="bg-canvas"></canvas>
                 <div class="preview-container">
                     <div class="preview-placeholder">
                         <div class="preview-placeholder-icon">◈</div>
-                        <div class="preview-placeholder-text">Awaiting Generation...</div>
+                        <div>Awaiting Generation...</div>
                     </div>
                     <img id="preview" src="" alt="Preview">
                 </div>
             </div>
 
-            <!-- RIGHT PANEL -->
             <div class="right-panel">
                 <div class="tabs">
                     <button class="tab-btn active" data-tab="log">Log</button>
@@ -651,51 +159,19 @@
                     <button class="tab-btn" data-tab="options">Options</button>
                 </div>
 
-                <!-- LOG TAB -->
                 <div class="tab-content active" id="log-content"></div>
 
-                <!-- PROMPT TAB -->
                 <div class="tab-content" id="prompt-content">
                     <div class="prompt-chips" id="prompt-chips"></div>
                     <div class="prompt-full" id="prompt-full">No prompt yet</div>
                 </div>
 
-                <!-- OPTIONS TAB -->
-                <div class="tab-content" id="options-content">
-                    <div class="options-section">
-                        <div class="options-section-title">General</div>
-                        <div class="option-item">
-                            <label class="option-label">Count</label>
-                            <input type="number" class="option-input" data-config="count" value="10">
-                        </div>
-                        <div class="option-item">
-                            <label class="option-label">Checkpoint</label>
-                            <input type="text" class="option-input" data-config="checkpoint" value="model.safetensors">
-                        </div>
-                    </div>
-                    <div class="options-section">
-                        <div class="options-section-title">Base Generation</div>
-                        <div class="option-item">
-                            <label class="option-label">Width</label>
-                            <input type="number" class="option-input" data-config="base.width" value="1024">
-                        </div>
-                        <div class="option-item">
-                            <label class="option-label">Height</label>
-                            <input type="number" class="option-input" data-config="base.height" value="768">
-                        </div>
-                        <div class="option-item">
-                            <label class="option-label">Steps</label>
-                            <input type="number" class="option-input" data-config="base.steps" value="30">
-                        </div>
-                    </div>
-                    <button class="config-save-btn" id="save-config-btn">Save Config</button>
-                </div>
+                <div class="tab-content" id="options-content"></div>
             </div>
         </div>
 
-        <!-- PROGRESS BAR -->
-        <div class="progress-bar-container">
-            <div class="progress-label" id="progress-phase">Idle</div>
+        <div class="progress-container">
+            <div class="progress-label" id="progress-label">IDLE</div>
             <div class="progress-bar">
                 <div class="progress-fill" id="progress-fill"></div>
             </div>
@@ -705,37 +181,8 @@
 
     <script>
         // ========================
-        // PARTICLE SYSTEM ENGINE
+        // PARTICLE SYSTEM (Loomy-style)
         // ========================
-        
-        class Particle {
-            constructor(x, y, vx, vy, life, color) {
-                this.x = x;
-                this.y = y;
-                this.vx = vx;
-                this.vy = vy;
-                this.life = life;
-                this.maxLife = life;
-                this.color = color;
-                this.rotation = Math.random() * Math.PI * 2;
-                this.rotationSpeed = (Math.random() - 0.5) * 0.1;
-            }
-
-            update(dt) {
-                this.x += this.vx * dt;
-                this.y += this.vy * dt;
-                this.life -= dt;
-                this.rotation += this.rotationSpeed;
-            }
-
-            isDead() {
-                return this.life <= 0;
-            }
-
-            getAlpha() {
-                return Math.max(0, this.life / this.maxLife);
-            }
-        }
 
         class ParticleSystem {
             constructor(canvas, theme) {
@@ -743,274 +190,94 @@
                 this.ctx = canvas.getContext('2d');
                 this.theme = theme;
                 this.particles = [];
-                this.width = canvas.width;
-                this.height = canvas.height;
+                this.time = 0;
+                this.spawn();
             }
 
-            emit(x, y, count, vx, vy, life, color) {
+            spawn() {
+                const count = 50;
                 for (let i = 0; i < count; i++) {
-                    const angle = Math.random() * Math.PI * 2;
-                    const speed = Math.random() * (vx || 1);
-                    this.particles.push(new Particle(
-                        x + (Math.random() - 0.5) * 10,
-                        y + (Math.random() - 0.5) * 10,
-                        Math.cos(angle) * speed,
-                        Math.sin(angle) * speed,
-                        life,
-                        color
-                    ));
+                    this.particles.push({
+                        x: Math.random() * this.canvas.width,
+                        y: Math.random() * this.canvas.height,
+                        vx: (Math.random() - 0.5) * 0.5,
+                        vy: (Math.random() - 0.5) * 0.5,
+                        size: Math.random() * 2 + 1,
+                        opacity: Math.random() * 0.5 + 0.2,
+                        life: Math.random() * 0.5 + 0.5,
+                    });
                 }
             }
 
             update(dt) {
-                this.particles = this.particles.filter(p => !p.isDead());
-                this.particles.forEach(p => p.update(dt));
-            }
+                this.time += dt;
+                this.particles.forEach((p, i) => {
+                    p.x += p.vx;
+                    p.y += p.vy;
+                    p.opacity *= 0.995;
 
-            draw() {
-                // Override in subclasses
-            }
+                    if (p.x < 0) p.x = this.canvas.width;
+                    if (p.x > this.canvas.width) p.x = 0;
+                    if (p.y < 0) p.y = this.canvas.height;
+                    if (p.y > this.canvas.height) p.y = 0;
 
-            clear() {
-                this.ctx.fillStyle = `rgba(10, 14, 39, 0.1)`;
-                this.ctx.fillRect(0, 0, this.width, this.height);
-            }
-        }
-
-        // Starfield System (default)
-        class StarfieldSystem extends ParticleSystem {
-            constructor(canvas, theme) {
-                super(canvas, theme);
-                this.init();
-            }
-
-            init() {
-                for (let i = 0; i < 100; i++) {
-                    const x = Math.random() * this.width;
-                    const y = Math.random() * this.height;
-                    const size = Math.random() * 2;
-                    this.particles.push({
-                        x, y, size,
-                        life: 1,
-                        maxLife: 1,
-                        vx: (Math.random() - 0.5) * 0.5,
-                        vy: (Math.random() - 0.5) * 0.5,
-                        getAlpha: () => 0.8,
-                        isDead: () => false,
-                    });
-                }
-            }
-
-            draw() {
-                this.clear();
-                this.ctx.fillStyle = '#00d9ff';
-                this.particles.forEach(p => {
-                    this.ctx.globalAlpha = p.getAlpha();
-                    this.ctx.beginPath();
-                    this.ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
-                    this.ctx.fill();
-                });
-                this.ctx.globalAlpha = 1;
-            }
-        }
-
-        // Cyber Rain System
-        class CyberRainSystem extends ParticleSystem {
-            constructor(canvas, theme) {
-                super(canvas, theme);
-                this.init();
-            }
-
-            init() {
-                for (let i = 0; i < 80; i++) {
-                    const x = Math.random() * this.width;
-                    const y = Math.random() * this.height;
-                    this.particles.push({
-                        x, y,
-                        life: 1, maxLife: 1,
-                        vx: 0,
-                        vy: 2 + Math.random() * 2,
-                        getAlpha: () => 0.7,
-                        isDead: () => false,
-                        update: (dt) => {
-                            this.y += this.vy * dt;
-                            if (this.y > canvas.height) this.y = -10;
-                        }
-                    });
-                }
-            }
-
-            draw() {
-                this.clear();
-                this.ctx.strokeStyle = '#00d9ff';
-                this.ctx.lineWidth = 2;
-                this.particles.forEach(p => {
-                    this.ctx.globalAlpha = p.getAlpha();
-                    this.ctx.beginPath();
-                    this.ctx.moveTo(p.x, p.y);
-                    this.ctx.lineTo(p.x, p.y + 20);
-                    this.ctx.stroke();
-                });
-                this.ctx.globalAlpha = 1;
-            }
-        }
-
-        // Snow System
-        class SnowSystem extends ParticleSystem {
-            constructor(canvas, theme) {
-                super(canvas, theme);
-                this.init();
-            }
-
-            init() {
-                for (let i = 0; i < 60; i++) {
-                    const x = Math.random() * this.width;
-                    const y = Math.random() * this.height;
-                    this.particles.push({
-                        x, y,
-                        life: 1, maxLife: 1,
-                        vx: (Math.random() - 0.5) * 1,
-                        vy: 0.5 + Math.random() * 1,
-                        size: 2 + Math.random() * 4,
-                        getAlpha: () => 0.9,
-                        isDead: () => false,
-                        update: (dt) => {
-                            this.y += this.vy * dt;
-                            this.x += this.vx * dt;
-                            if (this.y > canvas.height) this.y = -10;
-                            if (this.x < 0) this.x = canvas.width;
-                            if (this.x > canvas.width) this.x = 0;
-                        }
-                    });
-                }
-            }
-
-            draw() {
-                this.clear();
-                this.ctx.fillStyle = '#e0f7ff';
-                this.particles.forEach(p => {
-                    this.ctx.globalAlpha = p.getAlpha();
-                    this.ctx.beginPath();
-                    this.ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
-                    this.ctx.fill();
-                });
-                this.ctx.globalAlpha = 1;
-            }
-        }
-
-        // Ember System (fire/dragon)
-        class EmberSystem extends ParticleSystem {
-            constructor(canvas, theme) {
-                super(canvas, theme);
-            }
-
-            init() {}
-
-            draw() {
-                this.clear();
-                this.ctx.fillStyle = 'rgba(255, 107, 53, 0.8)';
-                this.particles.forEach(p => {
-                    this.ctx.globalAlpha = p.getAlpha();
-                    this.ctx.beginPath();
-                    this.ctx.arc(p.x, p.y, 4, 0, Math.PI * 2);
-                    this.ctx.fill();
-                });
-                this.ctx.globalAlpha = 1;
-            }
-        }
-
-        // Petal System (love/samurai)
-        class PetalSystem extends ParticleSystem {
-            constructor(canvas, theme) {
-                super(canvas, theme);
-            }
-
-            init() {}
-
-            draw() {
-                this.clear();
-                this.ctx.fillStyle = '#ff69b4';
-                this.particles.forEach(p => {
-                    this.ctx.globalAlpha = p.getAlpha();
-                    this.ctx.save();
-                    this.ctx.translate(p.x, p.y);
-                    this.ctx.rotate(p.rotation);
-                    this.ctx.fillRect(-3, -3, 6, 6);
-                    this.ctx.restore();
-                });
-                this.ctx.globalAlpha = 1;
-            }
-        }
-
-        // Waves System (ocean)
-        class WavesSystem extends ParticleSystem {
-            constructor(canvas, theme) {
-                super(canvas, theme);
-                this.time = 0;
-            }
-
-            draw() {
-                this.clear();
-                this.time += 0.016;
-                this.ctx.strokeStyle = '#0099cc';
-                this.ctx.lineWidth = 1;
-                
-                for (let i = 0; i < 5; i++) {
-                    this.ctx.beginPath();
-                    for (let x = 0; x < this.width; x += 10) {
-                        const y = this.height / 2 + Math.sin(x * 0.01 + this.time) * 30 + i * 40;
-                        if (x === 0) this.ctx.moveTo(x, y);
-                        else this.ctx.lineTo(x, y);
+                    if (p.opacity < 0.01) {
+                        this.particles[i] = {
+                            x: Math.random() * this.canvas.width,
+                            y: Math.random() * this.canvas.height,
+                            vx: (Math.random() - 0.5) * 0.5,
+                            vy: (Math.random() - 0.5) * 0.5,
+                            size: Math.random() * 2 + 1,
+                            opacity: Math.random() * 0.5 + 0.2,
+                        };
                     }
-                    this.ctx.stroke();
-                }
+                });
+            }
+
+            draw() {
+                this.ctx.fillStyle = 'rgba(10, 14, 39, 0.05)';
+                this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
+
+                const color = this.theme.colors[0] || '#00d9ff';
+                this.particles.forEach(p => {
+                    this.ctx.globalAlpha = p.opacity;
+                    this.ctx.fillStyle = '#' + color;
+                    this.ctx.beginPath();
+                    this.ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+                    this.ctx.fill();
+
+                    // Connection lines
+                    this.particles.forEach(p2 => {
+                        const dx = p.x - p2.x, dy = p.y - p2.y;
+                        const dist = Math.sqrt(dx*dx + dy*dy);
+                        if (dist < 100) {
+                            this.ctx.globalAlpha = p.opacity * (1 - dist/100) * 0.2;
+                            this.ctx.strokeStyle = '#' + color;
+                            this.ctx.lineWidth = 0.5;
+                            this.ctx.beginPath();
+                            this.ctx.moveTo(p.x, p.y);
+                            this.ctx.lineTo(p2.x, p2.y);
+                            this.ctx.stroke();
+                        }
+                    });
+                });
+                this.ctx.globalAlpha = 1;
             }
         }
-
-        // Default System Map
-        const PARTICLE_SYSTEMS = {
-            'default': StarfieldSystem,
-            'cyber': CyberRainSystem,
-            'neon': CyberRainSystem,
-            'matrix': CyberRainSystem,
-            'dragon': EmberSystem,
-            'fire': EmberSystem,
-            'snow': SnowSystem,
-            'steam': CyberRainSystem,
-            'love': PetalSystem,
-            'rose': PetalSystem,
-            'ocean': WavesSystem,
-            'ghost': StarfieldSystem,
-            'cosmic': StarfieldSystem,
-            'forest': StarfieldSystem,
-            'fairy': StarfieldSystem,
-            'potion': StarfieldSystem,
-            'surveillance': CyberRainSystem,
-            'nuclear': EmberSystem,
-            'vampire': EmberSystem,
-            'mystery': StarfieldSystem,
-            'medieval': StarfieldSystem,
-            'samurai': PetalSystem,
-            'demon': EmberSystem,
-            'hologram': CyberRainSystem,
-            'magic': StarfieldSystem,
-        };
 
         // ========================
         // UI CONTROLLER
         // ========================
 
-        class NightrunUI {
+        class NightrunDashboard {
             constructor() {
                 this.currentMode = 'base';
                 this.currentTheme = 'default';
                 this.socket = null;
-                this.logLines = [];
-                this.maxLogLines = 2000;
-                this.promptMap = {};
                 this.config = {};
                 this.particleSystem = null;
-
+                this.canvas = document.getElementById('bg-canvas');
+                
                 this.setupCanvas();
                 this.setupEvents();
                 this.connectSocket();
@@ -1020,15 +287,13 @@
             }
 
             setupCanvas() {
-                this.canvas = document.getElementById('bg');
-                this.resizeCanvas();
-                window.addEventListener('resize', () => this.resizeCanvas());
-            }
-
-            resizeCanvas() {
-                const panel = document.querySelector('.left-panel');
-                this.canvas.width = panel.offsetWidth;
-                this.canvas.height = panel.offsetHeight;
+                const resizeCanvas = () => {
+                    this.canvas.width = this.canvas.offsetWidth;
+                    this.canvas.height = this.canvas.offsetHeight;
+                    if (this.particleSystem) this.particleSystem.spawn();
+                };
+                resizeCanvas();
+                window.addEventListener('resize', resizeCanvas);
             }
 
             setupEvents() {
@@ -1047,19 +312,18 @@
                 document.querySelectorAll('.tab-btn').forEach(btn => {
                     btn.addEventListener('click', (e) => this.switchTab(e.target.dataset.tab));
                 });
-
-                document.getElementById('save-config-btn').addEventListener('click', () => this.saveConfig());
             }
 
             connectSocket() {
                 this.socket = io();
 
-                this.socket.on('connect', () => {
-                    this.addLog('Connected to server', 'cyan');
+                this.socket.on('log_line', (data) => {
+                    this.addLog(data.text, data.color);
                 });
 
-                this.socket.on('log_line', (data) => {
-                    this.addLog(data.text, data.color || 'white');
+                this.socket.on('prompt_map', (data) => {
+                    this.updatePromptDisplay(data);
+                    this.changeTheme(data.theme_id);
                 });
 
                 this.socket.on('preview_image', (data) => {
@@ -1067,69 +331,39 @@
                         document.getElementById('preview').src = 'data:image/png;base64,' + data.b64;
                         document.getElementById('preview').classList.add('visible');
                     }
-                    if (data.step !== undefined) {
-                        const progress = (data.step / data.total) * 100;
-                        document.getElementById('progress-fill').style.width = progress + '%';
-                    }
-                });
-
-                this.socket.on('prompt_map', (data) => {
-                    this.promptMap = data.map;
-                    this.updatePromptDisplay(data.full_prompt);
-                    this.changeTheme(data.theme_id || 'default');
-                });
-
-                this.socket.on('progress', (data) => {
-                    document.getElementById('progress-phase').textContent = data.phase;
-                    document.getElementById('progress-fill').style.width = data.value + '%';
-                    document.getElementById('progress-eta').textContent = data.eta || '--:--';
-                });
-
-                this.socket.on('forge_status', (data) => {
-                    if (!data.running) {
-                        console.warn('Forge is not running');
-                    }
-                });
-
-                this.socket.on('disconnect', () => {
-                    this.addLog('Disconnected from server', 'red');
                 });
             }
 
-            addLog(text, color = 'white') {
+            addLog(text, color) {
+                const container = document.getElementById('log-content');
                 const line = document.createElement('div');
                 line.className = `log-line ${color}`;
                 line.textContent = text;
-                document.getElementById('log-content').appendChild(line);
+                container.appendChild(line);
 
-                // Keep max lines
-                const lines = document.querySelectorAll('.log-line');
-                if (lines.length > this.maxLogLines) {
-                    lines[0].remove();
-                }
+                const lines = container.querySelectorAll('.log-line');
+                if (lines.length > 2000) lines[0].remove();
 
-                // Auto-scroll
-                const content = document.getElementById('log-content');
-                content.scrollTop = content.scrollHeight;
+                container.scrollTop = container.scrollHeight;
             }
 
-            updatePromptDisplay(fullPrompt) {
-                document.getElementById('prompt-full').textContent = fullPrompt;
-                
+            updatePromptDisplay(data) {
                 const chipsContainer = document.getElementById('prompt-chips');
                 chipsContainer.innerHTML = '';
                 const colors = ['#ff006e', '#00d9ff', '#00ff41', '#ffb700', '#ff3333', '#a100f2', '#f72585', '#4361ee'];
-                let colorIndex = 0;
+                let i = 0;
 
-                Object.entries(this.promptMap).forEach(([key, value]) => {
+                Object.entries(data.map).forEach(([key, value]) => {
                     const chip = document.createElement('div');
                     chip.className = 'chip';
                     chip.textContent = `${key}: ${value}`;
-                    chip.style.background = colors[colorIndex % colors.length] + '40';
-                    chip.style.borderLeft = `2px solid ${colors[colorIndex % colors.length]}`;
+                    chip.style.background = colors[i % colors.length] + '40';
+                    chip.style.borderLeft = `2px solid ${colors[i % colors.length]}`;
                     chipsContainer.appendChild(chip);
-                    colorIndex++;
+                    i++;
                 });
+
+                document.getElementById('prompt-full').textContent = data.full_prompt;
             }
 
             changeTheme(themeName) {
@@ -1137,87 +371,123 @@
 
                 this.currentTheme = themeName;
                 document.getElementById('theme-badge').textContent = themeName.toUpperCase();
-                document.getElementById('theme-badge').classList.add('changing');
+                
+                const themeConfig = {
+                    'cyber': { colors: ['00d9ff', 'ff006e'] },
+                    'gothic': { colors: ['8b0000', 'ff1493'] },
+                    'mystical': { colors: ['9d4edd', 'f72585'] },
+                    'forest': { colors: ['2d6a4f', '40916c'] },
+                    'cosmic': { colors: ['9d4edd', 'c77dff'] },
+                    'ocean': { colors: ['0099cc', '00ccff'] },
+                    'fire': { colors: ['ff6b35', 'ffb700'] },
+                    'ice': { colors: ['e0f7ff', '87ceeb'] },
+                    'rose': { colors: ['ff1493', 'ffb6c1'] },
+                    'default': { colors: ['00d9ff', 'ff006e'] },
+                };
 
-                // Switch particle system
-                const SystemClass = PARTICLE_SYSTEMS[themeName] || StarfieldSystem;
-                this.particleSystem = new SystemClass(this.canvas, { name: themeName });
-
-                setTimeout(() => {
-                    document.getElementById('theme-badge').classList.remove('changing');
-                }, 600);
+                this.particleSystem = new ParticleSystem(this.canvas, themeConfig[themeName] || themeConfig['default']);
             }
 
             switchTab(tabName) {
                 document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
                 document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-                
                 document.querySelector(`[data-tab="${tabName}"]`).classList.add('active');
                 document.getElementById(`${tabName}-content`).classList.add('active');
             }
 
-            async launch() {
+            launch() {
                 const count = parseInt(document.getElementById('count-input').value);
-                this.socket.emit('launch', {
-                    mode: this.currentMode,
-                    count: count
-                });
+                this.socket.emit('launch', { mode: this.currentMode, count });
             }
 
-            async skip() {
+            skip() {
                 this.socket.emit('skip', {});
             }
 
-            async stop() {
+            stop() {
                 this.socket.emit('stop', {});
             }
 
             async loadConfig() {
-                try {
-                    const response = await fetch('/api/config');
-                    this.config = await response.json();
-                } catch (e) {
-                    console.error('Failed to load config:', e);
-                }
+                const response = await fetch('/api/config');
+                this.config = await response.json();
+                this.renderOptions();
+            }
+
+            renderOptions() {
+                const container = document.getElementById('options-content');
+                container.innerHTML = '';
+
+                const sections = {
+                    'GENERAL': ['count', 'checkpoint', 'vae'],
+                    'BASE GENERATION': ['base.width', 'base.height', 'base.steps', 'base.cfg_scale'],
+                    'UPSCALE': ['upscale.enabled', 'upscale.width', 'upscale.height', 'upscale.steps'],
+                };
+
+                Object.entries(sections).forEach(([sectionName, keys]) => {
+                    const section = document.createElement('div');
+                    section.className = 'options-section';
+
+                    const title = document.createElement('div');
+                    title.className = 'section-title';
+                    title.textContent = sectionName;
+                    section.appendChild(title);
+
+                    keys.forEach(key => {
+                        const item = document.createElement('div');
+                        item.className = 'option-item';
+
+                        const label = document.createElement('label');
+                        label.className = 'option-label';
+                        label.textContent = key.replace(/[._]/g, ' ').toUpperCase();
+
+                        const input = document.createElement('input');
+                        input.type = 'text';
+                        input.className = 'option-input';
+                        input.dataset.key = key;
+
+                        const keys_path = key.split('.');
+                        let value = this.config;
+                        keys_path.forEach(k => value = value[k]);
+                        input.value = value;
+
+                        item.appendChild(label);
+                        item.appendChild(input);
+                        section.appendChild(item);
+                    });
+
+                    container.appendChild(section);
+                });
+
+                const saveBtn = document.createElement('button');
+                saveBtn.className = 'save-btn';
+                saveBtn.textContent = '✓ Save Config';
+                saveBtn.addEventListener('click', () => this.saveConfig());
+                container.appendChild(saveBtn);
             }
 
             async saveConfig() {
-                const newConfig = { ...this.config };
-                
-                document.querySelectorAll('.option-input').forEach(input => {
-                    const key = input.dataset.config;
-                    const value = isNaN(input.value) ? input.value : parseInt(input.value);
-                    
-                    if (key.includes('.')) {
-                        const [parent, child] = key.split('.');
-                        if (!newConfig[parent]) newConfig[parent] = {};
-                        newConfig[parent][child] = value;
-                    } else {
-                        newConfig[key] = value;
+                const inputs = document.querySelectorAll('.option-input');
+                inputs.forEach(input => {
+                    const keys = input.dataset.key.split('.');
+                    let obj = this.config;
+                    for (let i = 0; i < keys.length - 1; i++) {
+                        if (!obj[keys[i]]) obj[keys[i]] = {};
+                        obj = obj[keys[i]];
                     }
+                    obj[keys[keys.length - 1]] = isNaN(input.value) ? input.value : parseFloat(input.value);
                 });
 
-                try {
-                    const response = await fetch('/api/config', {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify(newConfig)
-                    });
-                    if (response.ok) {
-                        this.addLog('Config saved successfully', 'green');
-                    }
-                } catch (e) {
-                    this.addLog('Failed to save config: ' + e, 'red');
-                }
+                await fetch('/api/config', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(this.config) });
+                this.addLog('✓ Config saved', 'green');
             }
 
             initParticles() {
-                this.particleSystem = new StarfieldSystem(this.canvas, { name: 'default' });
+                this.particleSystem = new ParticleSystem(this.canvas, { colors: ['00d9ff', 'ff006e'] });
             }
 
             startAnimationLoop() {
                 let lastTime = performance.now();
-
                 const animate = (now) => {
                     const dt = (now - lastTime) / 1000;
                     lastTime = now;
@@ -1229,14 +499,12 @@
 
                     requestAnimationFrame(animate);
                 };
-
                 requestAnimationFrame(animate);
             }
         }
 
-        // Initialize on page load
         window.addEventListener('DOMContentLoaded', () => {
-            new NightrunUI();
+            new NightrunDashboard();
         });
     </script>
 </body>
