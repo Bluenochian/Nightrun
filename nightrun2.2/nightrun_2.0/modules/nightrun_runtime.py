@@ -17,23 +17,17 @@ from pathlib import Path
 
 import requests
 
-# ── Silent Pillow bootstrap ──────────────────────────────────────────────
+# Pillow is optional for plain image saving and validation. Never try to
+# install packages behind the user's back during an overnight run.
 try:
     from PIL import Image
     from PIL.PngImagePlugin import PngInfo
 except ImportError:
-    import subprocess as _sp, sys as _sys
-    _sp.run(
-        [_sys.executable, '-m', 'pip', 'install', '--quiet',
-         '--disable-pip-version-check', 'Pillow'],
-        stdout=_sp.DEVNULL, stderr=_sp.DEVNULL, check=False,
-    )
-    from PIL import Image
-    from PIL.PngImagePlugin import PngInfo
-# ─────────────────────────────────────────────────────────────────────────
+    Image = None
+    PngInfo = None
 
 # ── Nightrun identity stamp ───────────────────────────────────────────────
-NIGHTRUN_NAME    = "nightrun_2.0"
+NIGHTRUN_NAME    = "nightrun_2.2"
 NIGHTRUN_HASH    = "8BB1A9E99101"
 NIGHTRUN_CIVITAI = "https://civitai.com/models/2643971"
 # ─────────────────────────────────────────────────────────────────────────
@@ -43,14 +37,7 @@ API = "http://127.0.0.1:7860"
 LORA_SCAN_CACHE = {}
 WORLD_MODULE_CACHE = {}
 BLOCKED_POSITIVE_PATTERN = re.compile(
-    r"\b("
-    r"drum"
-    r"crumb"
-    r"shit"
-    r"fart"
-    r"piss"
-    r"booger"
-    r")\b",
+    r"\b(?:drum|crumb|shit|fart|piss|booger)\b",
     re.IGNORECASE,
 )
 ANSI_ENABLED = False
@@ -1195,7 +1182,10 @@ def pool_allowed_with_world_module(pool_cfg, module_active, fusion, config):
 
 def api_alive():
     try:
-        requests.get(f"{API}/sdapi/v1/progress?skip_current_image=true", timeout=5)
+        response = requests.get(
+            f"{API}/sdapi/v1/progress?skip_current_image=true", timeout=5
+        )
+        response.raise_for_status()
         return True
     except requests.RequestException:
         return False
@@ -1245,12 +1235,17 @@ def post_api(endpoint, body, timeout, repo, retries=1):
             response = requests.post(f"{API}{endpoint}", json=body, timeout=timeout)
             response.raise_for_status()
             return response.json() if response.content else {}
+        except requests.HTTPError as exc:
+            # A bad request isn't fixed by restarting Forge. Don't do that.
+            if exc.response is not None and 400 <= exc.response.status_code < 500:
+                raise RuntimeError(f"Forge rejected {endpoint}: {exc}") from exc
+            last_error = exc
         except requests.RequestException as exc:
             last_error = exc
-            log(f"API call failed on attempt {attempt + 1}: {exc}", "red")
-            if attempt < retries:
-                ensure_forge(repo)
-                time.sleep(8)
+        log(f"API call failed on attempt {attempt + 1}: {last_error}", "red")
+        if attempt < retries:
+            ensure_forge(repo)
+            time.sleep(8)
     raise RuntimeError(str(last_error))
 
 
@@ -1288,27 +1283,47 @@ def get_gpu_stats():
         return {}
 
 
-def wait_for_temperature(config):
+def sleep_with_stop(seconds, stop_file=None):
+    """Wait in short chunks so Stop After Current Image can interrupt rests."""
+    seconds = max(0.0, float(seconds))
+    if stop_file is None:
+        time.sleep(seconds)
+        return False
+    deadline = time.monotonic() + seconds
+    while True:
+        if stop_file.exists():
+            return True
+        remaining = deadline - time.monotonic()
+        if remaining <= 0:
+            return False
+        time.sleep(min(remaining, 1.0))
+
+
+def wait_for_temperature(config, stop_file=None):
     temp_cfg = config.get("temperature", {})
     pause_above = temp_cfg.get("pause_above_c", 78)
     resume_below = temp_cfg.get("resume_below_c", 66)
-    check_seconds = temp_cfg.get("check_seconds", 20)
+    check_seconds = max(1.0, float(temp_cfg.get("check_seconds", 20)))
 
     temp = get_gpu_temp()
     if temp is None or temp < pause_above:
-        return
+        return True
 
     log(f"GPU is {temp}C, pausing until it cools below {resume_below}C.", "yellow")
     while True:
-        time.sleep(check_seconds)
+        if sleep_with_stop(check_seconds, stop_file):
+            log("Stop requested during GPU cooldown.", "yellow")
+            return False
         temp = get_gpu_temp()
         if temp is None or temp <= resume_below:
             log(f"GPU cooldown done. Current temp: {temp}C.", "green")
-            return
+            return True
         log(f"Still cooling: {temp}C.", "yellow")
 
 
 def _stamp_png_metadata(raw_bytes):
+    if Image is None:
+        return raw_bytes  # PNG still saves; fancy metadata needs Pillow.
     img    = Image.open(io.BytesIO(raw_bytes))
     params = img.info.get("parameters", "")
 
@@ -2602,7 +2617,9 @@ def main():
     config = load_json(resolve_config_path(workflow_dir, args.config))
     repo = resolve_repo(workflow_dir, config)
     enable_console_color(config)
-    count = args.count or int(config.get("count", 1))
+    count = args.count if args.count is not None else int(config.get("count", 1))
+    if count <= 0:
+        parser.error("image count must be a positive integer")
     seed_root = args.seed if args.seed is not None else random.randint(1, 2_147_483_000)
 
     global RUN_LOG
@@ -2696,7 +2713,11 @@ def main():
             continue
 
         try:
-            wait_for_temperature(config)
+            if not wait_for_temperature(config, stop_file):
+                meta["status"] = "stopped"
+                write_metadata(meta_path, meta)
+                results.append(meta)
+                break
             log(f"[{stem}] Base generation starting with {base_steps} steps.", "yellow")
             base_seconds = generate_base(
                 config,
@@ -2715,7 +2736,12 @@ def main():
 
             should_upscale, upscale_reason = should_upscale_for_image(args.mode, config, index, base_steps)
             if should_upscale:
-                wait_for_temperature(config)
+                if not wait_for_temperature(config, stop_file):
+                    meta["upscale_reason"] = "stopped during cooldown after base"
+                    meta["gpu_after"] = get_gpu_stats()
+                    write_metadata(meta_path, meta)
+                    results.append(meta)
+                    break
                 upscale_color = "magenta" if "below" in upscale_reason else "yellow"
                 log(f"[{stem}] UPSCALE ACTIVE: {upscale_reason}.", upscale_color)
                 log(f"[{stem}] Upscale starting.", upscale_color)
@@ -2757,16 +2783,28 @@ def main():
                 log("Stop file found after VRAM chill. Ending batch.", "yellow")
                 break
 
-        sleep_seconds = int(config.get("sleep_between_images_seconds", 0))
-        if sleep_seconds > 0:
+        sleep_seconds = max(0, int(config.get("sleep_between_images_seconds", 0)))
+        if index < count and sleep_seconds > 0:
             log(f"[{stem}] Sleeping {sleep_seconds}s before next image.", "dim")
-            time.sleep(sleep_seconds)
+            if sleep_with_stop(sleep_seconds, stop_file):
+                log("Stop requested during the break. Ending batch.", "yellow")
+                break
 
+    completed = sum(item["status"] in ("base-ok", "upscale-ok", "dry-run") for item in results)
+    failed = sum(item["status"] == "failed" for item in results)
+    batch_status = (
+        "FAILED" if failed and completed == 0 else
+        "PARTIAL" if failed else
+        "STOPPED" if len(results) < count or any(item["status"] == "stopped" for item in results) else
+        "OK"
+    )
     summary = {
-        "status": "OK",
+        "status": batch_status,
         "mode": args.mode,
         "count_requested": count,
-        "count_completed": len(results),
+        "count_completed": completed,
+        "count_failed": failed,
+        "count_attempted": len(results),
         "output_dir": str(out_dir),
         "seed_root": seed_root,
         "results": results,
