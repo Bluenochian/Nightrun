@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Nightrun banner" src="assets/nightrun-banner.png"/>
+  <img alt="Nightrun banner" src="assets/nightrun-banner-transparent.png"/>
 </p>
 
 <p align="center">
