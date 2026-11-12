@@ -55,19 +55,36 @@ jobs:
           python linux-native/build.py --output dist-linux-native
           cd dist-linux-native
           sha256sum --check SHA256SUMS
-      - name: Create the versionless Linux Native release
+      - name: Publish or refresh the same versionless Linux Native release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           if gh release view linux-native --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
-            echo "The Linux Native release already exists. No numbered releases were touched."
-            exit 0
+            echo "Refreshing Linux Native assets and guide, not creating a new version."
+            gh release upload linux-native \
+              dist-linux-native/nightrun-linux-native.tar.gz \
+              dist-linux-native/nightrun-linux-native.zip \
+              dist-linux-native/SHA256SUMS \
+              --repo "$GITHUB_REPOSITORY" --clobber
+            gh release edit linux-native --repo "$GITHUB_REPOSITORY" \
+              --title "Nightrun — Linux Native" \
+              --notes-file linux-native/RELEASE_NOTES.md
+            gh api -X PATCH "repos/$GITHUB_REPOSITORY/git/refs/tags/linux-native" \
+              -f sha="$GITHUB_SHA" -F force=true >/dev/null
+          else
+            gh release create linux-native \
+              dist-linux-native/nightrun-linux-native.tar.gz \
+              dist-linux-native/nightrun-linux-native.zip \
+              dist-linux-native/SHA256SUMS \
+              --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
+              --title "Nightrun — Linux Native" \
+              --notes-file linux-native/RELEASE_NOTES.md \
+              --latest=false
           fi
-          gh release create linux-native \
-            dist-linux-native/nightrun-linux-native.tar.gz \
-            dist-linux-native/nightrun-linux-native.zip \
-            dist-linux-native/SHA256SUMS \
-            --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
-            --title "Nightrun — Linux Native" \
-            --notes-file linux-native/RELEASE_NOTES.md \
-            --latest=false
+          for tag in v2.2 release2 release; do
+            gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null
+          done
+          if gh release view v2.3 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Obsolete v2.3 must not be recreated." >&2
+            exit 1
+          fi

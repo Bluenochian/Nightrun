@@ -46,8 +46,8 @@ class NativePackageTests(unittest.TestCase):
         files = [f for f in self.package.rglob("*") if f.is_file()]
         self.assertGreater(len(files), 55)
         self.assertFalse([f for f in files if f.suffix.lower() in (".bat", ".ico", ".exe")])
-        for name in ("nightrun", "install.sh", "uninstall.sh", "modules/nightrun_runtime.py",
-                     "pools/genre.txt", "assets/icons/nightrun.png"):
+        for name in ("nightrun", "install.sh", "uninstall.sh", "README.md", "GUIDE.md",
+                     "modules/nightrun_runtime.py", "pools/genre.txt", "assets/icons/nightrun.png"):
             self.assertTrue((self.package / name).exists(), name)
         for script in ("nightrun", "install.sh", "uninstall.sh"):
             p = subprocess.run(["bash", "-n", str(self.package / script)], capture_output=True)
@@ -64,6 +64,7 @@ class NativePackageTests(unittest.TestCase):
         with zipfile.ZipFile(self.output / "nightrun-linux-native.zip") as archive:
             self.assertIsNone(archive.testzip())
             self.assertIn("nightrun-linux/nightrun.py", archive.namelist())
+            self.assertIn("nightrun-linux/GUIDE.md", archive.namelist())
 
     def test_cli_setup_keeps_config_in_xdg_and_dry_run_works(self):
         with tempfile.TemporaryDirectory(prefix="native cli paths ") as folder:
@@ -145,6 +146,7 @@ class NativePackageTests(unittest.TestCase):
             self.assertEqual(gone.returncode, 0, gone.stdout + gone.stderr)
             self.assertFalse(link.exists())
             self.assertTrue((config_dir / "config.local.json").exists())
+            self.assertTrue((Path(env["XDG_DATA_HOME"]) / "nightrun-linux/GUIDE.md").exists())
 
     def test_second_launch_cannot_clear_existing_stop_signal(self):
         with tempfile.TemporaryDirectory() as folder:
