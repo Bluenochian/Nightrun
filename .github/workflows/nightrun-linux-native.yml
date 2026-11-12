@@ -68,6 +68,7 @@ jobs:
               --repo "$GITHUB_REPOSITORY" --clobber
             gh release edit linux-native --repo "$GITHUB_REPOSITORY" \
               --title "Nightrun — Linux Native" \
+              --target "$GITHUB_SHA" \
               --notes-file linux-native/RELEASE_NOTES.md
             gh api -X PATCH "repos/$GITHUB_REPOSITORY/git/refs/tags/linux-native" \
               -f sha="$GITHUB_SHA" -F force=true >/dev/null
