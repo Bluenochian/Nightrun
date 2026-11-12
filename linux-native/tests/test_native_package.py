@@ -175,7 +175,7 @@ class NativePackageTests(unittest.TestCase):
                 self.assertEqual(another.returncode, 3, another.stderr)
                 self.assertTrue(stop.exists())
                 # Upscaling also uses Forge/GPU and must respect the same lock.
-                metadata = root / "sample_metadata.json"
+                metadata = home / "sample_metadata.json"
                 metadata.write_text("{}")
                 upscale = subprocess.run(
                     ["bash", str(self.package / "nightrun"), "upscale", str(metadata)],
