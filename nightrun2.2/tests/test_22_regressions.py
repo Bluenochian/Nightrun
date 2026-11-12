@@ -11,7 +11,8 @@ from unittest import mock
 
 import requests
 
-PACKAGE = Path(__file__).resolve().parents[1] / "nightrun_2.0"
+ROOT = Path(__file__).resolve().parents[1]
+PACKAGE = ROOT if (ROOT / "modules").is_dir() else ROOT / "nightrun_2.0"
 sys.path.insert(0, str(PACKAGE / "modules"))
 
 import nightrun_runtime as run
