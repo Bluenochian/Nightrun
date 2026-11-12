@@ -1,0 +1,114 @@
+#!/usr/bin/env bash
+# Linux-native entry point. Same rendering engine; none of the Windows launchers.
+set -Eeuo pipefail
+APP="$(cd -- "$(dirname -- "$0")" && pwd -P)"
+CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}/nightrun-linux"
+STATE_HOME="${XDG_STATE_HOME:-$HOME/.local/state}/nightrun-linux"
+CONFIG="$CONFIG_HOME/config.local.json"
+DEFAULT_CONFIG="$APP/config.json"
+STOP="$STATE_HOME/STOP_AFTER_CURRENT_IMAGE.txt"
+export NIGHTRUN_STOP_FILE="$STOP"
+export PYTHONUNBUFFERED=1 PYTHONIOENCODING=utf-8
+mkdir -p -- "$STATE_HOME"
+chmod 700 "$STATE_HOME"
+command="${1:-help}"
+if [[ $# -gt 0 ]]; then shift; fi
+
+help() {
+  cat <<'HELP'
+Nightrun Linux Native — local Forge / Forge-Neo batch runner
+  nightrun-linux setup [--repo /path/to/Forge] [other setup flags]
+  nightrun-linux validate [--count N]
+  nightrun-linux dry-run [--count N]
+  nightrun-linux base [--count N]
+  nightrun-linux full [--count N]
+  nightrun-linux upscale /path/to/metadata.json [--scale N]
+  nightrun-linux analyze [render-folder]
+  nightrun-linux stop
+  nightrun-linux clear-stop
+  nightrun-linux config-path
+Use 'setup' before running a batch. Settings are kept under XDG_CONFIG_HOME.
+HELP
+}
+
+python_for_app() {
+  if [[ -n "${NIGHTRUN_PYTHON:-}" ]]; then
+    [[ -x "$NIGHTRUN_PYTHON" ]] || { echo "NIGHTRUN_PYTHON isn't executable: $NIGHTRUN_PYTHON" >&2; exit 2; }
+    PY="$NIGHTRUN_PYTHON"
+  elif [[ -x "$APP/.venv/bin/python" ]]; then
+    PY="$APP/.venv/bin/python"
+  elif command -v python3 >/dev/null 2>&1; then
+    PY="$(command -v python3)"
+  else
+    echo "Python 3 missing. Install python3, requests and Pillow (optional)." >&2
+    exit 2
+  fi
+}
+need_config() {
+  [[ -f "$CONFIG" ]] || {
+    echo "Nightrun isn't configured yet. Run: nightrun-linux setup --repo /path/to/Forge" >&2
+    exit 2
+  }
+}
+lock_batch() {
+  command -v flock >/dev/null 2>&1 || {
+    echo "flock (util-linux) is required for safe batch launching." >&2
+    exit 2
+  }
+  exec {LOCK_FD}>"$STATE_HOME/batch.lock"
+  if ! flock -n "$LOCK_FD"; then
+    echo "Another Nightrun batch is already running. Stop it before starting another." >&2
+    exit 3
+  fi
+}
+case "$command" in
+  help|-h|--help) help ;;
+  config-path) printf '%s\n' "$CONFIG" ;;
+  setup)
+    python_for_app
+    mkdir -p -- "$CONFIG_HOME"
+    chmod 700 "$CONFIG_HOME"
+    # setup_pipeline supports --repo, --profile, --non-interactive, etc.
+    "$PY" "$APP/modules/setup_pipeline.py" --no-shortcuts \
+      --base-config config.json --output-config "$CONFIG" "$@"
+    ;;
+  validate|dry-run|base|full)
+    need_config
+    python_for_app
+    if [[ "$command" == base || "$command" == full || "$command" == dry-run ]]; then
+      lock_batch
+      rm -f -- "$STOP"
+    fi
+    "$PY" "$APP/nightrun.py" --mode "$command" --config "$CONFIG" "$@"
+    ;;
+  stop)
+    touch -- "$STOP"
+    echo "Stop requested. The current render will finish before Nightrun exits."
+    ;;
+  clear-stop)
+    rm -f -- "$STOP"
+    echo "Stop signal cleared."
+    ;;
+  upscale)
+    need_config
+    python_for_app
+    [[ $# -gt 0 && -f "$1" ]] || { echo "Supply an existing *_metadata.json file." >&2; exit 2; }
+    "$PY" "$APP/modules/upscale_from_metadata.py" --config "$CONFIG" "$@"
+    ;;
+  analyze)
+    need_config
+    python_for_app
+    ROOT="${1:-}"
+    if [[ -z "$ROOT" ]]; then
+      ROOT="$("$PY" -c 'import json,sys,os; from pathlib import Path; c=json.load(open(sys.argv[1],encoding="utf-8")); p=c.get("paths",{}); print(p.get("output_dir") or str(Path(p.get("repo",Path.home()))/"test-renders"))' "$CONFIG")"
+    else
+      shift
+    fi
+    "$PY" "$APP/tools/analyze_prompt_history.py" "$ROOT" --report "$STATE_HOME/prompt_variety_report.json" "$@"
+    ;;
+  *)
+    echo "Unknown command: $command" >&2
+    help >&2
+    exit 2
+    ;;
+esac
