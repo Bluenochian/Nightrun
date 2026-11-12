@@ -7,7 +7,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Bluenochian/Nightrun/releases/tag/v2.3"><strong>Download Nightrun 2.3</strong></a> ·
+  <a href="https://github.com/Bluenochian/Nightrun/releases/tag/v2.3"><strong>Windows / combined 2.3</strong></a> ·
+  <a href="https://github.com/Bluenochian/Nightrun/releases/tag/linux-native"><strong>Linux Native</strong></a> ·
   <a href="#getting-started">Getting started</a> ·
   <a href="#how-it-works">How it works</a> ·
   <a href="#whats-new-in-23">2.3 updates</a> ·
@@ -26,7 +27,12 @@ Nightrun builds prompts from editable pools, sends local batches to Forge / Forg
 
 ## Getting started
 
-**Windows and Linux** have matching launchers now: `.bat` on Windows and `.sh` on Linux. You need Python, `requests`, a working local Forge API and your own checkpoint. Pillow is recommended for PNG metadata stamping and contact sheets.
+**Pick your edition:**
+
+- **Linux:** [Nightrun Linux Native](https://github.com/Bluenochian/Nightrun/releases/tag/linux-native) — an independent Linux-only download with a no-sudo installer, an `nightrun-linux` command, XDG configuration, and KDE/GNOME menu entries. It **doesn't require** being placed inside Forge's workflow folder. [Linux setup guide](linux-native/README.md).
+- **Windows:** [Nightrun 2.3](https://github.com/Bluenochian/Nightrun/releases/tag/v2.3) — keep using the original `.bat` launchers. The older 2.3 combined package also includes shell scripts, but **new Linux installs should use Linux Native**.
+
+For the original Windows/combined 2.3 archive, you need Python, `requests`, a working local Forge API and your own checkpoint. Pillow handles PNG metadata stamps and contact sheets.
 
 Download [Nightrun 2.3](https://github.com/Bluenochian/Nightrun/releases/tag/v2.3), extract it and put the folder **two levels below your Forge root**:
 
@@ -108,7 +114,9 @@ The original 2.0 prompt pools and franchise catalog are kept as they were. I was
 
 ### Linux in 2.3
 
-Linux launchers handle paths with spaces, support KDE/GNOME desktop shortcuts,
+The original combined 2.3 release still works as before. For a cleaner Linux-first install, use the [separate Linux Native edition](linux-native/README.md).
+
+Its earlier Linux launchers handle paths with spaces, support KDE/GNOME desktop shortcuts,
 and use the Forge virtualenv without the original Windows CUDA-only startup
 flags. A file lock prevents two concurrent runs from accidentally clearing
 the first run's stop signal.
@@ -134,13 +142,14 @@ Nightrun doesn't hide browsing history or upload images to a hosted service; thi
 
 | Version | Where | Notes |
 | --- | --- | --- |
-| **2.3 — current** | [Download v2.3](https://github.com/Bluenochian/Nightrun/releases/tag/v2.3) | Linux launchers, KDE/GNOME integration, safer startup |
+| **Linux Native — separate edition** | [Download Linux Native](https://github.com/Bluenochian/Nightrun/releases/tag/linux-native) | Independent Linux-only package, no numerical version bump |
+| **2.3 — latest numbered release** | [Download v2.3](https://github.com/Bluenochian/Nightrun/releases/tag/v2.3) | Original Windows/combined package |
 | **2.2** | [Previous release](https://github.com/Bluenochian/Nightrun/releases/tag/v2.2) | Bug fixes on modular 2.0 engine |
 | **2.0** | [Previous release](https://github.com/Bluenochian/Nightrun/releases/tag/release2) | Original modular engine, three prompt builders and rebuilt pools |
 | **1.5** | [Original release](https://github.com/Bluenochian/Nightrun/releases/tag/release) | Earlier monolithic runner, still here |
 | **3.0 dashboard prototype** | [nightrun_web.py](nightrun_web.py) | UI experiment; its generation loop **simulates** progress, not real render jobs |
 
-The 2.3 source is in [`nightrun2.3/`](nightrun2.3/); the earlier 2.2 folder is preserved. The older `nightrun1.5/` folder stays in this repository for anyone still using it.
+Linux Native has its own [source, setup, installer and checks](linux-native/). The 2.3 code stays in [`nightrun2.3/`](nightrun2.3/); the earlier 2.2 folder is preserved. The older `nightrun1.5/` folder stays in this repository for anyone still using it.
 
 Don't mistake the dashboard prototype for a real batch runner. Seriously. Use the actual Nightrun runner for overnight rendering, not the dashboard.
 
