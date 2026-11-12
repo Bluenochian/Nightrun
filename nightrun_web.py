@@ -1,33 +1,25 @@
 #!/usr/bin/env python3
-"""
-NIGHTRUN 3.0 - Web Dashboard Server
-Flask + SocketIO real-time dashboard for Stable Diffusion Forge image generation
+"""Early Nightrun web dashboard preview.
 
-Usage:
-    python nightrun_web.py
-
-Auto-installs dependencies, detects Forge, opens browser to http://localhost:5000
+The UI can read configuration and check Forge, but the generation loop below
+still simulates prompts and progress. Use nightrun1.5/nightrun.py for real runs.
+Requires Flask, Flask-SocketIO and Requests already installed.
 """
 
 import os
 import sys
 import json
-import subprocess
 import threading
 import time
-import base64
 import webbrowser
 import requests
-import re
 from pathlib import Path
 from datetime import datetime
 from flask import Flask, render_template, jsonify, request
 from flask_socketio import SocketIO, emit
 from queue import Queue, Empty
 
-# ========================
-# CONFIGURATION
-# ========================
+# Configuration
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 TEMPLATES_DIR = SCRIPT_DIR / "templates"
@@ -35,30 +27,13 @@ FORGE_API = "http://127.0.0.1:7860"
 FLASK_PORT = 5000
 BROWSER_DELAY = 1.0
 
-# Auto-install dependencies
-def ensure_dependencies():
-    """Install Flask and SocketIO if missing"""
-    required = ['flask', 'flask-socketio', 'requests', 'python-socketio', 'python-engineio']
-    for pkg in required:
-        try:
-            __import__(pkg.replace('-', '_'))
-        except ImportError:
-            print(f"Installing {pkg}...")
-            subprocess.check_call([sys.executable, '-m', 'pip', 'install', pkg, '-q'])
-
-ensure_dependencies()
-
-# ========================
-# FLASK APP SETUP
-# ========================
+# Flask app setup
 
 app = Flask(__name__, template_folder=str(TEMPLATES_DIR))
 app.config['SECRET_KEY'] = 'nightrun-secret-key'
 socketio = SocketIO(app, cors_allowed_origins="*", async_mode='threading')
 
-# ========================
-# STATE
-# ========================
+# State
 
 state = {
     'current_prompt_map': {},
@@ -70,9 +45,7 @@ state = {
 
 config = {}
 
-# ========================
-# THEME DETECTION
-# ========================
+# Theme detection
 
 THEME_KEYWORDS = {
     'cyber': ['cyber', 'neon', 'digital', 'tech'],
@@ -118,9 +91,7 @@ def detect_theme(prompt_text):
     
     return max(scores, key=scores.get)
 
-# ========================
-# FORGE API INTERACTION
-# ========================
+# Forge api interaction
 
 def check_forge():
     """Check if Forge is running"""
@@ -168,9 +139,7 @@ def poll_and_emit_logs():
         except:
             break
 
-# ========================
-# ROUTES
-# ========================
+# Routes
 
 @app.route('/')
 def index():
@@ -216,7 +185,7 @@ def launch():
     mode = data.get('mode', 'full')
     count = data.get('count', 10)
     
-    # Start generation in background
+    # The dashboard currently launches a simulated batch, not the actual runner.
     thread = threading.Thread(
         target=run_generation,
         args=(mode, count),
@@ -247,20 +216,17 @@ def skip_image():
     
     return jsonify({'status': 'skipped'})
 
-# ========================
-# GENERATION MOCK
-# ========================
+# Demo generation, not connected to the runner
 
 def run_generation(mode, count):
-    """Mock generation loop (replace with actual nightrun.py integration)"""
+    """Drive the UI demo. This does not request images from Forge."""
     state['is_running'] = True
     
     for i in range(1, count + 1):
         if not state['is_running']:
             break
         
-        # Simulate prompt parsing
-        prompts = [
+            prompts = [
             "1girl, solo, cyber, neon, digital", 
             "dragon, fire, scales, wings",
             "snow, winter, ice, cold",
@@ -270,11 +236,9 @@ def run_generation(mode, count):
         
         prompt = prompts[i % len(prompts)]
         
-        # Emit log lines
         emit_log(f"[{i:04d}] Starting generation {i}/{count}", 'cyan')
         emit_log(f"[{i:04d}] Generating with prompt: {prompt}", 'bright-cyan')
         
-        # Simulate prompt map
         prompt_map = {
             'concept': prompt.split(',')[0],
             'style': 'illustration',
@@ -291,7 +255,6 @@ def run_generation(mode, count):
             'theme_id': theme,
         })
         
-        # Simulate progress
         for step in range(1, 31):
             if not state['is_running']:
                 break
@@ -326,9 +289,7 @@ def emit_log(text, color='white'):
     """Queue a log message"""
     state['log_queue'].put((text, color))
 
-# ========================
-# SOCKETIO EVENTS
-# ========================
+# Socketio events
 
 @socketio.on('connect')
 def handle_connect():
@@ -357,9 +318,7 @@ def handle_skip():
     """Skip current image"""
     emit_log("Skip signal sent", 'yellow')
 
-# ========================
-# MAIN
-# ========================
+# Main
 
 def open_browser():
     """Open browser after server starts"""
@@ -370,17 +329,14 @@ if __name__ == '__main__':
     print(f"◈ NIGHTRUN 3.0 - Starting dashboard server...")
     print(f"  Flask: http://localhost:{FLASK_PORT}")
     
-    # Check Forge
     if check_forge():
         print(f"  ✓ Forge API detected at {FORGE_API}")
     else:
         print(f"  ⚠ Forge API not responding (will retry on demand)")
     
-    # Start browser opener thread
     browser_thread = threading.Thread(target=open_browser, daemon=True)
     browser_thread.start()
     
-    # Start server
     try:
         socketio.run(app, host='0.0.0.0', port=FLASK_PORT, debug=False)
     except KeyboardInterrupt:
