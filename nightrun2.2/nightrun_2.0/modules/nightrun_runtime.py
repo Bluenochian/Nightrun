@@ -1843,10 +1843,15 @@ def resolve_lora_name(raw_name, folders_found, lora_index, config):
     if key in lora_index:
         return lora_index[key]
 
-    # Soft match both directions for ugly filenames / copied CivitAI titles.
-    for k, stem in lora_index.items():
-        if key and (key in k or k in key):
-            return stem
+    # Soft matching is handy, until a short name matches five different files.
+    # Only guess when the result is unambiguous. Otherwise skip it safely.
+    matches = {
+        stem for candidate, stem in lora_index.items()
+        if len(key) >= 4 and len(candidate) >= 4
+        and (key in candidate or candidate in key)
+    }
+    if len(matches) == 1:
+        return next(iter(matches))
 
     scan_cfg = config.get("lora_scan", {})
     if folders_found and scan_cfg.get("skip_missing_when_folder_found", True):
