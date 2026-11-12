@@ -1,17 +1,15 @@
 <p align="center">
-  <img width="4270" height="1232" alt="banner_smaller" src="https://github.com/user-attachments/assets/633634ea-5840-4feb-b476-cc98167ab258"/>
+  <img width="4270" height="1232" alt="Nightrun banner" src="https://github.com/user-attachments/assets/633634ea-5840-4feb-b476-cc98167ab258"/>
 </p>
 
 <p align="center">
-  <strong>Portable overnight prompt generation for Stable Diffusion Forge and Forge-Neo.</strong><br>
-  Prompt pools, metadata replay, LoRA scanning, controlled randomness, upscale automation, thermal pauses, VRAM chill sessions, and long-run safety without hardcoded local chaos.
+  <strong>Overnight prompt batches for Stable Diffusion Forge and Forge-Neo.</strong><br>
+  Editable pools, LoRA matching, metadata replay, upscaling, and sensible breaks when the GPU needs one.
 </p>
 
 <p align="center">
   <img alt="Platform" src="https://img.shields.io/badge/platform-Windows-5865F2?style=for-the-badge&logo=windows&logoColor=white">
   <img alt="Python" src="https://img.shields.io/badge/python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img alt="Stable Diffusion" src="https://img.shields.io/badge/stable%20diffusion-Forge%20%2F%20Forge--Neo-7B2FF7?style=for-the-badge">
-  <img alt="Workflow" src="https://img.shields.io/badge/workflow-overnight%20automation-8A2BE2?style=for-the-badge">
 </p>
 
 <p align="center">
@@ -24,83 +22,59 @@
   <a href="#-metadata-upscaling">Metadata upscaling</a> ·
   <a href="#-configuration-power">Config</a> ·
   <a href="#-troubleshooting">Troubleshooting</a> ·
-  <a href="#-whats-new-in-20">Changelog</a>
+  <a href="#-versions-in-this-repo">Versions</a>
 </p>
 
 ---
 
-## 📁 Installation — Folder Placement
+## 📁 Installation — Folder placement
 
-> [!IMPORTANT]
-> **Nightrun must be placed at a specific depth inside your WebUI folder. The launchers will fail with a "system cannot find the path" error if the folder structure is wrong.**
+The Windows launchers expect Nightrun to sit **two folders below your Forge root**. They look for `venv\Scripts\python.exe` relative to that root.
 
-The `.bat` launchers navigate **two levels up** from `nightrun_2.0\` to find your WebUI root — the folder where `venv\` lives. The required layout is:
+For the source checkout, use:
 
 ```text
-YOUR-WEBUI-FOLDER\
-  venv\
-  workflows\
-    nightrun_2.0\    ← put it here
-      config.json
+YourForgeFolder/
+  venv/
+  workflows/
+    nightrun1.5/
       nightrun.py
+      config.json
       Run First Setup.bat
-      ...
+      pools/
 ```
 
-If you place `nightrun_2.0\` directly in your WebUI root, on your Desktop, or anywhere else at the wrong depth, the launchers will immediately fail.
+The [2.0 release ZIP](https://github.com/Bluenochian/Nightrun/releases/tag/release2) uses its own `nightrun_2.0` folder. Follow the instructions **inside that download** if you're using it. Don't mix paths from the two packages.
 
-The `workflows\` folder does not need to exist beforehand. Create it if it is not there, then put `nightrun_2.0\` inside it.
+If `workflows/` doesn't exist, create it. The important part is the two-level depth, not the spelling of `workflows`.
 
 ---
-
 ## 🌌 What is Nightrun?
 
-**Nightrun** is a portable local workflow system for Stable Diffusion Forge / Forge-Neo.
+I wanted to leave Forge rendering overnight without sitting there choosing every prompt or checking whether the GPU was cooking itself. That's pretty much where Nightrun came from.
 
-It is not just a button that throws prompts at Forge. It is an overnight image machine that builds prompts from editable pools, validates your setup, scans LoRAs, manages long runs, writes replayable metadata, pauses when the GPU gets too hot, schedules chill sessions during huge batches, creates clean stop points, and can upscale from old metadata later.
+It builds prompts from editable text pools, talks to the local Forge / Forge-Neo API, runs batches, saves settings alongside the images, and gives the PC a rest when it's needed. There's a separate metadata upscaler for revisiting old renders.
 
-The whole point is controlled chaos: you get variety, but the run is still structured enough to avoid turning every batch into random visual sludge.
-
-It is built for people who want big batches without babysitting, but also do not want every output to feel like the same prompt wearing a different hat.
+It's configurable because I don't want everyone stuck with my preferred prompts, LoRAs, or hardware settings. Change the pools, run a small dry test, and make it yours.
 
 ---
-
 ## ✨ What Nightrun actually does
 
-| System | What it gives you |
+| Part | What happens |
 | --- | --- |
-| 🌙 **Overnight runs** | Generate large Forge batches while you sleep instead of babysitting every render. |
-| 🧩 **Editable prompt pools** | Build prompts from plain `.txt` files instead of one giant hardcoded prompt blob. |
-| 🎲 **Controlled randomness** | Uses chances, picks, boosts, step ranges, LoRA weights, and module chances so variety is configurable instead of blind. |
-| 🧠 **Selection memory** | Penalizes recently used prompt choices and repeated color families during a run, reducing samey batches. |
-| 🌈 **Color anti-repetition** | Tracks broad color families such as blue, cyan, red, purple, green, gold, black, silver, and iridescent. |
-| 👁️ **Rare heterochromia control** | Keeps heterochromia rare through `selection_memory.heterochromia_chance` instead of letting it dominate eye prompts. |
-| 🧬 **Coherent world modules** | Optional franchise/world layer that can keep selected outfits, environments, props, factions, colors, lighting, and cinematic language in the same universe. |
-| 🎭 **Fusion mode** | Allows stranger cross-world combinations intentionally while reducing risky generic pool chances. |
-| 🎲 **Randomized base steps** | Randomly chooses base steps from `base.steps_min` to `base.steps_max` for speed/quality variety. |
-| 🚀 **Low-step auto-upscale** | If a base render lands under the configured step threshold, Nightrun can upscale it automatically so fast runs can still become useful final images. |
-| 🔥 **GPU temperature pause** | Uses `nvidia-smi` to pause when the GPU is too hot, then resumes after it cools below the configured temperature. |
-| 🧊 **Long-run VRAM chill** | During very large batches, schedules random rest sessions every now and then to let the machine settle. |
-| 💤 **Between-image rest** | Adds configurable sleep time between images instead of hammering the system nonstop. |
-| 🧪 **Validation mode** | Stress-tests pools, LoRAs, aliases, prompt formatting, missing resources, and generation logic before rendering. |
-| 👁️ **Dry-run mode** | Writes prompts and metadata without touching Forge image generation, so you can inspect the run first. |
-| 🪄 **Metadata replay** | Recreate, inspect, or upscale later from saved metadata instead of losing the exact prompt/settings chain. |
-| 🖼️ **Metadata sidecars** | Every image gets detailed metadata: seed, prompt, negative prompt, choices, LoRAs, GPU stats, status, errors, and upscale reason. |
-| 🔁 **Chained upscales** | Upscaler metadata can point to previous upscale outputs, so later upscales can continue from the best available source. |
-| 🛠️ **Auto upscale tuning** | Metadata upscaler adjusts tile width, padding, steps, and denoise for target size unless you override them. |
-| 🔍 **LoRA scanning** | Scans local LoRA folders, resolves aliases, skips missing LoRAs safely, and avoids crashing the whole run. |
-| 🧬 **LoRA synergies** | If a trigger LoRA is selected, matching support LoRAs can be added with controlled chances and weights. |
-| 🎚️ **Random LoRA weights** | LoRA weights can be randomized inside safe min/max ranges for less repetitive outputs. |
-| 🧱 **LoRA safety limits** | Caps random LoRAs and total LoRAs so the prompt does not become a cursed stack of everything at once. |
-| 📊 **Prompt variety analyzer** | Finds repeated colors, repeated modules, repeated categories, world-module usage, and prompt patterns. |
-| 🧯 **Clean stop signal** | Stop after the current image instead of killing Forge mid-generation. |
-| 🖥️ **First-run setup** | Generates local config, detects VRAM profile, checks checkpoint, counts LoRAs, checks Ultimate SD Upscale, and creates shortcuts. |
-| 🧹 **Empty run cleanup** | Can clean empty dry-run or failed-test folders without touching folders that contain images. |
-| 🖼️ **Contact sheet** | Creates a simple visual contact sheet when a run produces images. |
-| 🧰 **Portable sharing** | Public `config.json` stays shareable while private paths go into `config.local.json`. |
+| **Batch runner** | Runs base or full image batches using Forge's local API. |
+| **Prompt pools** | Assembles prompts from editable UTF-8 text lists, with weights and chances in the config. |
+| **World modules** | Optionally keeps an entire prompt within one franchise or setting instead of mixing everything. |
+| **LoRA resolution** | Scans local LoRAs, matches aliases and filenames, and respects stack limits. |
+| **Metadata** | Saves the prompt, seed, choices, settings and paths so you can trace a result later. |
+| **Upscaling** | Can upscale from saved metadata, including recreating a missing base image. |
+| **Cooling and stopping** | Supports temperature pauses, scheduled breaks, and stop-after-current-image. |
+| **Validation** | Can inspect generated prompts and local resources before spending GPU time. |
+| **Portable config** | Public defaults stay in `config.json`; machine-specific settings go into `config.local.json`. |
+
+The Windows launchers are included. You can also run the Python scripts directly if you prefer.
 
 ---
-
 ## 🚀 Fast start
 
 1. Place the Nightrun folder at the correct depth inside your Forge / Forge-Neo install — see [Installation](#-installation--folder-placement) above.
@@ -211,21 +185,6 @@ These are the real normal pools currently wired in `config.json`:
 | `quality_style` | `pools/quality_style.txt` | 1 | 52% |
 | `detail` | `pools/detail.txt` | 1 | 52% |
 
-### What the pool categories actually mean
-
-| Area | Real pools involved | Why it matters |
-| --- | --- | --- |
-| 🧠 **Core idea** | `concept`, `genre`, `abstract_idea` | Gives the image its main concept, genre flavor, and stranger abstract direction. |
-| 👤 **Character identity** | `character`, `creature_or_nonhuman`, `expression` | Defines who or what is in the image and how they read emotionally. |
-| 💇 **Appearance** | `hair`, `eyes`, `body_focus` | Adds face/body visual anchors without forcing one fixed character design. |
-| 👗 **Styling / clothing** | `clothing`, `stocking_layer`, `sensual_layer` | Controls outfit, silhouette, glam layer, and styling intensity. |
-| 🧍 **Pose language** | `pose`, `body_pose`, `safe_pose`, `glamour_pose` | Gives the render body language, framing posture, and safer pose variety. |
-| 🧰 **Props / equipment** | `equipment` | Adds weapons, tools, objects, accessories, artifacts, or scene interaction when the roll allows it. |
-| 🌆 **Scene building** | `environment`, `environment_rich`, `time_and_weather`, `scene_depth`, `scene_embellishment` | Builds the world around the subject instead of leaving the image floating in nowhere. |
-| 🎥 **Cinematic layer** | `lighting`, `camera`, `composition`, `color_grade`, `artist_direction` | Controls mood, shot language, polish, framing, and the final visual direction. |
-| ✨ **Effects / powers** | `magic_element`, `aura_style`, `effects`, `effect_layer`, `style_layer` | Adds energy, magic, atmosphere, stylization, and extra visual identity. |
-| 💎 **Quality / detail** | `quality_style`, `detail` | Adds detail language and quality/style finishing. |
-
 ### Boosted pools
 
 Some pools are not just flat chances. For example, `equipment` normally has its own chance, but it can boost higher if earlier choices like genre, environment, or magic appeared.
@@ -293,21 +252,6 @@ Example alias:
 
 So a pool can use a readable/display name while the actual local filename says something uglier.
 
-### Why the LoRA system matters
-
-A normal prompt script usually fails in one of two ways:
-
-1. it crashes because a LoRA name does not match the local file,
-2. or it shoves too many LoRAs into the prompt and turns the output into soup.
-
-Nightrun tries to avoid both.
-
-It can scan local folders, resolve names, use aliases, skip missing files safely, randomize weights inside safe ranges, add support LoRAs only when trigger LoRAs appear, and cap the total LoRA count.
-
-That means the LoRA layer stays powerful without becoming a slot machine strapped to a grenade.
-
----
-
 ## 🧠 Franchise / world modules: the coherence layer
 
 Now the module system makes sense.
@@ -351,27 +295,6 @@ These are the actual module fields wired in the config, not a vague fake list:
 | `cinematic_language` | 1 | always |
 | `prompt_modifiers` | 1 | 70% |
 
-### What those module fields actually do
-
-| Module field | What it contributes |
-| --- | --- |
-| 👤 `character_archetypes` | The kind of subject the world wants: warrior, princess, rogue, agent, noble, pilot, commander, android, survivor, monster hunter, magical student, and so on. |
-| 👗 `outfits` | Clothing that belongs to that world instead of generic random clothing fighting the theme. |
-| 🏛️ `environments` | Places, interiors, exteriors, battlefields, cities, temples, stations, ruins, schools, forests, castles, ships, streets, and setpieces that fit the chosen source. |
-| 🧰 `props_equipment` | Weapons, artifacts, devices, relics, tools, accessories, books, blades, staffs, terminals, guns, masks, or other story objects. |
-| 🏴 `factions` | Groups, houses, orders, clans, empires, guilds, armies, corporations, rebels, cults, schools, or organizations tied to the world. |
-| ⚙️ `technology` | Sci-fi devices, advanced gear, machinery, terminals, cybernetics, ships, robots, holograms, weapons, or tech language where that world needs it. |
-| ✨ `magic_system` | Spell systems, supernatural logic, divine powers, curses, occult forces, elemental systems, rituals, or other non-tech power structures. |
-| 🌄 `landscapes` | Wider scenic identity: wastelands, snowy kingdoms, neon cities, fantasy valleys, cursed lands, alien horizons, gothic skylines, and more. |
-| 🏗️ `architecture` | Building language and structural identity: castles, temples, ruins, towers, city blocks, halls, megastructures, bunkers, stations, shrines. |
-| 🐉 `creatures` | Beasts, monsters, summons, aliens, demons, animals, constructs, fantasy creatures, and nonhuman world flavor. |
-| 🚀 `ships` | Spacecraft, airships, boats, warships, transports, starfighters, or other vehicle/setpiece elements when the world supports them. |
-| 🤖 `droids` | Robots, androids, drones, automatons, mechs, synthetic companions, or machine-life elements when relevant. |
-| 💡 `lighting_mood` | The lighting attitude of the world: moonlit, neon, divine, dusty, cinematic, gothic, magical, oppressive, heroic, eerie, etc. |
-| 🌈 `color_palettes` | Palette direction that belongs to the world instead of accidental color mud. |
-| 🎥 `cinematic_language` | Shot language, mood language, framing style, genre feel, and how the world wants to be visually presented. |
-| 📝 `prompt_modifiers` | Extra tags that make the selected module feel stronger, more specific, and less generic. |
-
 ### How world modules interact with normal pools
 
 When a world module is active, it is not supposed to flatten the entire prompt system.
@@ -391,30 +314,6 @@ That means the generic pools most likely to contradict the selected world can st
 In **fusion mode**, those same risky pools are allowed, but their chances are multiplied by `fusion_risky_pool_chance_multiplier`.
 
 That means weird combinations can still happen, but intentionally and less aggressively.
-
-### Why this layer exists
-
-Without the world module layer, a random prompt system can accidentally mix things like:
-
-- fantasy robes,
-- cyberpunk armor,
-- spaceship corridors,
-- cursed forest lighting,
-- random weapons,
-- unrelated color palettes,
-- and a totally unrelated cinematic direction.
-
-Sometimes that can be fun.
-
-Most of the time, it is just incoherent.
-
-The franchise/world module system exists so the run can still be surprising while keeping the selected idea internally consistent.
-
-Normal pools give broad variety.
-
-World modules give coherence.
-
-Fusion mode gives controlled madness.
 
 ### Catalog scale
 
@@ -481,32 +380,6 @@ If the base render used fewer steps than the threshold, Nightrun can trigger ups
 The idea is simple: low-step base generations save time, but the upscale can still turn them into useful final images.
 
 So a faster hybrid run does not automatically mean "throwaway preview." It can still produce final-looking images through the upscale path.
-
-### Weighted chances everywhere
-
-Nightrun exposes chances and weights across the workflow:
-
-- prompt pool chances,
-- prompt pool pick counts,
-- `boost_if_any` logic,
-- world module chance,
-- fusion mode chance,
-- risky pool multiplier,
-- random LoRA chances,
-- LoRA pool pick min/max,
-- LoRA weight min/max,
-- LoRA synergy chance,
-- max random LoRAs,
-- max total LoRAs,
-- selection memory penalties,
-- color repetition penalties,
-- long-run chill timing.
-
-That is why it feels like a system instead of a tiny script.
-
-You are not stuck with one behavior. You can tune the machine until it behaves like your machine.
-
----
 
 ## 🔥 Thermal and long-run protection
 
@@ -835,195 +708,37 @@ Do not publish that file.
 
 ---
 
-## 🧠 Nerd corner
+## 🧠 Under the hood
 
-Most users can ignore this section. It is here for people who want to know what is happening under the hood.
+A few things worth knowing if you're debugging a run:
 
-### Config and API
-
-- the main config resolver prefers `config.local.json` when launchers select it
-- `config.json` remains the safe shared fallback
-- paths in config can be relative to the Forge repo or absolute
-- Nightrun starts Forge with `launch.py --api` when the API is not already alive
-- API calls go to `http://127.0.0.1:7860/sdapi/v1/` by default
-- Forge options are applied through `/sdapi/v1/options` before generation
-- base generation uses `txt2img` with override settings for checkpoint, VAE, Forge preset, and CLIP skip where configured
-- upscaling uses `img2img` with the Ultimate SD Upscale script args expected by Forge installations that expose the extension through the API
-
-### Prompt building
-
-- positive prompt formatting normalizes comma spacing
-- duplicate comma-separated fragments are removed
-- blocked positive terms are stripped
-- broken comma layouts are rejected
-- negative prompt is built from `negative_base` plus every loaded negative pool line
-- `selection_memory` is runtime-only and does not write a memory database
-- color anti-repetition detects broad families like blue, cyan/teal, red, purple, green, gold, black, silver, and iridescent
-- heterochromia in the eyes pool is intentionally rare through `selection_memory.heterochromia_chance`
-- `boost_if_any` can raise a pool chance when earlier categories were selected
-- with a world module active, risky generic pools are blocked in coherent mode
-- in fusion mode, risky generic pools are multiplied by `fusion_risky_pool_chance_multiplier`
-
-### LoRA handling
-
-- LoRA scanning caches results per repo, folder list, and alias map for the current Python process
-- LoRA names are normalized by removing non-alphanumeric characters and using lowercase
-- final LoRA list is de-duplicated after `always_loras`, `random_loras`, `lora_pools`, and `lora_synergies` are combined
-
-### Run behavior
-
-- validation writes only the first 10 sampled prompts into `validation_report.json`
-- `summary.json` stores all per-image result metadata collected during the run
-- contact sheets are created only when images exist
-- `STOP_AFTER_CURRENT_IMAGE.txt` is checked before a new image, after an image, and during long-run chill sleeps
-- long-run chill only activates when count is above `long_run_chill.only_when_count_over`
-- temperature waiting is NVIDIA-focused because it uses `nvidia-smi`
-
-### Setup and compatibility
-
-- `setup_pipeline.py` checks NVIDIA first, then Windows video controller data, then `rocm-smi` on Linux when available
-- setup writes JSON with `ensure_ascii=True` for stronger Windows console and editor compatibility
-- `upscale_from_metadata.py` repairs common mojibake path text before deciding an image is missing
-- the metadata upscaler writes a sidecar `.metadata.json` next to the new upscale
-- chained upscales use that `output_image` first in auto mode
-- if Pillow is available, image size is read with Pillow
-- if Pillow is not available, PNG dimensions are read directly from the PNG header
-- `tools/rebuild_prompt_pools.py` is a developer helper for rebuilding shipped pool files
+- Nightrun talks to the local Forge API at `127.0.0.1:7860`. If Forge isn't running, the batch runner can start it with `launch.py --api`.
+- `config.local.json` holds your machine's paths and setup choices; don't commit it.
+- Selection memory lives in the running process; it isn't a database of old prompt history.
+- Validation keeps the report readable by saving only a sample of the prompts it checked.
+- A stop signal is checked between images and during long cooling pauses. It won't cut a render in half.
+- Temperature monitoring uses `nvidia-smi`; don't assume identical behavior on AMD or a setup without NVIDIA tools.
+- The metadata upscaler can read PNG dimensions without Pillow and tries to repair some Windows path-encoding problems.
+- `tools/rebuild_prompt_pools.py` is a developer utility, not something you need to run during normal setup.
 
 ---
+## 🆕 Versions in this repo
 
-## 🆕 What's new in 2.0
+The checked-in Windows batch runner lives in `nightrun1.5/`. There is also a [Nightrun 2.0 download](https://github.com/Bluenochian/Nightrun/releases/tag/release2), which is packaged separately. The instructions above describe the files **actually present in this source checkout**, not a promise that every release ZIP has the same structure.
 
-### Architecture — Monolith split into modules
+At the repository root you'll see `nightrun_web.py` and `templates/index.html`: an early **3.0 dashboard prototype**. Its generation loop currently **simulates prompts and progress**, rather than starting real image batches. It's there to experiment with the interface. For actual overnight generation, use the batch runner.
 
-> [!IMPORTANT]
-> In 2.0, the engine was split from a single ~2055-line file into a modular system. The original `nightrun.py` is now reduced to a thin entrypoint that only imports and runs `main()`.
-
-The implementation was separated into purpose-driven modules:
-
-- `nightrun_runtime.py` — shared implementation (core logic)
-- `prompt_engine.py` — pool loading, weighted selection, prompt composition
-- `lora_resolver.py` — LoRA scanning, aliases, tag construction
-- `forge_client.py` — Forge API, txt2img/img2img, GPU guards
-- `runner.py` — execution modes, output folders, cleanup, cooldowns, summaries
-- `validation.py` — pool validation and dry-run reporting
-- `nightrun_engine.py` — compatibility shim for older imports
-
-### New: Three-engine prompt routing
-
-Prompt generation now routes through three distinct builders, selected via weighted random choice (default 1/1/1):
-
-🟣 **`Classic`** — Standard pool sampling with optional world module support. Closest behavior to 1.5, but cleaned and optimized.
-
-🟢 **`Combinator`** — Builds on Classic output by applying controlled transformations:
-- Internal combinators modify existing elements (e.g. turning a katana into a burning variant)
-- External combinators inject additional motifs (e.g. surreal, cursed, steampunk layers)
-
-At least one combinator may fire per prompt, with a cap of two.
-
-🟠 **`Franchise`** — Forces generation through a selected world module from `franchise_catalog.py`. All visual elements are sourced from that universe for full coherence. Falls back to Classic if no module is available.
-
-Routing can be controlled via `prompt_engines` in config or disabled to revert to legacy behavior.
-
-### Prompt cleanup pipeline
-
-A post-processing cleanup stage was introduced via `prompt_cleanup` configuration.
-
-It handles:
-- Duplicate comma-tag removal
-- Concept-family repetition control
-- Compact SD-style prompt length enforcement
-- Removal of redundant subject labels (e.g. "woman", "girl", "female") when already implied
-
-This ensures consistent prompt structure across all engines.
-
-### Prompt pools — Full rebuild
-
-All prompt pools were significantly reduced and rewritten for SD-style tag efficiency. The previous version contained large, verbose entries; 2.0 prioritizes compact, composable tags.
-
-| Pool | 1.5 lines | 2.0 lines |
-|------|-----------|-----------|
-| `concept.txt` | 3,601 | 154 |
-| `genre.txt` | 8,317 | 2,743 |
-| `glamour_pose.txt` | 4,241 | 761 |
-| `clothing.txt` | 1,801 | 721 |
-| `character.txt` | 701 | 44 |
-| `body_focus.txt` | 1,105 | 481 |
-| `sensual_layer.txt` | 1,921 | 529 |
-| `hair.txt` | 2,401 | 790 |
-
-Three pools were removed: `character_loras.txt`, `style_loras.txt`, `lora_sampler_speed.txt`
-
-Two new pools were added: `genre_core.txt` (69 lines), `genre_root.txt` (475 lines)
-
-A curated weighting system was introduced (`curated_top_count` / `curated_top_weight`) to boost high-quality early entries without removing full pool diversity.
-
-### Franchise catalog — Expansion
-
-> [!NOTE]
-> The franchise system now uses full dictionary-based module definitions instead of compact tuples.
-
-The catalog expanded from ~24 to ~50 modules, including:
-
-`alien`, `batman`, `bloodborne`, `cowboy_bebop`, `doctor_who`, `dungeons_and_dragons`, `elder_scrolls`, `evangelion`, `final_fantasy_vii`, `game_of_thrones`, `halloween`, `hellraiser`, `lord_of_the_rings`, `matrix`, `midsommar`, `nier_automata`, `nightmare_on_elm_street`, `persona`, `pokemon`, `scream`, `shadowrun`, `terminator`, `the_conjuring`, `the_ring`, `the_witcher`, `vampire_masquerade`, `x_men`, `zelda`
-
-New filtering controls allow fine-grained control without modifying the catalog:
-- `enabled_module_ids` / `disabled_module_ids`
-- `enabled_source_names` / `disabled_source_names`
-- `label_allow_patterns` / `label_block_patterns`
-
-### Selection memory — Retuning
-
-- Larger recent history windows across categories
-- Reduced repetition penalties for more natural variation
-- Added concept-level tracking via `recent_concepts`
-- Dedicated repetition control for candle/light motifs
-- Curated weighting system for high-quality biasing
-
-### Config changes
-
-- `fixed_suffix` updated for sharper SD output:
-  - from: `clean coherent design, sharp focus, high detail, polished lighting`
-  - to: `crisp linework, sharp focus, high detail, clear material texture, clean color separation, high micro-contrast, dramatic lighting`
-- `base.steps_min` increased: 30 → 50
-- Output folders now use `nightrun-YYYYMMDD-HHMMSS`
-- `--reset-local` now preserves local tuning instead of overwriting
-
-### New VRAM profile — tuned_6gb
-
-- 1344×768 base
-- 3072×1728 upscale
-- 65 steps
-- 7 LoRA cap
-- VRAM threshold ≤ 6144 MB
-
-### Sensual layer — NSFW expansion
-
-The `sensual_layer` pool was fully reworked and now properly supports explicit NSFW generation paths. The pool now contains dedicated nudity, erotic styling, body exposure, lingerie, fetish-adjacent aesthetic, and mature composition tags designed to integrate cleanly with the rebuilt SD-style prompt system and franchise/genre routing.
-
-> [!WARNING]
-> NSFW generation is enabled by default. For SFW-only runs, open `config.json`, locate the `sensual_layer` entry, and set:
->
-> `"chance": 0`
+I'd rather be upfront about the difference than have somebody leave the dashboard open all night expecting 300 finished renders.
 
 ---
+## 📝 License and usage
 
-## 📝 License / usage note
+Nightrun runs against models, checkpoints, LoRAs and extensions you install yourself. It doesn't ship or download those assets. Franchise names are labels for organizing prompt ideas, not packaged franchise content.
 
-Use this with models, LoRAs, and extensions you are allowed to use.
-
-Franchise module names are inspiration labels for prompt organization. Nightrun does not include model files, LoRA files, checkpoints, or copyrighted assets.
-
-Nightrun is a prompt generation and batch runner tool. It does not include, distribute, or download any AI models, checkpoints, LoRAs, extensions, or generated images. All content is produced locally using software and model files you have installed yourself.
-
-You are solely responsible for the models and extensions you use, the content you generate, compliance with third-party license terms, and compliance with the laws of your jurisdiction.
-
-NSFW generation is supported. It is your responsibility to ensure any explicit content you generate is legal in your jurisdiction. This tool must not be used to generate illegal content of any kind.
-
-Nightrun is provided as-is, without warranty of any kind.
+Check the licenses of whatever models and extensions you use. The code is provided as-is, without a promise that your setup or GPU will behave exactly like mine.
 
 ---
 
 <p align="center">
-  <strong>🌙 The run continues where the hand lets go.</strong>
+  <strong>🌙 Let the PC do the babysitting.</strong>
 </p>
