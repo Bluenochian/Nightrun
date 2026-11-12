@@ -139,6 +139,7 @@ class NativePackageTests(unittest.TestCase):
             )
             self.assertEqual(again.returncode, 0, again.stdout + again.stderr)
             self.assertEqual((config_dir / "config.local.json").read_text(), '{"original":true}')
+            self.assertTrue((Path(env["XDG_DATA_HOME"]) / "nightrun-linux/GUIDE.md").exists())
             gone = subprocess.run(
                 ["bash", str(self.package / "uninstall.sh")],
                 env=env, capture_output=True, text=True, timeout=40,
@@ -146,7 +147,7 @@ class NativePackageTests(unittest.TestCase):
             self.assertEqual(gone.returncode, 0, gone.stdout + gone.stderr)
             self.assertFalse(link.exists())
             self.assertTrue((config_dir / "config.local.json").exists())
-            self.assertTrue((Path(env["XDG_DATA_HOME"]) / "nightrun-linux/GUIDE.md").exists())
+            self.assertFalse((Path(env["XDG_DATA_HOME"]) / "nightrun-linux/GUIDE.md").exists())
 
     def test_second_launch_cannot_clear_existing_stop_signal(self):
         with tempfile.TemporaryDirectory() as folder:
