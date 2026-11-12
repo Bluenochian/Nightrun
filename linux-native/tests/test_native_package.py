@@ -123,7 +123,8 @@ class NativePackageTests(unittest.TestCase):
             self.assertTrue(menu.exists())
             text = menu.read_text()
             self.assertIn('Exec="', text)
-            self.assertIn("data with spaces", text)
+            self.assertIn("user name", text)
+            self.assertIn("data with spaces", os.readlink(link))
             self.assertIn("Terminal=true", text)
             self.assertIn("Icon=io.bluenochian.nightrun", text)
             icon = Path(env["XDG_DATA_HOME"]) / "icons/hicolor/256x256/apps/io.bluenochian.nightrun.png"
