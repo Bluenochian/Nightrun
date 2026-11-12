@@ -103,6 +103,8 @@ case "$command" in
       set -- "$META"
     fi
     [[ -f "$1" ]] || { echo "Supply an existing *_metadata.json file." >&2; exit 2; }
+    # An upscale can use the GPU too. Prevent it racing a running batch.
+    lock_batch
     "$PY" "$APP/modules/upscale_from_metadata.py" --config "$CONFIG" "$@"
     ;;
   analyze)

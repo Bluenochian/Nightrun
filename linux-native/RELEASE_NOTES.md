@@ -1,10 +1,10 @@
 # Nightrun — Linux Native
 
-**The Linux edition is separate. No version bump.**
+**Native Linux installation for Stable Diffusion Forge / Forge-Neo.**
 
-Linux users don't have to install a Windows-oriented release and work out
-which batch scripts to ignore. This package has its own installer, native
-desktop shortcuts, XDG settings, and `nightrun-linux` command.
+Install Nightrun directly on your Linux desktop with a per-user installer,
+application-menu shortcuts, XDG settings, and the `nightrun-linux` command.
+The rendering engine and prompt tools are included.
 
 ## What you get
 
@@ -45,5 +45,4 @@ Test one image before your first overnight run.
 Windows is still available as [Nightrun 2.2](https://github.com/Bluenochian/Nightrun/releases/tag/v2.2).
 The older [2.0](https://github.com/Bluenochian/Nightrun/releases/tag/release2)
 and [1.5](https://github.com/Bluenochian/Nightrun/releases/tag/release)
-releases are kept. The redundant combined 2.3 release was retired; Linux
-Native isn't masquerading as a numbered Windows upgrade anymore.
+releases remain available separately.

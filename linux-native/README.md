@@ -1,6 +1,6 @@
 # Nightrun — Linux Native
 
-**A proper Linux edition. Not 2.4, not another numbered version.**
+**Linux-first installation for Stable Diffusion Forge / Forge-Neo.**
 
 The same modular prompt engines, worlds, pools and upscaling workflow, now
 packaged like a Linux desktop app. No Windows launchers, no placing it two
@@ -78,8 +78,9 @@ The config and output folders stay separate from application code. To remove
 the program, run `bash uninstall.sh` from the extracted package;
 personal configs, state and renders stay put.
 
-Full Linux Forge/GPU and driver compatibility depends on the local machine;
-the CI tests use simulated/offline runs. We aren't pretending otherwise.
+Linux Forge/GPU compatibility depends on the installed drivers, models and
+extensions. The automated checks use offline tests; please verify a real
+one-image render on your own machine before leaving an overnight batch.
 
 [Full guide](GUIDE.md) · [Linux Native release notes](RELEASE_NOTES.md) ·
 [Windows 2.2](https://github.com/Bluenochian/Nightrun/releases/tag/v2.2)

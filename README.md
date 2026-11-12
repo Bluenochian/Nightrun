@@ -36,7 +36,7 @@ The entire point is to spend *less* time babysitting the computer. Let's try not
 | **Configuration** | `config.local.json` in the Nightrun folder | `~/.config/nightrun-linux/config.local.json` |
 | **Full instructions** | [Windows setup and editing guide](docs/WINDOWS_GUIDE.md) | [Linux setup and editing guide](linux-native/GUIDE.md) |
 
-**Linux Native is its own edition, not a version bump.** We deliberately retired the redundant combined 2.3 download. Windows stays on the 2.2 release; Linux gets its own package. Both preserve the same core idea and editable prompt engines.
+**Two editions, two straightforward ways to install.** The Windows download uses the familiar batch launchers. Linux Native installs into your user account, adds desktop-menu entries, and keeps your personal settings separate from the application.
 
 ## Getting started
 
@@ -147,8 +147,6 @@ If you want the long version with commands and screenshots-free explanations, us
 - [Linux Native](https://github.com/Bluenochian/Nightrun/releases/tag/linux-native)
 - [Earlier 2.0](https://github.com/Bluenochian/Nightrun/releases/tag/release2) and [1.5](https://github.com/Bluenochian/Nightrun/releases/tag/release) for people already using them
 - [Linux Native source and installer](linux-native/) · [Windows guide](docs/WINDOWS_GUIDE.md)
-
-Some internal historical source folders remain because the Linux package builder still uses their maintained engine. They're not extra public releases.
 
 The separate [3.0 dashboard prototype](nightrun_web.py) currently **simulates** progress rather than driving actual image generation. Don't leave that one open overnight expecting 300 pictures. Seriously.
 
