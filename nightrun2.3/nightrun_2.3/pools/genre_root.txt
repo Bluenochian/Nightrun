@@ -1,0 +1,475 @@
+# Short genre and subgenre root tags.
+fantasy
+sci-fi
+horror
+mystery
+thriller
+noir
+western
+adventure
+romance
+drama
+gothic
+supernatural
+mythological
+historical fantasy
+dark fantasy
+high fantasy
+low fantasy
+urban fantasy
+medieval fantasy
+sword and sorcery
+portal fantasy
+fairy tale
+magical realism
+grimdark
+noblebright
+occult
+folk horror
+cosmic horror
+survival horror
+body horror
+psychological horror
+retro horror
+gothic horror
+gothic romance
+monster hunter
+monster romance
+post-apocalyptic
+dystopian
+utopian
+cyberpunk
+steampunk
+dieselpunk
+solarpunk
+biopunk
+nanopunk
+atompunk
+retrofuturism
+space opera
+space western
+space horror
+military sci-fi
+planetary romance
+frontier sci-fi
+mecha
+kaiju
+superhero
+spy-fi
+tech noir
+weird west
+wuxia
+xianxia
+lost world
+ancient civilization
+alternate history
+dreamcore
+weirdcore
+liminal horror
+dark academia
+cassette futurism
+alien wilderness
+mythological fantasy
+supernatural mystery
+fairy tale horror
+clockpunk
+western gothic
+jungle lost world
+lost city adventure
+magical academy
+royal court intrigue
+dystopian rebellion
+body horror restrained
+angelic apocalypse
+industrial fantasy
+gaslamp fantasy
+road trip occult
+wasteland royalty
+mutant frontier
+dream palace surrealism
+retro arcade cyberpunk
+subterranean bunker survival
+necromantic aristocracy
+sunken temple adventure
+alien bazaar adventure
+fae court intrigue
+acid western
+afrofuturism
+afrosurrealism
+alien invasion
+anime mecha opera
+archaeological adventure
+aristocratic vampire court
+belle epoque occult
+climate fiction
+corporate dystopia
+cursed royal court
+dark superhero drama
+desert cyberpunk
+digital occult
+dinosaur lost world
+dragon court intrigue
+dungeonpunk
+eldritch aristocracy
+etherpunk
+exorcist drama
+fantasy heist
+fantasy noir
+fantasy western
+film noir vampire
+fungal apocalypse
+galactic empire drama
+galactic frontier
+godpunk
+gothic magical realism
+haunted carnival
+haunted hospital
+haunted hotel
+haunted opera
+hollow earth adventure
+hopepunk
+ice planet survival
+industrial occult
+interstellar pilgrimage
+jazz age occult
+kaiju aftermath
+librarypunk
+lovecraftian detective story
+magic system tournament
+martian frontier
+memory palace surrealism
+military fantasy
+mythic cyberpunk
+occult courtroom
+occult western
+old west vampire
+psychic espionage
+radioactive wasteland
+raygun gothic
+robot rebellion
+ruined megacity
+sand planet epic
+silkpunk
+silver age superhero
+southern gothic
+space archaeology
+space monastery
+space pirates
+space survival
+supernatural procedural
+sword and planet
+swordpunk
+urban legend horror
+victorian ghost story
+xenobiology expedition
+zombie survival
+zombie western
+aquapunk
+arcology dystopia
+artifact hunter adventure
+battle academy anime
+black ops occult
+botanical horror
+clockwork monarchy
+coven drama
+dragon apocalypse
+electric ghost story
+exoplanet colony drama
+fantasy courtroom drama
+haunted spaceship
+intergalactic nobility
+magic noir city
+memory hacker cyberpunk
+monster academia
+neon samurai
+parallel earth adventure
+post-apocalyptic samurai
+relicpunk
+robotic aristocracy
+ruined amusement park
+shadow academy
+space feudalism
+templepunk
+toxic city cyberpunk
+vampire academy
+vampire space opera
+waterworld survival
+witchpunk
+aetherpunk sky empire
+alien desert pilgrimage
+alien jungle expedition
+alien megafauna safari
+anachronistic fantasy court
+ancient library adventure
+android identity drama
+arcane airship war
+arcane casino heist
+arcane frontier town
+astral ocean voyage
+baroque haunted palace
+battlefield necromancy
+black sun apocalypse
+byzantine fantasy empire
+cathedral mecha
+cosmic courtroom drama
+cosmic western
+cyber witchcraft
+cybernetic body drama
+cyberpunk corporate war
+cyberpunk idol underworld
+cyberpunk street racing
+dark forest pilgrimage
+dark space monarchy
+desert planet monarchy
+diesel occult war
+dinosaur jungle adventure
+dream desert surrealism
+dungeonpunk city
+dyson sphere pilgrimage
+ecopunk rebellion
+edwardian haunted manor
+electric western
+enchanted desert caravan
+far future feudalism
+feywild court drama
+flintlock fantasy
+floating island politics
+forbidden planet expedition
+fractured fairy tale
+ghost town western
+gilded age occult
+graveyard cyberpunk
+greenhouse solarpunk
+haunted ballet theater
+haunted battlefield
+haunted boarding school
+haunted cruise ship
+haunted doll atelier
+hell frontier western
+hive city grimdark
+interstellar refugee fleet
+jungle airship adventure
+kaiju defense force
+lost moon colony
+magepunk city
+magical court procedural
+mecha academy
+mecha space opera
+medieval apocalypse
+mythic desert kingdom
+mythic sea voyage
+necromancer courtroom drama
+neo feudal cyberpunk
+neon fantasy arcade
+neon shrine cyberpunk
+noir magical realism
+nuclear winter survival
+oceanic space opera
+ornate space empire
+paranormal detective agency
+paranormal small town
+post-cyberpunk
+posthuman monastery
+rainforest solarpunk
+roadside occult Americana
+robot western
+rocketpunk adventure
+samurai cyberpunk
+scavenger princess wasteland
+secret magical police
+steam-powered monarchy
+sun goddess solarpunk
+technomancer cyberpunk
+time travel western
+transhuman space opera
+urban fae conspiracy
+urban vampire court
+vaporwave dystopia
+victorian monster hunter
+western mecha
+wild magic frontier
+absurdism
+airship adventure
+analog horror
+cryptid horror
+dark adventure
+dark fairytale
+dark romance
+dark sci-fi
+dead city
+digital horror
+ecological horror
+ecopunk
+epic fantasy
+fallen angel
+fantasy horror
+fantasy mystery
+fantasy romance
+fungal horror
+gothic fantasy
+gothic mystery
+hidden world
+living city
+lost colony
+magepunk
+neo-gothic
+neo-noir
+new weird
+occult horror
+paranormal noir
+paranormal romance
+paranormal thriller
+pulp adventure
+rocketpunk
+rural gothic
+secret history
+space fantasy
+space gothic
+stonepunk
+subterranean horror
+supernatural noir
+surreal horror
+swamp gothic
+tech fantasy
+urban gothic
+urban horror
+victorian fantasy
+victorian horror
+weird horror
+aetherpunk
+afropunk
+agricultural horror
+agropunk
+airpunk
+alchemy fantasy
+alternate universe
+animal horror
+anthropocene fiction
+apocalyptic fiction
+arcanepunk
+art punk
+artifact fiction
+austenesque fantasy
+avant-garde horror
+bizarro fiction
+biohorror
+biothriller
+black comedy horror
+brasspunk
+bugpunk
+candlepunk
+cattlepunk
+cavern horror
+cli-fi
+climate gothic
+climate horror
+coalpunk
+comedy horror
+creature feature
+cyber noir
+cyberprep
+dark romantasy
+decopunk
+desertpunk
+dreadpunk
+dying earth
+eco-dystopia
+eco-fiction
+eco-gothic
+eco-horror
+eco-noir
+eco-thriller
+ecoweird
+edisonade
+eldritch horror
+elfpunk
+environmental gothic
+ergodic fiction
+fantastique
+found footage
+giallo
+ghost story
+goblinpunk
+hard fantasy
+hard sci-fi
+haunted house
+horror comedy
+hydropunk
+insect horror
+invasive species horror
+kaiju fiction
+labyrinth fiction
+lunarpunk
+mannerpunk
+metafiction
+monster horror
+mundane sci-fi
+mythic fiction
+mythpunk
+natural horror
+nature horror
+noir fantasy
+nowpunk
+occult detective
+oceanpunk
+organic horror
+paranormal mystery
+plant horror
+posthuman sci-fi
+psychedelic horror
+psychological thriller
+quiet horror
+raypunk
+regency fantasy
+ribofunk
+rococopunk
+romantasy
+rural noir
+sailpunk
+salvagepunk
+sandpunk
+seapunk
+second-world fantasy
+slipstream
+slipstream fiction
+slow horror
+soft sci-fi
+solar gothic
+solar horror
+splatterpunk
+splatterpunk horror
+steelpunk
+stitchpunk
+supernatural horror
+sword and sandal
+technothriller
+teslapunk
+the new weird
+the weird
+utopian fiction
+vampire fiction
+vaporwave horror
+weird fiction
+xenofiction
+xenohorror
+zombie fiction
+lovecraftian horror
+science fantasy
+historical fiction
+techno-thriller
+isekai
+litrpg
+progression fantasy
+grimbright
+existential horror
+vaporwave
+indigenous futurism
+paranormal
+occult fiction
+cosmic fantasy
+dungeon core
+battle royale
+posthuman fiction
+transhumanism
+ecofiction
+survival fiction

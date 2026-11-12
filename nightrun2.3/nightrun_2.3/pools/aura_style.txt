@@ -1,0 +1,241 @@
+# Aura and glow tags.
+subtle red aura, around the character
+subtle red aura, behind the head
+subtle red aura, near the hands
+subtle red aura, in the foreground
+blue flame accents, around the character
+blue flame accents, behind the head
+blue flame accents, near the hands
+blue flame accents, in the foreground
+golden magic particles, around the character
+golden magic particles, behind the head
+golden magic particles, near the hands
+golden magic particles, in the foreground
+floating butterfly lights, around the character
+floating butterfly lights, behind the head
+floating butterfly lights, near the hands
+floating butterfly lights, in the foreground
+teal bioluminescent glow, around the character
+teal bioluminescent glow, behind the head
+teal bioluminescent glow, near the hands
+teal bioluminescent glow, in the foreground
+glowing eye catchlights, around the character
+glowing eye catchlights, behind the head
+glowing eye catchlights, near the hands
+glowing eye catchlights, in the foreground
+thin lightning threads, around the character
+thin lightning threads, behind the head
+thin lightning threads, near the hands
+thin lightning threads, in the foreground
+halo backlight, around the character
+halo backlight, behind the head
+halo backlight, near the hands
+halo backlight, in the foreground
+rain streaks in backlight, around the character
+rain streaks in backlight, behind the head
+rain streaks in backlight, near the hands
+rain streaks in backlight, in the foreground
+red crystal glow, around the character
+red crystal glow, behind the head
+red crystal glow, near the hands
+red crystal glow, in the foreground
+blue crystal glow, around the character
+blue crystal glow, behind the head
+iridescent highlights, around the character
+iridescent highlights, behind the head
+iridescent highlights, near the hands
+iridescent highlights, in the foreground
+magic circle glow, around the character
+magic circle glow, behind the head
+magic circle glow, near the hands
+magic circle glow, in the foreground
+glowing ribbon trails, around the character
+glowing ribbon trails, behind the head
+glowing ribbon trails, near the hands
+glowing ribbon trails, in the foreground
+shadow aura underfoot, around the character
+shadow aura underfoot, behind the head
+shadow aura underfoot, near the hands
+shadow aura underfoot, in the foreground
+wet pavement glow, around the character
+wet pavement glow, behind the head
+wet pavement glow, near the hands
+wet pavement glow, in the foreground
+glowing lace edge, around the character
+glowing lace edge, behind the head
+glowing lace edge, near the hands
+glowing lace edge, in the foreground
+golden halo shards, around the character
+golden halo shards, behind the head
+golden halo shards, near the hands
+golden halo shards, in the foreground
+opal glitter highlights, around the character
+opal glitter highlights, behind the head
+opal glitter highlights, near the hands
+opal glitter highlights, in the foreground
+floating perfume glow, around the character
+floating perfume glow, behind the head
+floating perfume glow, near the hands
+floating perfume glow, in the foreground
+subtle red aura, across the background
+subtle red aura, on clothing edges
+subtle red aura, reflected on the floor
+subtle red aura, framing the face
+subtle red aura, around the legs
+subtle red aura, behind the shoulders
+subtle red aura, around the weapon
+subtle red aura, inside the archway
+subtle red aura, near the window
+subtle red aura, in the mirror reflection
+subtle red aura, over the water surface
+subtle red aura, between foreground candles
+subtle red aura, around hair strands
+subtle red aura, behind the veil
+subtle red aura, across the dress hem
+subtle red aura, near the collarbone
+blue flame accents, across the background
+blue flame accents, on clothing edges
+blue flame accents, reflected on the floor
+blue flame accents, framing the face
+blue flame accents, around the legs
+blue flame accents, behind the shoulders
+blue flame accents, around the weapon
+blue flame accents, inside the archway
+blue flame accents, near the window
+blue flame accents, in the mirror reflection
+blue flame accents, over the water surface
+blue flame accents, between foreground candles
+blue flame accents, around hair strands
+blue flame accents, behind the veil
+blue flame accents, across the dress hem
+blue flame accents, near the collarbone
+golden magic particles, across the background
+golden magic particles, on clothing edges
+golden magic particles, reflected on the floor
+golden magic particles, framing the face
+golden magic particles, around the legs
+golden magic particles, behind the shoulders
+golden magic particles, around the weapon
+golden magic particles, inside the archway
+golden magic particles, near the window
+golden magic particles, in the mirror reflection
+golden magic particles, over the water surface
+golden magic particles, between foreground candles
+golden magic particles, around hair strands
+golden magic particles, behind the veil
+golden magic particles, across the dress hem
+golden magic particles, near the collarbone
+floating butterfly lights, across the background
+floating butterfly lights, on clothing edges
+floating butterfly lights, reflected on the floor
+floating butterfly lights, framing the face
+floating butterfly lights, around the legs
+floating butterfly lights, behind the shoulders
+floating butterfly lights, around the weapon
+floating butterfly lights, inside the archway
+floating butterfly lights, near the window
+floating butterfly lights, in the mirror reflection
+floating butterfly lights, over the water surface
+floating butterfly lights, between foreground candles
+floating butterfly lights, around hair strands
+floating butterfly lights, behind the veil
+floating butterfly lights, across the dress hem
+floating butterfly lights, near the collarbone
+teal bioluminescent glow, across the background
+teal bioluminescent glow, on clothing edges
+teal bioluminescent glow, reflected on the floor
+teal bioluminescent glow, framing the face
+teal bioluminescent glow, around the legs
+teal bioluminescent glow, behind the shoulders
+teal bioluminescent glow, around the weapon
+teal bioluminescent glow, inside the archway
+teal bioluminescent glow, near the window
+teal bioluminescent glow, in the mirror reflection
+teal bioluminescent glow, over the water surface
+teal bioluminescent glow, between foreground candles
+teal bioluminescent glow, around hair strands
+teal bioluminescent glow, behind the veil
+teal bioluminescent glow, across the dress hem
+teal bioluminescent glow, near the collarbone
+glowing eye catchlights, across the background
+glowing eye catchlights, on clothing edges
+glowing eye catchlights, reflected on the floor
+glowing eye catchlights, framing the face
+glowing eye catchlights, around the legs
+glowing eye catchlights, behind the shoulders
+glowing eye catchlights, around the weapon
+glowing eye catchlights, inside the archway
+glowing eye catchlights, near the window
+glowing eye catchlights, in the mirror reflection
+glowing eye catchlights, over the water surface
+glowing eye catchlights, between foreground candles
+glowing eye catchlights, around hair strands
+glowing eye catchlights, behind the veil
+glowing eye catchlights, across the dress hem
+glowing eye catchlights, near the collarbone
+thin lightning threads, across the background
+thin lightning threads, on clothing edges
+thin lightning threads, reflected on the floor
+thin lightning threads, framing the face
+thin lightning threads, around the legs
+thin lightning threads, behind the shoulders
+thin lightning threads, around the weapon
+thin lightning threads, inside the archway
+thin lightning threads, near the window
+thin lightning threads, in the mirror reflection
+thin lightning threads, over the water surface
+thin lightning threads, between foreground candles
+thin lightning threads, around hair strands
+thin lightning threads, behind the veil
+thin lightning threads, across the dress hem
+thin lightning threads, near the collarbone
+halo backlight, across the background
+halo backlight, on clothing edges
+halo backlight, reflected on the floor
+halo backlight, framing the face
+halo backlight, around the legs
+halo backlight, behind the shoulders
+halo backlight, around the weapon
+halo backlight, inside the archway
+halo backlight, near the window
+halo backlight, in the mirror reflection
+halo backlight, over the water surface
+halo backlight, between foreground candles
+halo backlight, around hair strands
+halo backlight, behind the veil
+halo backlight, across the dress hem
+halo backlight, near the collarbone
+rain streaks in backlight, across the background
+rain streaks in backlight, on clothing edges
+rain streaks in backlight, reflected on the floor
+rain streaks in backlight, framing the face
+rain streaks in backlight, around the legs
+rain streaks in backlight, behind the shoulders
+rain streaks in backlight, around the weapon
+rain streaks in backlight, inside the archway
+rain streaks in backlight, near the window
+rain streaks in backlight, in the mirror reflection
+rain streaks in backlight, over the water surface
+rain streaks in backlight, between foreground candles
+rain streaks in backlight, around hair strands
+rain streaks in backlight, behind the veil
+rain streaks in backlight, across the dress hem
+rain streaks in backlight, near the collarbone
+red crystal glow, across the background
+red crystal glow, on clothing edges
+red crystal glow, reflected on the floor
+red crystal glow, framing the face
+red crystal glow, around the legs
+red crystal glow, behind the shoulders
+red crystal glow, around the weapon
+red crystal glow, inside the archway
+red crystal glow, near the window
+red crystal glow, in the mirror reflection
+red crystal glow, over the water surface
+red crystal glow, between foreground candles
+red crystal glow, around hair strands
+red crystal glow, behind the veil
+red crystal glow, across the dress hem
+red crystal glow, near the collarbone
+iridescent highlights, across the background
+iridescent highlights, on clothing edges

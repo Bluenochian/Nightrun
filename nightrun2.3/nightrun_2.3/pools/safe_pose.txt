@@ -1,0 +1,341 @@
+# Safe pose pool.
+standing calmly
+hands folded elegantly
+looking at viewer
+holding a lantern
+holding a book
+holding a flower
+turning over shoulder
+walking forward
+sitting by a window
+one hand near chest
+standing beside a window
+sitting on a chair
+walking through a corridor
+holding a parasol
+holding a wine glass
+holding a sword
+holding a staff
+holding a violin
+holding a tarot card
+resting hand on railing
+adjusting hair
+adjusting glove
+looking over shoulder
+standing under moonlight
+kneeling beside candles
+sitting on throne
+leaning on table
+arms relaxed at sides
+hands clasped
+turning toward viewer
+standing with hands behind back
+sitting with legs crossed
+standing beside candles
+holding a mirror
+holding a rose bouquet
+holding a crystal goblet
+kneeling beside water
+standing on balcony
+walking down stairs
+leaning on railing
+standing with cape flowing
+looking through window
+adjusting necklace
+touching choker
+holding veil
+posing beside mirror
+standing in archway
+seated on velvet sofa
+resting hand on hip
+holding candle near face
+standing in three-quarter view, natural fingers
+standing in three-quarter view, confident posture
+standing in three-quarter view, calm predatory smile
+standing in three-quarter view, flowing fabric motion
+sitting on a throne, natural fingers
+sitting on a throne, confident posture
+sitting on a throne, calm predatory smile
+sitting on a throne, flowing fabric motion
+leaning against a stone arch, natural fingers
+leaning against a stone arch, confident posture
+leaning against a stone arch, calm predatory smile
+leaning against a stone arch, flowing fabric motion
+one hand near chest, natural fingers
+one hand near chest, confident posture
+one hand near chest, calm predatory smile
+reaching toward viewer, natural fingers
+reaching toward viewer, confident posture
+reaching toward viewer, calm predatory smile
+reaching toward viewer, flowing fabric motion
+holding a glowing orb, natural fingers
+holding a glowing orb, confident posture
+holding a glowing orb, calm predatory smile
+holding a glowing orb, flowing fabric motion
+holding a sword downward, natural fingers
+holding a sword downward, confident posture
+holding a sword downward, calm predatory smile
+holding a sword downward, flowing fabric motion
+hands folded elegantly, natural fingers
+hands folded elegantly, confident posture
+hands folded elegantly, calm predatory smile
+one hand touching hair, natural fingers
+one hand touching hair, confident posture
+one hand touching hair, calm predatory smile
+one hand touching hair, flowing fabric motion
+walking forward, natural fingers
+walking forward, confident posture
+walking forward, calm predatory smile
+looking down from a low angle, natural fingers
+looking down from a low angle, confident posture
+looking down from a low angle, calm predatory smile
+looking down from a low angle, flowing fabric motion
+kneeling beside reflective water, natural fingers
+kneeling beside reflective water, confident posture
+kneeling beside reflective water, calm predatory smile
+kneeling beside reflective water, flowing fabric motion
+turning over shoulder, natural fingers
+turning over shoulder, confident posture
+turning over shoulder, calm predatory smile
+sitting by a window, natural fingers
+sitting by a window, confident posture
+sitting by a window, calm predatory smile
+arms slightly open, natural fingers
+arms slightly open, confident posture
+arms slightly open, calm predatory smile
+arms slightly open, flowing fabric motion
+hand raised toward moonlight, natural fingers
+hand raised toward moonlight, confident posture
+hand raised toward moonlight, calm predatory smile
+hand raised toward moonlight, flowing fabric motion
+holding a candle, natural fingers
+holding a candle, confident posture
+holding a candle, calm predatory smile
+holding a candle, flowing fabric motion
+playing a violin, natural fingers
+playing a violin, confident posture
+playing a violin, calm predatory smile
+playing a violin, flowing fabric motion
+holding a tarot card, natural fingers
+holding a tarot card, confident posture
+holding a tarot card, flowing fabric motion
+casting magic with one hand, natural fingers
+casting magic with one hand, confident posture
+casting magic with one hand, flowing fabric motion
+casting magic with one hand, hair moving in wind
+sitting on a velvet sofa, natural fingers
+sitting on a velvet sofa, confident posture
+sitting on a velvet sofa, flowing fabric motion
+sitting on a velvet sofa, hair moving in wind
+reclining on a chaise lounge, natural fingers
+reclining on a chaise lounge, confident posture
+reclining on a chaise lounge, flowing fabric motion
+reclining on a chaise lounge, hair moving in wind
+standing beside a mirror, natural fingers
+standing beside a mirror, confident posture
+standing beside a mirror, flowing fabric motion
+standing beside a mirror, hair moving in wind
+sitting at the edge of a bed, natural fingers
+sitting at the edge of a bed, confident posture
+sitting at the edge of a bed, flowing fabric motion
+sitting at the edge of a bed, hair moving in wind
+kneeling beside a ritual circle, natural fingers
+kneeling beside a ritual circle, confident posture
+kneeling beside a ritual circle, flowing fabric motion
+kneeling beside a ritual circle, hair moving in wind
+one leg raised on a chair, natural fingers
+one leg raised on a chair, confident posture
+one leg raised on a chair, flowing fabric motion
+one leg raised on a chair, hair moving in wind
+pulling on a glove, natural fingers
+pulling on a glove, confident posture
+pulling on a glove, flowing fabric motion
+pulling on a glove, hair moving in wind
+adjusting a choker, natural fingers
+adjusting a choker, confident posture
+adjusting a choker, flowing fabric motion
+adjusting a choker, hair moving in wind
+holding a black rose, natural fingers
+holding a black rose, confident posture
+holding a black rose, flowing fabric motion
+holding a black rose, hair moving in wind
+lifting a lace veil, natural fingers
+lifting a lace veil, confident posture
+lifting a lace veil, flowing fabric motion
+lifting a lace veil, hair moving in wind
+turning in a doorway, natural fingers
+turning in a doorway, confident posture
+turning in a doorway, flowing fabric motion
+turning in a doorway, hair moving in wind
+resting hand on thigh, natural fingers
+resting hand on thigh, confident posture
+resting hand on thigh, flowing fabric motion
+resting hand on thigh, hair moving in wind
+hands behind head, natural fingers
+hands behind head, confident posture
+hands behind head, flowing fabric motion
+hands behind head, hair moving in wind
+arms crossed under chest, natural fingers
+arms crossed under chest, confident posture
+arms crossed under chest, flowing fabric motion
+arms crossed under chest, hair moving in wind
+one hand holding skirt hem, natural fingers
+one hand holding skirt hem, confident posture
+one hand holding skirt hem, flowing fabric motion
+one hand holding skirt hem, hair moving in wind
+standing in rain, natural fingers
+standing in rain, confident posture
+standing in rain, flowing fabric motion
+standing in rain, hair moving in wind
+leaning against a throne, natural fingers
+leaning against a throne, confident posture
+leaning against a throne, flowing fabric motion
+leaning against a throne, hair moving in wind
+looking up from under bangs, natural fingers
+looking up from under bangs, confident posture
+looking up from under bangs, flowing fabric motion
+looking up from under bangs, hair moving in wind
+sitting on marble steps, natural fingers
+sitting on marble steps, confident posture
+sitting on marble steps, flowing fabric motion
+sitting on marble steps, hair moving in wind
+standing with coat slipping from shoulders, natural fingers
+standing with coat slipping from shoulders, confident posture
+standing with coat slipping from shoulders, flowing fabric motion
+standing with coat slipping from shoulders, hair moving in wind
+resting one knee on bed, natural fingers
+resting one knee on bed, confident posture
+resting one knee on bed, flowing fabric motion
+resting one knee on bed, hair moving in wind
+kneeling with hands on thighs, natural fingers
+kneeling with hands on thighs, confident posture
+kneeling with hands on thighs, flowing fabric motion
+kneeling with hands on thighs, hair moving in wind
+sitting side-saddle on throne, natural fingers
+sitting side-saddle on throne, confident posture
+sitting side-saddle on throne, flowing fabric motion
+sitting side-saddle on throne, hair moving in wind
+turning while holding veil, natural fingers
+turning while holding veil, confident posture
+turning while holding veil, flowing fabric motion
+turning while holding veil, hair moving in wind
+standing with one heel raised, natural fingers
+standing with one heel raised, confident posture
+standing with one heel raised, flowing fabric motion
+standing with one heel raised, hair moving in wind
+reclining with hand in hair, natural fingers
+reclining with hand in hair, confident posture
+reclining with hand in hair, flowing fabric motion
+reclining with hand in hair, hair moving in wind
+sitting in shallow water, natural fingers
+sitting in shallow water, confident posture
+sitting in shallow water, flowing fabric motion
+sitting in shallow water, hair moving in wind
+standing under falling petals, natural fingers
+standing under falling petals, confident posture
+standing under falling petals, flowing fabric motion
+standing under falling petals, hair moving in wind
+holding necklace near collarbone, natural fingers
+holding necklace near collarbone, confident posture
+holding necklace near collarbone, flowing fabric motion
+holding necklace near collarbone, hair moving in wind
+looking back while walking away, natural fingers
+looking back while walking away, confident posture
+looking back while walking away, flowing fabric motion
+looking back while walking away, hair moving in wind
+one hand on hip, natural fingers
+one hand on hip, confident posture
+one hand on hip, flowing fabric motion
+one hand on hip, hair moving in wind
+holding staff across body, natural fingers
+holding staff across body, confident posture
+holding staff across body, flowing fabric motion
+holding staff across body, hair moving in wind
+sitting on windowsill, natural fingers
+sitting on windowsill, confident posture
+sitting on windowsill, flowing fabric motion
+sitting on windowsill, hair moving in wind
+standing between curtains, natural fingers
+standing between curtains, confident posture
+standing between curtains, flowing fabric motion
+standing between curtains, hair moving in wind
+arms lifted while adjusting hair, natural fingers
+arms lifted while adjusting hair, confident posture
+arms lifted while adjusting hair, flowing fabric motion
+arms lifted while adjusting hair, hair moving in wind
+leaning close to camera, natural fingers
+leaning close to camera, confident posture
+leaning close to camera, flowing fabric motion
+leaning close to camera, hair moving in wind
+standing in doorway silhouette, natural fingers
+standing in doorway silhouette, confident posture
+standing in doorway silhouette, flowing fabric motion
+standing in doorway silhouette, hair moving in wind
+standing in three-quarter view, hair moving in wind
+standing in three-quarter view, readable hand pose
+standing in three-quarter view, elegant silhouette
+standing in three-quarter view, strong eye contact
+standing in three-quarter view, relaxed pose
+standing in three-quarter view, dramatic cape movement
+standing in three-quarter view, sensual posture
+standing in three-quarter view, glamour framing
+standing in three-quarter view, stockings visible
+standing in three-quarter view, garter detail visible
+standing in three-quarter view, cleavage subtly emphasized
+standing in three-quarter view, collarbone visible
+standing in three-quarter view, long gloves visible
+standing in three-quarter view, hips turned toward viewer
+standing in three-quarter view, dress slit visible
+standing in three-quarter view, confident teasing mood
+standing in three-quarter view, clear leg silhouette
+standing in three-quarter view, shoulders angled elegantly
+standing in three-quarter view, soft S-curve posture
+standing in three-quarter view, outfit folds readable
+standing in three-quarter view, necklace centered
+standing in three-quarter view, legs arranged cleanly
+standing in three-quarter view, hands placed naturally
+standing in three-quarter view, stocking texture visible
+standing in three-quarter view, soft confident gaze
+standing in three-quarter view, camera-facing body angle
+standing in three-quarter view, balanced weight shift
+standing in three-quarter view, dramatic fashion stance
+sitting on a throne, hair moving in wind
+sitting on a throne, readable hand pose
+sitting on a throne, elegant silhouette
+sitting on a throne, strong eye contact
+sitting on a throne, relaxed pose
+sitting on a throne, dramatic cape movement
+sitting on a throne, sensual posture
+sitting on a throne, glamour framing
+sitting on a throne, stockings visible
+sitting on a throne, garter detail visible
+sitting on a throne, cleavage subtly emphasized
+sitting on a throne, collarbone visible
+sitting on a throne, long gloves visible
+sitting on a throne, hips turned toward viewer
+sitting on a throne, dress slit visible
+sitting on a throne, confident teasing mood
+sitting on a throne, clear leg silhouette
+sitting on a throne, shoulders angled elegantly
+sitting on a throne, soft S-curve posture
+sitting on a throne, outfit folds readable
+sitting on a throne, necklace centered
+sitting on a throne, legs arranged cleanly
+sitting on a throne, hands placed naturally
+sitting on a throne, stocking texture visible
+sitting on a throne, soft confident gaze
+sitting on a throne, camera-facing body angle
+sitting on a throne, balanced weight shift
+sitting on a throne, dramatic fashion stance
+leaning against a stone arch, hair moving in wind
+leaning against a stone arch, readable hand pose
+leaning against a stone arch, elegant silhouette
+leaning against a stone arch, strong eye contact
+leaning against a stone arch, relaxed pose
+leaning against a stone arch, dramatic cape movement
+leaning against a stone arch, sensual posture
+leaning against a stone arch, glamour framing
+leaning against a stone arch, stockings visible
+leaning against a stone arch, garter detail visible
+leaning against a stone arch, cleavage subtly emphasized
+leaning against a stone arch, collarbone visible

@@ -1,0 +1,2743 @@
+# Genre and subgenre identity tags with brief worldbuilding support.
+post-apocalyptic, coherent worldbuilding
+post-apocalyptic, clear setting identity
+post-apocalyptic, genre-matched clothing
+post-apocalyptic, genre-matched environment
+post-apocalyptic, cinematic mood
+post-apocalyptic, strong visual identity
+cyberpunk, coherent worldbuilding
+cyberpunk, clear setting identity
+cyberpunk, genre-matched clothing
+cyberpunk, genre-matched environment
+cyberpunk, cinematic mood
+cyberpunk, strong visual identity
+steampunk, coherent worldbuilding
+steampunk, clear setting identity
+steampunk, genre-matched clothing
+steampunk, genre-matched environment
+steampunk, cinematic mood
+steampunk, strong visual identity
+dieselpunk, coherent worldbuilding
+dieselpunk, clear setting identity
+dieselpunk, genre-matched clothing
+dieselpunk, genre-matched environment
+dieselpunk, cinematic mood
+dieselpunk, strong visual identity
+solarpunk, coherent worldbuilding
+solarpunk, clear setting identity
+solarpunk, genre-matched clothing
+solarpunk, genre-matched environment
+solarpunk, cinematic mood
+solarpunk, strong visual identity
+atompunk, coherent worldbuilding
+atompunk, clear setting identity
+atompunk, genre-matched clothing
+atompunk, genre-matched environment
+atompunk, cinematic mood
+atompunk, strong visual identity
+cassette futurism, coherent worldbuilding
+cassette futurism, clear setting identity
+cassette futurism, genre-matched clothing
+cassette futurism, genre-matched environment
+cassette futurism, cinematic mood
+cassette futurism, strong visual identity
+retrofuturism, coherent worldbuilding
+retrofuturism, clear setting identity
+retrofuturism, genre-matched clothing
+retrofuturism, genre-matched environment
+retrofuturism, cinematic mood
+retrofuturism, strong visual identity
+space opera, coherent worldbuilding
+space opera, clear setting identity
+space opera, genre-matched clothing
+space opera, genre-matched environment
+space opera, cinematic mood
+space opera, strong visual identity
+military sci-fi, coherent worldbuilding
+military sci-fi, clear setting identity
+military sci-fi, genre-matched clothing
+military sci-fi, genre-matched environment
+military sci-fi, cinematic mood
+military sci-fi, strong visual identity
+alien wilderness, coherent worldbuilding
+alien wilderness, clear setting identity
+alien wilderness, genre-matched clothing
+alien wilderness, genre-matched environment
+alien wilderness, cinematic mood
+alien wilderness, strong visual identity
+cosmic horror, coherent worldbuilding
+cosmic horror, clear setting identity
+cosmic horror, genre-matched clothing
+cosmic horror, genre-matched environment
+cosmic horror, cinematic mood
+cosmic horror, strong visual identity
+gothic horror, coherent worldbuilding
+gothic horror, clear setting identity
+gothic horror, genre-matched clothing
+gothic horror, genre-matched environment
+gothic horror, cinematic mood
+gothic horror, strong visual identity
+dark fantasy, coherent worldbuilding
+dark fantasy, clear setting identity
+dark fantasy, genre-matched clothing
+dark fantasy, genre-matched environment
+dark fantasy, cinematic mood
+dark fantasy, strong visual identity
+high fantasy, coherent worldbuilding
+high fantasy, clear setting identity
+high fantasy, genre-matched clothing
+high fantasy, genre-matched environment
+high fantasy, cinematic mood
+high fantasy, strong visual identity
+low fantasy, coherent worldbuilding
+low fantasy, clear setting identity
+low fantasy, genre-matched clothing
+low fantasy, genre-matched environment
+low fantasy, cinematic mood
+low fantasy, strong visual identity
+urban fantasy, coherent worldbuilding
+urban fantasy, clear setting identity
+urban fantasy, genre-matched clothing
+urban fantasy, genre-matched environment
+urban fantasy, cinematic mood
+urban fantasy, strong visual identity
+medieval fantasy, coherent worldbuilding
+medieval fantasy, clear setting identity
+medieval fantasy, genre-matched clothing
+medieval fantasy, genre-matched environment
+medieval fantasy, cinematic mood
+medieval fantasy, strong visual identity
+mythological fantasy, coherent worldbuilding
+mythological fantasy, clear setting identity
+mythological fantasy, genre-matched clothing
+mythological fantasy, genre-matched environment
+mythological fantasy, cinematic mood
+mythological fantasy, strong visual identity
+supernatural mystery, coherent worldbuilding
+supernatural mystery, clear setting identity
+supernatural mystery, genre-matched clothing
+supernatural mystery, genre-matched environment
+supernatural mystery, cinematic mood
+supernatural mystery, strong visual identity
+fairy tale horror, coherent worldbuilding
+fairy tale horror, clear setting identity
+fairy tale horror, genre-matched clothing
+fairy tale horror, genre-matched environment
+fairy tale horror, cinematic mood
+fairy tale horror, strong visual identity
+liminal horror, coherent worldbuilding
+liminal horror, clear setting identity
+liminal horror, genre-matched clothing
+liminal horror, genre-matched environment
+liminal horror, cinematic mood
+liminal horror, strong visual identity
+dreamcore, coherent worldbuilding
+dreamcore, clear setting identity
+dreamcore, genre-matched clothing
+dreamcore, genre-matched environment
+dreamcore, cinematic mood
+dreamcore, strong visual identity
+weirdcore, coherent worldbuilding
+weirdcore, clear setting identity
+weirdcore, genre-matched clothing
+weirdcore, genre-matched environment
+weirdcore, cinematic mood
+weirdcore, strong visual identity
+biopunk, coherent worldbuilding
+biopunk, clear setting identity
+biopunk, genre-matched clothing
+biopunk, genre-matched environment
+biopunk, cinematic mood
+biopunk, strong visual identity
+nanopunk, coherent worldbuilding
+nanopunk, clear setting identity
+nanopunk, genre-matched clothing
+nanopunk, genre-matched environment
+nanopunk, cinematic mood
+nanopunk, strong visual identity
+clockpunk, coherent worldbuilding
+clockpunk, clear setting identity
+clockpunk, genre-matched clothing
+clockpunk, genre-matched environment
+clockpunk, cinematic mood
+clockpunk, strong visual identity
+sword and sorcery, coherent worldbuilding
+sword and sorcery, clear setting identity
+sword and sorcery, genre-matched clothing
+sword and sorcery, genre-matched environment
+sword and sorcery, cinematic mood
+sword and sorcery, strong visual identity
+western gothic, coherent worldbuilding
+western gothic, clear setting identity
+western gothic, genre-matched clothing
+western gothic, genre-matched environment
+western gothic, cinematic mood
+western gothic, strong visual identity
+weird west, coherent worldbuilding
+weird west, clear setting identity
+weird west, genre-matched clothing
+weird west, genre-matched environment
+weird west, cinematic mood
+weird west, strong visual identity
+jungle lost world, coherent worldbuilding
+jungle lost world, clear setting identity
+jungle lost world, genre-matched clothing
+jungle lost world, genre-matched environment
+jungle lost world, cinematic mood
+jungle lost world, strong visual identity
+ancient civilization, coherent worldbuilding
+ancient civilization, clear setting identity
+ancient civilization, genre-matched clothing
+ancient civilization, genre-matched environment
+ancient civilization, cinematic mood
+ancient civilization, strong visual identity
+lost city adventure, coherent worldbuilding
+lost city adventure, clear setting identity
+lost city adventure, genre-matched clothing
+lost city adventure, genre-matched environment
+lost city adventure, cinematic mood
+lost city adventure, strong visual identity
+magical academy, coherent worldbuilding
+magical academy, clear setting identity
+magical academy, genre-matched clothing
+magical academy, genre-matched environment
+magical academy, cinematic mood
+magical academy, strong visual identity
+royal court intrigue, coherent worldbuilding
+royal court intrigue, clear setting identity
+royal court intrigue, genre-matched clothing
+royal court intrigue, genre-matched environment
+royal court intrigue, cinematic mood
+royal court intrigue, strong visual identity
+dystopian rebellion, coherent worldbuilding
+dystopian rebellion, clear setting identity
+dystopian rebellion, genre-matched clothing
+dystopian rebellion, genre-matched environment
+dystopian rebellion, cinematic mood
+dystopian rebellion, strong visual identity
+space western, coherent worldbuilding
+space western, clear setting identity
+space western, genre-matched clothing
+space western, genre-matched environment
+space western, cinematic mood
+space western, strong visual identity
+retro horror, coherent worldbuilding
+retro horror, clear setting identity
+retro horror, genre-matched clothing
+retro horror, genre-matched environment
+retro horror, cinematic mood
+retro horror, strong visual identity
+folk horror, coherent worldbuilding
+folk horror, clear setting identity
+folk horror, genre-matched clothing
+folk horror, genre-matched environment
+folk horror, cinematic mood
+folk horror, strong visual identity
+body horror restrained, coherent worldbuilding
+body horror restrained, clear setting identity
+body horror restrained, genre-matched clothing
+body horror restrained, genre-matched environment
+body horror restrained, cinematic mood
+body horror restrained, strong visual identity
+angelic apocalypse, coherent worldbuilding
+angelic apocalypse, clear setting identity
+angelic apocalypse, genre-matched clothing
+angelic apocalypse, genre-matched environment
+angelic apocalypse, cinematic mood
+angelic apocalypse, strong visual identity
+industrial fantasy, coherent worldbuilding
+industrial fantasy, clear setting identity
+industrial fantasy, genre-matched clothing
+industrial fantasy, genre-matched environment
+industrial fantasy, cinematic mood
+industrial fantasy, strong visual identity
+gaslamp fantasy, coherent worldbuilding
+gaslamp fantasy, clear setting identity
+gaslamp fantasy, genre-matched clothing
+gaslamp fantasy, genre-matched environment
+gaslamp fantasy, cinematic mood
+gaslamp fantasy, strong visual identity
+road trip occult, coherent worldbuilding
+road trip occult, clear setting identity
+road trip occult, genre-matched clothing
+road trip occult, genre-matched environment
+road trip occult, cinematic mood
+road trip occult, strong visual identity
+wasteland royalty, coherent worldbuilding
+wasteland royalty, clear setting identity
+wasteland royalty, genre-matched clothing
+wasteland royalty, genre-matched environment
+wasteland royalty, cinematic mood
+wasteland royalty, strong visual identity
+mutant frontier, coherent worldbuilding
+mutant frontier, clear setting identity
+mutant frontier, genre-matched clothing
+mutant frontier, genre-matched environment
+mutant frontier, cinematic mood
+mutant frontier, strong visual identity
+dream palace surrealism, coherent worldbuilding
+dream palace surrealism, clear setting identity
+dream palace surrealism, genre-matched clothing
+dream palace surrealism, genre-matched environment
+dream palace surrealism, cinematic mood
+dream palace surrealism, strong visual identity
+retro arcade cyberpunk, coherent worldbuilding
+retro arcade cyberpunk, clear setting identity
+retro arcade cyberpunk, genre-matched clothing
+retro arcade cyberpunk, genre-matched environment
+retro arcade cyberpunk, cinematic mood
+retro arcade cyberpunk, strong visual identity
+subterranean bunker survival, coherent worldbuilding
+subterranean bunker survival, clear setting identity
+subterranean bunker survival, genre-matched clothing
+subterranean bunker survival, genre-matched environment
+subterranean bunker survival, cinematic mood
+subterranean bunker survival, strong visual identity
+necromantic aristocracy, coherent worldbuilding
+necromantic aristocracy, clear setting identity
+necromantic aristocracy, genre-matched clothing
+necromantic aristocracy, genre-matched environment
+necromantic aristocracy, cinematic mood
+necromantic aristocracy, strong visual identity
+sunken temple adventure, coherent worldbuilding
+sunken temple adventure, clear setting identity
+sunken temple adventure, genre-matched clothing
+sunken temple adventure, genre-matched environment
+sunken temple adventure, cinematic mood
+sunken temple adventure, strong visual identity
+alien bazaar adventure, coherent worldbuilding
+alien bazaar adventure, clear setting identity
+alien bazaar adventure, genre-matched clothing
+alien bazaar adventure, genre-matched environment
+alien bazaar adventure, cinematic mood
+alien bazaar adventure, strong visual identity
+fae court intrigue, coherent worldbuilding
+fae court intrigue, clear setting identity
+fae court intrigue, genre-matched clothing
+fae court intrigue, genre-matched environment
+fae court intrigue, cinematic mood
+fae court intrigue, strong visual identity
+acid western, coherent worldbuilding
+acid western, clear setting identity
+acid western, genre-matched clothing
+acid western, genre-matched environment
+acid western, cinematic mood
+acid western, strong visual identity
+afrofuturism, coherent worldbuilding
+afrofuturism, clear setting identity
+afrofuturism, genre-matched clothing
+afrofuturism, genre-matched environment
+afrofuturism, cinematic mood
+afrofuturism, strong visual identity
+afrosurrealism, coherent worldbuilding
+afrosurrealism, clear setting identity
+afrosurrealism, genre-matched clothing
+afrosurrealism, genre-matched environment
+afrosurrealism, cinematic mood
+afrosurrealism, strong visual identity
+alien invasion, coherent worldbuilding
+alien invasion, clear setting identity
+alien invasion, genre-matched clothing
+alien invasion, genre-matched environment
+alien invasion, cinematic mood
+alien invasion, strong visual identity
+alternate history, coherent worldbuilding
+alternate history, clear setting identity
+alternate history, genre-matched clothing
+alternate history, genre-matched environment
+alternate history, cinematic mood
+alternate history, strong visual identity
+anime mecha opera, coherent worldbuilding
+anime mecha opera, clear setting identity
+anime mecha opera, genre-matched clothing
+anime mecha opera, genre-matched environment
+anime mecha opera, cinematic mood
+anime mecha opera, strong visual identity
+archaeological adventure, coherent worldbuilding
+archaeological adventure, clear setting identity
+archaeological adventure, genre-matched clothing
+archaeological adventure, genre-matched environment
+archaeological adventure, cinematic mood
+archaeological adventure, strong visual identity
+aristocratic vampire court, coherent worldbuilding
+aristocratic vampire court, clear setting identity
+aristocratic vampire court, genre-matched clothing
+aristocratic vampire court, genre-matched environment
+aristocratic vampire court, cinematic mood
+aristocratic vampire court, strong visual identity
+belle epoque occult, coherent worldbuilding
+belle epoque occult, clear setting identity
+belle epoque occult, genre-matched clothing
+belle epoque occult, genre-matched environment
+belle epoque occult, cinematic mood
+belle epoque occult, strong visual identity
+climate fiction, coherent worldbuilding
+climate fiction, clear setting identity
+climate fiction, genre-matched clothing
+climate fiction, genre-matched environment
+climate fiction, cinematic mood
+climate fiction, strong visual identity
+corporate dystopia, coherent worldbuilding
+corporate dystopia, clear setting identity
+corporate dystopia, genre-matched clothing
+corporate dystopia, genre-matched environment
+corporate dystopia, cinematic mood
+corporate dystopia, strong visual identity
+cursed royal court, coherent worldbuilding
+cursed royal court, clear setting identity
+cursed royal court, genre-matched clothing
+cursed royal court, genre-matched environment
+cursed royal court, cinematic mood
+cursed royal court, strong visual identity
+dark superhero drama, coherent worldbuilding
+dark superhero drama, clear setting identity
+dark superhero drama, genre-matched clothing
+dark superhero drama, genre-matched environment
+dark superhero drama, cinematic mood
+dark superhero drama, strong visual identity
+desert cyberpunk, coherent worldbuilding
+desert cyberpunk, clear setting identity
+desert cyberpunk, genre-matched clothing
+desert cyberpunk, genre-matched environment
+desert cyberpunk, cinematic mood
+desert cyberpunk, strong visual identity
+digital occult, coherent worldbuilding
+digital occult, clear setting identity
+digital occult, genre-matched clothing
+digital occult, genre-matched environment
+digital occult, cinematic mood
+digital occult, strong visual identity
+dinosaur lost world, coherent worldbuilding
+dinosaur lost world, clear setting identity
+dinosaur lost world, genre-matched clothing
+dinosaur lost world, genre-matched environment
+dinosaur lost world, cinematic mood
+dinosaur lost world, strong visual identity
+dragon court intrigue, coherent worldbuilding
+dragon court intrigue, clear setting identity
+dragon court intrigue, genre-matched clothing
+dragon court intrigue, genre-matched environment
+dragon court intrigue, cinematic mood
+dragon court intrigue, strong visual identity
+dungeonpunk, coherent worldbuilding
+dungeonpunk, clear setting identity
+dungeonpunk, genre-matched clothing
+dungeonpunk, genre-matched environment
+dungeonpunk, cinematic mood
+dungeonpunk, strong visual identity
+eldritch aristocracy, coherent worldbuilding
+eldritch aristocracy, clear setting identity
+eldritch aristocracy, genre-matched clothing
+eldritch aristocracy, genre-matched environment
+eldritch aristocracy, cinematic mood
+eldritch aristocracy, strong visual identity
+etherpunk, coherent worldbuilding
+etherpunk, clear setting identity
+etherpunk, genre-matched clothing
+etherpunk, genre-matched environment
+etherpunk, cinematic mood
+etherpunk, strong visual identity
+exorcist drama, coherent worldbuilding
+exorcist drama, clear setting identity
+exorcist drama, genre-matched clothing
+exorcist drama, genre-matched environment
+exorcist drama, cinematic mood
+exorcist drama, strong visual identity
+fantasy heist, coherent worldbuilding
+fantasy heist, clear setting identity
+fantasy heist, genre-matched clothing
+fantasy heist, genre-matched environment
+fantasy heist, cinematic mood
+fantasy heist, strong visual identity
+fantasy noir, coherent worldbuilding
+fantasy noir, clear setting identity
+fantasy noir, genre-matched clothing
+fantasy noir, genre-matched environment
+fantasy noir, cinematic mood
+fantasy noir, strong visual identity
+fantasy western, coherent worldbuilding
+fantasy western, clear setting identity
+fantasy western, genre-matched clothing
+fantasy western, genre-matched environment
+fantasy western, cinematic mood
+fantasy western, strong visual identity
+film noir vampire, coherent worldbuilding
+film noir vampire, clear setting identity
+film noir vampire, genre-matched clothing
+film noir vampire, genre-matched environment
+film noir vampire, cinematic mood
+film noir vampire, strong visual identity
+frontier sci-fi, coherent worldbuilding
+frontier sci-fi, clear setting identity
+frontier sci-fi, genre-matched clothing
+frontier sci-fi, genre-matched environment
+frontier sci-fi, cinematic mood
+frontier sci-fi, strong visual identity
+fungal apocalypse, coherent worldbuilding
+fungal apocalypse, clear setting identity
+fungal apocalypse, genre-matched clothing
+fungal apocalypse, genre-matched environment
+fungal apocalypse, cinematic mood
+fungal apocalypse, strong visual identity
+galactic empire drama, coherent worldbuilding
+galactic empire drama, clear setting identity
+galactic empire drama, genre-matched clothing
+galactic empire drama, genre-matched environment
+galactic empire drama, cinematic mood
+galactic empire drama, strong visual identity
+galactic frontier, coherent worldbuilding
+galactic frontier, clear setting identity
+galactic frontier, genre-matched clothing
+galactic frontier, genre-matched environment
+galactic frontier, cinematic mood
+galactic frontier, strong visual identity
+godpunk, coherent worldbuilding
+godpunk, clear setting identity
+godpunk, genre-matched clothing
+godpunk, genre-matched environment
+godpunk, cinematic mood
+godpunk, strong visual identity
+gothic magical realism, coherent worldbuilding
+gothic magical realism, clear setting identity
+gothic magical realism, genre-matched clothing
+gothic magical realism, genre-matched environment
+gothic magical realism, cinematic mood
+gothic magical realism, strong visual identity
+haunted carnival, coherent worldbuilding
+haunted carnival, clear setting identity
+haunted carnival, genre-matched clothing
+haunted carnival, genre-matched environment
+haunted carnival, cinematic mood
+haunted carnival, strong visual identity
+haunted hospital, coherent worldbuilding
+haunted hospital, clear setting identity
+haunted hospital, genre-matched clothing
+haunted hospital, genre-matched environment
+haunted hospital, cinematic mood
+haunted hospital, strong visual identity
+haunted hotel, coherent worldbuilding
+haunted hotel, clear setting identity
+haunted hotel, genre-matched clothing
+haunted hotel, genre-matched environment
+haunted hotel, cinematic mood
+haunted hotel, strong visual identity
+haunted opera, coherent worldbuilding
+haunted opera, clear setting identity
+haunted opera, genre-matched clothing
+haunted opera, genre-matched environment
+haunted opera, cinematic mood
+haunted opera, strong visual identity
+hollow earth adventure, coherent worldbuilding
+hollow earth adventure, clear setting identity
+hollow earth adventure, genre-matched clothing
+hollow earth adventure, genre-matched environment
+hollow earth adventure, cinematic mood
+hollow earth adventure, strong visual identity
+hopepunk, coherent worldbuilding
+hopepunk, clear setting identity
+hopepunk, genre-matched clothing
+hopepunk, genre-matched environment
+hopepunk, cinematic mood
+hopepunk, strong visual identity
+ice planet survival, coherent worldbuilding
+ice planet survival, clear setting identity
+ice planet survival, genre-matched clothing
+ice planet survival, genre-matched environment
+ice planet survival, cinematic mood
+ice planet survival, strong visual identity
+industrial occult, coherent worldbuilding
+industrial occult, clear setting identity
+industrial occult, genre-matched clothing
+industrial occult, genre-matched environment
+industrial occult, cinematic mood
+industrial occult, strong visual identity
+interstellar pilgrimage, coherent worldbuilding
+interstellar pilgrimage, clear setting identity
+interstellar pilgrimage, genre-matched clothing
+interstellar pilgrimage, genre-matched environment
+interstellar pilgrimage, cinematic mood
+interstellar pilgrimage, strong visual identity
+jazz age occult, coherent worldbuilding
+jazz age occult, clear setting identity
+jazz age occult, genre-matched clothing
+jazz age occult, genre-matched environment
+jazz age occult, cinematic mood
+jazz age occult, strong visual identity
+kaiju aftermath, coherent worldbuilding
+kaiju aftermath, clear setting identity
+kaiju aftermath, genre-matched clothing
+kaiju aftermath, genre-matched environment
+kaiju aftermath, cinematic mood
+kaiju aftermath, strong visual identity
+librarypunk, coherent worldbuilding
+librarypunk, clear setting identity
+librarypunk, genre-matched clothing
+librarypunk, genre-matched environment
+librarypunk, cinematic mood
+librarypunk, strong visual identity
+lovecraftian detective story, coherent worldbuilding
+lovecraftian detective story, clear setting identity
+lovecraftian detective story, genre-matched clothing
+lovecraftian detective story, genre-matched environment
+lovecraftian detective story, cinematic mood
+lovecraftian detective story, strong visual identity
+magical realism, coherent worldbuilding
+magical realism, clear setting identity
+magical realism, genre-matched clothing
+magical realism, genre-matched environment
+magical realism, cinematic mood
+magical realism, strong visual identity
+magic system tournament, coherent worldbuilding
+magic system tournament, clear setting identity
+magic system tournament, genre-matched clothing
+magic system tournament, genre-matched environment
+magic system tournament, cinematic mood
+magic system tournament, strong visual identity
+martian frontier, coherent worldbuilding
+martian frontier, clear setting identity
+martian frontier, genre-matched clothing
+martian frontier, genre-matched environment
+martian frontier, cinematic mood
+martian frontier, strong visual identity
+memory palace surrealism, coherent worldbuilding
+memory palace surrealism, clear setting identity
+memory palace surrealism, genre-matched clothing
+memory palace surrealism, genre-matched environment
+memory palace surrealism, cinematic mood
+memory palace surrealism, strong visual identity
+military fantasy, coherent worldbuilding
+military fantasy, clear setting identity
+military fantasy, genre-matched clothing
+military fantasy, genre-matched environment
+military fantasy, cinematic mood
+military fantasy, strong visual identity
+monster romance, coherent worldbuilding
+monster romance, clear setting identity
+monster romance, genre-matched clothing
+monster romance, genre-matched environment
+monster romance, cinematic mood
+monster romance, strong visual identity
+mythic cyberpunk, coherent worldbuilding
+mythic cyberpunk, clear setting identity
+mythic cyberpunk, genre-matched clothing
+mythic cyberpunk, genre-matched environment
+mythic cyberpunk, cinematic mood
+mythic cyberpunk, strong visual identity
+occult courtroom, coherent worldbuilding
+occult courtroom, clear setting identity
+occult courtroom, genre-matched clothing
+occult courtroom, genre-matched environment
+occult courtroom, cinematic mood
+occult courtroom, strong visual identity
+occult western, coherent worldbuilding
+occult western, clear setting identity
+occult western, genre-matched clothing
+occult western, genre-matched environment
+occult western, cinematic mood
+occult western, strong visual identity
+old west vampire, coherent worldbuilding
+old west vampire, clear setting identity
+old west vampire, genre-matched clothing
+old west vampire, genre-matched environment
+old west vampire, cinematic mood
+old west vampire, strong visual identity
+planetary romance, coherent worldbuilding
+planetary romance, clear setting identity
+planetary romance, genre-matched clothing
+planetary romance, genre-matched environment
+planetary romance, cinematic mood
+planetary romance, strong visual identity
+portal fantasy, coherent worldbuilding
+portal fantasy, clear setting identity
+portal fantasy, genre-matched clothing
+portal fantasy, genre-matched environment
+portal fantasy, cinematic mood
+portal fantasy, strong visual identity
+psychic espionage, coherent worldbuilding
+psychic espionage, clear setting identity
+psychic espionage, genre-matched clothing
+psychic espionage, genre-matched environment
+psychic espionage, cinematic mood
+psychic espionage, strong visual identity
+radioactive wasteland, coherent worldbuilding
+radioactive wasteland, clear setting identity
+radioactive wasteland, genre-matched clothing
+radioactive wasteland, genre-matched environment
+radioactive wasteland, cinematic mood
+radioactive wasteland, strong visual identity
+raygun gothic, coherent worldbuilding
+raygun gothic, clear setting identity
+raygun gothic, genre-matched clothing
+raygun gothic, genre-matched environment
+raygun gothic, cinematic mood
+raygun gothic, strong visual identity
+robot rebellion, coherent worldbuilding
+robot rebellion, clear setting identity
+robot rebellion, genre-matched clothing
+robot rebellion, genre-matched environment
+robot rebellion, cinematic mood
+robot rebellion, strong visual identity
+ruined megacity, coherent worldbuilding
+ruined megacity, clear setting identity
+ruined megacity, genre-matched clothing
+ruined megacity, genre-matched environment
+ruined megacity, cinematic mood
+ruined megacity, strong visual identity
+sand planet epic, coherent worldbuilding
+sand planet epic, clear setting identity
+sand planet epic, genre-matched clothing
+sand planet epic, genre-matched environment
+sand planet epic, cinematic mood
+sand planet epic, strong visual identity
+silkpunk, coherent worldbuilding
+silkpunk, clear setting identity
+silkpunk, genre-matched clothing
+silkpunk, genre-matched environment
+silkpunk, cinematic mood
+silkpunk, strong visual identity
+silver age superhero, coherent worldbuilding
+silver age superhero, clear setting identity
+silver age superhero, genre-matched clothing
+silver age superhero, genre-matched environment
+silver age superhero, cinematic mood
+silver age superhero, strong visual identity
+southern gothic, coherent worldbuilding
+southern gothic, clear setting identity
+southern gothic, genre-matched clothing
+southern gothic, genre-matched environment
+southern gothic, cinematic mood
+southern gothic, strong visual identity
+space archaeology, coherent worldbuilding
+space archaeology, clear setting identity
+space archaeology, genre-matched clothing
+space archaeology, genre-matched environment
+space archaeology, cinematic mood
+space archaeology, strong visual identity
+space horror, coherent worldbuilding
+space horror, clear setting identity
+space horror, genre-matched clothing
+space horror, genre-matched environment
+space horror, cinematic mood
+space horror, strong visual identity
+space monastery, coherent worldbuilding
+space monastery, clear setting identity
+space monastery, genre-matched clothing
+space monastery, genre-matched environment
+space monastery, cinematic mood
+space monastery, strong visual identity
+space pirates, coherent worldbuilding
+space pirates, clear setting identity
+space pirates, genre-matched clothing
+space pirates, genre-matched environment
+space pirates, cinematic mood
+space pirates, strong visual identity
+space survival, coherent worldbuilding
+space survival, clear setting identity
+space survival, genre-matched clothing
+space survival, genre-matched environment
+space survival, cinematic mood
+space survival, strong visual identity
+spy-fi, coherent worldbuilding
+spy-fi, clear setting identity
+spy-fi, genre-matched clothing
+spy-fi, genre-matched environment
+spy-fi, cinematic mood
+spy-fi, strong visual identity
+supernatural procedural, coherent worldbuilding
+supernatural procedural, clear setting identity
+supernatural procedural, genre-matched clothing
+supernatural procedural, genre-matched environment
+supernatural procedural, cinematic mood
+supernatural procedural, strong visual identity
+sword and planet, coherent worldbuilding
+sword and planet, clear setting identity
+sword and planet, genre-matched clothing
+sword and planet, genre-matched environment
+sword and planet, cinematic mood
+sword and planet, strong visual identity
+swordpunk, coherent worldbuilding
+swordpunk, clear setting identity
+swordpunk, genre-matched clothing
+swordpunk, genre-matched environment
+swordpunk, cinematic mood
+swordpunk, strong visual identity
+tech noir, coherent worldbuilding
+tech noir, clear setting identity
+tech noir, genre-matched clothing
+tech noir, genre-matched environment
+tech noir, cinematic mood
+tech noir, strong visual identity
+urban legend horror, coherent worldbuilding
+urban legend horror, clear setting identity
+urban legend horror, genre-matched clothing
+urban legend horror, genre-matched environment
+urban legend horror, cinematic mood
+urban legend horror, strong visual identity
+victorian ghost story, coherent worldbuilding
+victorian ghost story, clear setting identity
+victorian ghost story, genre-matched clothing
+victorian ghost story, genre-matched environment
+victorian ghost story, cinematic mood
+victorian ghost story, strong visual identity
+xenobiology expedition, coherent worldbuilding
+xenobiology expedition, clear setting identity
+xenobiology expedition, genre-matched clothing
+xenobiology expedition, genre-matched environment
+xenobiology expedition, cinematic mood
+xenobiology expedition, strong visual identity
+zombie survival, coherent worldbuilding
+zombie survival, clear setting identity
+zombie survival, genre-matched clothing
+zombie survival, genre-matched environment
+zombie survival, cinematic mood
+zombie survival, strong visual identity
+zombie western, coherent worldbuilding
+zombie western, clear setting identity
+zombie western, genre-matched clothing
+zombie western, genre-matched environment
+zombie western, cinematic mood
+zombie western, strong visual identity
+aquapunk, coherent worldbuilding
+aquapunk, clear setting identity
+aquapunk, genre-matched clothing
+aquapunk, genre-matched environment
+aquapunk, cinematic mood
+aquapunk, strong visual identity
+arcology dystopia, coherent worldbuilding
+arcology dystopia, clear setting identity
+arcology dystopia, genre-matched clothing
+arcology dystopia, genre-matched environment
+arcology dystopia, cinematic mood
+arcology dystopia, strong visual identity
+artifact hunter adventure, coherent worldbuilding
+artifact hunter adventure, clear setting identity
+artifact hunter adventure, genre-matched clothing
+artifact hunter adventure, genre-matched environment
+artifact hunter adventure, cinematic mood
+artifact hunter adventure, strong visual identity
+battle academy anime, coherent worldbuilding
+battle academy anime, clear setting identity
+battle academy anime, genre-matched clothing
+battle academy anime, genre-matched environment
+battle academy anime, cinematic mood
+battle academy anime, strong visual identity
+black ops occult, coherent worldbuilding
+black ops occult, clear setting identity
+black ops occult, genre-matched clothing
+black ops occult, genre-matched environment
+black ops occult, cinematic mood
+black ops occult, strong visual identity
+botanical horror, coherent worldbuilding
+botanical horror, clear setting identity
+botanical horror, genre-matched clothing
+botanical horror, genre-matched environment
+botanical horror, cinematic mood
+botanical horror, strong visual identity
+clockwork monarchy, coherent worldbuilding
+clockwork monarchy, clear setting identity
+clockwork monarchy, genre-matched clothing
+clockwork monarchy, genre-matched environment
+clockwork monarchy, cinematic mood
+clockwork monarchy, strong visual identity
+coven drama, coherent worldbuilding
+coven drama, clear setting identity
+coven drama, genre-matched clothing
+coven drama, genre-matched environment
+coven drama, cinematic mood
+coven drama, strong visual identity
+dragon apocalypse, coherent worldbuilding
+dragon apocalypse, clear setting identity
+dragon apocalypse, genre-matched clothing
+dragon apocalypse, genre-matched environment
+dragon apocalypse, cinematic mood
+dragon apocalypse, strong visual identity
+electric ghost story, coherent worldbuilding
+electric ghost story, clear setting identity
+electric ghost story, genre-matched clothing
+electric ghost story, genre-matched environment
+electric ghost story, cinematic mood
+electric ghost story, strong visual identity
+exoplanet colony drama, coherent worldbuilding
+exoplanet colony drama, clear setting identity
+exoplanet colony drama, genre-matched clothing
+exoplanet colony drama, genre-matched environment
+exoplanet colony drama, cinematic mood
+exoplanet colony drama, strong visual identity
+fantasy courtroom drama, coherent worldbuilding
+fantasy courtroom drama, clear setting identity
+fantasy courtroom drama, genre-matched clothing
+fantasy courtroom drama, genre-matched environment
+fantasy courtroom drama, cinematic mood
+fantasy courtroom drama, strong visual identity
+haunted spaceship, coherent worldbuilding
+haunted spaceship, clear setting identity
+haunted spaceship, genre-matched clothing
+haunted spaceship, genre-matched environment
+haunted spaceship, cinematic mood
+haunted spaceship, strong visual identity
+intergalactic nobility, coherent worldbuilding
+intergalactic nobility, clear setting identity
+intergalactic nobility, genre-matched clothing
+intergalactic nobility, genre-matched environment
+intergalactic nobility, cinematic mood
+intergalactic nobility, strong visual identity
+magic noir city, coherent worldbuilding
+magic noir city, clear setting identity
+magic noir city, genre-matched clothing
+magic noir city, genre-matched environment
+magic noir city, cinematic mood
+magic noir city, strong visual identity
+memory hacker cyberpunk, coherent worldbuilding
+memory hacker cyberpunk, clear setting identity
+memory hacker cyberpunk, genre-matched clothing
+memory hacker cyberpunk, genre-matched environment
+memory hacker cyberpunk, cinematic mood
+memory hacker cyberpunk, strong visual identity
+monster academia, coherent worldbuilding
+monster academia, clear setting identity
+monster academia, genre-matched clothing
+monster academia, genre-matched environment
+monster academia, cinematic mood
+monster academia, strong visual identity
+neon samurai, coherent worldbuilding
+neon samurai, clear setting identity
+neon samurai, genre-matched clothing
+neon samurai, genre-matched environment
+neon samurai, cinematic mood
+neon samurai, strong visual identity
+parallel earth adventure, coherent worldbuilding
+parallel earth adventure, clear setting identity
+parallel earth adventure, genre-matched clothing
+parallel earth adventure, genre-matched environment
+parallel earth adventure, cinematic mood
+parallel earth adventure, strong visual identity
+post-apocalyptic samurai, coherent worldbuilding
+post-apocalyptic samurai, clear setting identity
+post-apocalyptic samurai, genre-matched clothing
+post-apocalyptic samurai, genre-matched environment
+post-apocalyptic samurai, cinematic mood
+post-apocalyptic samurai, strong visual identity
+relicpunk, coherent worldbuilding
+relicpunk, clear setting identity
+relicpunk, genre-matched clothing
+relicpunk, genre-matched environment
+relicpunk, cinematic mood
+relicpunk, strong visual identity
+robotic aristocracy, coherent worldbuilding
+robotic aristocracy, clear setting identity
+robotic aristocracy, genre-matched clothing
+robotic aristocracy, genre-matched environment
+robotic aristocracy, cinematic mood
+robotic aristocracy, strong visual identity
+ruined amusement park, coherent worldbuilding
+ruined amusement park, clear setting identity
+ruined amusement park, genre-matched clothing
+ruined amusement park, genre-matched environment
+ruined amusement park, cinematic mood
+ruined amusement park, strong visual identity
+shadow academy, coherent worldbuilding
+shadow academy, clear setting identity
+shadow academy, genre-matched clothing
+shadow academy, genre-matched environment
+shadow academy, cinematic mood
+shadow academy, strong visual identity
+space feudalism, coherent worldbuilding
+space feudalism, clear setting identity
+space feudalism, genre-matched clothing
+space feudalism, genre-matched environment
+space feudalism, cinematic mood
+space feudalism, strong visual identity
+templepunk, coherent worldbuilding
+templepunk, clear setting identity
+templepunk, genre-matched clothing
+templepunk, genre-matched environment
+templepunk, cinematic mood
+templepunk, strong visual identity
+toxic city cyberpunk, coherent worldbuilding
+toxic city cyberpunk, clear setting identity
+toxic city cyberpunk, genre-matched clothing
+toxic city cyberpunk, genre-matched environment
+toxic city cyberpunk, cinematic mood
+toxic city cyberpunk, strong visual identity
+vampire academy, coherent worldbuilding
+vampire academy, clear setting identity
+vampire academy, genre-matched clothing
+vampire academy, genre-matched environment
+vampire academy, cinematic mood
+vampire academy, strong visual identity
+vampire space opera, coherent worldbuilding
+vampire space opera, clear setting identity
+vampire space opera, genre-matched clothing
+vampire space opera, genre-matched environment
+vampire space opera, cinematic mood
+vampire space opera, strong visual identity
+waterworld survival, coherent worldbuilding
+waterworld survival, clear setting identity
+waterworld survival, genre-matched clothing
+waterworld survival, genre-matched environment
+waterworld survival, cinematic mood
+waterworld survival, strong visual identity
+witchpunk, coherent worldbuilding
+witchpunk, clear setting identity
+witchpunk, genre-matched clothing
+witchpunk, genre-matched environment
+witchpunk, cinematic mood
+witchpunk, strong visual identity
+aetherpunk sky empire, coherent worldbuilding
+aetherpunk sky empire, clear setting identity
+aetherpunk sky empire, genre-matched clothing
+aetherpunk sky empire, genre-matched environment
+aetherpunk sky empire, cinematic mood
+aetherpunk sky empire, strong visual identity
+alien desert pilgrimage, coherent worldbuilding
+alien desert pilgrimage, clear setting identity
+alien desert pilgrimage, genre-matched clothing
+alien desert pilgrimage, genre-matched environment
+alien desert pilgrimage, cinematic mood
+alien desert pilgrimage, strong visual identity
+alien jungle expedition, coherent worldbuilding
+alien jungle expedition, clear setting identity
+alien jungle expedition, genre-matched clothing
+alien jungle expedition, genre-matched environment
+alien jungle expedition, cinematic mood
+alien jungle expedition, strong visual identity
+alien megafauna safari, coherent worldbuilding
+alien megafauna safari, clear setting identity
+alien megafauna safari, genre-matched clothing
+alien megafauna safari, genre-matched environment
+alien megafauna safari, cinematic mood
+alien megafauna safari, strong visual identity
+anachronistic fantasy court, coherent worldbuilding
+anachronistic fantasy court, clear setting identity
+anachronistic fantasy court, genre-matched clothing
+anachronistic fantasy court, genre-matched environment
+anachronistic fantasy court, cinematic mood
+anachronistic fantasy court, strong visual identity
+ancient library adventure, coherent worldbuilding
+ancient library adventure, clear setting identity
+ancient library adventure, genre-matched clothing
+ancient library adventure, genre-matched environment
+ancient library adventure, cinematic mood
+ancient library adventure, strong visual identity
+android identity drama, coherent worldbuilding
+android identity drama, clear setting identity
+android identity drama, genre-matched clothing
+android identity drama, genre-matched environment
+android identity drama, cinematic mood
+android identity drama, strong visual identity
+arcane airship war, coherent worldbuilding
+arcane airship war, clear setting identity
+arcane airship war, genre-matched clothing
+arcane airship war, genre-matched environment
+arcane airship war, cinematic mood
+arcane airship war, strong visual identity
+arcane casino heist, coherent worldbuilding
+arcane casino heist, clear setting identity
+arcane casino heist, genre-matched clothing
+arcane casino heist, genre-matched environment
+arcane casino heist, cinematic mood
+arcane casino heist, strong visual identity
+arcane frontier town, coherent worldbuilding
+arcane frontier town, clear setting identity
+arcane frontier town, genre-matched clothing
+arcane frontier town, genre-matched environment
+arcane frontier town, cinematic mood
+arcane frontier town, strong visual identity
+astral ocean voyage, coherent worldbuilding
+astral ocean voyage, clear setting identity
+astral ocean voyage, genre-matched clothing
+astral ocean voyage, genre-matched environment
+astral ocean voyage, cinematic mood
+astral ocean voyage, strong visual identity
+baroque haunted palace, coherent worldbuilding
+baroque haunted palace, clear setting identity
+baroque haunted palace, genre-matched clothing
+baroque haunted palace, genre-matched environment
+baroque haunted palace, cinematic mood
+baroque haunted palace, strong visual identity
+battlefield necromancy, coherent worldbuilding
+battlefield necromancy, clear setting identity
+battlefield necromancy, genre-matched clothing
+battlefield necromancy, genre-matched environment
+battlefield necromancy, cinematic mood
+battlefield necromancy, strong visual identity
+black sun apocalypse, coherent worldbuilding
+black sun apocalypse, clear setting identity
+black sun apocalypse, genre-matched clothing
+black sun apocalypse, genre-matched environment
+black sun apocalypse, cinematic mood
+black sun apocalypse, strong visual identity
+byzantine fantasy empire, coherent worldbuilding
+byzantine fantasy empire, clear setting identity
+byzantine fantasy empire, genre-matched clothing
+byzantine fantasy empire, genre-matched environment
+byzantine fantasy empire, cinematic mood
+byzantine fantasy empire, strong visual identity
+cathedral mecha, coherent worldbuilding
+cathedral mecha, clear setting identity
+cathedral mecha, genre-matched clothing
+cathedral mecha, genre-matched environment
+cathedral mecha, cinematic mood
+cathedral mecha, strong visual identity
+cosmic courtroom drama, coherent worldbuilding
+cosmic courtroom drama, clear setting identity
+cosmic courtroom drama, genre-matched clothing
+cosmic courtroom drama, genre-matched environment
+cosmic courtroom drama, cinematic mood
+cosmic courtroom drama, strong visual identity
+cosmic western, coherent worldbuilding
+cosmic western, clear setting identity
+cosmic western, genre-matched clothing
+cosmic western, genre-matched environment
+cosmic western, cinematic mood
+cosmic western, strong visual identity
+cyber witchcraft, coherent worldbuilding
+cyber witchcraft, clear setting identity
+cyber witchcraft, genre-matched clothing
+cyber witchcraft, genre-matched environment
+cyber witchcraft, cinematic mood
+cyber witchcraft, strong visual identity
+cybernetic body drama, coherent worldbuilding
+cybernetic body drama, clear setting identity
+cybernetic body drama, genre-matched clothing
+cybernetic body drama, genre-matched environment
+cybernetic body drama, cinematic mood
+cybernetic body drama, strong visual identity
+cyberpunk corporate war, coherent worldbuilding
+cyberpunk corporate war, clear setting identity
+cyberpunk corporate war, genre-matched clothing
+cyberpunk corporate war, genre-matched environment
+cyberpunk corporate war, cinematic mood
+cyberpunk corporate war, strong visual identity
+cyberpunk idol underworld, coherent worldbuilding
+cyberpunk idol underworld, clear setting identity
+cyberpunk idol underworld, genre-matched clothing
+cyberpunk idol underworld, genre-matched environment
+cyberpunk idol underworld, cinematic mood
+cyberpunk idol underworld, strong visual identity
+cyberpunk street racing, coherent worldbuilding
+cyberpunk street racing, clear setting identity
+cyberpunk street racing, genre-matched clothing
+cyberpunk street racing, genre-matched environment
+cyberpunk street racing, cinematic mood
+cyberpunk street racing, strong visual identity
+dark forest pilgrimage, coherent worldbuilding
+dark forest pilgrimage, clear setting identity
+dark forest pilgrimage, genre-matched clothing
+dark forest pilgrimage, genre-matched environment
+dark forest pilgrimage, cinematic mood
+dark forest pilgrimage, strong visual identity
+dark space monarchy, coherent worldbuilding
+dark space monarchy, clear setting identity
+dark space monarchy, genre-matched clothing
+dark space monarchy, genre-matched environment
+dark space monarchy, cinematic mood
+dark space monarchy, strong visual identity
+desert planet monarchy, coherent worldbuilding
+desert planet monarchy, clear setting identity
+desert planet monarchy, genre-matched clothing
+desert planet monarchy, genre-matched environment
+desert planet monarchy, cinematic mood
+desert planet monarchy, strong visual identity
+diesel occult war, coherent worldbuilding
+diesel occult war, clear setting identity
+diesel occult war, genre-matched clothing
+diesel occult war, genre-matched environment
+diesel occult war, cinematic mood
+diesel occult war, strong visual identity
+dinosaur jungle adventure, coherent worldbuilding
+dinosaur jungle adventure, clear setting identity
+dinosaur jungle adventure, genre-matched clothing
+dinosaur jungle adventure, genre-matched environment
+dinosaur jungle adventure, cinematic mood
+dinosaur jungle adventure, strong visual identity
+dream desert surrealism, coherent worldbuilding
+dream desert surrealism, clear setting identity
+dream desert surrealism, genre-matched clothing
+dream desert surrealism, genre-matched environment
+dream desert surrealism, cinematic mood
+dream desert surrealism, strong visual identity
+dungeonpunk city, coherent worldbuilding
+dungeonpunk city, clear setting identity
+dungeonpunk city, genre-matched clothing
+dungeonpunk city, genre-matched environment
+dungeonpunk city, cinematic mood
+dungeonpunk city, strong visual identity
+dyson sphere pilgrimage, coherent worldbuilding
+dyson sphere pilgrimage, clear setting identity
+dyson sphere pilgrimage, genre-matched clothing
+dyson sphere pilgrimage, genre-matched environment
+dyson sphere pilgrimage, cinematic mood
+dyson sphere pilgrimage, strong visual identity
+ecopunk rebellion, coherent worldbuilding
+ecopunk rebellion, clear setting identity
+ecopunk rebellion, genre-matched clothing
+ecopunk rebellion, genre-matched environment
+ecopunk rebellion, cinematic mood
+ecopunk rebellion, strong visual identity
+edwardian haunted manor, coherent worldbuilding
+edwardian haunted manor, clear setting identity
+edwardian haunted manor, genre-matched clothing
+edwardian haunted manor, genre-matched environment
+edwardian haunted manor, cinematic mood
+edwardian haunted manor, strong visual identity
+electric western, coherent worldbuilding
+electric western, clear setting identity
+electric western, genre-matched clothing
+electric western, genre-matched environment
+electric western, cinematic mood
+electric western, strong visual identity
+enchanted desert caravan, coherent worldbuilding
+enchanted desert caravan, clear setting identity
+enchanted desert caravan, genre-matched clothing
+enchanted desert caravan, genre-matched environment
+enchanted desert caravan, cinematic mood
+enchanted desert caravan, strong visual identity
+far future feudalism, coherent worldbuilding
+far future feudalism, clear setting identity
+far future feudalism, genre-matched clothing
+far future feudalism, genre-matched environment
+far future feudalism, cinematic mood
+far future feudalism, strong visual identity
+feywild court drama, coherent worldbuilding
+feywild court drama, clear setting identity
+feywild court drama, genre-matched clothing
+feywild court drama, genre-matched environment
+feywild court drama, cinematic mood
+feywild court drama, strong visual identity
+flintlock fantasy, coherent worldbuilding
+flintlock fantasy, clear setting identity
+flintlock fantasy, genre-matched clothing
+flintlock fantasy, genre-matched environment
+flintlock fantasy, cinematic mood
+flintlock fantasy, strong visual identity
+floating island politics, coherent worldbuilding
+floating island politics, clear setting identity
+floating island politics, genre-matched clothing
+floating island politics, genre-matched environment
+floating island politics, cinematic mood
+floating island politics, strong visual identity
+forbidden planet expedition, coherent worldbuilding
+forbidden planet expedition, clear setting identity
+forbidden planet expedition, genre-matched clothing
+forbidden planet expedition, genre-matched environment
+forbidden planet expedition, cinematic mood
+forbidden planet expedition, strong visual identity
+fractured fairy tale, coherent worldbuilding
+fractured fairy tale, clear setting identity
+fractured fairy tale, genre-matched clothing
+fractured fairy tale, genre-matched environment
+fractured fairy tale, cinematic mood
+fractured fairy tale, strong visual identity
+ghost town western, coherent worldbuilding
+ghost town western, clear setting identity
+ghost town western, genre-matched clothing
+ghost town western, genre-matched environment
+ghost town western, cinematic mood
+ghost town western, strong visual identity
+gilded age occult, coherent worldbuilding
+gilded age occult, clear setting identity
+gilded age occult, genre-matched clothing
+gilded age occult, genre-matched environment
+gilded age occult, cinematic mood
+gilded age occult, strong visual identity
+graveyard cyberpunk, coherent worldbuilding
+graveyard cyberpunk, clear setting identity
+graveyard cyberpunk, genre-matched clothing
+graveyard cyberpunk, genre-matched environment
+graveyard cyberpunk, cinematic mood
+graveyard cyberpunk, strong visual identity
+greenhouse solarpunk, coherent worldbuilding
+greenhouse solarpunk, clear setting identity
+greenhouse solarpunk, genre-matched clothing
+greenhouse solarpunk, genre-matched environment
+greenhouse solarpunk, cinematic mood
+greenhouse solarpunk, strong visual identity
+haunted ballet theater, coherent worldbuilding
+haunted ballet theater, clear setting identity
+haunted ballet theater, genre-matched clothing
+haunted ballet theater, genre-matched environment
+haunted ballet theater, cinematic mood
+haunted ballet theater, strong visual identity
+haunted battlefield, coherent worldbuilding
+haunted battlefield, clear setting identity
+haunted battlefield, genre-matched clothing
+haunted battlefield, genre-matched environment
+haunted battlefield, cinematic mood
+haunted battlefield, strong visual identity
+haunted boarding school, coherent worldbuilding
+haunted boarding school, clear setting identity
+haunted boarding school, genre-matched clothing
+haunted boarding school, genre-matched environment
+haunted boarding school, cinematic mood
+haunted boarding school, strong visual identity
+haunted cruise ship, coherent worldbuilding
+haunted cruise ship, clear setting identity
+haunted cruise ship, genre-matched clothing
+haunted cruise ship, genre-matched environment
+haunted cruise ship, cinematic mood
+haunted cruise ship, strong visual identity
+haunted doll atelier, coherent worldbuilding
+haunted doll atelier, clear setting identity
+haunted doll atelier, genre-matched clothing
+haunted doll atelier, genre-matched environment
+haunted doll atelier, cinematic mood
+haunted doll atelier, strong visual identity
+hell frontier western, coherent worldbuilding
+hell frontier western, clear setting identity
+hell frontier western, genre-matched clothing
+hell frontier western, genre-matched environment
+hell frontier western, cinematic mood
+hell frontier western, strong visual identity
+hive city grimdark, coherent worldbuilding
+hive city grimdark, clear setting identity
+hive city grimdark, genre-matched clothing
+hive city grimdark, genre-matched environment
+hive city grimdark, cinematic mood
+hive city grimdark, strong visual identity
+interstellar refugee fleet, coherent worldbuilding
+interstellar refugee fleet, clear setting identity
+interstellar refugee fleet, genre-matched clothing
+interstellar refugee fleet, genre-matched environment
+interstellar refugee fleet, cinematic mood
+interstellar refugee fleet, strong visual identity
+jungle airship adventure, coherent worldbuilding
+jungle airship adventure, clear setting identity
+jungle airship adventure, genre-matched clothing
+jungle airship adventure, genre-matched environment
+jungle airship adventure, cinematic mood
+jungle airship adventure, strong visual identity
+kaiju defense force, coherent worldbuilding
+kaiju defense force, clear setting identity
+kaiju defense force, genre-matched clothing
+kaiju defense force, genre-matched environment
+kaiju defense force, cinematic mood
+kaiju defense force, strong visual identity
+lost moon colony, coherent worldbuilding
+lost moon colony, clear setting identity
+lost moon colony, genre-matched clothing
+lost moon colony, genre-matched environment
+lost moon colony, cinematic mood
+lost moon colony, strong visual identity
+magepunk city, coherent worldbuilding
+magepunk city, clear setting identity
+magepunk city, genre-matched clothing
+magepunk city, genre-matched environment
+magepunk city, cinematic mood
+magepunk city, strong visual identity
+magical court procedural, coherent worldbuilding
+magical court procedural, clear setting identity
+magical court procedural, genre-matched clothing
+magical court procedural, genre-matched environment
+magical court procedural, cinematic mood
+magical court procedural, strong visual identity
+mecha academy, coherent worldbuilding
+mecha academy, clear setting identity
+mecha academy, genre-matched clothing
+mecha academy, genre-matched environment
+mecha academy, cinematic mood
+mecha academy, strong visual identity
+mecha space opera, coherent worldbuilding
+mecha space opera, clear setting identity
+mecha space opera, genre-matched clothing
+mecha space opera, genre-matched environment
+mecha space opera, cinematic mood
+mecha space opera, strong visual identity
+medieval apocalypse, coherent worldbuilding
+medieval apocalypse, clear setting identity
+medieval apocalypse, genre-matched clothing
+medieval apocalypse, genre-matched environment
+medieval apocalypse, cinematic mood
+medieval apocalypse, strong visual identity
+mythic desert kingdom, coherent worldbuilding
+mythic desert kingdom, clear setting identity
+mythic desert kingdom, genre-matched clothing
+mythic desert kingdom, genre-matched environment
+mythic desert kingdom, cinematic mood
+mythic desert kingdom, strong visual identity
+mythic sea voyage, coherent worldbuilding
+mythic sea voyage, clear setting identity
+mythic sea voyage, genre-matched clothing
+mythic sea voyage, genre-matched environment
+mythic sea voyage, cinematic mood
+mythic sea voyage, strong visual identity
+necromancer courtroom drama, coherent worldbuilding
+necromancer courtroom drama, clear setting identity
+necromancer courtroom drama, genre-matched clothing
+necromancer courtroom drama, genre-matched environment
+necromancer courtroom drama, cinematic mood
+necromancer courtroom drama, strong visual identity
+neo feudal cyberpunk, coherent worldbuilding
+neo feudal cyberpunk, clear setting identity
+neo feudal cyberpunk, genre-matched clothing
+neo feudal cyberpunk, genre-matched environment
+neo feudal cyberpunk, cinematic mood
+neo feudal cyberpunk, strong visual identity
+neon fantasy arcade, coherent worldbuilding
+neon fantasy arcade, clear setting identity
+neon fantasy arcade, genre-matched clothing
+neon fantasy arcade, genre-matched environment
+neon fantasy arcade, cinematic mood
+neon fantasy arcade, strong visual identity
+neon shrine cyberpunk, coherent worldbuilding
+neon shrine cyberpunk, clear setting identity
+neon shrine cyberpunk, genre-matched clothing
+neon shrine cyberpunk, genre-matched environment
+neon shrine cyberpunk, cinematic mood
+neon shrine cyberpunk, strong visual identity
+noir magical realism, coherent worldbuilding
+noir magical realism, clear setting identity
+noir magical realism, genre-matched clothing
+noir magical realism, genre-matched environment
+noir magical realism, cinematic mood
+noir magical realism, strong visual identity
+nuclear winter survival, coherent worldbuilding
+nuclear winter survival, clear setting identity
+nuclear winter survival, genre-matched clothing
+nuclear winter survival, genre-matched environment
+nuclear winter survival, cinematic mood
+nuclear winter survival, strong visual identity
+oceanic space opera, coherent worldbuilding
+oceanic space opera, clear setting identity
+oceanic space opera, genre-matched clothing
+oceanic space opera, genre-matched environment
+oceanic space opera, cinematic mood
+oceanic space opera, strong visual identity
+ornate space empire, coherent worldbuilding
+ornate space empire, clear setting identity
+ornate space empire, genre-matched clothing
+ornate space empire, genre-matched environment
+ornate space empire, cinematic mood
+ornate space empire, strong visual identity
+paranormal detective agency, coherent worldbuilding
+paranormal detective agency, clear setting identity
+paranormal detective agency, genre-matched clothing
+paranormal detective agency, genre-matched environment
+paranormal detective agency, cinematic mood
+paranormal detective agency, strong visual identity
+paranormal small town, coherent worldbuilding
+paranormal small town, clear setting identity
+paranormal small town, genre-matched clothing
+paranormal small town, genre-matched environment
+paranormal small town, cinematic mood
+paranormal small town, strong visual identity
+post-cyberpunk, coherent worldbuilding
+post-cyberpunk, clear setting identity
+post-cyberpunk, genre-matched clothing
+post-cyberpunk, genre-matched environment
+post-cyberpunk, cinematic mood
+post-cyberpunk, strong visual identity
+posthuman monastery, coherent worldbuilding
+posthuman monastery, clear setting identity
+posthuman monastery, genre-matched clothing
+posthuman monastery, genre-matched environment
+posthuman monastery, cinematic mood
+posthuman monastery, strong visual identity
+rainforest solarpunk, coherent worldbuilding
+rainforest solarpunk, clear setting identity
+rainforest solarpunk, genre-matched clothing
+rainforest solarpunk, genre-matched environment
+rainforest solarpunk, cinematic mood
+rainforest solarpunk, strong visual identity
+roadside occult Americana, coherent worldbuilding
+roadside occult Americana, clear setting identity
+roadside occult Americana, genre-matched clothing
+roadside occult Americana, genre-matched environment
+roadside occult Americana, cinematic mood
+roadside occult Americana, strong visual identity
+robot western, coherent worldbuilding
+robot western, clear setting identity
+robot western, genre-matched clothing
+robot western, genre-matched environment
+robot western, cinematic mood
+robot western, strong visual identity
+rocketpunk adventure, coherent worldbuilding
+rocketpunk adventure, clear setting identity
+rocketpunk adventure, genre-matched clothing
+rocketpunk adventure, genre-matched environment
+rocketpunk adventure, cinematic mood
+rocketpunk adventure, strong visual identity
+samurai cyberpunk, coherent worldbuilding
+samurai cyberpunk, clear setting identity
+samurai cyberpunk, genre-matched clothing
+samurai cyberpunk, genre-matched environment
+samurai cyberpunk, cinematic mood
+samurai cyberpunk, strong visual identity
+scavenger princess wasteland, coherent worldbuilding
+scavenger princess wasteland, clear setting identity
+scavenger princess wasteland, genre-matched clothing
+scavenger princess wasteland, genre-matched environment
+scavenger princess wasteland, cinematic mood
+scavenger princess wasteland, strong visual identity
+secret magical police, coherent worldbuilding
+secret magical police, clear setting identity
+secret magical police, genre-matched clothing
+secret magical police, genre-matched environment
+secret magical police, cinematic mood
+secret magical police, strong visual identity
+steam-powered monarchy, coherent worldbuilding
+steam-powered monarchy, clear setting identity
+steam-powered monarchy, genre-matched clothing
+steam-powered monarchy, genre-matched environment
+steam-powered monarchy, cinematic mood
+steam-powered monarchy, strong visual identity
+sun goddess solarpunk, coherent worldbuilding
+sun goddess solarpunk, clear setting identity
+sun goddess solarpunk, genre-matched clothing
+sun goddess solarpunk, genre-matched environment
+sun goddess solarpunk, cinematic mood
+sun goddess solarpunk, strong visual identity
+technomancer cyberpunk, coherent worldbuilding
+technomancer cyberpunk, clear setting identity
+technomancer cyberpunk, genre-matched clothing
+technomancer cyberpunk, genre-matched environment
+technomancer cyberpunk, cinematic mood
+technomancer cyberpunk, strong visual identity
+time travel western, coherent worldbuilding
+time travel western, clear setting identity
+time travel western, genre-matched clothing
+time travel western, genre-matched environment
+time travel western, cinematic mood
+time travel western, strong visual identity
+transhuman space opera, coherent worldbuilding
+transhuman space opera, clear setting identity
+transhuman space opera, genre-matched clothing
+transhuman space opera, genre-matched environment
+transhuman space opera, cinematic mood
+transhuman space opera, strong visual identity
+urban fae conspiracy, coherent worldbuilding
+urban fae conspiracy, clear setting identity
+urban fae conspiracy, genre-matched clothing
+urban fae conspiracy, genre-matched environment
+urban fae conspiracy, cinematic mood
+urban fae conspiracy, strong visual identity
+urban vampire court, coherent worldbuilding
+urban vampire court, clear setting identity
+urban vampire court, genre-matched clothing
+urban vampire court, genre-matched environment
+urban vampire court, cinematic mood
+urban vampire court, strong visual identity
+vaporwave dystopia, coherent worldbuilding
+vaporwave dystopia, clear setting identity
+vaporwave dystopia, genre-matched clothing
+vaporwave dystopia, genre-matched environment
+vaporwave dystopia, cinematic mood
+vaporwave dystopia, strong visual identity
+victorian monster hunter, coherent worldbuilding
+victorian monster hunter, clear setting identity
+victorian monster hunter, genre-matched clothing
+victorian monster hunter, genre-matched environment
+victorian monster hunter, cinematic mood
+victorian monster hunter, strong visual identity
+western mecha, coherent worldbuilding
+western mecha, clear setting identity
+western mecha, genre-matched clothing
+western mecha, genre-matched environment
+western mecha, cinematic mood
+western mecha, strong visual identity
+wild magic frontier, coherent worldbuilding
+wild magic frontier, clear setting identity
+wild magic frontier, genre-matched clothing
+wild magic frontier, genre-matched environment
+wild magic frontier, cinematic mood
+wild magic frontier, strong visual identity
+absurdism, coherent worldbuilding
+absurdism, clear setting identity
+absurdism, genre-matched clothing
+absurdism, genre-matched environment
+absurdism, cinematic mood
+absurdism, strong visual identity
+airship adventure, coherent worldbuilding
+airship adventure, clear setting identity
+airship adventure, genre-matched clothing
+airship adventure, genre-matched environment
+airship adventure, cinematic mood
+airship adventure, strong visual identity
+analog horror, coherent worldbuilding
+analog horror, clear setting identity
+analog horror, genre-matched clothing
+analog horror, genre-matched environment
+analog horror, cinematic mood
+analog horror, strong visual identity
+cryptid horror, coherent worldbuilding
+cryptid horror, clear setting identity
+cryptid horror, genre-matched clothing
+cryptid horror, genre-matched environment
+cryptid horror, cinematic mood
+cryptid horror, strong visual identity
+dark adventure, coherent worldbuilding
+dark adventure, clear setting identity
+dark adventure, genre-matched clothing
+dark adventure, genre-matched environment
+dark adventure, cinematic mood
+dark adventure, strong visual identity
+dark fairytale, coherent worldbuilding
+dark fairytale, clear setting identity
+dark fairytale, genre-matched clothing
+dark fairytale, genre-matched environment
+dark fairytale, cinematic mood
+dark fairytale, strong visual identity
+dark romance, coherent worldbuilding
+dark romance, clear setting identity
+dark romance, genre-matched clothing
+dark romance, genre-matched environment
+dark romance, cinematic mood
+dark romance, strong visual identity
+dark sci-fi, coherent worldbuilding
+dark sci-fi, clear setting identity
+dark sci-fi, genre-matched clothing
+dark sci-fi, genre-matched environment
+dark sci-fi, cinematic mood
+dark sci-fi, strong visual identity
+dead city, coherent worldbuilding
+dead city, clear setting identity
+dead city, genre-matched clothing
+dead city, genre-matched environment
+dead city, cinematic mood
+dead city, strong visual identity
+digital horror, coherent worldbuilding
+digital horror, clear setting identity
+digital horror, genre-matched clothing
+digital horror, genre-matched environment
+digital horror, cinematic mood
+digital horror, strong visual identity
+ecological horror, coherent worldbuilding
+ecological horror, clear setting identity
+ecological horror, genre-matched clothing
+ecological horror, genre-matched environment
+ecological horror, cinematic mood
+ecological horror, strong visual identity
+ecopunk, coherent worldbuilding
+ecopunk, clear setting identity
+ecopunk, genre-matched clothing
+ecopunk, genre-matched environment
+ecopunk, cinematic mood
+ecopunk, strong visual identity
+epic fantasy, coherent worldbuilding
+epic fantasy, clear setting identity
+epic fantasy, genre-matched clothing
+epic fantasy, genre-matched environment
+epic fantasy, cinematic mood
+epic fantasy, strong visual identity
+fallen angel, coherent worldbuilding
+fallen angel, clear setting identity
+fallen angel, genre-matched clothing
+fallen angel, genre-matched environment
+fallen angel, cinematic mood
+fallen angel, strong visual identity
+fantasy horror, coherent worldbuilding
+fantasy horror, clear setting identity
+fantasy horror, genre-matched clothing
+fantasy horror, genre-matched environment
+fantasy horror, cinematic mood
+fantasy horror, strong visual identity
+fantasy mystery, coherent worldbuilding
+fantasy mystery, clear setting identity
+fantasy mystery, genre-matched clothing
+fantasy mystery, genre-matched environment
+fantasy mystery, cinematic mood
+fantasy mystery, strong visual identity
+fantasy romance, coherent worldbuilding
+fantasy romance, clear setting identity
+fantasy romance, genre-matched clothing
+fantasy romance, genre-matched environment
+fantasy romance, cinematic mood
+fantasy romance, strong visual identity
+fungal horror, coherent worldbuilding
+fungal horror, clear setting identity
+fungal horror, genre-matched clothing
+fungal horror, genre-matched environment
+fungal horror, cinematic mood
+fungal horror, strong visual identity
+gothic fantasy, coherent worldbuilding
+gothic fantasy, clear setting identity
+gothic fantasy, genre-matched clothing
+gothic fantasy, genre-matched environment
+gothic fantasy, cinematic mood
+gothic fantasy, strong visual identity
+gothic mystery, coherent worldbuilding
+gothic mystery, clear setting identity
+gothic mystery, genre-matched clothing
+gothic mystery, genre-matched environment
+gothic mystery, cinematic mood
+gothic mystery, strong visual identity
+hidden world, coherent worldbuilding
+hidden world, clear setting identity
+hidden world, genre-matched clothing
+hidden world, genre-matched environment
+hidden world, cinematic mood
+hidden world, strong visual identity
+living city, coherent worldbuilding
+living city, clear setting identity
+living city, genre-matched clothing
+living city, genre-matched environment
+living city, cinematic mood
+living city, strong visual identity
+lost colony, coherent worldbuilding
+lost colony, clear setting identity
+lost colony, genre-matched clothing
+lost colony, genre-matched environment
+lost colony, cinematic mood
+lost colony, strong visual identity
+magepunk, coherent worldbuilding
+magepunk, clear setting identity
+magepunk, genre-matched clothing
+magepunk, genre-matched environment
+magepunk, cinematic mood
+magepunk, strong visual identity
+neo-gothic, coherent worldbuilding
+neo-gothic, clear setting identity
+neo-gothic, genre-matched clothing
+neo-gothic, genre-matched environment
+neo-gothic, cinematic mood
+neo-gothic, strong visual identity
+neo-noir, coherent worldbuilding
+neo-noir, clear setting identity
+neo-noir, genre-matched clothing
+neo-noir, genre-matched environment
+neo-noir, cinematic mood
+neo-noir, strong visual identity
+new weird, coherent worldbuilding
+new weird, clear setting identity
+new weird, genre-matched clothing
+new weird, genre-matched environment
+new weird, cinematic mood
+new weird, strong visual identity
+occult horror, coherent worldbuilding
+occult horror, clear setting identity
+occult horror, genre-matched clothing
+occult horror, genre-matched environment
+occult horror, cinematic mood
+occult horror, strong visual identity
+paranormal noir, coherent worldbuilding
+paranormal noir, clear setting identity
+paranormal noir, genre-matched clothing
+paranormal noir, genre-matched environment
+paranormal noir, cinematic mood
+paranormal noir, strong visual identity
+paranormal romance, coherent worldbuilding
+paranormal romance, clear setting identity
+paranormal romance, genre-matched clothing
+paranormal romance, genre-matched environment
+paranormal romance, cinematic mood
+paranormal romance, strong visual identity
+paranormal thriller, coherent worldbuilding
+paranormal thriller, clear setting identity
+paranormal thriller, genre-matched clothing
+paranormal thriller, genre-matched environment
+paranormal thriller, cinematic mood
+paranormal thriller, strong visual identity
+pulp adventure, coherent worldbuilding
+pulp adventure, clear setting identity
+pulp adventure, genre-matched clothing
+pulp adventure, genre-matched environment
+pulp adventure, cinematic mood
+pulp adventure, strong visual identity
+rocketpunk, coherent worldbuilding
+rocketpunk, clear setting identity
+rocketpunk, genre-matched clothing
+rocketpunk, genre-matched environment
+rocketpunk, cinematic mood
+rocketpunk, strong visual identity
+rural gothic, coherent worldbuilding
+rural gothic, clear setting identity
+rural gothic, genre-matched clothing
+rural gothic, genre-matched environment
+rural gothic, cinematic mood
+rural gothic, strong visual identity
+secret history, coherent worldbuilding
+secret history, clear setting identity
+secret history, genre-matched clothing
+secret history, genre-matched environment
+secret history, cinematic mood
+secret history, strong visual identity
+space fantasy, coherent worldbuilding
+space fantasy, clear setting identity
+space fantasy, genre-matched clothing
+space fantasy, genre-matched environment
+space fantasy, cinematic mood
+space fantasy, strong visual identity
+space gothic, coherent worldbuilding
+space gothic, clear setting identity
+space gothic, genre-matched clothing
+space gothic, genre-matched environment
+space gothic, cinematic mood
+space gothic, strong visual identity
+stonepunk, coherent worldbuilding
+stonepunk, clear setting identity
+stonepunk, genre-matched clothing
+stonepunk, genre-matched environment
+stonepunk, cinematic mood
+stonepunk, strong visual identity
+subterranean horror, coherent worldbuilding
+subterranean horror, clear setting identity
+subterranean horror, genre-matched clothing
+subterranean horror, genre-matched environment
+subterranean horror, cinematic mood
+subterranean horror, strong visual identity
+supernatural noir, coherent worldbuilding
+supernatural noir, clear setting identity
+supernatural noir, genre-matched clothing
+supernatural noir, genre-matched environment
+supernatural noir, cinematic mood
+supernatural noir, strong visual identity
+surreal horror, coherent worldbuilding
+surreal horror, clear setting identity
+surreal horror, genre-matched clothing
+surreal horror, genre-matched environment
+surreal horror, cinematic mood
+surreal horror, strong visual identity
+swamp gothic, coherent worldbuilding
+swamp gothic, clear setting identity
+swamp gothic, genre-matched clothing
+swamp gothic, genre-matched environment
+swamp gothic, cinematic mood
+swamp gothic, strong visual identity
+tech fantasy, coherent worldbuilding
+tech fantasy, clear setting identity
+tech fantasy, genre-matched clothing
+tech fantasy, genre-matched environment
+tech fantasy, cinematic mood
+tech fantasy, strong visual identity
+urban gothic, coherent worldbuilding
+urban gothic, clear setting identity
+urban gothic, genre-matched clothing
+urban gothic, genre-matched environment
+urban gothic, cinematic mood
+urban gothic, strong visual identity
+urban horror, coherent worldbuilding
+urban horror, clear setting identity
+urban horror, genre-matched clothing
+urban horror, genre-matched environment
+urban horror, cinematic mood
+urban horror, strong visual identity
+victorian fantasy, coherent worldbuilding
+victorian fantasy, clear setting identity
+victorian fantasy, genre-matched clothing
+victorian fantasy, genre-matched environment
+victorian fantasy, cinematic mood
+victorian fantasy, strong visual identity
+victorian horror, coherent worldbuilding
+victorian horror, clear setting identity
+victorian horror, genre-matched clothing
+victorian horror, genre-matched environment
+victorian horror, cinematic mood
+victorian horror, strong visual identity
+weird horror, coherent worldbuilding
+weird horror, clear setting identity
+weird horror, genre-matched clothing
+weird horror, genre-matched environment
+weird horror, cinematic mood
+weird horror, strong visual identity
+aetherpunk, coherent worldbuilding
+aetherpunk, clear setting identity
+aetherpunk, genre-matched clothing
+aetherpunk, genre-matched environment
+aetherpunk, cinematic mood
+aetherpunk, strong visual identity
+afropunk, coherent worldbuilding
+afropunk, clear setting identity
+afropunk, genre-matched clothing
+afropunk, genre-matched environment
+afropunk, cinematic mood
+afropunk, strong visual identity
+agricultural horror, coherent worldbuilding
+agricultural horror, clear setting identity
+agricultural horror, genre-matched clothing
+agricultural horror, genre-matched environment
+agricultural horror, cinematic mood
+agricultural horror, strong visual identity
+agropunk, coherent worldbuilding
+agropunk, clear setting identity
+agropunk, genre-matched clothing
+agropunk, genre-matched environment
+agropunk, cinematic mood
+agropunk, strong visual identity
+airpunk, coherent worldbuilding
+airpunk, clear setting identity
+airpunk, genre-matched clothing
+airpunk, genre-matched environment
+airpunk, cinematic mood
+airpunk, strong visual identity
+alchemy fantasy, coherent worldbuilding
+alchemy fantasy, clear setting identity
+alchemy fantasy, genre-matched clothing
+alchemy fantasy, genre-matched environment
+alchemy fantasy, cinematic mood
+alchemy fantasy, strong visual identity
+alternate universe, coherent worldbuilding
+alternate universe, clear setting identity
+alternate universe, genre-matched clothing
+alternate universe, genre-matched environment
+alternate universe, cinematic mood
+alternate universe, strong visual identity
+animal horror, coherent worldbuilding
+animal horror, clear setting identity
+animal horror, genre-matched clothing
+animal horror, genre-matched environment
+animal horror, cinematic mood
+animal horror, strong visual identity
+anthropocene fiction, coherent worldbuilding
+anthropocene fiction, clear setting identity
+anthropocene fiction, genre-matched clothing
+anthropocene fiction, genre-matched environment
+anthropocene fiction, cinematic mood
+anthropocene fiction, strong visual identity
+apocalyptic fiction, coherent worldbuilding
+apocalyptic fiction, clear setting identity
+apocalyptic fiction, genre-matched clothing
+apocalyptic fiction, genre-matched environment
+apocalyptic fiction, cinematic mood
+apocalyptic fiction, strong visual identity
+arcanepunk, coherent worldbuilding
+arcanepunk, clear setting identity
+arcanepunk, genre-matched clothing
+arcanepunk, genre-matched environment
+arcanepunk, cinematic mood
+arcanepunk, strong visual identity
+art punk, coherent worldbuilding
+art punk, clear setting identity
+art punk, genre-matched clothing
+art punk, genre-matched environment
+art punk, cinematic mood
+art punk, strong visual identity
+artifact fiction, coherent worldbuilding
+artifact fiction, clear setting identity
+artifact fiction, genre-matched clothing
+artifact fiction, genre-matched environment
+artifact fiction, cinematic mood
+artifact fiction, strong visual identity
+austenesque fantasy, coherent worldbuilding
+austenesque fantasy, clear setting identity
+austenesque fantasy, genre-matched clothing
+austenesque fantasy, genre-matched environment
+austenesque fantasy, cinematic mood
+austenesque fantasy, strong visual identity
+avant-garde horror, coherent worldbuilding
+avant-garde horror, clear setting identity
+avant-garde horror, genre-matched clothing
+avant-garde horror, genre-matched environment
+avant-garde horror, cinematic mood
+avant-garde horror, strong visual identity
+bizarro fiction, coherent worldbuilding
+bizarro fiction, clear setting identity
+bizarro fiction, genre-matched clothing
+bizarro fiction, genre-matched environment
+bizarro fiction, cinematic mood
+bizarro fiction, strong visual identity
+biohorror, coherent worldbuilding
+biohorror, clear setting identity
+biohorror, genre-matched clothing
+biohorror, genre-matched environment
+biohorror, cinematic mood
+biohorror, strong visual identity
+biothriller, coherent worldbuilding
+biothriller, clear setting identity
+biothriller, genre-matched clothing
+biothriller, genre-matched environment
+biothriller, cinematic mood
+biothriller, strong visual identity
+black comedy horror, coherent worldbuilding
+black comedy horror, clear setting identity
+black comedy horror, genre-matched clothing
+black comedy horror, genre-matched environment
+black comedy horror, cinematic mood
+black comedy horror, strong visual identity
+body horror, coherent worldbuilding
+body horror, clear setting identity
+body horror, genre-matched clothing
+body horror, genre-matched environment
+body horror, cinematic mood
+body horror, strong visual identity
+brasspunk, coherent worldbuilding
+brasspunk, clear setting identity
+brasspunk, genre-matched clothing
+brasspunk, genre-matched environment
+brasspunk, cinematic mood
+brasspunk, strong visual identity
+bugpunk, coherent worldbuilding
+bugpunk, clear setting identity
+bugpunk, genre-matched clothing
+bugpunk, genre-matched environment
+bugpunk, cinematic mood
+bugpunk, strong visual identity
+candlepunk, coherent worldbuilding
+candlepunk, clear setting identity
+candlepunk, genre-matched clothing
+candlepunk, genre-matched environment
+candlepunk, cinematic mood
+candlepunk, strong visual identity
+cattlepunk, coherent worldbuilding
+cattlepunk, clear setting identity
+cattlepunk, genre-matched clothing
+cattlepunk, genre-matched environment
+cattlepunk, cinematic mood
+cattlepunk, strong visual identity
+cavern horror, coherent worldbuilding
+cavern horror, clear setting identity
+cavern horror, genre-matched clothing
+cavern horror, genre-matched environment
+cavern horror, cinematic mood
+cavern horror, strong visual identity
+cli-fi, coherent worldbuilding
+cli-fi, clear setting identity
+cli-fi, genre-matched clothing
+cli-fi, genre-matched environment
+cli-fi, cinematic mood
+cli-fi, strong visual identity
+climate gothic, coherent worldbuilding
+climate gothic, clear setting identity
+climate gothic, genre-matched clothing
+climate gothic, genre-matched environment
+climate gothic, cinematic mood
+climate gothic, strong visual identity
+climate horror, coherent worldbuilding
+climate horror, clear setting identity
+climate horror, genre-matched clothing
+climate horror, genre-matched environment
+climate horror, cinematic mood
+climate horror, strong visual identity
+coalpunk, coherent worldbuilding
+coalpunk, clear setting identity
+coalpunk, genre-matched clothing
+coalpunk, genre-matched environment
+coalpunk, cinematic mood
+coalpunk, strong visual identity
+comedy horror, coherent worldbuilding
+comedy horror, clear setting identity
+comedy horror, genre-matched clothing
+comedy horror, genre-matched environment
+comedy horror, cinematic mood
+comedy horror, strong visual identity
+creature feature, coherent worldbuilding
+creature feature, clear setting identity
+creature feature, genre-matched clothing
+creature feature, genre-matched environment
+creature feature, cinematic mood
+creature feature, strong visual identity
+cyber noir, coherent worldbuilding
+cyber noir, clear setting identity
+cyber noir, genre-matched clothing
+cyber noir, genre-matched environment
+cyber noir, cinematic mood
+cyber noir, strong visual identity
+cyberprep, coherent worldbuilding
+cyberprep, clear setting identity
+cyberprep, genre-matched clothing
+cyberprep, genre-matched environment
+cyberprep, cinematic mood
+cyberprep, strong visual identity
+dark academia, coherent worldbuilding
+dark academia, clear setting identity
+dark academia, genre-matched clothing
+dark academia, genre-matched environment
+dark academia, cinematic mood
+dark academia, strong visual identity
+dark romantasy, coherent worldbuilding
+dark romantasy, clear setting identity
+dark romantasy, genre-matched clothing
+dark romantasy, genre-matched environment
+dark romantasy, cinematic mood
+dark romantasy, strong visual identity
+decopunk, coherent worldbuilding
+decopunk, clear setting identity
+decopunk, genre-matched clothing
+decopunk, genre-matched environment
+decopunk, cinematic mood
+decopunk, strong visual identity
+desertpunk, coherent worldbuilding
+desertpunk, clear setting identity
+desertpunk, genre-matched clothing
+desertpunk, genre-matched environment
+desertpunk, cinematic mood
+desertpunk, strong visual identity
+dreadpunk, coherent worldbuilding
+dreadpunk, clear setting identity
+dreadpunk, genre-matched clothing
+dreadpunk, genre-matched environment
+dreadpunk, cinematic mood
+dreadpunk, strong visual identity
+dying earth, coherent worldbuilding
+dying earth, clear setting identity
+dying earth, genre-matched clothing
+dying earth, genre-matched environment
+dying earth, cinematic mood
+dying earth, strong visual identity
+eco-dystopia, coherent worldbuilding
+eco-dystopia, clear setting identity
+eco-dystopia, genre-matched clothing
+eco-dystopia, genre-matched environment
+eco-dystopia, cinematic mood
+eco-dystopia, strong visual identity
+eco-fiction, coherent worldbuilding
+eco-fiction, clear setting identity
+eco-fiction, genre-matched clothing
+eco-fiction, genre-matched environment
+eco-fiction, cinematic mood
+eco-fiction, strong visual identity
+eco-gothic, coherent worldbuilding
+eco-gothic, clear setting identity
+eco-gothic, genre-matched clothing
+eco-gothic, genre-matched environment
+eco-gothic, cinematic mood
+eco-gothic, strong visual identity
+eco-horror, coherent worldbuilding
+eco-horror, clear setting identity
+eco-horror, genre-matched clothing
+eco-horror, genre-matched environment
+eco-horror, cinematic mood
+eco-horror, strong visual identity
+eco-noir, coherent worldbuilding
+eco-noir, clear setting identity
+eco-noir, genre-matched clothing
+eco-noir, genre-matched environment
+eco-noir, cinematic mood
+eco-noir, strong visual identity
+eco-thriller, coherent worldbuilding
+eco-thriller, clear setting identity
+eco-thriller, genre-matched clothing
+eco-thriller, genre-matched environment
+eco-thriller, cinematic mood
+eco-thriller, strong visual identity
+ecoweird, coherent worldbuilding
+ecoweird, clear setting identity
+ecoweird, genre-matched clothing
+ecoweird, genre-matched environment
+ecoweird, cinematic mood
+ecoweird, strong visual identity
+edisonade, coherent worldbuilding
+edisonade, clear setting identity
+edisonade, genre-matched clothing
+edisonade, genre-matched environment
+edisonade, cinematic mood
+edisonade, strong visual identity
+eldritch horror, coherent worldbuilding
+eldritch horror, clear setting identity
+eldritch horror, genre-matched clothing
+eldritch horror, genre-matched environment
+eldritch horror, cinematic mood
+eldritch horror, strong visual identity
+elfpunk, coherent worldbuilding
+elfpunk, clear setting identity
+elfpunk, genre-matched clothing
+elfpunk, genre-matched environment
+elfpunk, cinematic mood
+elfpunk, strong visual identity
+environmental gothic, coherent worldbuilding
+environmental gothic, clear setting identity
+environmental gothic, genre-matched clothing
+environmental gothic, genre-matched environment
+environmental gothic, cinematic mood
+environmental gothic, strong visual identity
+ergodic fiction, coherent worldbuilding
+ergodic fiction, clear setting identity
+ergodic fiction, genre-matched clothing
+ergodic fiction, genre-matched environment
+ergodic fiction, cinematic mood
+ergodic fiction, strong visual identity
+fantastique, coherent worldbuilding
+fantastique, clear setting identity
+fantastique, genre-matched clothing
+fantastique, genre-matched environment
+fantastique, cinematic mood
+fantastique, strong visual identity
+found footage, coherent worldbuilding
+found footage, clear setting identity
+found footage, genre-matched clothing
+found footage, genre-matched environment
+found footage, cinematic mood
+found footage, strong visual identity
+giallo, coherent worldbuilding
+giallo, clear setting identity
+giallo, genre-matched clothing
+giallo, genre-matched environment
+giallo, cinematic mood
+giallo, strong visual identity
+ghost story, coherent worldbuilding
+ghost story, clear setting identity
+ghost story, genre-matched clothing
+ghost story, genre-matched environment
+ghost story, cinematic mood
+ghost story, strong visual identity
+goblinpunk, coherent worldbuilding
+goblinpunk, clear setting identity
+goblinpunk, genre-matched clothing
+goblinpunk, genre-matched environment
+goblinpunk, cinematic mood
+goblinpunk, strong visual identity
+grimdark, coherent worldbuilding
+grimdark, clear setting identity
+grimdark, genre-matched clothing
+grimdark, genre-matched environment
+grimdark, cinematic mood
+grimdark, strong visual identity
+hard fantasy, coherent worldbuilding
+hard fantasy, clear setting identity
+hard fantasy, genre-matched clothing
+hard fantasy, genre-matched environment
+hard fantasy, cinematic mood
+hard fantasy, strong visual identity
+hard sci-fi, coherent worldbuilding
+hard sci-fi, clear setting identity
+hard sci-fi, genre-matched clothing
+hard sci-fi, genre-matched environment
+hard sci-fi, cinematic mood
+hard sci-fi, strong visual identity
+haunted house, coherent worldbuilding
+haunted house, clear setting identity
+haunted house, genre-matched clothing
+haunted house, genre-matched environment
+haunted house, cinematic mood
+haunted house, strong visual identity
+horror comedy, coherent worldbuilding
+horror comedy, clear setting identity
+horror comedy, genre-matched clothing
+horror comedy, genre-matched environment
+horror comedy, cinematic mood
+horror comedy, strong visual identity
+hydropunk, coherent worldbuilding
+hydropunk, clear setting identity
+hydropunk, genre-matched clothing
+hydropunk, genre-matched environment
+hydropunk, cinematic mood
+hydropunk, strong visual identity
+insect horror, coherent worldbuilding
+insect horror, clear setting identity
+insect horror, genre-matched clothing
+insect horror, genre-matched environment
+insect horror, cinematic mood
+insect horror, strong visual identity
+invasive species horror, coherent worldbuilding
+invasive species horror, clear setting identity
+invasive species horror, genre-matched clothing
+invasive species horror, genre-matched environment
+invasive species horror, cinematic mood
+invasive species horror, strong visual identity
+kaiju fiction, coherent worldbuilding
+kaiju fiction, clear setting identity
+kaiju fiction, genre-matched clothing
+kaiju fiction, genre-matched environment
+kaiju fiction, cinematic mood
+kaiju fiction, strong visual identity
+labyrinth fiction, coherent worldbuilding
+labyrinth fiction, clear setting identity
+labyrinth fiction, genre-matched clothing
+labyrinth fiction, genre-matched environment
+labyrinth fiction, cinematic mood
+labyrinth fiction, strong visual identity
+lost world, coherent worldbuilding
+lost world, clear setting identity
+lost world, genre-matched clothing
+lost world, genre-matched environment
+lost world, cinematic mood
+lost world, strong visual identity
+lunarpunk, coherent worldbuilding
+lunarpunk, clear setting identity
+lunarpunk, genre-matched clothing
+lunarpunk, genre-matched environment
+lunarpunk, cinematic mood
+lunarpunk, strong visual identity
+mannerpunk, coherent worldbuilding
+mannerpunk, clear setting identity
+mannerpunk, genre-matched clothing
+mannerpunk, genre-matched environment
+mannerpunk, cinematic mood
+mannerpunk, strong visual identity
+mecha, coherent worldbuilding
+mecha, clear setting identity
+mecha, genre-matched clothing
+mecha, genre-matched environment
+mecha, cinematic mood
+mecha, strong visual identity
+metafiction, coherent worldbuilding
+metafiction, clear setting identity
+metafiction, genre-matched clothing
+metafiction, genre-matched environment
+metafiction, cinematic mood
+metafiction, strong visual identity
+monster horror, coherent worldbuilding
+monster horror, clear setting identity
+monster horror, genre-matched clothing
+monster horror, genre-matched environment
+monster horror, cinematic mood
+monster horror, strong visual identity
+mundane sci-fi, coherent worldbuilding
+mundane sci-fi, clear setting identity
+mundane sci-fi, genre-matched clothing
+mundane sci-fi, genre-matched environment
+mundane sci-fi, cinematic mood
+mundane sci-fi, strong visual identity
+mythic fiction, coherent worldbuilding
+mythic fiction, clear setting identity
+mythic fiction, genre-matched clothing
+mythic fiction, genre-matched environment
+mythic fiction, cinematic mood
+mythic fiction, strong visual identity
+mythpunk, coherent worldbuilding
+mythpunk, clear setting identity
+mythpunk, genre-matched clothing
+mythpunk, genre-matched environment
+mythpunk, cinematic mood
+mythpunk, strong visual identity
+natural horror, coherent worldbuilding
+natural horror, clear setting identity
+natural horror, genre-matched clothing
+natural horror, genre-matched environment
+natural horror, cinematic mood
+natural horror, strong visual identity
+nature horror, coherent worldbuilding
+nature horror, clear setting identity
+nature horror, genre-matched clothing
+nature horror, genre-matched environment
+nature horror, cinematic mood
+nature horror, strong visual identity
+noblebright, coherent worldbuilding
+noblebright, clear setting identity
+noblebright, genre-matched clothing
+noblebright, genre-matched environment
+noblebright, cinematic mood
+noblebright, strong visual identity
+noir fantasy, coherent worldbuilding
+noir fantasy, clear setting identity
+noir fantasy, genre-matched clothing
+noir fantasy, genre-matched environment
+noir fantasy, cinematic mood
+noir fantasy, strong visual identity
+nowpunk, coherent worldbuilding
+nowpunk, clear setting identity
+nowpunk, genre-matched clothing
+nowpunk, genre-matched environment
+nowpunk, cinematic mood
+nowpunk, strong visual identity
+occult detective, coherent worldbuilding
+occult detective, clear setting identity
+occult detective, genre-matched clothing
+occult detective, genre-matched environment
+occult detective, cinematic mood
+occult detective, strong visual identity
+oceanpunk, coherent worldbuilding
+oceanpunk, clear setting identity
+oceanpunk, genre-matched clothing
+oceanpunk, genre-matched environment
+oceanpunk, cinematic mood
+oceanpunk, strong visual identity
+organic horror, coherent worldbuilding
+organic horror, clear setting identity
+organic horror, genre-matched clothing
+organic horror, genre-matched environment
+organic horror, cinematic mood
+organic horror, strong visual identity
+paranormal mystery, coherent worldbuilding
+paranormal mystery, clear setting identity
+paranormal mystery, genre-matched clothing
+paranormal mystery, genre-matched environment
+paranormal mystery, cinematic mood
+paranormal mystery, strong visual identity
+plant horror, coherent worldbuilding
+plant horror, clear setting identity
+plant horror, genre-matched clothing
+plant horror, genre-matched environment
+plant horror, cinematic mood
+plant horror, strong visual identity
+posthuman sci-fi, coherent worldbuilding
+posthuman sci-fi, clear setting identity
+posthuman sci-fi, genre-matched clothing
+posthuman sci-fi, genre-matched environment
+posthuman sci-fi, cinematic mood
+posthuman sci-fi, strong visual identity
+psychedelic horror, coherent worldbuilding
+psychedelic horror, clear setting identity
+psychedelic horror, genre-matched clothing
+psychedelic horror, genre-matched environment
+psychedelic horror, cinematic mood
+psychedelic horror, strong visual identity
+psychological horror, coherent worldbuilding
+psychological horror, clear setting identity
+psychological horror, genre-matched clothing
+psychological horror, genre-matched environment
+psychological horror, cinematic mood
+psychological horror, strong visual identity
+psychological thriller, coherent worldbuilding
+psychological thriller, clear setting identity
+psychological thriller, genre-matched clothing
+psychological thriller, genre-matched environment
+psychological thriller, cinematic mood
+psychological thriller, strong visual identity
+quiet horror, coherent worldbuilding
+quiet horror, clear setting identity
+quiet horror, genre-matched clothing
+quiet horror, genre-matched environment
+quiet horror, cinematic mood
+quiet horror, strong visual identity
+raypunk, coherent worldbuilding
+raypunk, clear setting identity
+raypunk, genre-matched clothing
+raypunk, genre-matched environment
+raypunk, cinematic mood
+raypunk, strong visual identity
+regency fantasy, coherent worldbuilding
+regency fantasy, clear setting identity
+regency fantasy, genre-matched clothing
+regency fantasy, genre-matched environment
+regency fantasy, cinematic mood
+regency fantasy, strong visual identity
+ribofunk, coherent worldbuilding
+ribofunk, clear setting identity
+ribofunk, genre-matched clothing
+ribofunk, genre-matched environment
+ribofunk, cinematic mood
+ribofunk, strong visual identity
+rococopunk, coherent worldbuilding
+rococopunk, clear setting identity
+rococopunk, genre-matched clothing
+rococopunk, genre-matched environment
+rococopunk, cinematic mood
+rococopunk, strong visual identity
+romantasy, coherent worldbuilding
+romantasy, clear setting identity
+romantasy, genre-matched clothing
+romantasy, genre-matched environment
+romantasy, cinematic mood
+romantasy, strong visual identity
+rural noir, coherent worldbuilding
+rural noir, clear setting identity
+rural noir, genre-matched clothing
+rural noir, genre-matched environment
+rural noir, cinematic mood
+rural noir, strong visual identity
+sailpunk, coherent worldbuilding
+sailpunk, clear setting identity
+sailpunk, genre-matched clothing
+sailpunk, genre-matched environment
+sailpunk, cinematic mood
+sailpunk, strong visual identity
+salvagepunk, coherent worldbuilding
+salvagepunk, clear setting identity
+salvagepunk, genre-matched clothing
+salvagepunk, genre-matched environment
+salvagepunk, cinematic mood
+salvagepunk, strong visual identity
+sandpunk, coherent worldbuilding
+sandpunk, clear setting identity
+sandpunk, genre-matched clothing
+sandpunk, genre-matched environment
+sandpunk, cinematic mood
+sandpunk, strong visual identity
+seapunk, coherent worldbuilding
+seapunk, clear setting identity
+seapunk, genre-matched clothing
+seapunk, genre-matched environment
+seapunk, cinematic mood
+seapunk, strong visual identity
+second-world fantasy, coherent worldbuilding
+second-world fantasy, clear setting identity
+second-world fantasy, genre-matched clothing
+second-world fantasy, genre-matched environment
+second-world fantasy, cinematic mood
+second-world fantasy, strong visual identity
+slipstream, coherent worldbuilding
+slipstream, clear setting identity
+slipstream, genre-matched clothing
+slipstream, genre-matched environment
+slipstream, cinematic mood
+slipstream, strong visual identity
+slipstream fiction, coherent worldbuilding
+slipstream fiction, clear setting identity
+slipstream fiction, genre-matched clothing
+slipstream fiction, genre-matched environment
+slipstream fiction, cinematic mood
+slipstream fiction, strong visual identity
+slow horror, coherent worldbuilding
+slow horror, clear setting identity
+slow horror, genre-matched clothing
+slow horror, genre-matched environment
+slow horror, cinematic mood
+slow horror, strong visual identity
+soft sci-fi, coherent worldbuilding
+soft sci-fi, clear setting identity
+soft sci-fi, genre-matched clothing
+soft sci-fi, genre-matched environment
+soft sci-fi, cinematic mood
+soft sci-fi, strong visual identity
+solar gothic, coherent worldbuilding
+solar gothic, clear setting identity
+solar gothic, genre-matched clothing
+solar gothic, genre-matched environment
+solar gothic, cinematic mood
+solar gothic, strong visual identity
+solar horror, coherent worldbuilding
+solar horror, clear setting identity
+solar horror, genre-matched clothing
+solar horror, genre-matched environment
+solar horror, cinematic mood
+solar horror, strong visual identity
+splatterpunk, coherent worldbuilding
+splatterpunk, clear setting identity
+splatterpunk, genre-matched clothing
+splatterpunk, genre-matched environment
+splatterpunk, cinematic mood
+splatterpunk, strong visual identity
+splatterpunk horror, coherent worldbuilding
+splatterpunk horror, clear setting identity
+splatterpunk horror, genre-matched clothing
+splatterpunk horror, genre-matched environment
+splatterpunk horror, cinematic mood
+splatterpunk horror, strong visual identity
+steelpunk, coherent worldbuilding
+steelpunk, clear setting identity
+steelpunk, genre-matched clothing
+steelpunk, genre-matched environment
+steelpunk, cinematic mood
+steelpunk, strong visual identity
+stitchpunk, coherent worldbuilding
+stitchpunk, clear setting identity
+stitchpunk, genre-matched clothing
+stitchpunk, genre-matched environment
+stitchpunk, cinematic mood
+stitchpunk, strong visual identity
+supernatural horror, coherent worldbuilding
+supernatural horror, clear setting identity
+supernatural horror, genre-matched clothing
+supernatural horror, genre-matched environment
+supernatural horror, cinematic mood
+supernatural horror, strong visual identity
+sword and sandal, coherent worldbuilding
+sword and sandal, clear setting identity
+sword and sandal, genre-matched clothing
+sword and sandal, genre-matched environment
+sword and sandal, cinematic mood
+sword and sandal, strong visual identity
+technothriller, coherent worldbuilding
+technothriller, clear setting identity
+technothriller, genre-matched clothing
+technothriller, genre-matched environment
+technothriller, cinematic mood
+technothriller, strong visual identity
+teslapunk, coherent worldbuilding
+teslapunk, clear setting identity
+teslapunk, genre-matched clothing
+teslapunk, genre-matched environment
+teslapunk, cinematic mood
+teslapunk, strong visual identity
+the new weird, coherent worldbuilding
+the new weird, clear setting identity
+the new weird, genre-matched clothing
+the new weird, genre-matched environment
+the new weird, cinematic mood
+the new weird, strong visual identity
+the weird, coherent worldbuilding
+the weird, clear setting identity
+the weird, genre-matched clothing
+the weird, genre-matched environment
+the weird, cinematic mood
+the weird, strong visual identity
+utopian fiction, coherent worldbuilding
+utopian fiction, clear setting identity
+utopian fiction, genre-matched clothing
+utopian fiction, genre-matched environment
+utopian fiction, cinematic mood
+utopian fiction, strong visual identity
+vampire fiction, coherent worldbuilding
+vampire fiction, clear setting identity
+vampire fiction, genre-matched clothing
+vampire fiction, genre-matched environment
+vampire fiction, cinematic mood
+vampire fiction, strong visual identity
+vaporwave horror, coherent worldbuilding
+vaporwave horror, clear setting identity
+vaporwave horror, genre-matched clothing
+vaporwave horror, genre-matched environment
+vaporwave horror, cinematic mood
+vaporwave horror, strong visual identity
+weird fiction, coherent worldbuilding
+weird fiction, clear setting identity
+weird fiction, genre-matched clothing
+weird fiction, genre-matched environment
+weird fiction, cinematic mood
+weird fiction, strong visual identity
+xenofiction, coherent worldbuilding
+xenofiction, clear setting identity
+xenofiction, genre-matched clothing
+xenofiction, genre-matched environment
+xenofiction, cinematic mood
+xenofiction, strong visual identity
+xenohorror, coherent worldbuilding
+xenohorror, clear setting identity
+xenohorror, genre-matched clothing
+xenohorror, genre-matched environment
+xenohorror, cinematic mood
+xenohorror, strong visual identity
+zombie fiction, coherent worldbuilding
+zombie fiction, clear setting identity
+zombie fiction, genre-matched clothing
+zombie fiction, genre-matched environment
+zombie fiction, cinematic mood
+zombie fiction, strong visual identity
+gothic, coherent worldbuilding
+gothic, clear setting identity
+gothic, genre-matched clothing
+gothic, genre-matched environment
+gothic, cinematic mood
+gothic, strong visual identity
+noir, coherent worldbuilding
+noir, clear setting identity
+noir, genre-matched clothing
+noir, genre-matched environment
+noir, cinematic mood
+noir, strong visual identity
+wuxia, coherent worldbuilding
+wuxia, clear setting identity
+wuxia, genre-matched clothing
+wuxia, genre-matched environment
+wuxia, cinematic mood
+wuxia, strong visual identity
+xianxia, coherent worldbuilding
+xianxia, clear setting identity
+xianxia, genre-matched clothing
+xianxia, genre-matched environment
+xianxia, cinematic mood
+xianxia, strong visual identity
+dystopian, coherent worldbuilding
+dystopian, clear setting identity
+dystopian, genre-matched clothing
+dystopian, genre-matched environment
+dystopian, cinematic mood
+dystopian, strong visual identity
+survival horror, coherent worldbuilding
+survival horror, clear setting identity
+survival horror, genre-matched clothing
+survival horror, genre-matched environment
+survival horror, cinematic mood
+survival horror, strong visual identity
+lovecraftian horror, coherent worldbuilding
+lovecraftian horror, clear setting identity
+lovecraftian horror, genre-matched clothing
+lovecraftian horror, genre-matched environment
+lovecraftian horror, cinematic mood
+lovecraftian horror, strong visual identity
+science fantasy, coherent worldbuilding
+science fantasy, clear setting identity
+science fantasy, genre-matched clothing
+science fantasy, genre-matched environment
+science fantasy, cinematic mood
+science fantasy, strong visual identity
+historical fiction, coherent worldbuilding
+historical fiction, clear setting identity
+historical fiction, genre-matched clothing
+historical fiction, genre-matched environment
+historical fiction, cinematic mood
+historical fiction, strong visual identity
+techno-thriller, coherent worldbuilding
+techno-thriller, clear setting identity
+techno-thriller, genre-matched clothing
+techno-thriller, genre-matched environment
+techno-thriller, cinematic mood
+techno-thriller, strong visual identity
+isekai, coherent worldbuilding
+isekai, clear setting identity
+isekai, genre-matched clothing
+isekai, genre-matched environment
+isekai, cinematic mood
+isekai, strong visual identity
+litrpg, coherent worldbuilding
+litrpg, clear setting identity
+litrpg, genre-matched clothing
+litrpg, genre-matched environment
+litrpg, cinematic mood
+litrpg, strong visual identity
+progression fantasy, coherent worldbuilding
+progression fantasy, clear setting identity
+progression fantasy, genre-matched clothing
+progression fantasy, genre-matched environment
+progression fantasy, cinematic mood
+progression fantasy, strong visual identity
+grimbright, coherent worldbuilding
+grimbright, clear setting identity
+grimbright, genre-matched clothing
+grimbright, genre-matched environment
+grimbright, cinematic mood
+grimbright, strong visual identity
+existential horror, coherent worldbuilding
+existential horror, clear setting identity
+existential horror, genre-matched clothing
+existential horror, genre-matched environment
+existential horror, cinematic mood
+existential horror, strong visual identity
+vaporwave, coherent worldbuilding
+vaporwave, clear setting identity
+vaporwave, genre-matched clothing
+vaporwave, genre-matched environment
+vaporwave, cinematic mood
+vaporwave, strong visual identity
+indigenous futurism, coherent worldbuilding
+indigenous futurism, clear setting identity
+indigenous futurism, genre-matched clothing
+indigenous futurism, genre-matched environment
+indigenous futurism, cinematic mood
+indigenous futurism, strong visual identity
+paranormal, coherent worldbuilding
+paranormal, clear setting identity
+paranormal, genre-matched clothing
+paranormal, genre-matched environment
+paranormal, cinematic mood
+paranormal, strong visual identity
+supernatural, coherent worldbuilding
+supernatural, clear setting identity
+supernatural, genre-matched clothing
+supernatural, genre-matched environment
+supernatural, cinematic mood
+supernatural, strong visual identity
+occult fiction, coherent worldbuilding
+occult fiction, clear setting identity
+occult fiction, genre-matched clothing
+occult fiction, genre-matched environment
+occult fiction, cinematic mood
+occult fiction, strong visual identity
+cosmic fantasy, coherent worldbuilding
+cosmic fantasy, clear setting identity
+cosmic fantasy, genre-matched clothing
+cosmic fantasy, genre-matched environment
+cosmic fantasy, cinematic mood
+cosmic fantasy, strong visual identity
+dungeon core, coherent worldbuilding
+dungeon core, clear setting identity
+dungeon core, genre-matched clothing
+dungeon core, genre-matched environment
+dungeon core, cinematic mood
+dungeon core, strong visual identity
+kaiju, coherent worldbuilding
+kaiju, clear setting identity
+kaiju, genre-matched clothing
+kaiju, genre-matched environment
+kaiju, cinematic mood
+kaiju, strong visual identity
+battle royale, coherent worldbuilding
+battle royale, clear setting identity
+battle royale, genre-matched clothing
+battle royale, genre-matched environment
+battle royale, cinematic mood
+battle royale, strong visual identity
+posthuman fiction, coherent worldbuilding
+posthuman fiction, clear setting identity
+posthuman fiction, genre-matched clothing
+posthuman fiction, genre-matched environment
+posthuman fiction, cinematic mood
+posthuman fiction, strong visual identity
+transhumanism, coherent worldbuilding
+transhumanism, clear setting identity
+transhumanism, genre-matched clothing
+transhumanism, genre-matched environment
+transhumanism, cinematic mood
+transhumanism, strong visual identity
+ecofiction, coherent worldbuilding
+ecofiction, clear setting identity
+ecofiction, genre-matched clothing
+ecofiction, genre-matched environment
+ecofiction, cinematic mood
+ecofiction, strong visual identity
+survival fiction, coherent worldbuilding
+survival fiction, clear setting identity
+survival fiction, genre-matched clothing
+survival fiction, genre-matched environment
+survival fiction, cinematic mood
+survival fiction, strong visual identity

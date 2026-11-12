@@ -1,0 +1,154 @@
+# Compact SD-readable archetype tags.
+witch
+mage
+wizard
+knight
+warrior
+samurai
+ninja
+assassin
+archer
+gunslinger
+pirate
+vampire
+demon
+angel
+elf
+dark elf
+fox ears
+cat ears
+dragon horns
+mermaid
+fairy
+priestess
+nun
+queen
+princess
+noble
+maid
+librarian
+alchemist
+necromancer
+monster hunter
+bounty hunter
+detective
+spy
+soldier
+military officer
+pilot
+space pilot
+astronaut
+scientist
+engineer
+mechanic
+hacker
+android
+cyborg
+robot
+mecha pilot
+cyberpunk
+post-apocalyptic survivor
+wasteland survivor
+vault dweller
+raider
+western outlaw
+outlaw
+police officer
+doctor
+nurse
+teacher
+idol singer
+pop star
+dancer
+fashion model
+office worker
+bartender
+fortune teller
+street racer
+motorcycle rider
+snow warrior
+desert warrior
+forest ranger
+treasure hunter
+battle nun
+dark queen
+gothic fashion
+magical heroine
+space princess
+vampire hunter
+fire mage
+ice mage
+lightning mage
+healer
+cleric
+paladin
+ranger
+bard
+druid
+warlock
+summoner
+sword fighter
+spear fighter
+shield bearer
+duelist
+gladiator
+viking
+roman warrior
+medieval noble
+gothic noble
+vampire queen
+witch queen
+demon queen
+ice queen
+desert queen
+pirate queen
+samurai princess
+academy uniform
+military uniform
+spacesuit
+power armor
+cybernetic body
+hologram
+alien
+mutant
+zombie hunter
+ghost
+haunted doll
+masked face
+horns
+wings
+animal ears
+kemonomimi
+kitsune
+oni
+lamia
+harpy
+succubus-inspired
+siren
+water mage
+forest witch
+swamp witch
+desert nomad
+arctic explorer
+jungle explorer
+urban fantasy
+noir detective
+space marine
+starship captain
+mechanic pilot
+racing suit
+punk fashion
+goth fashion
+idol
+rock singer
+opera singer
+belly dancer
+ballroom dancer
+gym trainer
+martial artist
+boxer
+sniper
+medic
+chemist
+archaeologist
+monster features

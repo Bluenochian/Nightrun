@@ -1,0 +1,44 @@
+# Simple character and presence descriptors.
+confident
+serious expression
+elegant
+mysterious
+beautiful face
+tall body
+athletic body
+slender body
+curvy body
+muscular body
+royal posture
+noble posture
+dangerous expression
+calm expression
+smiling
+shy expression
+angry expression
+sad expression
+tired eyes
+playful smile
+dominant pose
+cold expression
+warm expression
+intense eye contact
+soft gaze
+sharp eyes
+pretty face
+mature face
+clean face focus
+fashion model pose
+heroine pose
+villainess pose
+battle ready stance
+relaxed posture
+graceful posture
+strong posture
+smirk
+open mouth
+closed mouth
+blush
+serious gaze
+looking at viewer
+looking away

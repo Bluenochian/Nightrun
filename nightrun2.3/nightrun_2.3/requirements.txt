@@ -1,0 +1,3 @@
+requests>=2.31
+# Pillow is optional for plain PNG saving but recommended for stamps/contact sheets.
+Pillow>=10.0

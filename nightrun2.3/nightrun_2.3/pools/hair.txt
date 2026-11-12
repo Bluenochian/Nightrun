@@ -1,0 +1,790 @@
+# CivitAI/Danbooru-style hair descriptors.
+white long flowing hair, glowing tips
+white long flowing hair, rim-lit strands
+white long flowing hair, wet glossy shine
+white long flowing hair, floating hair strands
+white long flowing hair, cyan highlights
+white long flowing hair, red underside glow
+white long flowing hair, iridescent shine
+white long flowing hair, snow dust in hair
+white long flowing hair, gold ornaments
+white short bob hair, glowing tips
+white short bob hair, rim-lit strands
+white short bob hair, wet glossy shine
+white short bob hair, floating hair strands
+white short bob hair, cyan highlights
+white short bob hair, red underside glow
+white short bob hair, iridescent shine
+white short bob hair, snow dust in hair
+white short bob hair, gold ornaments
+white messy long hair, glowing tips
+white messy long hair, rim-lit strands
+white messy long hair, wet glossy shine
+white messy long hair, floating hair strands
+white messy long hair, cyan highlights
+white messy long hair, red underside glow
+white messy long hair, iridescent shine
+white messy long hair, snow dust in hair
+white messy long hair, gold ornaments
+white wavy shoulder-length hair, glowing tips
+white wavy shoulder-length hair, rim-lit strands
+white wavy shoulder-length hair, wet glossy shine
+white wavy shoulder-length hair, floating hair strands
+white wavy shoulder-length hair, cyan highlights
+white wavy shoulder-length hair, red underside glow
+white wavy shoulder-length hair, iridescent shine
+white wavy shoulder-length hair, snow dust in hair
+white wavy shoulder-length hair, gold ornaments
+white straight hair, glowing tips
+white straight hair, rim-lit strands
+white straight hair, wet glossy shine
+white straight hair, floating hair strands
+white straight hair, cyan highlights
+white straight hair, red underside glow
+white straight hair, iridescent shine
+white straight hair, snow dust in hair
+white straight hair, gold ornaments
+white twin tails, glowing tips
+white twin tails, rim-lit strands
+white twin tails, wet glossy shine
+white twin tails, floating hair strands
+white twin tails, cyan highlights
+white twin tails, red underside glow
+white twin tails, iridescent shine
+white twin tails, snow dust in hair
+white twin tails, gold ornaments
+white high ponytail, glowing tips
+white high ponytail, rim-lit strands
+white high ponytail, wet glossy shine
+white high ponytail, floating hair strands
+white high ponytail, cyan highlights
+white high ponytail, red underside glow
+white high ponytail, iridescent shine
+white high ponytail, snow dust in hair
+white high ponytail, gold ornaments
+white braided crown, glowing tips
+white braided crown, rim-lit strands
+white braided crown, wet glossy shine
+white braided crown, floating hair strands
+white braided crown, cyan highlights
+white braided crown, red underside glow
+white braided crown, iridescent shine
+white braided crown, snow dust in hair
+white braided crown, gold ornaments
+white side swept bangs, glowing tips
+white side swept bangs, rim-lit strands
+white side swept bangs, wet glossy shine
+white side swept bangs, floating hair strands
+white side swept bangs, cyan highlights
+white side swept bangs, red underside glow
+white side swept bangs, iridescent shine
+white side swept bangs, snow dust in hair
+white side swept bangs, gold ornaments
+white curly loose hair, glowing tips
+white curly loose hair, rim-lit strands
+white curly loose hair, wet glossy shine
+white curly loose hair, floating hair strands
+white curly loose hair, cyan highlights
+white curly loose hair, red underside glow
+white curly loose hair, iridescent shine
+white curly loose hair, snow dust in hair
+white curly loose hair, gold ornaments
+white half-up hairstyle, glowing tips
+white half-up hairstyle, rim-lit strands
+white half-up hairstyle, wet glossy shine
+white half-up hairstyle, floating hair strands
+white half-up hairstyle, cyan highlights
+white half-up hairstyle, red underside glow
+white half-up hairstyle, iridescent shine
+white half-up hairstyle, snow dust in hair
+white half-up hairstyle, gold ornaments
+white silky waist-length hair, glowing tips
+white silky waist-length hair, rim-lit strands
+white silky waist-length hair, wet glossy shine
+white silky waist-length hair, floating hair strands
+white silky waist-length hair, cyan highlights
+white silky waist-length hair, red underside glow
+white silky waist-length hair, iridescent shine
+white silky waist-length hair, snow dust in hair
+white silky waist-length hair, gold ornaments
+white long hair, glowing tips
+white long hair, rim-lit strands
+white long hair, wet glossy shine
+white long hair, floating hair strands
+white long hair, cyan highlights
+white long hair, red underside glow
+white long hair, iridescent shine
+white long hair, snow dust in hair
+white long hair, gold ornaments
+white messy bob hair, glowing tips
+white messy bob hair, rim-lit strands
+white messy bob hair, wet glossy shine
+white messy bob hair, floating hair strands
+white messy bob hair, cyan highlights
+white messy bob hair, red underside glow
+white messy bob hair, iridescent shine
+white messy bob hair, snow dust in hair
+white messy bob hair, gold ornaments
+white low twin tails, glowing tips
+white low twin tails, rim-lit strands
+white low twin tails, wet glossy shine
+white low twin tails, floating hair strands
+white low twin tails, cyan highlights
+white low twin tails, red underside glow
+white low twin tails, iridescent shine
+white low twin tails, snow dust in hair
+white low twin tails, gold ornaments
+white loose side braid, glowing tips
+white loose side braid, rim-lit strands
+white loose side braid, wet glossy shine
+white loose side braid, floating hair strands
+white loose side braid, cyan highlights
+white loose side braid, red underside glow
+white loose side braid, iridescent shine
+white loose side braid, snow dust in hair
+white loose side braid, gold ornaments
+white high bun, glowing tips
+white high bun, rim-lit strands
+white high bun, wet glossy shine
+white high bun, floating hair strands
+white high bun, cyan highlights
+white high bun, red underside glow
+white high bun, iridescent shine
+white high bun, snow dust in hair
+white high bun, gold ornaments
+white voluminous curls, glowing tips
+white voluminous curls, rim-lit strands
+white voluminous curls, wet glossy shine
+white voluminous curls, floating hair strands
+white voluminous curls, cyan highlights
+white voluminous curls, red underside glow
+white voluminous curls, iridescent shine
+white voluminous curls, snow dust in hair
+white voluminous curls, gold ornaments
+white straight waist-length hair, glowing tips
+white straight waist-length hair, rim-lit strands
+white straight waist-length hair, wet glossy shine
+white straight waist-length hair, floating hair strands
+white straight waist-length hair, cyan highlights
+white straight waist-length hair, red underside glow
+white straight waist-length hair, iridescent shine
+white straight waist-length hair, snow dust in hair
+white straight waist-length hair, gold ornaments
+white short wolf cut, glowing tips
+white short wolf cut, rim-lit strands
+white short wolf cut, wet glossy shine
+white short wolf cut, floating hair strands
+white short wolf cut, cyan highlights
+white short wolf cut, red underside glow
+white short wolf cut, iridescent shine
+white short wolf cut, snow dust in hair
+white short wolf cut, gold ornaments
+white long hair partially covering one eye, glowing tips
+white long hair partially covering one eye, rim-lit strands
+white long hair partially covering one eye, wet glossy shine
+white long hair partially covering one eye, floating hair strands
+white long hair partially covering one eye, cyan highlights
+white long hair partially covering one eye, red underside glow
+white long hair partially covering one eye, iridescent shine
+white long hair partially covering one eye, snow dust in hair
+white long hair partially covering one eye, gold ornaments
+white soft layered hair, glowing tips
+white soft layered hair, rim-lit strands
+white soft layered hair, wet glossy shine
+white soft layered hair, floating hair strands
+white soft layered hair, cyan highlights
+white soft layered hair, red underside glow
+white soft layered hair, iridescent shine
+white soft layered hair, snow dust in hair
+white soft layered hair, gold ornaments
+white long braided twin, glowing tips
+white long braided twin, rim-lit strands
+white long braided twin, wet glossy shine
+white long braided twin, floating hair strands
+white long braided twin, cyan highlights
+white long braided twin, red underside glow
+white long braided twin, iridescent shine
+white long braided twin, snow dust in hair
+white long braided twin, gold ornaments
+white side ponytail, glowing tips
+white side ponytail, rim-lit strands
+white side ponytail, wet glossy shine
+white side ponytail, floating hair strands
+white side ponytail, cyan highlights
+white side ponytail, red underside glow
+white side ponytail, iridescent shine
+white side ponytail, snow dust in hair
+white side ponytail, gold ornaments
+white messy side bun, glowing tips
+white messy side bun, rim-lit strands
+white messy side bun, wet glossy shine
+white messy side bun, floating hair strands
+white messy side bun, cyan highlights
+white messy side bun, red underside glow
+white messy side bun, iridescent shine
+white messy side bun, snow dust in hair
+white messy side bun, gold ornaments
+white high twin buns, glowing tips
+white high twin buns, rim-lit strands
+white high twin buns, wet glossy shine
+white high twin buns, floating hair strands
+white high twin buns, cyan highlights
+white high twin buns, red underside glow
+white high twin buns, iridescent shine
+white high twin buns, snow dust in hair
+white high twin buns, gold ornaments
+white long curtain bangs, glowing tips
+white long curtain bangs, rim-lit strands
+white long curtain bangs, wet glossy shine
+white long curtain bangs, floating hair strands
+white long curtain bangs, cyan highlights
+white long curtain bangs, red underside glow
+white long curtain bangs, iridescent shine
+white long curtain bangs, snow dust in hair
+white long curtain bangs, gold ornaments
+white short asymmetrical bob, glowing tips
+white short asymmetrical bob, rim-lit strands
+white short asymmetrical bob, wet glossy shine
+white short asymmetrical bob, floating hair strands
+white short asymmetrical bob, cyan highlights
+white short asymmetrical bob, red underside glow
+white short asymmetrical bob, iridescent shine
+white short asymmetrical bob, snow dust in hair
+white short asymmetrical bob, gold ornaments
+white waist-length waves, glowing tips
+white waist-length waves, rim-lit strands
+white waist-length waves, wet glossy shine
+white waist-length waves, floating hair strands
+white waist-length waves, cyan highlights
+white waist-length waves, red underside glow
+white waist-length waves, iridescent shine
+white waist-length waves, snow dust in hair
+white waist-length waves, gold ornaments
+white loose braid over shoulder, glowing tips
+white loose braid over shoulder, rim-lit strands
+white loose braid over shoulder, wet glossy shine
+white loose braid over shoulder, floating hair strands
+white loose braid over shoulder, cyan highlights
+white loose braid over shoulder, red underside glow
+white loose braid over shoulder, iridescent shine
+white loose braid over shoulder, snow dust in hair
+white loose braid over shoulder, gold ornaments
+white fluffy medium hair, glowing tips
+white fluffy medium hair, rim-lit strands
+white fluffy medium hair, wet glossy shine
+white fluffy medium hair, floating hair strands
+white fluffy medium hair, cyan highlights
+white fluffy medium hair, red underside glow
+white fluffy medium hair, iridescent shine
+white fluffy medium hair, snow dust in hair
+white fluffy medium hair, gold ornaments
+silver long flowing hair, glowing tips
+silver long flowing hair, rim-lit strands
+silver long flowing hair, wet glossy shine
+silver long flowing hair, floating hair strands
+silver long flowing hair, cyan highlights
+silver long flowing hair, red underside glow
+silver long flowing hair, iridescent shine
+silver long flowing hair, snow dust in hair
+silver long flowing hair, gold ornaments
+silver short bob hair, glowing tips
+silver short bob hair, rim-lit strands
+silver short bob hair, wet glossy shine
+silver short bob hair, floating hair strands
+silver short bob hair, cyan highlights
+silver short bob hair, red underside glow
+silver short bob hair, iridescent shine
+silver short bob hair, snow dust in hair
+silver short bob hair, gold ornaments
+silver messy long hair, glowing tips
+silver messy long hair, rim-lit strands
+silver messy long hair, wet glossy shine
+silver messy long hair, floating hair strands
+silver messy long hair, cyan highlights
+silver messy long hair, red underside glow
+silver messy long hair, iridescent shine
+silver messy long hair, snow dust in hair
+silver messy long hair, gold ornaments
+silver wavy shoulder-length hair, glowing tips
+silver wavy shoulder-length hair, rim-lit strands
+silver wavy shoulder-length hair, wet glossy shine
+silver wavy shoulder-length hair, floating hair strands
+silver wavy shoulder-length hair, cyan highlights
+silver wavy shoulder-length hair, iridescent shine
+silver wavy shoulder-length hair, snow dust in hair
+silver wavy shoulder-length hair, gold ornaments
+silver wavy shoulder-length hair, black ribbon accessory
+silver straight hair, glowing tips
+silver straight hair, rim-lit strands
+silver straight hair, wet glossy shine
+silver straight hair, floating hair strands
+silver straight hair, cyan highlights
+silver straight hair, iridescent shine
+silver straight hair, snow dust in hair
+silver straight hair, gold ornaments
+silver straight hair, black ribbon accessory
+silver twin tails, glowing tips
+silver twin tails, rim-lit strands
+silver twin tails, wet glossy shine
+silver twin tails, floating hair strands
+silver twin tails, cyan highlights
+silver twin tails, iridescent shine
+silver twin tails, snow dust in hair
+silver twin tails, gold ornaments
+silver twin tails, black ribbon accessory
+silver high ponytail, glowing tips
+silver high ponytail, rim-lit strands
+silver high ponytail, wet glossy shine
+silver high ponytail, floating hair strands
+silver high ponytail, cyan highlights
+silver high ponytail, iridescent shine
+silver high ponytail, snow dust in hair
+silver high ponytail, gold ornaments
+silver high ponytail, black ribbon accessory
+silver braided crown, glowing tips
+silver braided crown, rim-lit strands
+silver braided crown, wet glossy shine
+silver braided crown, floating hair strands
+silver braided crown, cyan highlights
+silver braided crown, iridescent shine
+silver braided crown, snow dust in hair
+silver braided crown, gold ornaments
+silver braided crown, black ribbon accessory
+silver side swept bangs, glowing tips
+silver side swept bangs, rim-lit strands
+silver side swept bangs, wet glossy shine
+silver side swept bangs, floating hair strands
+silver side swept bangs, cyan highlights
+silver side swept bangs, iridescent shine
+silver side swept bangs, snow dust in hair
+silver side swept bangs, gold ornaments
+silver side swept bangs, black ribbon accessory
+silver curly loose hair, glowing tips
+silver curly loose hair, rim-lit strands
+silver curly loose hair, wet glossy shine
+silver curly loose hair, floating hair strands
+silver curly loose hair, cyan highlights
+silver curly loose hair, iridescent shine
+silver curly loose hair, snow dust in hair
+silver curly loose hair, gold ornaments
+silver curly loose hair, black ribbon accessory
+silver half-up hairstyle, glowing tips
+silver half-up hairstyle, rim-lit strands
+silver half-up hairstyle, wet glossy shine
+silver half-up hairstyle, floating hair strands
+silver half-up hairstyle, cyan highlights
+silver half-up hairstyle, iridescent shine
+silver half-up hairstyle, snow dust in hair
+silver half-up hairstyle, gold ornaments
+silver half-up hairstyle, black ribbon accessory
+silver silky waist-length hair, glowing tips
+silver silky waist-length hair, rim-lit strands
+silver silky waist-length hair, wet glossy shine
+silver silky waist-length hair, floating hair strands
+silver silky waist-length hair, iridescent shine
+silver silky waist-length hair, snow dust in hair
+silver silky waist-length hair, gold ornaments
+silver silky waist-length hair, black ribbon accessory
+silver silky waist-length hair, small jeweled hairpin
+silver long hair, glowing tips
+silver long hair, rim-lit strands
+silver long hair, wet glossy shine
+silver long hair, floating hair strands
+silver long hair, iridescent shine
+silver long hair, snow dust in hair
+silver long hair, gold ornaments
+silver long hair, black ribbon accessory
+silver long hair, small jeweled hairpin
+silver messy bob hair, glowing tips
+silver messy bob hair, rim-lit strands
+silver messy bob hair, wet glossy shine
+silver messy bob hair, floating hair strands
+silver messy bob hair, iridescent shine
+silver messy bob hair, snow dust in hair
+silver messy bob hair, gold ornaments
+silver messy bob hair, black ribbon accessory
+silver messy bob hair, small jeweled hairpin
+silver low twin tails, glowing tips
+silver low twin tails, rim-lit strands
+silver low twin tails, wet glossy shine
+silver low twin tails, floating hair strands
+silver low twin tails, iridescent shine
+silver low twin tails, snow dust in hair
+silver low twin tails, gold ornaments
+silver low twin tails, black ribbon accessory
+silver low twin tails, small jeweled hairpin
+silver loose side braid, glowing tips
+silver loose side braid, rim-lit strands
+silver loose side braid, wet glossy shine
+silver loose side braid, floating hair strands
+silver loose side braid, iridescent shine
+silver loose side braid, snow dust in hair
+silver loose side braid, gold ornaments
+silver loose side braid, black ribbon accessory
+silver loose side braid, small jeweled hairpin
+silver high bun, glowing tips
+silver high bun, rim-lit strands
+silver high bun, wet glossy shine
+silver high bun, floating hair strands
+silver high bun, iridescent shine
+silver high bun, snow dust in hair
+silver high bun, gold ornaments
+silver high bun, black ribbon accessory
+silver high bun, small jeweled hairpin
+silver voluminous curls, glowing tips
+silver voluminous curls, rim-lit strands
+silver voluminous curls, wet glossy shine
+silver voluminous curls, floating hair strands
+silver voluminous curls, iridescent shine
+silver voluminous curls, snow dust in hair
+silver voluminous curls, gold ornaments
+silver voluminous curls, black ribbon accessory
+silver voluminous curls, small jeweled hairpin
+silver straight waist-length hair, glowing tips
+silver straight waist-length hair, rim-lit strands
+silver straight waist-length hair, wet glossy shine
+silver straight waist-length hair, floating hair strands
+silver straight waist-length hair, iridescent shine
+silver straight waist-length hair, snow dust in hair
+silver straight waist-length hair, gold ornaments
+silver straight waist-length hair, black ribbon accessory
+silver straight waist-length hair, small jeweled hairpin
+silver short wolf cut, glowing tips
+silver short wolf cut, rim-lit strands
+silver short wolf cut, wet glossy shine
+silver short wolf cut, floating hair strands
+silver short wolf cut, iridescent shine
+silver short wolf cut, snow dust in hair
+silver short wolf cut, gold ornaments
+silver short wolf cut, black ribbon accessory
+silver short wolf cut, small jeweled hairpin
+silver long hair partially covering one eye, glowing tips
+silver long hair partially covering one eye, rim-lit strands
+silver long hair partially covering one eye, wet glossy shine
+silver long hair partially covering one eye, floating hair strands
+silver long hair partially covering one eye, iridescent shine
+silver long hair partially covering one eye, snow dust in hair
+silver long hair partially covering one eye, gold ornaments
+silver long hair partially covering one eye, black ribbon accessory
+silver long hair partially covering one eye, small jeweled hairpin
+silver long braided twin, glowing tips
+silver long braided twin, rim-lit strands
+silver long braided twin, wet glossy shine
+silver long braided twin, floating hair strands
+silver long braided twin, iridescent shine
+silver long braided twin, snow dust in hair
+silver long braided twin, gold ornaments
+silver long braided twin, black ribbon accessory
+silver long braided twin, small jeweled hairpin
+silver side ponytail, glowing tips
+silver side ponytail, rim-lit strands
+silver side ponytail, wet glossy shine
+silver side ponytail, floating hair strands
+silver side ponytail, iridescent shine
+silver side ponytail, snow dust in hair
+silver side ponytail, gold ornaments
+silver side ponytail, black ribbon accessory
+silver side ponytail, small jeweled hairpin
+silver messy side bun, glowing tips
+silver messy side bun, rim-lit strands
+silver messy side bun, wet glossy shine
+silver messy side bun, floating hair strands
+silver messy side bun, iridescent shine
+silver messy side bun, snow dust in hair
+silver messy side bun, gold ornaments
+silver messy side bun, black ribbon accessory
+silver messy side bun, small jeweled hairpin
+silver high twin buns, glowing tips
+silver high twin buns, rim-lit strands
+silver high twin buns, wet glossy shine
+silver high twin buns, floating hair strands
+silver high twin buns, iridescent shine
+silver high twin buns, snow dust in hair
+silver high twin buns, gold ornaments
+silver high twin buns, black ribbon accessory
+silver high twin buns, small jeweled hairpin
+silver long curtain bangs, glowing tips
+silver long curtain bangs, rim-lit strands
+silver long curtain bangs, wet glossy shine
+silver long curtain bangs, floating hair strands
+silver long curtain bangs, iridescent shine
+silver long curtain bangs, snow dust in hair
+silver long curtain bangs, gold ornaments
+silver long curtain bangs, black ribbon accessory
+silver long curtain bangs, small jeweled hairpin
+silver short asymmetrical bob, glowing tips
+silver short asymmetrical bob, rim-lit strands
+silver short asymmetrical bob, wet glossy shine
+silver short asymmetrical bob, floating hair strands
+silver short asymmetrical bob, iridescent shine
+silver short asymmetrical bob, snow dust in hair
+silver short asymmetrical bob, gold ornaments
+silver short asymmetrical bob, black ribbon accessory
+silver short asymmetrical bob, small jeweled hairpin
+silver waist-length waves, glowing tips
+silver waist-length waves, rim-lit strands
+silver waist-length waves, wet glossy shine
+silver waist-length waves, floating hair strands
+silver waist-length waves, iridescent shine
+silver waist-length waves, snow dust in hair
+silver waist-length waves, gold ornaments
+silver waist-length waves, black ribbon accessory
+silver waist-length waves, small jeweled hairpin
+silver loose braid over shoulder, glowing tips
+silver loose braid over shoulder, rim-lit strands
+silver loose braid over shoulder, wet glossy shine
+silver loose braid over shoulder, floating hair strands
+silver loose braid over shoulder, iridescent shine
+silver loose braid over shoulder, snow dust in hair
+silver loose braid over shoulder, gold ornaments
+silver loose braid over shoulder, black ribbon accessory
+silver loose braid over shoulder, small jeweled hairpin
+silver fluffy medium hair, glowing tips
+silver fluffy medium hair, rim-lit strands
+silver fluffy medium hair, wet glossy shine
+silver fluffy medium hair, floating hair strands
+silver fluffy medium hair, iridescent shine
+silver fluffy medium hair, snow dust in hair
+silver fluffy medium hair, gold ornaments
+silver fluffy medium hair, black ribbon accessory
+silver fluffy medium hair, small jeweled hairpin
+black long flowing hair, glowing tips
+black long flowing hair, rim-lit strands
+black long flowing hair, wet glossy shine
+black long flowing hair, floating hair strands
+black long flowing hair, iridescent shine
+black long flowing hair, snow dust in hair
+black long flowing hair, gold ornaments
+black long flowing hair, black ribbon accessory
+black long flowing hair, small jeweled hairpin
+black short bob hair, glowing tips
+black short bob hair, rim-lit strands
+black short bob hair, wet glossy shine
+black short bob hair, floating hair strands
+black short bob hair, iridescent shine
+black short bob hair, snow dust in hair
+black short bob hair, gold ornaments
+black short bob hair, black ribbon accessory
+black short bob hair, small jeweled hairpin
+black messy long hair, glowing tips
+black messy long hair, rim-lit strands
+black messy long hair, wet glossy shine
+black messy long hair, floating hair strands
+black messy long hair, iridescent shine
+black messy long hair, gold ornaments
+black messy long hair, black ribbon accessory
+black messy long hair, small jeweled hairpin
+black messy long hair, soft flyaway strands
+black wavy shoulder-length hair, glowing tips
+black wavy shoulder-length hair, rim-lit strands
+black wavy shoulder-length hair, wet glossy shine
+black wavy shoulder-length hair, floating hair strands
+black wavy shoulder-length hair, iridescent shine
+black wavy shoulder-length hair, gold ornaments
+black wavy shoulder-length hair, black ribbon accessory
+black wavy shoulder-length hair, small jeweled hairpin
+black wavy shoulder-length hair, soft flyaway strands
+black straight hair, glowing tips
+black straight hair, rim-lit strands
+black straight hair, wet glossy shine
+black straight hair, floating hair strands
+black straight hair, iridescent shine
+black straight hair, gold ornaments
+black straight hair, black ribbon accessory
+black straight hair, small jeweled hairpin
+black straight hair, soft flyaway strands
+black twin tails, glowing tips
+black twin tails, rim-lit strands
+black twin tails, wet glossy shine
+black twin tails, floating hair strands
+black twin tails, iridescent shine
+black twin tails, gold ornaments
+black twin tails, black ribbon accessory
+black twin tails, small jeweled hairpin
+black twin tails, soft flyaway strands
+black high ponytail, glowing tips
+black high ponytail, rim-lit strands
+black high ponytail, wet glossy shine
+black high ponytail, floating hair strands
+black high ponytail, iridescent shine
+black high ponytail, gold ornaments
+black high ponytail, black ribbon accessory
+black high ponytail, small jeweled hairpin
+black high ponytail, soft flyaway strands
+black braided crown, glowing tips
+black braided crown, rim-lit strands
+black braided crown, wet glossy shine
+black braided crown, floating hair strands
+black braided crown, iridescent shine
+black braided crown, gold ornaments
+black braided crown, black ribbon accessory
+black braided crown, small jeweled hairpin
+black braided crown, soft flyaway strands
+black side swept bangs, glowing tips
+black side swept bangs, rim-lit strands
+black side swept bangs, wet glossy shine
+black side swept bangs, floating hair strands
+black side swept bangs, iridescent shine
+black side swept bangs, gold ornaments
+black side swept bangs, black ribbon accessory
+black side swept bangs, small jeweled hairpin
+black side swept bangs, soft flyaway strands
+black curly loose hair, glowing tips
+black curly loose hair, rim-lit strands
+black curly loose hair, wet glossy shine
+black curly loose hair, floating hair strands
+black curly loose hair, iridescent shine
+black curly loose hair, gold ornaments
+black curly loose hair, black ribbon accessory
+black curly loose hair, small jeweled hairpin
+black curly loose hair, soft flyaway strands
+black half-up hairstyle, glowing tips
+black half-up hairstyle, rim-lit strands
+black half-up hairstyle, wet glossy shine
+black half-up hairstyle, floating hair strands
+black half-up hairstyle, iridescent shine
+black half-up hairstyle, gold ornaments
+black half-up hairstyle, black ribbon accessory
+black half-up hairstyle, small jeweled hairpin
+black half-up hairstyle, soft flyaway strands
+black silky waist-length hair, glowing tips
+black silky waist-length hair, rim-lit strands
+black silky waist-length hair, wet glossy shine
+black silky waist-length hair, floating hair strands
+black silky waist-length hair, iridescent shine
+black silky waist-length hair, gold ornaments
+black silky waist-length hair, black ribbon accessory
+black silky waist-length hair, small jeweled hairpin
+black silky waist-length hair, soft flyaway strands
+black long hair, glowing tips
+black long hair, rim-lit strands
+black long hair, wet glossy shine
+black long hair, floating hair strands
+black long hair, iridescent shine
+black long hair, gold ornaments
+black long hair, black ribbon accessory
+black long hair, small jeweled hairpin
+black long hair, soft flyaway strands
+black messy bob hair, glowing tips
+black messy bob hair, rim-lit strands
+black messy bob hair, wet glossy shine
+black messy bob hair, floating hair strands
+black messy bob hair, iridescent shine
+black messy bob hair, gold ornaments
+black messy bob hair, black ribbon accessory
+black messy bob hair, small jeweled hairpin
+black messy bob hair, soft flyaway strands
+black low twin tails, glowing tips
+black low twin tails, rim-lit strands
+black low twin tails, wet glossy shine
+black low twin tails, floating hair strands
+black low twin tails, iridescent shine
+black low twin tails, gold ornaments
+black low twin tails, black ribbon accessory
+black low twin tails, small jeweled hairpin
+black low twin tails, soft flyaway strands
+black loose side braid, glowing tips
+black loose side braid, rim-lit strands
+black loose side braid, wet glossy shine
+black loose side braid, floating hair strands
+black loose side braid, iridescent shine
+black loose side braid, gold ornaments
+black loose side braid, black ribbon accessory
+black loose side braid, small jeweled hairpin
+black loose side braid, soft flyaway strands
+black high bun, glowing tips
+black high bun, rim-lit strands
+black high bun, wet glossy shine
+black high bun, floating hair strands
+black high bun, iridescent shine
+black high bun, gold ornaments
+black high bun, black ribbon accessory
+black high bun, small jeweled hairpin
+black high bun, soft flyaway strands
+black voluminous curls, glowing tips
+black voluminous curls, rim-lit strands
+black voluminous curls, wet glossy shine
+black voluminous curls, floating hair strands
+black voluminous curls, iridescent shine
+black voluminous curls, gold ornaments
+black voluminous curls, black ribbon accessory
+black voluminous curls, small jeweled hairpin
+black voluminous curls, soft flyaway strands
+black straight waist-length hair, glowing tips
+black straight waist-length hair, rim-lit strands
+black straight waist-length hair, wet glossy shine
+black straight waist-length hair, floating hair strands
+black straight waist-length hair, iridescent shine
+black straight waist-length hair, gold ornaments
+black straight waist-length hair, black ribbon accessory
+black straight waist-length hair, small jeweled hairpin
+black straight waist-length hair, soft flyaway strands
+black short wolf cut, glowing tips
+black short wolf cut, rim-lit strands
+black short wolf cut, wet glossy shine
+black short wolf cut, floating hair strands
+black short wolf cut, iridescent shine
+black short wolf cut, gold ornaments
+black short wolf cut, black ribbon accessory
+black short wolf cut, small jeweled hairpin
+black short wolf cut, soft flyaway strands
+black long hair partially covering one eye, glowing tips
+black long hair partially covering one eye, rim-lit strands
+black long hair partially covering one eye, wet glossy shine
+black long hair partially covering one eye, floating hair strands
+black long hair partially covering one eye, iridescent shine
+black long hair partially covering one eye, gold ornaments
+black long hair partially covering one eye, black ribbon accessory
+black long hair partially covering one eye, small jeweled hairpin
+black long hair partially covering one eye, soft flyaway strands
+auburn long flowing hair, warm rim light
+auburn loose braid over shoulder, gold ornaments
+auburn wavy shoulder-length hair, soft flyaway strands
+auburn high ponytail, glowing tips
+auburn messy bob hair, wet glossy shine
+deep red waist-length waves, black ribbon accessory
+deep red side ponytail, rim-lit strands
+deep red twin tails, floating hair strands
+deep red silky waist-length hair, small jeweled hairpin
+rose gold long flowing hair, pearly highlights
+rose gold braided crown, delicate shine
+rose gold short bob hair, soft flyaway strands
+rose gold loose side braid, small jeweled hairpin
+midnight blue long flowing hair, cyan highlights
+midnight blue straight hair, wet glossy shine
+midnight blue messy long hair, floating hair strands
+midnight blue high bun, silver hairpin
+violet waist-length waves, iridescent shine
+violet loose braid over shoulder, rim-lit strands
+violet short asymmetrical bob, glowing tips
+violet half-up hairstyle, soft flyaway strands
+emerald black long hair, jeweled hairpin
+emerald black silky waist-length hair, green undertone
+emerald black high ponytail, glossy shine
+emerald black wavy shoulder-length hair, floating hair strands
+champagne blonde long flowing hair, warm highlights
+champagne blonde soft layered hair, rim-lit strands
+champagne blonde braided crown, pearl ornaments
+champagne blonde loose side braid, glowing tips
+black long braided twin, glowing tips
+black long braided twin, rim-lit strands
+black long braided twin, wet glossy shine
+black long braided twin, floating hair strands
+black long braided twin, iridescent shine
+black long braided twin, gold ornaments
+black long braided twin, black ribbon accessory
+black long braided twin, small jeweled hairpin
+black long braided twin, soft flyaway strands
+black side ponytail, glowing tips
+black side ponytail, rim-lit strands
+black side ponytail, wet glossy shine
+black side ponytail, floating hair strands
+black side ponytail, iridescent shine
+black side ponytail, gold ornaments
+black side ponytail, black ribbon accessory
+black side ponytail, small jeweled hairpin
+black side ponytail, soft flyaway strands
+black messy side bun, glowing tips
+black messy side bun, rim-lit strands
+black messy side bun, wet glossy shine
+black messy side bun, floating hair strands

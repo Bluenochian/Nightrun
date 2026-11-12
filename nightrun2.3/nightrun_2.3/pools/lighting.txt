@@ -1,0 +1,361 @@
+# Generic lighting layers that do not override theme.
+soft window light
+hard rim light
+warm practical lamp light
+storm flash backlight
+golden hour side light
+cold fluorescent overhead light
+firelight from below
+moonlight through blinds
+neon sign edge light
+soft cloudy daylight
+spotlight through smoke
+underwater caustic light
+red warning light
+green monitor glow
+sunset silhouette
+single key light
+blue hour ambient light
+lantern glow from side
+red moon rim light, clean face light
+red moon rim light, readable eyes
+red moon rim light, soft shadows
+red moon rim light, strong silhouette
+silver moonlight, clean face light
+silver moonlight, readable eyes
+silver moonlight, soft shadows
+silver moonlight, strong silhouette
+warm candle glow, clean face light
+warm candle glow, readable eyes
+warm candle glow, soft shadows
+warm candle glow, strong silhouette
+cyan neon backlight, clean face light
+cyan neon backlight, readable eyes
+cyan neon backlight, soft shadows
+cyan neon backlight, strong silhouette
+blue flame rim light, clean face light
+blue flame rim light, readable eyes
+blue flame rim light, soft shadows
+blue flame rim light, strong silhouette
+gold halo backlight, clean face light
+gold halo backlight, readable eyes
+gold halo backlight, soft shadows
+gold halo backlight, strong silhouette
+violet arcane glow, clean face light
+violet arcane glow, readable eyes
+violet arcane glow, soft shadows
+violet arcane glow, strong silhouette
+teal bioluminescent light, clean face light
+teal bioluminescent light, readable eyes
+teal bioluminescent light, soft shadows
+teal bioluminescent light, strong silhouette
+storm lightning highlights, clean face light
+storm lightning highlights, readable eyes
+storm lightning highlights, soft shadows
+storm lightning highlights, strong silhouette
+deep crimson ambient light, clean face light
+deep crimson ambient light, readable eyes
+deep crimson ambient light, soft shadows
+deep crimson ambient light, strong silhouette
+soft window light, clean face light
+soft window light, readable eyes
+soft window light, soft shadows
+opal throne glow, clean face light
+opal throne glow, readable eyes
+opal throne glow, soft shadows
+opal throne glow, strong silhouette
+warm lantern side light, clean face light
+warm lantern side light, readable eyes
+warm lantern side light, soft shadows
+warm lantern side light, strong silhouette
+high contrast spotlight, clean face light
+high contrast spotlight, readable eyes
+high contrast spotlight, soft shadows
+high contrast spotlight, strong silhouette
+volumetric light rays, clean face light
+volumetric light rays, readable eyes
+volumetric light rays, soft shadows
+volumetric light rays, strong silhouette
+red window backlight, clean face light
+red window backlight, readable eyes
+red window backlight, soft shadows
+red window backlight, strong silhouette
+candle cluster glow, clean face light
+candle cluster glow, readable eyes
+soft bedside lamp light, clean face light
+soft bedside lamp light, readable eyes
+soft bedside lamp light, soft shadows
+soft bedside lamp light, strong silhouette
+crystal caustic reflections, clean face light
+crystal caustic reflections, readable eyes
+crystal caustic reflections, soft shadows
+crystal caustic reflections, strong silhouette
+warm skin highlights, clean face light
+warm skin highlights, readable eyes
+warm skin highlights, soft shadows
+warm skin highlights, strong silhouette
+pink holographic sparkle light, clean face light
+pink holographic sparkle light, readable eyes
+pink holographic sparkle light, soft shadows
+pink holographic sparkle light, strong silhouette
+sharp white eye catchlight, clean face light
+sharp white eye catchlight, readable eyes
+sharp white eye catchlight, soft shadows
+sharp white eye catchlight, strong silhouette
+dark room chiaroscuro, clean face light
+dark room chiaroscuro, readable eyes
+dark room chiaroscuro, soft shadows
+dark room chiaroscuro, strong silhouette
+storm flash backlight, clean face light
+storm flash backlight, readable eyes
+storm flash backlight, soft shadows
+magic circle underlight, clean face light
+magic circle underlight, readable eyes
+magic circle underlight, soft shadows
+magic circle underlight, strong silhouette
+moonbeam spotlight, clean face light
+moonbeam spotlight, readable eyes
+moonbeam spotlight, soft shadows
+white rim light, clean face light
+white rim light, readable eyes
+white rim light, soft shadows
+white rim light, strong silhouette
+pink rim light, clean face light
+pink rim light, readable eyes
+pink rim light, soft shadows
+pink rim light, strong silhouette
+silver hair light, clean face light
+silver hair light, readable eyes
+silver hair light, soft shadows
+silver hair light, strong silhouette
+deep purple ambient glow, clean face light
+deep purple ambient glow, readable eyes
+deep purple ambient glow, soft shadows
+deep purple ambient glow, strong silhouette
+soft sunrise through curtains, clean face light
+soft sunrise through curtains, readable eyes
+soft sunrise through curtains, soft shadows
+soft sunrise through curtains, strong silhouette
+gold dust spotlight, clean face light
+gold dust spotlight, readable eyes
+gold dust spotlight, soft shadows
+gold dust spotlight, strong silhouette
+opal skin highlights, clean face light
+opal skin highlights, readable eyes
+opal skin highlights, soft shadows
+opal skin highlights, strong silhouette
+warm fireplace side light, clean face light
+warm fireplace side light, readable eyes
+warm fireplace side light, soft shadows
+warm fireplace side light, strong silhouette
+cold fog backlight, clean face light
+cold fog backlight, readable eyes
+cold fog backlight, soft shadows
+cold fog backlight, strong silhouette
+green witchfire light, clean face light
+green witchfire light, readable eyes
+green witchfire light, soft shadows
+green witchfire light, strong silhouette
+white angelic spotlight, clean face light
+white angelic spotlight, readable eyes
+white angelic spotlight, soft shadows
+white angelic spotlight, strong silhouette
+black room high contrast, clean face light
+black room high contrast, readable eyes
+black room high contrast, soft shadows
+black room high contrast, strong silhouette
+red moon rim light, polished highlights
+red moon rim light, subtle bloom
+red moon rim light, cinematic contrast
+red moon rim light, glossy fabric shine
+red moon rim light, skin highlight controlled
+red moon rim light, hair rim visible
+red moon rim light, jewelry sparkle
+red moon rim light, background falls into shadow
+red moon rim light, dramatic eye catchlight
+red moon rim light, volumetric depth
+red moon rim light, clear material reflections
+red moon rim light, rich color separation
+silver moonlight, polished highlights
+silver moonlight, subtle bloom
+silver moonlight, cinematic contrast
+silver moonlight, glossy fabric shine
+silver moonlight, skin highlight controlled
+silver moonlight, hair rim visible
+silver moonlight, jewelry sparkle
+silver moonlight, background falls into shadow
+silver moonlight, dramatic eye catchlight
+silver moonlight, volumetric depth
+silver moonlight, clear material reflections
+silver moonlight, rich color separation
+warm candle glow, polished highlights
+warm candle glow, subtle bloom
+warm candle glow, cinematic contrast
+warm candle glow, glossy fabric shine
+warm candle glow, skin highlight controlled
+warm candle glow, hair rim visible
+warm candle glow, jewelry sparkle
+warm candle glow, background falls into shadow
+warm candle glow, dramatic eye catchlight
+warm candle glow, volumetric depth
+warm candle glow, clear material reflections
+warm candle glow, rich color separation
+cyan neon backlight, polished highlights
+cyan neon backlight, subtle bloom
+cyan neon backlight, cinematic contrast
+cyan neon backlight, glossy fabric shine
+cyan neon backlight, skin highlight controlled
+cyan neon backlight, hair rim visible
+cyan neon backlight, jewelry sparkle
+cyan neon backlight, background falls into shadow
+cyan neon backlight, dramatic eye catchlight
+cyan neon backlight, volumetric depth
+cyan neon backlight, clear material reflections
+cyan neon backlight, rich color separation
+blue flame rim light, polished highlights
+blue flame rim light, subtle bloom
+blue flame rim light, cinematic contrast
+blue flame rim light, glossy fabric shine
+blue flame rim light, skin highlight controlled
+blue flame rim light, hair rim visible
+blue flame rim light, jewelry sparkle
+blue flame rim light, background falls into shadow
+blue flame rim light, dramatic eye catchlight
+blue flame rim light, volumetric depth
+blue flame rim light, clear material reflections
+blue flame rim light, rich color separation
+gold halo backlight, polished highlights
+gold halo backlight, subtle bloom
+gold halo backlight, cinematic contrast
+gold halo backlight, glossy fabric shine
+gold halo backlight, skin highlight controlled
+gold halo backlight, hair rim visible
+gold halo backlight, jewelry sparkle
+gold halo backlight, background falls into shadow
+gold halo backlight, dramatic eye catchlight
+gold halo backlight, volumetric depth
+gold halo backlight, clear material reflections
+gold halo backlight, rich color separation
+violet arcane glow, polished highlights
+violet arcane glow, subtle bloom
+violet arcane glow, cinematic contrast
+violet arcane glow, glossy fabric shine
+violet arcane glow, skin highlight controlled
+violet arcane glow, hair rim visible
+violet arcane glow, jewelry sparkle
+violet arcane glow, background falls into shadow
+violet arcane glow, dramatic eye catchlight
+violet arcane glow, volumetric depth
+violet arcane glow, clear material reflections
+violet arcane glow, rich color separation
+teal bioluminescent light, polished highlights
+teal bioluminescent light, subtle bloom
+teal bioluminescent light, cinematic contrast
+teal bioluminescent light, glossy fabric shine
+storm lightning highlights, polished highlights
+storm lightning highlights, subtle bloom
+storm lightning highlights, cinematic contrast
+storm lightning highlights, glossy fabric shine
+storm lightning highlights, skin highlight controlled
+storm lightning highlights, hair rim visible
+storm lightning highlights, jewelry sparkle
+storm lightning highlights, background falls into shadow
+storm lightning highlights, dramatic eye catchlight
+storm lightning highlights, volumetric depth
+storm lightning highlights, clear material reflections
+storm lightning highlights, rich color separation
+deep crimson ambient light, polished highlights
+deep crimson ambient light, subtle bloom
+deep crimson ambient light, cinematic contrast
+deep crimson ambient light, glossy fabric shine
+deep crimson ambient light, skin highlight controlled
+deep crimson ambient light, hair rim visible
+deep crimson ambient light, jewelry sparkle
+deep crimson ambient light, background falls into shadow
+deep crimson ambient light, dramatic eye catchlight
+deep crimson ambient light, volumetric depth
+deep crimson ambient light, clear material reflections
+deep crimson ambient light, rich color separation
+soft window light, strong silhouette
+soft window light, polished highlights
+soft window light, subtle bloom
+soft window light, cinematic contrast
+soft window light, glossy fabric shine
+soft window light, skin highlight controlled
+soft window light, hair rim visible
+soft window light, jewelry sparkle
+soft window light, background falls into shadow
+soft window light, dramatic eye catchlight
+soft window light, volumetric depth
+soft window light, clear material reflections
+soft window light, rich color separation
+opal throne glow, polished highlights
+opal throne glow, subtle bloom
+opal throne glow, cinematic contrast
+opal throne glow, glossy fabric shine
+opal throne glow, skin highlight controlled
+opal throne glow, hair rim visible
+opal throne glow, jewelry sparkle
+opal throne glow, background falls into shadow
+opal throne glow, dramatic eye catchlight
+opal throne glow, volumetric depth
+opal throne glow, clear material reflections
+opal throne glow, rich color separation
+warm lantern side light, polished highlights
+warm lantern side light, subtle bloom
+warm lantern side light, cinematic contrast
+warm lantern side light, glossy fabric shine
+warm lantern side light, skin highlight controlled
+warm lantern side light, hair rim visible
+warm lantern side light, jewelry sparkle
+warm lantern side light, background falls into shadow
+warm lantern side light, dramatic eye catchlight
+warm lantern side light, volumetric depth
+warm lantern side light, clear material reflections
+warm lantern side light, rich color separation
+high contrast spotlight, polished highlights
+high contrast spotlight, subtle bloom
+high contrast spotlight, cinematic contrast
+high contrast spotlight, glossy fabric shine
+high contrast spotlight, skin highlight controlled
+high contrast spotlight, hair rim visible
+high contrast spotlight, jewelry sparkle
+high contrast spotlight, background falls into shadow
+high contrast spotlight, dramatic eye catchlight
+high contrast spotlight, volumetric depth
+high contrast spotlight, clear material reflections
+high contrast spotlight, rich color separation
+volumetric light rays, polished highlights
+volumetric light rays, subtle bloom
+volumetric light rays, cinematic contrast
+volumetric light rays, glossy fabric shine
+volumetric light rays, skin highlight controlled
+volumetric light rays, hair rim visible
+volumetric light rays, jewelry sparkle
+volumetric light rays, background falls into shadow
+volumetric light rays, dramatic eye catchlight
+volumetric light rays, volumetric depth
+volumetric light rays, clear material reflections
+volumetric light rays, rich color separation
+red window backlight, polished highlights
+red window backlight, subtle bloom
+red window backlight, cinematic contrast
+red window backlight, glossy fabric shine
+red window backlight, skin highlight controlled
+soft bedside lamp light, polished highlights
+soft bedside lamp light, subtle bloom
+soft bedside lamp light, cinematic contrast
+soft bedside lamp light, glossy fabric shine
+soft bedside lamp light, skin highlight controlled
+soft bedside lamp light, hair rim visible
+soft bedside lamp light, jewelry sparkle
+soft bedside lamp light, background falls into shadow
+soft bedside lamp light, dramatic eye catchlight
+soft bedside lamp light, volumetric depth
+soft bedside lamp light, clear material reflections
+soft bedside lamp light, rich color separation
+crystal caustic reflections, polished highlights
+crystal caustic reflections, subtle bloom
+crystal caustic reflections, cinematic contrast
+crystal caustic reflections, glossy fabric shine
+crystal caustic reflections, skin highlight controlled
