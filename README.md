@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="4270" height="1232" alt="Nightrun banner" src="https://github.com/user-attachments/assets/633634ea-5840-4feb-b476-cc98167ab258"/>
+  <img alt="Nightrun banner" src="assets/nightrun-banner.png"/>
 </p>
 
 <p align="center">
