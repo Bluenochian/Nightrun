@@ -1,0 +1,11 @@
+config.local.json
+cleanup.local.json
+setup_report.json
+prompt_variety_report.json
+STOP_AFTER_CURRENT_IMAGE.txt
+__pycache__/
+*.pyc
+*.log
+metadata-2x-upscale-*.log
+test-renders/
+outputs/

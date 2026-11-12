@@ -1,0 +1,2 @@
+# Exact local HSR-related LoRA stems.
+Star_Rail_251013

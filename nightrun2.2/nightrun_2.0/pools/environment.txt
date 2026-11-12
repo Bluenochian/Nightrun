@@ -1,0 +1,761 @@
+# Environment and scene descriptors.
+rainy neon alley, food stalls
+abandoned spaceport, broken runway lights
+desert motel, flickering vacancy sign
+snowy mountain shrine, paper lanterns
+retro diner ruins, cracked checker floor
+greenhouse laboratory, overgrown glass roof
+moon base corridor, earth visible outside
+train platform at midnight, wet concrete
+sunken cathedral, light shafts underwater
+wasteland radio tower, dust storm horizon
+enchanted classroom, floating chalk diagrams
+castle observatory, brass telescope
+underground nightclub, laser haze
+forest temple, mossy stone steps
+rooftop helipad, storm clouds behind
+old opera stage, torn velvet curtains
+market street at dusk, hanging fabrics
+derelict starship bridge, warning lights
+swamp boardwalk, green lantern glow
+black sand beach, wrecked shrine gate
+library bunker, maps on the walls
+battlefield chapel, broken pews
+alien bazaar, glowing shop signs
+volcanic throne room, heat shimmer
+quiet bedroom, sunrise through blinds
+rainy cemetery gate, iron fence
+highway overpass camp, barrel fire
+floating island garden, broken aqueduct
+canyon mining town, cable cars
+subway tunnel shelter, emergency lights
+moonlit cemetery, large moon in background
+moonlit cemetery, deep archways
+moonlit cemetery, reflective floor
+moonlit cemetery, layered foreground flowers
+moonlit cemetery, distant city lights
+moonlit cemetery, floating candles
+moonlit cemetery, wet glass walls
+moonlit cemetery, marble pillars
+moonlit cemetery, ornate windows
+gothic castle balcony, large moon in background
+gothic castle balcony, deep archways
+gothic castle balcony, reflective floor
+gothic castle balcony, layered foreground flowers
+gothic castle balcony, distant city lights
+gothic castle balcony, floating candles
+gothic castle balcony, wet glass walls
+gothic castle balcony, marble pillars
+gothic castle balcony, ornate windows
+grand magical library, large moon in background
+grand magical library, deep archways
+grand magical library, reflective floor
+grand magical library, layered foreground flowers
+grand magical library, distant city lights
+grand magical library, floating candles
+grand magical library, wet glass walls
+grand magical library, marble pillars
+grand magical library, ornate windows
+candlelit potion shop, large moon in background
+candlelit potion shop, deep archways
+candlelit potion shop, reflective floor
+glass observatory, large moon in background
+glass observatory, deep archways
+glass observatory, reflective floor
+ruined capital balcony, large moon in background
+ruined capital balcony, deep archways
+ruined capital balcony, reflective floor
+ruined capital balcony, layered foreground flowers
+ruined capital balcony, distant city lights
+ruined capital balcony, marble pillars
+ruined capital balcony, ornate windows
+ruined capital balcony, storm clouds
+ruined capital balcony, broken statues
+rainy neon alley, large moon in background
+rainy neon alley, deep archways
+rainy neon alley, reflective floor
+rainy neon alley, layered foreground flowers
+rainy neon alley, distant city lights
+rainy neon alley, marble pillars
+rainy neon alley, ornate windows
+rainy neon alley, storm clouds
+rooftop garden at night, deep archways
+rooftop garden at night, reflective floor
+rooftop garden at night, layered foreground flowers
+rooftop garden at night, distant city lights
+rooftop garden at night, marble pillars
+rooftop garden at night, ornate windows
+rooftop garden at night, storm clouds
+rooftop garden at night, broken statues
+rooftop garden at night, red velvet drapery
+ancient water temple, deep archways
+ancient water temple, reflective floor
+ancient water temple, layered foreground flowers
+ancient water temple, distant city lights
+ancient water temple, marble pillars
+ancient water temple, ornate windows
+ancient water temple, storm clouds
+ancient water temple, broken statues
+ancient water temple, red velvet drapery
+crystal palace corridor, deep archways
+crystal palace corridor, reflective floor
+crystal palace corridor, layered foreground flowers
+crystal palace corridor, distant city lights
+crystal palace corridor, marble pillars
+crystal palace corridor, ornate windows
+crystal palace corridor, storm clouds
+crystal palace corridor, broken statues
+crystal palace corridor, red velvet drapery
+ritual circle chamber, deep archways
+ritual circle chamber, reflective floor
+ritual circle chamber, layered foreground flowers
+ritual circle chamber, distant city lights
+ritual circle chamber, marble pillars
+ritual circle chamber, ornate windows
+ritual circle chamber, storm clouds
+ritual circle chamber, broken statues
+ritual circle chamber, red velvet drapery
+opera theater stage, deep archways
+opera theater stage, reflective floor
+opera theater stage, distant city lights
+opera theater stage, marble pillars
+opera theater stage, ornate windows
+opera theater stage, storm clouds
+opera theater stage, broken statues
+opera theater stage, black roses
+opera theater stage, shallow water
+frozen mountain pass, deep archways
+frozen mountain pass, reflective floor
+frozen mountain pass, distant city lights
+frozen mountain pass, marble pillars
+frozen mountain pass, ornate windows
+frozen mountain pass, storm clouds
+frozen mountain pass, broken statues
+frozen mountain pass, black roses
+frozen mountain pass, shallow water
+obsidian throne hall, deep archways
+obsidian throne hall, reflective floor
+obsidian throne hall, distant city lights
+obsidian throne hall, marble pillars
+obsidian throne hall, ornate windows
+obsidian throne hall, storm clouds
+obsidian throne hall, broken statues
+obsidian throne hall, black roses
+obsidian throne hall, shallow water
+marble temple courtyard, deep archways
+marble temple courtyard, reflective floor
+marble temple courtyard, distant city lights
+marble temple courtyard, marble pillars
+marble temple courtyard, ornate windows
+marble temple courtyard, storm clouds
+marble temple courtyard, broken statues
+marble temple courtyard, shallow water
+marble temple courtyard, tall bookshelves
+storm ship deck, deep archways
+storm ship deck, reflective floor
+storm ship deck, distant city lights
+storm ship deck, marble pillars
+storm ship deck, ornate windows
+storm ship deck, storm clouds
+storm ship deck, broken statues
+storm ship deck, shallow water
+storm ship deck, tall bookshelves
+velvet vampire lounge, deep archways
+velvet vampire lounge, reflective floor
+velvet vampire lounge, distant city lights
+velvet vampire lounge, marble pillars
+velvet vampire lounge, ornate windows
+velvet vampire lounge, storm clouds
+velvet vampire lounge, broken statues
+velvet vampire lounge, shallow water
+velvet vampire lounge, tall bookshelves
+abandoned ballroom, deep archways
+abandoned ballroom, reflective floor
+abandoned ballroom, distant city lights
+abandoned ballroom, marble pillars
+abandoned ballroom, ornate windows
+abandoned ballroom, storm clouds
+abandoned ballroom, broken statues
+abandoned ballroom, shallow water
+abandoned ballroom, tall bookshelves
+floating battlefield ruins, deep archways
+floating battlefield ruins, reflective floor
+floating battlefield ruins, distant city lights
+floating battlefield ruins, marble pillars
+floating battlefield ruins, ornate windows
+floating battlefield ruins, storm clouds
+floating battlefield ruins, broken statues
+floating battlefield ruins, shallow water
+floating battlefield ruins, tall bookshelves
+desert dusk temple, deep archways
+desert dusk temple, reflective floor
+desert dusk temple, distant city lights
+desert dusk temple, marble pillars
+desert dusk temple, ornate windows
+desert dusk temple, storm clouds
+desert dusk temple, broken statues
+desert dusk temple, shallow water
+desert dusk temple, tall bookshelves
+bioluminescent forest pool, deep archways
+bioluminescent forest pool, reflective floor
+bioluminescent forest pool, distant city lights
+bioluminescent forest pool, marble pillars
+bioluminescent forest pool, ornate windows
+bioluminescent forest pool, storm clouds
+bioluminescent forest pool, broken statues
+bioluminescent forest pool, shallow water
+bioluminescent forest pool, tall bookshelves
+luxury vampire boudoir, deep archways
+luxury vampire boudoir, reflective floor
+luxury vampire boudoir, distant city lights
+luxury vampire boudoir, marble pillars
+luxury vampire boudoir, ornate windows
+luxury vampire boudoir, storm clouds
+luxury vampire boudoir, broken statues
+luxury vampire boudoir, shallow water
+luxury vampire boudoir, tall bookshelves
+black marble throne room, deep archways
+black marble throne room, reflective floor
+black marble throne room, distant city lights
+black marble throne room, marble pillars
+black marble throne room, ornate windows
+black marble throne room, storm clouds
+black marble throne room, broken statues
+black marble throne room, shallow water
+black marble throne room, tall bookshelves
+cyberpunk hotel suite, deep archways
+cyberpunk hotel suite, reflective floor
+cyberpunk hotel suite, distant city lights
+cyberpunk hotel suite, marble pillars
+cyberpunk hotel suite, ornate windows
+cyberpunk hotel suite, storm clouds
+cyberpunk hotel suite, broken statues
+cyberpunk hotel suite, shallow water
+cyberpunk hotel suite, tall bookshelves
+night train cabin, deep archways
+night train cabin, reflective floor
+night train cabin, distant city lights
+night train cabin, marble pillars
+night train cabin, ornate windows
+night train cabin, storm clouds
+night train cabin, broken statues
+night train cabin, shallow water
+night train cabin, tall bookshelves
+velvet lounge with skull, deep archways
+velvet lounge with skull, reflective floor
+velvet lounge with skull, distant city lights
+velvet lounge with skull, marble pillars
+velvet lounge with skull, ornate windows
+velvet lounge with skull, storm clouds
+velvet lounge with skull, broken statues
+velvet lounge with skull, shallow water
+velvet lounge with skull, tall bookshelves
+ancient shrine at midnight, deep archways
+ancient shrine at midnight, reflective floor
+ancient shrine at midnight, distant city lights
+ancient shrine at midnight, marble pillars
+ancient shrine at midnight, ornate windows
+ancient shrine at midnight, storm clouds
+ancient shrine at midnight, broken statues
+ancient shrine at midnight, shallow water
+ancient shrine at midnight, tall bookshelves
+crystal greenhouse, deep archways
+crystal greenhouse, reflective floor
+crystal greenhouse, distant city lights
+crystal greenhouse, marble pillars
+crystal greenhouse, ornate windows
+crystal greenhouse, storm clouds
+crystal greenhouse, broken statues
+crystal greenhouse, shallow water
+crystal greenhouse, tall bookshelves
+winter palace bedroom, deep archways
+winter palace bedroom, reflective floor
+winter palace bedroom, distant city lights
+winter palace bedroom, marble pillars
+winter palace bedroom, ornate windows
+winter palace bedroom, storm clouds
+winter palace bedroom, broken statues
+winter palace bedroom, shallow water
+winter palace bedroom, tall bookshelves
+dragon shrine waterfall, deep archways
+dragon shrine waterfall, reflective floor
+dragon shrine waterfall, distant city lights
+dragon shrine waterfall, marble pillars
+dragon shrine waterfall, ornate windows
+dragon shrine waterfall, storm clouds
+dragon shrine waterfall, broken statues
+dragon shrine waterfall, shallow water
+dragon shrine waterfall, tall bookshelves
+storm-lit armor hall, deep archways
+storm-lit armor hall, reflective floor
+storm-lit armor hall, distant city lights
+storm-lit armor hall, marble pillars
+storm-lit armor hall, ornate windows
+storm-lit armor hall, storm clouds
+storm-lit armor hall, broken statues
+storm-lit armor hall, shallow water
+storm-lit armor hall, tall bookshelves
+royal bathhouse ruins, deep archways
+royal bathhouse ruins, reflective floor
+royal bathhouse ruins, distant city lights
+royal bathhouse ruins, marble pillars
+royal bathhouse ruins, ornate windows
+royal bathhouse ruins, storm clouds
+royal bathhouse ruins, broken statues
+royal bathhouse ruins, shallow water
+royal bathhouse ruins, tall bookshelves
+gilded library balcony, deep archways
+gilded library balcony, reflective floor
+gilded library balcony, distant city lights
+gilded library balcony, marble pillars
+gilded library balcony, ornate windows
+gilded library balcony, storm clouds
+gilded library balcony, broken statues
+gilded library balcony, shallow water
+gilded library balcony, tall bookshelves
+foggy bridge at night, deep archways
+foggy bridge at night, reflective floor
+foggy bridge at night, distant city lights
+foggy bridge at night, marble pillars
+foggy bridge at night, ornate windows
+foggy bridge at night, storm clouds
+foggy bridge at night, broken statues
+foggy bridge at night, shallow water
+foggy bridge at night, tall bookshelves
+deep forest ritual clearing, deep archways
+deep forest ritual clearing, reflective floor
+deep forest ritual clearing, distant city lights
+deep forest ritual clearing, marble pillars
+deep forest ritual clearing, ornate windows
+deep forest ritual clearing, storm clouds
+deep forest ritual clearing, broken statues
+deep forest ritual clearing, shallow water
+deep forest ritual clearing, tall bookshelves
+black marble bath hall, deep archways
+black marble bath hall, reflective floor
+black marble bath hall, distant city lights
+black marble bath hall, marble pillars
+black marble bath hall, ornate windows
+black marble bath hall, storm clouds
+black marble bath hall, broken statues
+black marble bath hall, shallow water
+black marble bath hall, tall bookshelves
+gilded coffin room, deep archways
+gilded coffin room, reflective floor
+gilded coffin room, distant city lights
+gilded coffin room, marble pillars
+gilded coffin room, ornate windows
+gilded coffin room, storm clouds
+gilded coffin room, broken statues
+gilded coffin room, shallow water
+gilded coffin room, tall bookshelves
+crystal opera atrium, deep archways
+crystal opera atrium, reflective floor
+crystal opera atrium, distant city lights
+crystal opera atrium, marble pillars
+crystal opera atrium, ornate windows
+crystal opera atrium, storm clouds
+crystal opera atrium, broken statues
+crystal opera atrium, shallow water
+crystal opera atrium, tall bookshelves
+abandoned palace pool, deep archways
+abandoned palace pool, reflective floor
+abandoned palace pool, distant city lights
+abandoned palace pool, marble pillars
+abandoned palace pool, ornate windows
+abandoned palace pool, storm clouds
+abandoned palace pool, broken statues
+abandoned palace pool, shallow water
+abandoned palace pool, tall bookshelves
+velvet train compartment, deep archways
+velvet train compartment, reflective floor
+velvet train compartment, distant city lights
+velvet train compartment, marble pillars
+velvet train compartment, ornate windows
+velvet train compartment, storm clouds
+velvet train compartment, broken statues
+velvet train compartment, shallow water
+velvet train compartment, tall bookshelves
+ruined clocktower balcony, deep archways
+ruined clocktower balcony, reflective floor
+ruined clocktower balcony, distant city lights
+ruined clocktower balcony, marble pillars
+ruined clocktower balcony, ornate windows
+ruined clocktower balcony, storm clouds
+ruined clocktower balcony, broken statues
+ruined clocktower balcony, shallow water
+ruined clocktower balcony, tall bookshelves
+dark aquarium hall, deep archways
+dark aquarium hall, reflective floor
+dark aquarium hall, distant city lights
+dark aquarium hall, marble pillars
+dark aquarium hall, ornate windows
+dark aquarium hall, storm clouds
+dark aquarium hall, broken statues
+dark aquarium hall, shallow water
+dark aquarium hall, tall bookshelves
+obsidian spa chamber, deep archways
+obsidian spa chamber, reflective floor
+obsidian spa chamber, distant city lights
+obsidian spa chamber, marble pillars
+obsidian spa chamber, ornate windows
+obsidian spa chamber, storm clouds
+obsidian spa chamber, broken statues
+obsidian spa chamber, shallow water
+obsidian spa chamber, tall bookshelves
+antique perfume salon, deep archways
+antique perfume salon, reflective floor
+antique perfume salon, distant city lights
+antique perfume salon, marble pillars
+antique perfume salon, ornate windows
+antique perfume salon, storm clouds
+antique perfume salon, broken statues
+antique perfume salon, shallow water
+antique perfume salon, tall bookshelves
+rainy castle courtyard, deep archways
+rainy castle courtyard, reflective floor
+rainy castle courtyard, distant city lights
+rainy castle courtyard, marble pillars
+rainy castle courtyard, ornate windows
+rainy castle courtyard, storm clouds
+rainy castle courtyard, broken statues
+rainy castle courtyard, shallow water
+rainy castle courtyard, tall bookshelves
+golden throne balcony, deep archways
+golden throne balcony, reflective floor
+golden throne balcony, distant city lights
+golden throne balcony, marble pillars
+golden throne balcony, ornate windows
+golden throne balcony, storm clouds
+golden throne balcony, broken statues
+golden throne balcony, shallow water
+golden throne balcony, tall bookshelves
+wet marble corridor, deep archways
+wet marble corridor, reflective floor
+wet marble corridor, distant city lights
+wet marble corridor, marble pillars
+wet marble corridor, ornate windows
+wet marble corridor, storm clouds
+wet marble corridor, broken statues
+wet marble corridor, shallow water
+wet marble corridor, tall bookshelves
+velvet stage backstage, deep archways
+velvet stage backstage, reflective floor
+velvet stage backstage, distant city lights
+velvet stage backstage, marble pillars
+velvet stage backstage, ornate windows
+velvet stage backstage, storm clouds
+velvet stage backstage, broken statues
+velvet stage backstage, shallow water
+velvet stage backstage, tall bookshelves
+black silk canopy room, deep archways
+black silk canopy room, reflective floor
+black silk canopy room, distant city lights
+black silk canopy room, marble pillars
+black silk canopy room, ornate windows
+black silk canopy room, storm clouds
+black silk canopy room, broken statues
+black silk canopy room, shallow water
+black silk canopy room, tall bookshelves
+storm-lit rooftop shrine, deep archways
+storm-lit rooftop shrine, reflective floor
+storm-lit rooftop shrine, distant city lights
+storm-lit rooftop shrine, marble pillars
+storm-lit rooftop shrine, ornate windows
+storm-lit rooftop shrine, storm clouds
+storm-lit rooftop shrine, broken statues
+storm-lit rooftop shrine, shallow water
+storm-lit rooftop shrine, tall bookshelves
+frozen fountain courtyard, deep archways
+frozen fountain courtyard, reflective floor
+frozen fountain courtyard, distant city lights
+frozen fountain courtyard, marble pillars
+frozen fountain courtyard, ornate windows
+frozen fountain courtyard, storm clouds
+frozen fountain courtyard, broken statues
+frozen fountain courtyard, shallow water
+frozen fountain courtyard, tall bookshelves
+ancient dragon bath, deep archways
+ancient dragon bath, reflective floor
+ancient dragon bath, distant city lights
+ancient dragon bath, marble pillars
+ancient dragon bath, ornate windows
+ancient dragon bath, storm clouds
+ancient dragon bath, broken statues
+ancient dragon bath, shallow water
+ancient dragon bath, tall bookshelves
+moonlit cemetery, storm clouds
+moonlit cemetery, broken statues
+moonlit cemetery, red velvet drapery
+moonlit cemetery, black roses
+moonlit cemetery, shallow water
+moonlit cemetery, glowing runes
+moonlit cemetery, tall bookshelves
+moonlit cemetery, hanging chains
+moonlit cemetery, crystal chandeliers
+moonlit cemetery, lace curtains
+moonlit cemetery, velvet bed canopy
+moonlit cemetery, ornate mirror
+moonlit cemetery, candle clusters
+moonlit cemetery, red carpet aisle
+moonlit cemetery, misty window glass
+moonlit cemetery, moonlit curtains
+gothic castle balcony, storm clouds
+gothic castle balcony, broken statues
+gothic castle balcony, red velvet drapery
+gothic castle balcony, black roses
+gothic castle balcony, shallow water
+gothic castle balcony, glowing runes
+gothic castle balcony, tall bookshelves
+gothic castle balcony, hanging chains
+gothic castle balcony, crystal chandeliers
+gothic castle balcony, lace curtains
+gothic castle balcony, velvet bed canopy
+gothic castle balcony, ornate mirror
+gothic castle balcony, candle clusters
+gothic castle balcony, red carpet aisle
+gothic castle balcony, misty window glass
+gothic castle balcony, moonlit curtains
+gothic castle balcony, perfume bottles
+gothic castle balcony, scattered rose petals
+gothic castle balcony, black silk sheets
+gothic castle balcony, silver serving tray
+gothic castle balcony, antique oil paintings
+gothic castle balcony, gothic ironwork
+gothic castle balcony, glowing pool reflections
+gothic castle balcony, neon rain reflections
+gothic castle balcony, golden chandelier
+gothic castle balcony, broken stained glass
+gothic castle balcony, floating flower petals
+gothic castle balcony, silver mirror reflections
+gothic castle balcony, wet marble steps
+gothic castle balcony, glowing stained glass floor
+gothic castle balcony, floating chandelier crystals
+gothic castle balcony, deep red curtains
+gothic castle balcony, black bathtub water
+gothic castle balcony, perfume mist
+gothic castle balcony, neon puddle reflection
+gothic castle balcony, rose vines on stone
+gothic castle balcony, moonlit bed canopy
+gothic castle balcony, candles arranged in depth
+gothic castle balcony, transparent glass railing
+gothic castle balcony, blue fire sconces
+gothic castle balcony, gold leaf wall detail
+grand magical library, storm clouds
+grand magical library, broken statues
+grand magical library, red velvet drapery
+grand magical library, black roses
+grand magical library, shallow water
+grand magical library, glowing runes
+grand magical library, tall bookshelves
+grand magical library, hanging chains
+grand magical library, crystal chandeliers
+grand magical library, lace curtains
+grand magical library, velvet bed canopy
+grand magical library, ornate mirror
+grand magical library, candle clusters
+grand magical library, red carpet aisle
+grand magical library, misty window glass
+grand magical library, moonlit curtains
+grand magical library, perfume bottles
+grand magical library, scattered rose petals
+grand magical library, black silk sheets
+grand magical library, silver serving tray
+grand magical library, antique oil paintings
+grand magical library, glowing pool reflections
+grand magical library, neon rain reflections
+grand magical library, golden chandelier
+grand magical library, broken stained glass
+grand magical library, floating flower petals
+grand magical library, silver mirror reflections
+grand magical library, wet marble steps
+grand magical library, glowing stained glass floor
+grand magical library, floating chandelier crystals
+grand magical library, deep red curtains
+grand magical library, black bathtub water
+grand magical library, perfume mist
+grand magical library, neon puddle reflection
+grand magical library, rose vines on stone
+grand magical library, moonlit bed canopy
+grand magical library, candles arranged in depth
+ruined capital balcony, red velvet drapery
+ruined capital balcony, black roses
+ruined capital balcony, shallow water
+ruined capital balcony, tall bookshelves
+ruined capital balcony, hanging chains
+ruined capital balcony, lace curtains
+ruined capital balcony, velvet bed canopy
+ruined capital balcony, red carpet aisle
+ruined capital balcony, moonlit curtains
+ruined capital balcony, perfume bottles
+ruined capital balcony, scattered rose petals
+ruined capital balcony, black silk sheets
+ruined capital balcony, silver serving tray
+ruined capital balcony, antique oil paintings
+ruined capital balcony, floating flower petals
+ruined capital balcony, wet marble steps
+ruined capital balcony, deep red curtains
+ruined capital balcony, black bathtub water
+ruined capital balcony, perfume mist
+ruined capital balcony, rose vines on stone
+ruined capital balcony, moonlit bed canopy
+ruined capital balcony, blue fire sconces
+ruined capital balcony, gold leaf wall detail
+ruined capital balcony, lace shadows on wall
+ruined capital balcony, fog rolling along floor
+rainy neon alley, broken statues
+rainy neon alley, red velvet drapery
+rainy neon alley, black roses
+rainy neon alley, shallow water
+rainy neon alley, tall bookshelves
+rainy neon alley, hanging chains
+rainy neon alley, lace curtains
+rainy neon alley, velvet bed canopy
+rainy neon alley, red carpet aisle
+rainy neon alley, perfume bottles
+rainy neon alley, scattered rose petals
+rainy neon alley, black silk sheets
+rainy neon alley, silver serving tray
+rainy neon alley, antique oil paintings
+rainy neon alley, floating flower petals
+rainy neon alley, wet marble steps
+rainy neon alley, deep red curtains
+rainy neon alley, black bathtub water
+rainy neon alley, perfume mist
+rainy neon alley, rose vines on stone
+rainy neon alley, blue fire sconces
+rainy neon alley, gold leaf wall detail
+rainy neon alley, lace shadows on wall
+rainy neon alley, fog rolling along floor
+rooftop garden at night, black roses
+rooftop garden at night, shallow water
+rooftop garden at night, tall bookshelves
+rooftop garden at night, hanging chains
+rooftop garden at night, lace curtains
+rooftop garden at night, velvet bed canopy
+rooftop garden at night, red carpet aisle
+rooftop garden at night, perfume bottles
+rooftop garden at night, scattered rose petals
+rooftop garden at night, black silk sheets
+rooftop garden at night, silver serving tray
+rooftop garden at night, antique oil paintings
+rooftop garden at night, floating flower petals
+rooftop garden at night, wet marble steps
+rooftop garden at night, deep red curtains
+rooftop garden at night, black bathtub water
+rooftop garden at night, perfume mist
+rooftop garden at night, rose vines on stone
+rooftop garden at night, blue fire sconces
+rooftop garden at night, gold leaf wall detail
+rooftop garden at night, lace shadows on wall
+rooftop garden at night, fog rolling along floor
+ancient water temple, black roses
+ancient water temple, shallow water
+ancient water temple, tall bookshelves
+ancient water temple, hanging chains
+ancient water temple, lace curtains
+ancient water temple, velvet bed canopy
+ancient water temple, red carpet aisle
+ancient water temple, perfume bottles
+ancient water temple, scattered rose petals
+ancient water temple, black silk sheets
+ancient water temple, silver serving tray
+ancient water temple, antique oil paintings
+ancient water temple, floating flower petals
+ancient water temple, wet marble steps
+ancient water temple, deep red curtains
+ancient water temple, black bathtub water
+ancient water temple, perfume mist
+ancient water temple, rose vines on stone
+ancient water temple, blue fire sconces
+ancient water temple, gold leaf wall detail
+ancient water temple, lace shadows on wall
+ancient water temple, fog rolling along floor
+crystal palace corridor, black roses
+crystal palace corridor, shallow water
+crystal palace corridor, tall bookshelves
+crystal palace corridor, hanging chains
+crystal palace corridor, lace curtains
+crystal palace corridor, velvet bed canopy
+crystal palace corridor, red carpet aisle
+crystal palace corridor, perfume bottles
+crystal palace corridor, scattered rose petals
+crystal palace corridor, black silk sheets
+crystal palace corridor, silver serving tray
+crystal palace corridor, antique oil paintings
+crystal palace corridor, floating flower petals
+crystal palace corridor, wet marble steps
+crystal palace corridor, deep red curtains
+crystal palace corridor, black bathtub water
+crystal palace corridor, perfume mist
+crystal palace corridor, rose vines on stone
+crystal palace corridor, blue fire sconces
+crystal palace corridor, gold leaf wall detail
+crystal palace corridor, lace shadows on wall
+crystal palace corridor, fog rolling along floor
+ritual circle chamber, black roses
+ritual circle chamber, shallow water
+ritual circle chamber, tall bookshelves
+ritual circle chamber, hanging chains
+ritual circle chamber, lace curtains
+ritual circle chamber, velvet bed canopy
+ritual circle chamber, red carpet aisle
+ritual circle chamber, perfume bottles
+ritual circle chamber, scattered rose petals
+ritual circle chamber, black silk sheets
+ritual circle chamber, silver serving tray
+ritual circle chamber, antique oil paintings
+ritual circle chamber, floating flower petals
+ritual circle chamber, wet marble steps
+ritual circle chamber, black bathtub water
+ritual circle chamber, perfume mist
+ritual circle chamber, rose vines on stone
+ritual circle chamber, gold leaf wall detail
+ritual circle chamber, lace shadows on wall
+ritual circle chamber, fog rolling along floor
+opera theater stage, tall bookshelves
+opera theater stage, hanging chains
+opera theater stage, lace curtains
+opera theater stage, velvet bed canopy
+opera theater stage, perfume bottles
+opera theater stage, black silk sheets
+opera theater stage, silver serving tray
+opera theater stage, antique oil paintings
+opera theater stage, floating flower petals
+opera theater stage, wet marble steps
+opera theater stage, black bathtub water
+opera theater stage, perfume mist
+opera theater stage, rose vines on stone
+opera theater stage, gold leaf wall detail
+opera theater stage, lace shadows on wall
+opera theater stage, fog rolling along floor
+frozen mountain pass, tall bookshelves
+frozen mountain pass, hanging chains
+frozen mountain pass, lace curtains
+frozen mountain pass, velvet bed canopy
+frozen mountain pass, perfume bottles
+frozen mountain pass, black silk sheets
+frozen mountain pass, silver serving tray
+frozen mountain pass, antique oil paintings
+frozen mountain pass, floating flower petals
+frozen mountain pass, wet marble steps
+frozen mountain pass, black bathtub water
+frozen mountain pass, perfume mist
+frozen mountain pass, rose vines on stone
+frozen mountain pass, gold leaf wall detail
+frozen mountain pass, lace shadows on wall
+frozen mountain pass, fog rolling along floor
+obsidian throne hall, tall bookshelves
+obsidian throne hall, hanging chains
+obsidian throne hall, lace curtains
+obsidian throne hall, velvet bed canopy
+obsidian throne hall, perfume bottles
+obsidian throne hall, black silk sheets
+obsidian throne hall, silver serving tray
+obsidian throne hall, antique oil paintings
+obsidian throne hall, floating flower petals
+obsidian throne hall, wet marble steps
+obsidian throne hall, black bathtub water
+obsidian throne hall, perfume mist
+obsidian throne hall, rose vines on stone
+obsidian throne hall, gold leaf wall detail

@@ -1,0 +1,134 @@
+# Extra negatives.
+lowres
+worst quality
+low quality
+bad anatomy
+bad hands
+extra fingers
+missing fingers
+fused fingers
+deformed fingers
+extra arms
+missing arms
+extra legs
+merged legs
+duplicate character
+multiple girls
+background character
+text
+watermark
+logo
+signature
+jpeg artifacts
+blurry
+oversmoothed
+simple background
+flat lighting
+messy composition
+censored
+bar censor
+poorly drawn face
+asymmetrical face
+crossed eyes
+lazy eye
+bad eyes
+empty eyes
+extra face
+duplicate face
+bad teeth
+deformed mouth
+broken wrists
+extra hands
+missing hands
+mutated hands
+long neck
+broken neck
+twisted torso
+bad proportions
+bad perspective
+cropped head
+out of frame
+overexposed
+underexposed
+muddy colors
+flat colors
+plastic skin
+bad fabric
+messy background
+unreadable silhouette
+low detail face
+low detail eyes
+bad feet
+extra toes
+missing toes
+extra breasts
+merged body parts
+two heads
+bad composition
+overcrowded
+low contrast
+bad lighting
+artifact
+scan artifacts
+comic panel
+speech bubble
+username
+patreon logo
+twitter username
+watermark text
+bad collarbone
+bad shoulders
+bad thigh anatomy
+bad leg anatomy
+bad eye alignment
+messy teeth
+bad lips
+melted jewelry
+melted lace
+broken stocking pattern
+bad perspective hands
+unreadable face
+floating limbs
+detached sleeves fused to skin
+fabric fused to body
+bad reflection
+wrong mirror reflection
+duplicated hands in mirror
+extra fingers in reflection
+overly busy effects
+effects covering face
+glow hiding eyes
+bad crop at knees
+bad crop at feet
+missing shoes
+deformed shoes
+asymmetrical pupils
+bad iris detail
+over-sharpened
+noisy image
+color banding
+washed out colors
+bad upscaling artifacts
+tile seams
+watermark signature
+random letters
+bad background perspective
+duplicated props
+deformed weapon
+melted candles
+bad fabric folds
+bad hairline
+helmet hair
+missing eyebrows
+broken choker
+floating jewelry
+extra necklace
+wrong number of earrings
+messy lace pattern
+bad garter straps
+broken high heels
+extra shoe
+missing shoe
+bad stocking seam
+duplicate legs
+unclear silhouette

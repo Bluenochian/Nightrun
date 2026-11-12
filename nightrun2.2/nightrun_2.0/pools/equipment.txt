@@ -1,0 +1,561 @@
+# Equipment, props, tools, weapons, and carried objects.
+engraved revolver, worn grip
+crystal wand, silver handle
+rusty laser rifle, taped stock
+folded war fan, metal ribs
+black katana, red cord wrap
+medical injector, glowing vial
+brass spyglass, leather strap
+portable radio, cracked speaker
+holographic tablet, floating display
+ritual dagger, moon charm
+survival backpack, bedroll attached
+energy shield, hex pattern
+spellbook, metal clasp
+pilot helmet, reflective visor
+torch, smoking flame
+scavenged spear, wrapped handle
+orbital keycard, glowing stripe
+silver handcuffs, occult engraving
+engraved longsword, held naturally
+engraved longsword, visible at the hip
+engraved longsword, foreground prop
+engraved longsword, small glowing detail
+engraved longsword, worn material texture
+engraved longsword, world-appropriate design
+engraved longsword, cinematic prop focus
+silver rapier, held naturally
+silver rapier, visible at the hip
+silver rapier, foreground prop
+silver rapier, small glowing detail
+silver rapier, worn material texture
+silver rapier, world-appropriate design
+silver rapier, cinematic prop focus
+black katana, held naturally
+black katana, visible at the hip
+black katana, foreground prop
+black katana, small glowing detail
+black katana, worn material texture
+black katana, world-appropriate design
+rune staff, held naturally
+rune staff, visible at the hip
+rune staff, foreground prop
+rune staff, small glowing detail
+rune staff, worn material texture
+rune staff, world-appropriate design
+rune staff, cinematic prop focus
+crystal wand, held naturally
+crystal wand, visible at the hip
+crystal wand, foreground prop
+crystal wand, small glowing detail
+crystal wand, worn material texture
+crystal wand, world-appropriate design
+brass telescope, held naturally
+brass telescope, visible at the hip
+brass telescope, foreground prop
+brass telescope, small glowing detail
+brass telescope, worn material texture
+brass telescope, world-appropriate design
+brass telescope, cinematic prop focus
+arcane spellbook, held naturally
+arcane spellbook, visible at the hip
+arcane spellbook, foreground prop
+arcane spellbook, small glowing detail
+arcane spellbook, worn material texture
+arcane spellbook, world-appropriate design
+arcane spellbook, cinematic prop focus
+floating grimoire, held naturally
+floating grimoire, visible at the hip
+floating grimoire, foreground prop
+floating grimoire, small glowing detail
+floating grimoire, worn material texture
+floating grimoire, world-appropriate design
+floating grimoire, cinematic prop focus
+lantern staff, held naturally
+lantern staff, visible at the hip
+lantern staff, foreground prop
+lantern staff, small glowing detail
+lantern staff, worn material texture
+lantern staff, world-appropriate design
+lantern staff, cinematic prop focus
+ritual dagger, held naturally
+ritual dagger, visible at the hip
+ritual dagger, foreground prop
+ritual dagger, small glowing detail
+ritual dagger, worn material texture
+ritual dagger, world-appropriate design
+rose-handled pistol, held naturally
+rose-handled pistol, visible at the hip
+rose-handled pistol, foreground prop
+rose-handled pistol, small glowing detail
+rose-handled pistol, worn material texture
+rose-handled pistol, world-appropriate design
+rose-handled pistol, cinematic prop focus
+antique revolver, held naturally
+antique revolver, visible at the hip
+antique revolver, foreground prop
+antique revolver, small glowing detail
+antique revolver, worn material texture
+antique revolver, world-appropriate design
+antique revolver, cinematic prop focus
+scrap metal rifle, held naturally
+scrap metal rifle, visible at the hip
+scrap metal rifle, foreground prop
+scrap metal rifle, small glowing detail
+scrap metal rifle, worn material texture
+scrap metal rifle, world-appropriate design
+scrap metal rifle, cinematic prop focus
+compact blaster, held naturally
+compact blaster, visible at the hip
+compact blaster, foreground prop
+compact blaster, small glowing detail
+compact blaster, worn material texture
+compact blaster, world-appropriate design
+compact blaster, cinematic prop focus
+laser pistol, held naturally
+laser pistol, visible at the hip
+laser pistol, foreground prop
+laser pistol, small glowing detail
+laser pistol, worn material texture
+laser pistol, world-appropriate design
+laser pistol, cinematic prop focus
+plasma cutter, held naturally
+plasma cutter, visible at the hip
+plasma cutter, foreground prop
+plasma cutter, small glowing detail
+plasma cutter, worn material texture
+plasma cutter, world-appropriate design
+plasma cutter, cinematic prop focus
+energy saber, held naturally
+energy saber, visible at the hip
+energy saber, foreground prop
+energy saber, small glowing detail
+energy saber, worn material texture
+energy saber, world-appropriate design
+energy saber, cinematic prop focus
+hologram projector, held naturally
+hologram projector, visible at the hip
+hologram projector, foreground prop
+hologram projector, small glowing detail
+hologram projector, worn material texture
+hologram projector, world-appropriate design
+hologram projector, cinematic prop focus
+star map device, held naturally
+star map device, visible at the hip
+star map device, foreground prop
+star map device, small glowing detail
+star map device, worn material texture
+star map device, world-appropriate design
+star map device, cinematic prop focus
+cyberdeck, held naturally
+cyberdeck, visible at the hip
+cyberdeck, foreground prop
+cyberdeck, small glowing detail
+cyberdeck, worn material texture
+cyberdeck, world-appropriate design
+cyberdeck, cinematic prop focus
+data shard, held naturally
+data shard, visible at the hip
+data shard, foreground prop
+data shard, small glowing detail
+data shard, worn material texture
+data shard, world-appropriate design
+data shard, cinematic prop focus
+mechanical halo, held naturally
+mechanical halo, visible at the hip
+mechanical halo, foreground prop
+mechanical halo, small glowing detail
+mechanical halo, worn material texture
+mechanical halo, world-appropriate design
+mechanical halo, cinematic prop focus
+drone companion, held naturally
+drone companion, visible at the hip
+drone companion, foreground prop
+drone companion, small glowing detail
+drone companion, worn material texture
+drone companion, world-appropriate design
+drone companion, cinematic prop focus
+gas mask, held naturally
+gas mask, visible at the hip
+gas mask, foreground prop
+gas mask, small glowing detail
+gas mask, worn material texture
+gas mask, world-appropriate design
+gas mask, cinematic prop focus
+radiation meter, held naturally
+radiation meter, visible at the hip
+radiation meter, foreground prop
+radiation meter, small glowing detail
+radiation meter, worn material texture
+radiation meter, world-appropriate design
+radiation meter, cinematic prop focus
+survival backpack, held naturally
+survival backpack, visible at the hip
+survival backpack, foreground prop
+survival backpack, small glowing detail
+survival backpack, worn material texture
+survival backpack, world-appropriate design
+medical injector, held naturally
+medical injector, visible at the hip
+medical injector, foreground prop
+medical injector, small glowing detail
+medical injector, worn material texture
+medical injector, world-appropriate design
+tool belt, held naturally
+tool belt, visible at the hip
+tool belt, foreground prop
+tool belt, small glowing detail
+tool belt, worn material texture
+tool belt, world-appropriate design
+tool belt, cinematic prop focus
+grappling hook, held naturally
+grappling hook, visible at the hip
+grappling hook, foreground prop
+grappling hook, small glowing detail
+grappling hook, worn material texture
+grappling hook, world-appropriate design
+grappling hook, cinematic prop focus
+lockpick kit, held naturally
+lockpick kit, visible at the hip
+lockpick kit, foreground prop
+lockpick kit, small glowing detail
+lockpick kit, worn material texture
+lockpick kit, world-appropriate design
+lockpick kit, cinematic prop focus
+potion vial belt, held naturally
+potion vial belt, visible at the hip
+potion vial belt, foreground prop
+potion vial belt, small glowing detail
+potion vial belt, worn material texture
+potion vial belt, world-appropriate design
+potion vial belt, cinematic prop focus
+alchemist flask, held naturally
+alchemist flask, visible at the hip
+alchemist flask, foreground prop
+alchemist flask, small glowing detail
+alchemist flask, worn material texture
+alchemist flask, world-appropriate design
+alchemist flask, cinematic prop focus
+divination orb, held naturally
+divination orb, visible at the hip
+divination orb, foreground prop
+divination orb, small glowing detail
+divination orb, worn material texture
+divination orb, world-appropriate design
+divination orb, cinematic prop focus
+tarot deck, held naturally
+tarot deck, visible at the hip
+tarot deck, foreground prop
+tarot deck, small glowing detail
+tarot deck, worn material texture
+tarot deck, world-appropriate design
+tarot deck, cinematic prop focus
+silver mirror, held naturally
+silver mirror, visible at the hip
+silver mirror, foreground prop
+silver mirror, small glowing detail
+silver mirror, worn material texture
+silver mirror, world-appropriate design
+silver mirror, cinematic prop focus
+black parasol, held naturally
+black parasol, visible at the hip
+black parasol, foreground prop
+black parasol, small glowing detail
+black parasol, worn material texture
+black parasol, world-appropriate design
+black parasol, cinematic prop focus
+lace fan, held naturally
+lace fan, visible at the hip
+lace fan, foreground prop
+lace fan, small glowing detail
+lace fan, worn material texture
+lace fan, world-appropriate design
+lace fan, cinematic prop focus
+candle holder, held naturally
+candle holder, visible at the hip
+candle holder, foreground prop
+candle holder, small glowing detail
+candle holder, worn material texture
+candle holder, world-appropriate design
+candle holder, cinematic prop focus
+chalice, held naturally
+chalice, visible at the hip
+chalice, foreground prop
+chalice, small glowing detail
+chalice, worn material texture
+chalice, world-appropriate design
+chalice, cinematic prop focus
+ornate key ring, held naturally
+ornate key ring, visible at the hip
+ornate key ring, foreground prop
+ornate key ring, small glowing detail
+ornate key ring, worn material texture
+ornate key ring, world-appropriate design
+ornate key ring, cinematic prop focus
+golden pocket watch, held naturally
+golden pocket watch, visible at the hip
+golden pocket watch, foreground prop
+golden pocket watch, small glowing detail
+golden pocket watch, worn material texture
+golden pocket watch, world-appropriate design
+golden pocket watch, cinematic prop focus
+compass, held naturally
+compass, visible at the hip
+compass, foreground prop
+compass, small glowing detail
+compass, worn material texture
+compass, world-appropriate design
+compass, cinematic prop focus
+ancient map scroll, held naturally
+ancient map scroll, visible at the hip
+ancient map scroll, foreground prop
+ancient map scroll, small glowing detail
+ancient map scroll, worn material texture
+ancient map scroll, world-appropriate design
+ancient map scroll, cinematic prop focus
+monster hunter crossbow, held naturally
+monster hunter crossbow, visible at the hip
+monster hunter crossbow, foreground prop
+monster hunter crossbow, small glowing detail
+monster hunter crossbow, worn material texture
+monster hunter crossbow, world-appropriate design
+monster hunter crossbow, cinematic prop focus
+bow and quiver, held naturally
+bow and quiver, visible at the hip
+bow and quiver, foreground prop
+bow and quiver, small glowing detail
+bow and quiver, worn material texture
+bow and quiver, world-appropriate design
+bow and quiver, cinematic prop focus
+shield, held naturally
+shield, visible at the hip
+shield, foreground prop
+shield, small glowing detail
+shield, worn material texture
+shield, world-appropriate design
+shield, cinematic prop focus
+spear, held naturally
+spear, visible at the hip
+spear, foreground prop
+spear, small glowing detail
+spear, worn material texture
+spear, world-appropriate design
+spear, cinematic prop focus
+battle axe, held naturally
+battle axe, visible at the hip
+battle axe, foreground prop
+battle axe, small glowing detail
+battle axe, worn material texture
+battle axe, world-appropriate design
+battle axe, cinematic prop focus
+war hammer, held naturally
+war hammer, visible at the hip
+war hammer, foreground prop
+war hammer, small glowing detail
+war hammer, worn material texture
+war hammer, world-appropriate design
+war hammer, cinematic prop focus
+scythe, held naturally
+scythe, visible at the hip
+scythe, foreground prop
+scythe, small glowing detail
+scythe, worn material texture
+scythe, world-appropriate design
+scythe, cinematic prop focus
+chain whip, held naturally
+chain whip, visible at the hip
+chain whip, foreground prop
+chain whip, small glowing detail
+chain whip, worn material texture
+chain whip, world-appropriate design
+chain whip, cinematic prop focus
+throwing knives, held naturally
+throwing knives, visible at the hip
+throwing knives, foreground prop
+throwing knives, small glowing detail
+throwing knives, worn material texture
+throwing knives, world-appropriate design
+throwing knives, cinematic prop focus
+holy symbol, held naturally
+holy symbol, visible at the hip
+holy symbol, foreground prop
+holy symbol, small glowing detail
+holy symbol, worn material texture
+holy symbol, world-appropriate design
+holy symbol, cinematic prop focus
+sigil notebook, held naturally
+sigil notebook, visible at the hip
+sigil notebook, foreground prop
+sigil notebook, small glowing detail
+sigil notebook, worn material texture
+sigil notebook, world-appropriate design
+sigil notebook, cinematic prop focus
+EMF meter, held naturally
+EMF meter, visible at the hip
+EMF meter, foreground prop
+EMF meter, small glowing detail
+EMF meter, worn material texture
+EMF meter, world-appropriate design
+EMF meter, cinematic prop focus
+flashlight, held naturally
+flashlight, visible at the hip
+flashlight, foreground prop
+flashlight, small glowing detail
+flashlight, worn material texture
+flashlight, world-appropriate design
+flashlight, cinematic prop focus
+satchel of herbs, held naturally
+satchel of herbs, visible at the hip
+satchel of herbs, foreground prop
+satchel of herbs, small glowing detail
+satchel of herbs, worn material texture
+satchel of herbs, world-appropriate design
+satchel of herbs, cinematic prop focus
+crystal crown, held naturally
+crystal crown, visible at the hip
+crystal crown, foreground prop
+crystal crown, small glowing detail
+crystal crown, worn material texture
+crystal crown, world-appropriate design
+crystal crown, cinematic prop focus
+gem pendant, held naturally
+gem pendant, visible at the hip
+gem pendant, foreground prop
+gem pendant, small glowing detail
+gem pendant, worn material texture
+gem pendant, world-appropriate design
+gem pendant, cinematic prop focus
+skull lantern, held naturally
+skull lantern, visible at the hip
+skull lantern, foreground prop
+skull lantern, small glowing detail
+skull lantern, worn material texture
+skull lantern, world-appropriate design
+skull lantern, cinematic prop focus
+music box, held naturally
+music box, visible at the hip
+music box, foreground prop
+music box, small glowing detail
+music box, worn material texture
+music box, world-appropriate design
+music box, cinematic prop focus
+violin, held naturally
+violin, visible at the hip
+violin, foreground prop
+violin, small glowing detail
+violin, worn material texture
+violin, world-appropriate design
+violin, cinematic prop focus
+microphone, held naturally
+microphone, visible at the hip
+microphone, foreground prop
+microphone, small glowing detail
+microphone, worn material texture
+microphone, world-appropriate design
+microphone, cinematic prop focus
+camera, held naturally
+camera, visible at the hip
+camera, foreground prop
+camera, small glowing detail
+camera, worn material texture
+camera, world-appropriate design
+camera, cinematic prop focus
+field radio, held naturally
+field radio, visible at the hip
+field radio, foreground prop
+field radio, small glowing detail
+field radio, worn material texture
+field radio, world-appropriate design
+field radio, cinematic prop focus
+binoculars, held naturally
+binoculars, visible at the hip
+binoculars, foreground prop
+binoculars, small glowing detail
+binoculars, worn material texture
+binoculars, world-appropriate design
+binoculars, cinematic prop focus
+utility gloves, held naturally
+utility gloves, visible at the hip
+utility gloves, foreground prop
+utility gloves, small glowing detail
+utility gloves, worn material texture
+utility gloves, world-appropriate design
+utility gloves, cinematic prop focus
+armored gauntlet, held naturally
+armored gauntlet, visible at the hip
+armored gauntlet, foreground prop
+armored gauntlet, small glowing detail
+armored gauntlet, worn material texture
+armored gauntlet, world-appropriate design
+armored gauntlet, cinematic prop focus
+thigh holster, held naturally
+thigh holster, visible at the hip
+thigh holster, foreground prop
+thigh holster, small glowing detail
+thigh holster, worn material texture
+thigh holster, world-appropriate design
+thigh holster, cinematic prop focus
+shoulder holster, held naturally
+shoulder holster, visible at the hip
+shoulder holster, foreground prop
+shoulder holster, small glowing detail
+shoulder holster, worn material texture
+shoulder holster, world-appropriate design
+shoulder holster, cinematic prop focus
+tool drone, held naturally
+tool drone, visible at the hip
+tool drone, foreground prop
+tool drone, small glowing detail
+tool drone, worn material texture
+tool drone, world-appropriate design
+tool drone, cinematic prop focus
+portable terminal, held naturally
+portable terminal, visible at the hip
+portable terminal, foreground prop
+portable terminal, small glowing detail
+portable terminal, worn material texture
+portable terminal, world-appropriate design
+portable terminal, cinematic prop focus
+oxygen mask, held naturally
+oxygen mask, visible at the hip
+oxygen mask, foreground prop
+oxygen mask, small glowing detail
+oxygen mask, worn material texture
+oxygen mask, world-appropriate design
+oxygen mask, cinematic prop focus
+space helmet, held naturally
+space helmet, visible at the hip
+space helmet, foreground prop
+space helmet, small glowing detail
+space helmet, worn material texture
+space helmet, world-appropriate design
+space helmet, cinematic prop focus
+pilot helmet, held naturally
+pilot helmet, visible at the hip
+pilot helmet, foreground prop
+pilot helmet, small glowing detail
+pilot helmet, worn material texture
+pilot helmet, world-appropriate design
+black feather fan, held naturally
+black feather fan, visible at the hip
+black feather fan, foreground prop
+black feather fan, small glowing detail
+black feather fan, worn material texture
+black feather fan, world-appropriate design
+black feather fan, cinematic prop focus
+broom handle, held naturally
+broom handle, visible at the hip
+broom handle, foreground prop
+broom handle, small glowing detail
+broom handle, worn material texture
+broom handle, world-appropriate design
+broom handle, cinematic prop focus
+enchanted quill, held naturally
+enchanted quill, visible at the hip
+enchanted quill, foreground prop
+enchanted quill, small glowing detail
+enchanted quill, worn material texture
+enchanted quill, world-appropriate design
+enchanted quill, cinematic prop focus
+hourglass pendant, held naturally
+hourglass pendant, visible at the hip

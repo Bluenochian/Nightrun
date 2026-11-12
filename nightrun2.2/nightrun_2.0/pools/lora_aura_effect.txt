@@ -1,0 +1,16 @@
+# Exact local aura/light/effect LoRA stems.
+angel_wings_v10-09
+Aura_Phantasy_illu
+Aura_r1
+Aura-000010
+Dramatic Lighting Slider
+E7BBAAE584BF20E58589E5BDB1.VW0d
+glowing_and_light_particles_sdxl-000010
+Glowing_Spot_Color_-_Illustrious
+holographiccolor-000009
+landing_wings
+laser_light_clothes_v0.5-pony
+NeonGlowILL
+w1ngsXLP
+wings-000020
+WingsOfValoriaIL-000019

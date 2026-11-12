@@ -1,0 +1,241 @@
+# Camera/framing descriptors.
+portrait close-up
+cowboy shot
+full body shot
+three-quarter view
+low angle view
+high angle view
+over-the-shoulder framing
+wide cinematic shot
+centered key visual
+asymmetrical framing
+dynamic diagonal composition
+intimate waist-up shot
+environmental portrait
+dramatic silhouette shot
+close-up portrait, sharp eyes
+close-up portrait, clean silhouette
+close-up portrait, shallow depth of field
+close-up portrait, background depth
+upper body portrait, sharp eyes
+upper body portrait, clean silhouette
+upper body portrait, shallow depth of field
+upper body portrait, background depth
+waist-up composition, sharp eyes
+waist-up composition, clean silhouette
+waist-up composition, shallow depth of field
+waist-up composition, background depth
+medium shot, sharp eyes
+medium shot, clean silhouette
+medium shot, shallow depth of field
+medium shot, background depth
+wide environmental portrait, sharp eyes
+wide environmental portrait, clean silhouette
+wide environmental portrait, shallow depth of field
+wide environmental portrait, background depth
+full-body horizontal key visual, sharp eyes
+full-body horizontal key visual, clean silhouette
+full-body horizontal key visual, shallow depth of field
+full-body horizontal key visual, background depth
+full-body vertical poster, sharp eyes
+full-body vertical poster, clean silhouette
+full-body vertical poster, shallow depth of field
+full-body vertical poster, background depth
+three-quarter view, sharp eyes
+three-quarter view, clean silhouette
+three-quarter view, shallow depth of field
+centered poster composition, sharp eyes
+centered poster composition, clean silhouette
+centered poster composition, shallow depth of field
+centered poster composition, background depth
+low angle hero shot, sharp eyes
+low angle hero shot, clean silhouette
+low angle hero shot, shallow depth of field
+low angle hero shot, background depth
+eye-level portrait, sharp eyes
+eye-level portrait, clean silhouette
+eye-level portrait, shallow depth of field
+eye-level portrait, background depth
+high angle glamour shot, sharp eyes
+high angle glamour shot, clean silhouette
+high angle glamour shot, shallow depth of field
+high angle glamour shot, background depth
+over-the-shoulder framing, sharp eyes
+over-the-shoulder framing, clean silhouette
+over-the-shoulder framing, shallow depth of field
+mirror reflection framing, sharp eyes
+mirror reflection framing, clean silhouette
+mirror reflection framing, shallow depth of field
+mirror reflection framing, background depth
+floor-level perspective, sharp eyes
+floor-level perspective, clean silhouette
+floor-level perspective, shallow depth of field
+floor-level perspective, background depth
+profile view, sharp eyes
+profile view, clean silhouette
+profile view, shallow depth of field
+profile view, background depth
+dynamic diagonal framing, sharp eyes
+dynamic diagonal framing, clean silhouette
+dynamic diagonal framing, shallow depth of field
+dynamic diagonal framing, background depth
+front-facing fashion shot, sharp eyes
+front-facing fashion shot, clean silhouette
+front-facing fashion shot, shallow depth of field
+front-facing fashion shot, background depth
+cinematic close shot, sharp eyes
+cinematic close shot, clean silhouette
+cinematic close shot, shallow depth of field
+cinematic close shot, background depth
+long shot with environment, sharp eyes
+long shot with environment, clean silhouette
+long shot with environment, shallow depth of field
+long shot with environment, background depth
+close-up portrait, dramatic perspective
+close-up portrait, balanced composition
+close-up portrait, face as focal point
+close-up portrait, outfit readable
+close-up portrait, environment readable
+close-up portrait, premium artbook framing
+close-up portrait, hands visible
+close-up portrait, leg pose readable
+close-up portrait, clear collarbone framing
+close-up portrait, strong foreground layer
+close-up portrait, clean crop
+close-up portrait, poster crop
+upper body portrait, dramatic perspective
+upper body portrait, balanced composition
+upper body portrait, face as focal point
+upper body portrait, outfit readable
+upper body portrait, environment readable
+upper body portrait, premium artbook framing
+upper body portrait, hands visible
+upper body portrait, leg pose readable
+upper body portrait, clear collarbone framing
+upper body portrait, strong foreground layer
+upper body portrait, clean crop
+upper body portrait, poster crop
+waist-up composition, dramatic perspective
+waist-up composition, balanced composition
+waist-up composition, face as focal point
+waist-up composition, outfit readable
+waist-up composition, environment readable
+waist-up composition, premium artbook framing
+waist-up composition, hands visible
+waist-up composition, leg pose readable
+waist-up composition, clear collarbone framing
+waist-up composition, strong foreground layer
+waist-up composition, clean crop
+waist-up composition, poster crop
+medium shot, dramatic perspective
+medium shot, balanced composition
+medium shot, face as focal point
+medium shot, outfit readable
+medium shot, environment readable
+medium shot, premium artbook framing
+medium shot, hands visible
+medium shot, leg pose readable
+medium shot, clear collarbone framing
+medium shot, strong foreground layer
+medium shot, clean crop
+medium shot, poster crop
+wide environmental portrait, dramatic perspective
+wide environmental portrait, balanced composition
+wide environmental portrait, face as focal point
+wide environmental portrait, outfit readable
+wide environmental portrait, environment readable
+wide environmental portrait, premium artbook framing
+wide environmental portrait, hands visible
+wide environmental portrait, leg pose readable
+wide environmental portrait, clear collarbone framing
+wide environmental portrait, strong foreground layer
+wide environmental portrait, clean crop
+wide environmental portrait, poster crop
+full-body horizontal key visual, dramatic perspective
+full-body horizontal key visual, balanced composition
+full-body horizontal key visual, face as focal point
+full-body horizontal key visual, outfit readable
+full-body horizontal key visual, environment readable
+full-body horizontal key visual, premium artbook framing
+full-body horizontal key visual, hands visible
+full-body horizontal key visual, leg pose readable
+full-body horizontal key visual, clear collarbone framing
+full-body horizontal key visual, strong foreground layer
+full-body horizontal key visual, clean crop
+full-body horizontal key visual, poster crop
+full-body vertical poster, dramatic perspective
+full-body vertical poster, balanced composition
+full-body vertical poster, face as focal point
+full-body vertical poster, outfit readable
+full-body vertical poster, environment readable
+full-body vertical poster, premium artbook framing
+full-body vertical poster, hands visible
+full-body vertical poster, leg pose readable
+full-body vertical poster, clear collarbone framing
+full-body vertical poster, strong foreground layer
+full-body vertical poster, clean crop
+full-body vertical poster, poster crop
+three-quarter view, background depth
+three-quarter view, dramatic perspective
+three-quarter view, balanced composition
+three-quarter view, face as focal point
+three-quarter view, outfit readable
+three-quarter view, environment readable
+three-quarter view, premium artbook framing
+three-quarter view, hands visible
+three-quarter view, leg pose readable
+three-quarter view, clear collarbone framing
+three-quarter view, strong foreground layer
+three-quarter view, clean crop
+three-quarter view, poster crop
+centered poster composition, dramatic perspective
+centered poster composition, balanced composition
+centered poster composition, face as focal point
+centered poster composition, outfit readable
+centered poster composition, environment readable
+centered poster composition, premium artbook framing
+centered poster composition, hands visible
+centered poster composition, leg pose readable
+centered poster composition, clear collarbone framing
+centered poster composition, strong foreground layer
+centered poster composition, clean crop
+centered poster composition, poster crop
+low angle hero shot, dramatic perspective
+low angle hero shot, balanced composition
+low angle hero shot, face as focal point
+low angle hero shot, outfit readable
+low angle hero shot, environment readable
+low angle hero shot, premium artbook framing
+low angle hero shot, hands visible
+low angle hero shot, leg pose readable
+low angle hero shot, clear collarbone framing
+low angle hero shot, strong foreground layer
+low angle hero shot, clean crop
+low angle hero shot, poster crop
+eye-level portrait, dramatic perspective
+eye-level portrait, balanced composition
+eye-level portrait, face as focal point
+eye-level portrait, outfit readable
+eye-level portrait, environment readable
+eye-level portrait, premium artbook framing
+eye-level portrait, hands visible
+eye-level portrait, leg pose readable
+eye-level portrait, clear collarbone framing
+eye-level portrait, strong foreground layer
+eye-level portrait, clean crop
+eye-level portrait, poster crop
+high angle glamour shot, dramatic perspective
+high angle glamour shot, balanced composition
+high angle glamour shot, face as focal point
+high angle glamour shot, outfit readable
+high angle glamour shot, environment readable
+high angle glamour shot, premium artbook framing
+high angle glamour shot, hands visible
+high angle glamour shot, leg pose readable
+high angle glamour shot, clear collarbone framing
+high angle glamour shot, strong foreground layer
+high angle glamour shot, clean crop
+high angle glamour shot, poster crop
+over-the-shoulder framing, background depth
+over-the-shoulder framing, dramatic perspective
+over-the-shoulder framing, balanced composition

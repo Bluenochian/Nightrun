@@ -1,0 +1,69 @@
+# Short classical/base genre tags.
+fantasy
+sci-fi
+horror
+mystery
+thriller
+noir
+western
+adventure
+romance
+drama
+gothic
+supernatural
+mythological
+historical fantasy
+dark fantasy
+high fantasy
+low fantasy
+urban fantasy
+medieval fantasy
+sword and sorcery
+portal fantasy
+fairy tale
+magical realism
+grimdark
+noblebright
+occult
+folk horror
+cosmic horror
+survival horror
+body horror
+psychological horror
+retro horror
+gothic horror
+gothic romance
+monster hunter
+monster romance
+post-apocalyptic
+dystopian
+utopian
+cyberpunk
+steampunk
+dieselpunk
+solarpunk
+biopunk
+nanopunk
+atompunk
+retrofuturism
+space opera
+space western
+space horror
+military sci-fi
+planetary romance
+frontier sci-fi
+mecha
+kaiju
+superhero
+spy-fi
+tech noir
+weird west
+wuxia
+xianxia
+lost world
+ancient civilization
+alternate history
+dreamcore
+weirdcore
+liminal horror
+dark academia

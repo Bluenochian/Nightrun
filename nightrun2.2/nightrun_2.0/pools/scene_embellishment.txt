@@ -1,0 +1,361 @@
+# Scene embellishment tags.
+foreground candles, cinematic depth
+foreground candles, uncluttered detail
+foreground candles, clean subject separation
+foreground candles, premium splash art staging
+wet floor reflections, cinematic depth
+wet floor reflections, uncluttered detail
+wet floor reflections, clean subject separation
+wet floor reflections, premium splash art staging
+drifting dust motes, cinematic depth
+drifting dust motes, uncluttered detail
+drifting dust motes, clean subject separation
+drifting dust motes, premium splash art staging
+floating petals, cinematic depth
+floating petals, uncluttered detail
+floating petals, clean subject separation
+floating petals, premium splash art staging
+ornate background architecture, cinematic depth
+ornate background architecture, uncluttered detail
+ornate background architecture, clean subject separation
+ornate background architecture, premium splash art staging
+deep background archways, cinematic depth
+deep background archways, uncluttered detail
+deep background archways, clean subject separation
+deep background archways, premium splash art staging
+small glowing particles, cinematic depth
+small glowing particles, uncluttered detail
+small glowing particles, clean subject separation
+small glowing particles, premium splash art staging
+rim light on hair, cinematic depth
+rim light on hair, uncluttered detail
+rim light on hair, clean subject separation
+rim light on hair, premium splash art staging
+subtle mist, cinematic depth
+subtle mist, uncluttered detail
+subtle mist, clean subject separation
+subtle mist, premium splash art staging
+shallow reflective water, cinematic depth
+shallow reflective water, uncluttered detail
+shallow reflective water, clean subject separation
+shallow reflective water, premium splash art staging
+backlit stained glass, cinematic depth
+backlit stained glass, uncluttered detail
+backlit stained glass, clean subject separation
+backlit stained glass, premium splash art staging
+moonlight through tall windows, cinematic depth
+moonlight through tall windows, uncluttered detail
+moonlight through tall windows, clean subject separation
+moonlight through tall windows, premium splash art staging
+gold filigree details, cinematic depth
+gold filigree details, uncluttered detail
+gold filigree details, clean subject separation
+gold filigree details, premium splash art staging
+red velvet fabric accents, cinematic depth
+red velvet fabric accents, uncluttered detail
+red velvet fabric accents, clean subject separation
+red velvet fabric accents, premium splash art staging
+black marble floor, cinematic depth
+black marble floor, uncluttered detail
+black marble floor, clean subject separation
+black marble floor, premium splash art staging
+silver fog, cinematic depth
+silver fog, uncluttered detail
+silver fog, clean subject separation
+silver fog, premium splash art staging
+floating books, cinematic depth
+floating books, uncluttered detail
+floating books, clean subject separation
+floating books, premium splash art staging
+arcane circles, cinematic depth
+arcane circles, clean subject separation
+arcane circles, premium splash art staging
+arcane circles, clear face focus
+wind-swept ribbons, cinematic depth
+wind-swept ribbons, clean subject separation
+wind-swept ribbons, premium splash art staging
+wind-swept ribbons, clear face focus
+soft smoke trails, cinematic depth
+soft smoke trails, clean subject separation
+soft smoke trails, premium splash art staging
+soft smoke trails, clear face focus
+dark roses, cinematic depth
+dark roses, clean subject separation
+dark roses, premium splash art staging
+dark roses, clear face focus
+glowing runes, cinematic depth
+glowing runes, clean subject separation
+glowing runes, premium splash art staging
+glowing runes, clear face focus
+distant city lights, cinematic depth
+distant city lights, clean subject separation
+distant city lights, premium splash art staging
+distant city lights, clear face focus
+clouds crossing the moon, cinematic depth
+clouds crossing the moon, clean subject separation
+clouds crossing the moon, premium splash art staging
+clouds crossing the moon, clear face focus
+thin hanging chains, cinematic depth
+thin hanging chains, clean subject separation
+thin hanging chains, premium splash art staging
+thin hanging chains, clear face focus
+polished metal highlights, cinematic depth
+polished metal highlights, clean subject separation
+polished metal highlights, premium splash art staging
+polished metal highlights, clear face focus
+embers rising, cinematic depth
+embers rising, clean subject separation
+embers rising, premium splash art staging
+embers rising, clear face focus
+snow particles, cinematic depth
+snow particles, clean subject separation
+snow particles, premium splash art staging
+snow particles, clear face focus
+small jewelry highlights, cinematic depth
+small jewelry highlights, clean subject separation
+small jewelry highlights, premium splash art staging
+small jewelry highlights, clear face focus
+lace texture, cinematic depth
+lace texture, clean subject separation
+lace texture, premium splash art staging
+lace texture, clear face focus
+controlled fabric folds, cinematic depth
+controlled fabric folds, clean subject separation
+controlled fabric folds, premium splash art staging
+controlled fabric folds, clear face focus
+background props arranged deliberately, cinematic depth
+background props arranged deliberately, clean subject separation
+background props arranged deliberately, premium splash art staging
+background props arranged deliberately, clear face focus
+foreground flowers, cinematic depth
+foreground flowers, clean subject separation
+foreground flowers, premium splash art staging
+foreground flowers, clear face focus
+small magical objects, cinematic depth
+small magical objects, clean subject separation
+small magical objects, premium splash art staging
+small magical objects, clear face focus
+soft halo glow, cinematic depth
+soft halo glow, clean subject separation
+soft halo glow, premium splash art staging
+soft halo glow, clear face focus
+fabric folds in foreground, cinematic depth
+fabric folds in foreground, clean subject separation
+fabric folds in foreground, premium splash art staging
+fabric folds in foreground, clear face focus
+curtain edge foreground, cinematic depth
+curtain edge foreground, clean subject separation
+curtain edge foreground, premium splash art staging
+curtain edge foreground, clear face focus
+floating tarot cards, cinematic depth
+floating tarot cards, clean subject separation
+floating tarot cards, premium splash art staging
+floating tarot cards, clear face focus
+sparkling necklace highlights, cinematic depth
+sparkling necklace highlights, clean subject separation
+sparkling necklace highlights, premium splash art staging
+sparkling necklace highlights, clear face focus
+glowing water ripples, cinematic depth
+glowing water ripples, clean subject separation
+glowing water ripples, premium splash art staging
+glowing water ripples, clear face focus
+crystal dust in air, cinematic depth
+crystal dust in air, clean subject separation
+crystal dust in air, premium splash art staging
+crystal dust in air, clear face focus
+rose petals near lens, cinematic depth
+rose petals near lens, clean subject separation
+rose petals near lens, premium splash art staging
+rose petals near lens, clear face focus
+black feathers drifting, cinematic depth
+black feathers drifting, clean subject separation
+black feathers drifting, premium splash art staging
+black feathers drifting, clear face focus
+soft window haze, cinematic depth
+soft window haze, clean subject separation
+soft window haze, premium splash art staging
+soft window haze, clear face focus
+gold ornament bokeh, cinematic depth
+gold ornament bokeh, clean subject separation
+gold ornament bokeh, premium splash art staging
+gold ornament bokeh, clear face focus
+lace shadow across wall, cinematic depth
+lace shadow across wall, clean subject separation
+lace shadow across wall, premium splash art staging
+lace shadow across wall, clear face focus
+thin fog around feet, cinematic depth
+thin fog around feet, clean subject separation
+thin fog around feet, premium splash art staging
+thin fog around feet, clear face focus
+background candles receding, cinematic depth
+background candles receding, clean subject separation
+moon halo through clouds, cinematic depth
+moon halo through clouds, clean subject separation
+moon halo through clouds, premium splash art staging
+moon halo through clouds, clear face focus
+silver chains in foreground, cinematic depth
+silver chains in foreground, clean subject separation
+silver chains in foreground, premium splash art staging
+silver chains in foreground, clear face focus
+glowing butterflies behind head, cinematic depth
+glowing butterflies behind head, clean subject separation
+glowing butterflies behind head, premium splash art staging
+glowing butterflies behind head, clear face focus
+jewel light scatter, cinematic depth
+jewel light scatter, clean subject separation
+jewel light scatter, premium splash art staging
+jewel light scatter, clear face focus
+foreground candles, clear face focus
+foreground candles, readable silhouette
+foreground candles, balanced detail
+foreground candles, elegant framing
+foreground candles, foreground-midground-background layers
+foreground candles, details support the subject
+foreground candles, clean negative space
+foreground candles, rich but readable environment
+foreground candles, face remains dominant
+foreground candles, outfit remains readable
+foreground candles, effects stay behind subject
+foreground candles, high depth contrast
+wet floor reflections, clear face focus
+wet floor reflections, readable silhouette
+wet floor reflections, balanced detail
+wet floor reflections, elegant framing
+wet floor reflections, foreground-midground-background layers
+wet floor reflections, details support the subject
+wet floor reflections, clean negative space
+wet floor reflections, rich but readable environment
+wet floor reflections, face remains dominant
+wet floor reflections, outfit remains readable
+wet floor reflections, effects stay behind subject
+wet floor reflections, high depth contrast
+drifting dust motes, clear face focus
+drifting dust motes, readable silhouette
+drifting dust motes, balanced detail
+drifting dust motes, elegant framing
+drifting dust motes, foreground-midground-background layers
+drifting dust motes, details support the subject
+drifting dust motes, clean negative space
+drifting dust motes, rich but readable environment
+drifting dust motes, face remains dominant
+drifting dust motes, outfit remains readable
+drifting dust motes, effects stay behind subject
+drifting dust motes, high depth contrast
+floating petals, clear face focus
+floating petals, readable silhouette
+floating petals, balanced detail
+floating petals, elegant framing
+floating petals, foreground-midground-background layers
+floating petals, details support the subject
+floating petals, clean negative space
+floating petals, rich but readable environment
+floating petals, face remains dominant
+floating petals, outfit remains readable
+floating petals, effects stay behind subject
+floating petals, high depth contrast
+ornate background architecture, clear face focus
+ornate background architecture, readable silhouette
+ornate background architecture, balanced detail
+ornate background architecture, elegant framing
+ornate background architecture, foreground-midground-background layers
+ornate background architecture, details support the subject
+ornate background architecture, clean negative space
+ornate background architecture, rich but readable environment
+ornate background architecture, face remains dominant
+ornate background architecture, outfit remains readable
+ornate background architecture, effects stay behind subject
+ornate background architecture, high depth contrast
+deep background archways, clear face focus
+deep background archways, readable silhouette
+deep background archways, balanced detail
+deep background archways, elegant framing
+deep background archways, foreground-midground-background layers
+deep background archways, details support the subject
+deep background archways, clean negative space
+deep background archways, rich but readable environment
+deep background archways, face remains dominant
+deep background archways, outfit remains readable
+deep background archways, effects stay behind subject
+deep background archways, high depth contrast
+small glowing particles, clear face focus
+small glowing particles, readable silhouette
+small glowing particles, balanced detail
+small glowing particles, elegant framing
+small glowing particles, foreground-midground-background layers
+small glowing particles, details support the subject
+small glowing particles, clean negative space
+small glowing particles, rich but readable environment
+small glowing particles, face remains dominant
+small glowing particles, outfit remains readable
+small glowing particles, effects stay behind subject
+small glowing particles, high depth contrast
+rim light on hair, clear face focus
+rim light on hair, readable silhouette
+rim light on hair, balanced detail
+rim light on hair, elegant framing
+rim light on hair, foreground-midground-background layers
+rim light on hair, details support the subject
+rim light on hair, clean negative space
+rim light on hair, rich but readable environment
+rim light on hair, face remains dominant
+rim light on hair, outfit remains readable
+rim light on hair, effects stay behind subject
+rim light on hair, high depth contrast
+subtle mist, clear face focus
+subtle mist, readable silhouette
+subtle mist, balanced detail
+subtle mist, elegant framing
+subtle mist, foreground-midground-background layers
+subtle mist, details support the subject
+subtle mist, clean negative space
+subtle mist, rich but readable environment
+subtle mist, face remains dominant
+subtle mist, outfit remains readable
+subtle mist, effects stay behind subject
+subtle mist, high depth contrast
+shallow reflective water, clear face focus
+shallow reflective water, readable silhouette
+shallow reflective water, balanced detail
+shallow reflective water, elegant framing
+shallow reflective water, foreground-midground-background layers
+shallow reflective water, details support the subject
+shallow reflective water, clean negative space
+shallow reflective water, rich but readable environment
+shallow reflective water, face remains dominant
+shallow reflective water, outfit remains readable
+shallow reflective water, effects stay behind subject
+shallow reflective water, high depth contrast
+backlit stained glass, clear face focus
+backlit stained glass, readable silhouette
+backlit stained glass, balanced detail
+backlit stained glass, elegant framing
+backlit stained glass, foreground-midground-background layers
+backlit stained glass, details support the subject
+moonlight through tall windows, clear face focus
+moonlight through tall windows, readable silhouette
+moonlight through tall windows, balanced detail
+moonlight through tall windows, elegant framing
+moonlight through tall windows, foreground-midground-background layers
+moonlight through tall windows, details support the subject
+moonlight through tall windows, clean negative space
+moonlight through tall windows, rich but readable environment
+moonlight through tall windows, face remains dominant
+moonlight through tall windows, outfit remains readable
+moonlight through tall windows, effects stay behind subject
+moonlight through tall windows, high depth contrast
+gold filigree details, clear face focus
+gold filigree details, readable silhouette
+gold filigree details, balanced detail
+gold filigree details, elegant framing
+gold filigree details, foreground-midground-background layers
+gold filigree details, details support the subject
+gold filigree details, clean negative space
+gold filigree details, rich but readable environment
+gold filigree details, face remains dominant
+gold filigree details, outfit remains readable
+gold filigree details, effects stay behind subject
+gold filigree details, high depth contrast
+red velvet fabric accents, clear face focus
+red velvet fabric accents, readable silhouette
+red velvet fabric accents, balanced detail
+red velvet fabric accents, elegant framing
