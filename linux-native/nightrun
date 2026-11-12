@@ -1,13 +1,19 @@
 #!/usr/bin/env bash
 # Linux-native entry point. Same rendering engine; none of the Windows launchers.
 set -Eeuo pipefail
-APP="$(cd -- "$(dirname -- "$0")" && pwd -P)"
+SOURCE="${BASH_SOURCE[0]}"
+while [[ -L "$SOURCE" ]]; do
+  DIRECTORY="$(cd -- "$(dirname -- "$SOURCE")" && pwd -P)"
+  TARGET="$(readlink -- "$SOURCE")"
+  [[ "$TARGET" == /* ]] && SOURCE="$TARGET" || SOURCE="$DIRECTORY/$TARGET"
+done
+APP="$(cd -- "$(dirname -- "$SOURCE")" && pwd -P)"
 CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}/nightrun-linux"
 STATE_HOME="${XDG_STATE_HOME:-$HOME/.local/state}/nightrun-linux"
 CONFIG="$CONFIG_HOME/config.local.json"
 DEFAULT_CONFIG="$APP/config.json"
 STOP="$STATE_HOME/STOP_AFTER_CURRENT_IMAGE.txt"
-export NIGHTRUN_STOP_FILE="$STOP"
+export NIGHTRUN_STOP_FILE="$STOP" NIGHTRUN_SETUP_REPORT="$STATE_HOME/setup_report.json"
 export PYTHONUNBUFFERED=1 PYTHONIOENCODING=utf-8
 mkdir -p -- "$STATE_HOME"
 chmod 700 "$STATE_HOME"
@@ -92,7 +98,11 @@ case "$command" in
   upscale)
     need_config
     python_for_app
-    [[ $# -gt 0 && -f "$1" ]] || { echo "Supply an existing *_metadata.json file." >&2; exit 2; }
+    if [[ $# -eq 0 ]]; then
+      read -r -p 'Metadata JSON path: ' META
+      set -- "$META"
+    fi
+    [[ -f "$1" ]] || { echo "Supply an existing *_metadata.json file." >&2; exit 2; }
     "$PY" "$APP/modules/upscale_from_metadata.py" --config "$CONFIG" "$@"
     ;;
   analyze)
