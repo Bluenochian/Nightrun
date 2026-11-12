@@ -7,10 +7,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Bluenochian/Nightrun/releases/tag/v2.2"><strong>Download Nightrun 2.2</strong></a> ·
+  <a href="https://github.com/Bluenochian/Nightrun/releases/tag/v2.3"><strong>Download Nightrun 2.3</strong></a> ·
   <a href="#getting-started">Getting started</a> ·
   <a href="#how-it-works">How it works</a> ·
-  <a href="#whats-new-in-22">2.2 fixes</a> ·
+  <a href="#whats-new-in-23">2.3 updates</a> ·
   <a href="#versions-and-old-downloads">Old versions</a>
 </p>
 
@@ -22,19 +22,19 @@ I made it because I wanted to leave Stable Diffusion Forge running while I was a
 
 Nightrun builds prompts from editable pools, sends local batches to Forge / Forge-Neo, remembers what it generated, and can replay old metadata for upscaling. It can pause for GPU cooling and stop cleanly between images. Pretty simple idea; the implementation got a bit out of hand, as these things do.
 
-**2.2 is a maintenance release built on the real 2.0 code.** It keeps the three prompt engines, curated franchise catalog and the rebuilt text pools. I didn't rename the old 1.5 runner and pretend it was an update.
+**2.3 adds Linux launchers and safer Forge startup to the 2.2 improvements.** It keeps the three prompt engines, curated franchise catalog and the rebuilt text pools. I didn't rename the old 1.5 runner and pretend it was an update.
 
 ## Getting started
 
-**Windows + Forge / Forge-Neo** is the main supported setup for the included `.bat` launchers. You need Python, `requests`, a working local Forge API and your own checkpoint. Pillow is recommended for PNG metadata stamping and contact sheets.
+**Windows and Linux** have matching launchers now: `.bat` on Windows and `.sh` on Linux. You need Python, `requests`, a working local Forge API and your own checkpoint. Pillow is recommended for PNG metadata stamping and contact sheets.
 
-Download [Nightrun 2.2](https://github.com/Bluenochian/Nightrun/releases/tag/v2.2), extract it and put the folder **two levels below your Forge root**:
+Download [Nightrun 2.3](https://github.com/Bluenochian/Nightrun/releases/tag/v2.3), extract it and put the folder **two levels below your Forge root**:
 
 ```text
 YourForgeFolder/
 ├── venv/
 └── workflows/
-    └── nightrun_2.2/
+    └── nightrun_2.3/
         ├── nightrun.py
         ├── config.json
         ├── modules/
@@ -42,9 +42,9 @@ YourForgeFolder/
         └── Run First Setup.bat
 ```
 
-The launchers expect that layout. They go two folders up to find `venv\Scripts\python.exe`. If you already have 1.5 or 2.0 installed, **keep that folder** until 2.2 is working. Dont overwrite your only good config while testing an update.
+The launchers expect that layout. They go two folders up to find `venv\Scripts\python.exe`. If you already have 1.5 or 2.0 installed, **keep that folder** until 2.3 is working. Dont overwrite your only good config while testing an update.
 
-Run these in order:
+Run these on Windows (or use the matching `.sh` scripts on Linux):
 
 1. **Run First Setup.bat** — detect your Forge folder, GPU/VRAM profile, checkpoint and output path; write `config.local.json`.
 2. **Run Validation Stress Test.bat** — check pools and LoRAs without generating images.
@@ -52,7 +52,7 @@ Run these in order:
 4. **Run Nightrun BASE only.bat** or **Run Nightrun FULL upscale.bat** — start a real batch.
 5. **Stop After Current Image.bat** — stop safely rather than killing Forge mid-render.
 
-The [short 2.2 guide](nightrun2.2/nightrun_2.0/README.txt) has all command-line options and the metadata-upscaling walkthrough.
+The [2.3 setup guide](nightrun2.3/nightrun_2.3/README.txt) has all command-line options and the metadata-upscaling walkthrough.
 
 ## How it works
 
@@ -73,7 +73,7 @@ LoRAs and checkpoints are not included. If a LoRA gets skipped, check the local 
 
 ## Run modes
 
-From inside `nightrun_2.2/`:
+From inside `nightrun_2.3/`:
 
 ```powershell
 python nightrun.py --mode validate --count 100 --config config.local.json
@@ -92,7 +92,7 @@ python modules/upscale_from_metadata.py "D:\renders\0001_metadata.json" --config
 
 The upscaler can recreate a missing base image from saved metadata. Use `--no-create-if-missing` when you only want to use files that already exist.
 
-## What's new in 2.2
+## What's new in 2.3
 
 Mostly fixes. I know, glamorous.
 
@@ -105,6 +105,16 @@ Mostly fixes. I know, glamorous.
 - **Offline regression checks.** Python 3.10, 3.12 and 3.13 tests cover the main failure paths. A real Forge/Windows run still needs to be tested on your own setup.
 
 The original 2.0 prompt pools and franchise catalog are kept as they were. I wasn't about to gut the creative bits for a maintenance update.
+
+### Linux in 2.3
+
+Linux launchers handle paths with spaces, support KDE/GNOME desktop shortcuts,
+and use the Forge virtualenv without the original Windows CUDA-only startup
+flags. A file lock prevents two concurrent runs from accidentally clearing
+the first run's stop signal.
+
+Automated tests and a Linux dry run passed. A real Forge+GPU overnight job
+still needs hands-on verification.
 
 ## If something's wrong
 
@@ -124,14 +134,15 @@ Nightrun doesn't hide browsing history or upload images to a hosted service; thi
 
 | Version | Where | Notes |
 | --- | --- | --- |
-| **2.2 — current** | [Download v2.2](https://github.com/Bluenochian/Nightrun/releases/tag/v2.2) | Bug fixes on the modular 2.0 engine |
+| **2.3 — current** | [Download v2.3](https://github.com/Bluenochian/Nightrun/releases/tag/v2.3) | Linux launchers, KDE/GNOME integration, safer startup |
+| **2.2** | [Previous release](https://github.com/Bluenochian/Nightrun/releases/tag/v2.2) | Bug fixes on modular 2.0 engine |
 | **2.0** | [Previous release](https://github.com/Bluenochian/Nightrun/releases/tag/release2) | Original modular engine, three prompt builders and rebuilt pools |
 | **1.5** | [Original release](https://github.com/Bluenochian/Nightrun/releases/tag/release) | Earlier monolithic runner, still here |
 | **3.0 dashboard prototype** | [nightrun_web.py](nightrun_web.py) | UI experiment; its generation loop **simulates** progress, not real render jobs |
 
-The 2.2 source is in [`nightrun2.2/`](nightrun2.2/), imported from the actual 2.0 release and patched. The older `nightrun1.5/` folder stays in this repository for anyone still using it.
+The 2.3 source is in [`nightrun2.3/`](nightrun2.3/); the earlier 2.2 folder is preserved. The older `nightrun1.5/` folder stays in this repository for anyone still using it.
 
-Don't mistake the dashboard prototype for a real batch runner. Seriously. Use Nightrun 2.2 for overnight rendering.
+Don't mistake the dashboard prototype for a real batch runner. Seriously. Use the actual Nightrun runner for overnight rendering, not the dashboard.
 
 ---
 

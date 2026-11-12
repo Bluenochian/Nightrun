@@ -1,44 +1,45 @@
-# Nightrun 2.2 — fewer surprises after midnight
+# Nightrun 2.3 — Linux joins the party
 
-A proper maintenance update to **Nightrun 2.0**, not a repackaged 1.5 build.
+Claude started the Linux port with matching shell scripts, and I kept going.
+The early version worked for straightforward paths, but KDE shortcuts,
+odd install locations and Forge's launch environment needed more attention.
 
-You can still leave Forge to do its thing overnight. I'd just rather it didn't
-lie about failed renders or waste your time trying to restart Forge over a bad
-request. So I fixed those parts.
+This version contains the **actual modular 2.0/2.2 engine**, not a dressed-up
+copy of 1.5. All three prompt engines, rebuilt pools, curated world modules,
+LoRA matching and metadata upscaling are kept.
 
-## Fixed
+## What's new
 
-- **Forge health checks:** HTTP errors (including 404/500) no longer count as a healthy API.
-- **Bad requests:** an HTTP 400-series error from Forge now fails with a useful message instead of pointlessly retrying and trying to restart it.
-- **LoRA name matching:** exact and alias matches still work; fuzzy matches must have a single unambiguous candidate. An uncertain guess gets skipped instead of loading the wrong model.
-- **Batch counts:** `--count 0` and negative image counts now fail early, rather than silently using the default or producing an empty "successful" batch.
-- **Honest summaries:** `summary.json` now distinguishes `OK`, `PARTIAL`, `FAILED` and `STOPPED` and records attempted, completed and failed counts.
-- **Cooling and stopping:** Stop After Current Image interrupts GPU cooldowns and between-image sleeps. The runner doesn't take an extra break after the last image.
-- **Pillow dependency:** no more surprise `pip install` during import. If Pillow isn't installed, raw PNGs still save; install Pillow for metadata stamping and contact sheets.
-- **Prompt filter:** repaired a missing `|` in a regex that had accidentally glued the blocked tokens into one impossible word.
+- Nine Linux shell launchers. All nine Windows `.bat` launchers are preserved.
+- Linux can create KDE/GNOME desktop shortcuts with properly quoted paths
+  (including directories containing spaces) and converted PNG icons.
+- Forge startup selects the actual Forge virtualenv and uses `launch.py --api`
+  on Linux without forcing the old Windows CUDA flags.
+- If Forge exits during startup, Nightrun stops trying and points to the logs.
+- The new Linux scripts share one small helper, support Python/repo overrides,
+  and prevent two concurrent batches from clobbering each other's stop signal.
+- The 2.2 error handling, safe batch status and stop-aware cooldown fixes
+  remain in place.
 
-## Kept from 2.0
+## Before installing
 
-All three prompt engines (Classic / Combinator / Franchise), the rebuilt pool
-lists, the curated world modules, metadata replay, standalone upscaling and
-existing Windows launchers are still included.
+Extract `nightrun_2.3` under `YourForgeFolder/workflows/`, with your Forge
+`venv/` two levels above. Linux needs Bash, util-linux `flock`, Python 3.10+
+and `requests`. Pillow is recommended for the image extras and desktop icon
+conversion. Keep your old installation until you've confirmed 2.3 works.
 
-## One thing before you unzip
+Try `run-first-setup.sh`, `run-validation-stress-test.sh`, then
+`run-one-dry-test.sh` before running a real batch. The Windows setup
+instructions and launchers have not been removed.
 
-**Don't overwrite your working install on the first attempt.** Extract
-`nightrun_2.2/` beside your older Nightrun folder, keep your
-`config.local.json`, run First Setup, Validation and a Dry Test, then try a
-small real batch.
+**Testing boundaries:** Linux unit tests and a one-image dry-run smoke test
+passed. CI also checks Python syntax and regression behavior. A full Linux
+Forge+GPU run, different driver backends and actual graphical desktop
+interactions are **not yet verified**.
 
-The ZIP contains the actual runner and pool files. It does **not** include
-checkpoints, model files, LoRAs, Forge, or Ultimate SD Upscale.
+Earlier downloads stay available: [2.2](https://github.com/Bluenochian/Nightrun/releases/tag/v2.2),
+[2.0](https://github.com/Bluenochian/Nightrun/releases/tag/release2), and
+[1.5](https://github.com/Bluenochian/Nightrun/releases/tag/release).
 
-Windows is the main launcher target; the Python logic also has offline
-regression checks on Python 3.10, 3.12 and 3.13. Those tests do **not** replace
-a full overnight run against your particular Forge build and GPU.
-
-[Source and setup](https://github.com/Bluenochian/Nightrun/tree/main/nightrun2.2) ·
-[2.0 release — still available](https://github.com/Bluenochian/Nightrun/releases/tag/release2) ·
-[1.5 release — also still available](https://github.com/Bluenochian/Nightrun/releases/tag/release)
-
-Now go render something. Your PC can do the babysitting.
+If it fails on your distro, send the error and a redacted log. I'd rather fix
+the actual problem than pretend all Linux installs are identical.

@@ -1,4 +1,4 @@
-Nightrun 2.2 — Forge / Forge-Neo
+Nightrun 2.3 — Forge / Forge-Neo
 ================================
 
 I made Nightrun because leaving Forge running all night sounded great until
@@ -6,19 +6,19 @@ I realised that meant babysitting prompts, LoRAs and GPU temperatures too.
 This runs local image batches while you're doing literally anything else.
 
 It builds prompts from editable text pools, talks to Forge's local API, saves
-metadata, and can upscale old images later. Version 2.2 is mostly a cleanup
+metadata, and can upscale old images later. Version 2.3 builds on the 2.2 cleanup
 and reliability update to the actual 2.0 engine. The big 2.0 pool rebuild,
 three prompt engines and franchise catalog are still here.
 
 For the people who just want to use the damn thing
 --------------------------------------------------
 
-Place the *nightrun_2.2* folder two levels below the Forge root:
+Place the *nightrun_2.3* folder two levels below the Forge root:
 
   YourForgeFolder/
     venv/
     workflows/
-      nightrun_2.2/
+      nightrun_2.3/
         nightrun.py
         config.json
         modules/
@@ -58,7 +58,7 @@ Nightrun does not download checkpoints, LoRAs, or image models for you.
 Modes and commands
 ------------------
 
-From the nightrun_2.2 folder:
+From the nightrun_2.3 folder:
 
   python nightrun.py --mode validate --count 100 --config config.local.json
   python nightrun.py --mode dry-run --count 5 --config config.local.json
@@ -191,3 +191,39 @@ Models, checkpoints and LoRAs belong to their respective authors and are not
 bundled here. Make sure you're allowed to use whichever files you install.
 Nightrun is provided as-is; some Forge versions and extensions will behave
 differently. Report what actually broke (with private paths redacted).
+
+Linux launchers (new in 2.3)
+----------------------------
+
+All the old Windows .bat launchers are still included. Linux now has nine
+matching .sh files. Run setup, validation and a dry test before trying a
+real overnight batch:
+
+    ./run-first-setup.sh
+    ./run-validation-stress-test.sh
+    ./run-one-dry-test.sh
+    ./run-nightrun-base-only.sh
+
+The folder must sit two levels below Forge's root, such as
+YourForgeFolder/workflows/nightrun_2.3/. The scripts prefer Forge's
+venv/bin/python (or .venv/bin/python); on custom installs you can set
+NIGHTRUN_FORGE_REPO and NIGHTRUN_PYTHON. The Linux launchers use bash and
+util-linux flock. On Linux, setup can create KDE/GNOME desktop shortcuts.
+Their icons are converted to PNG if Pillow is available.
+
+Stop with ./stop-after-current-image.sh, or clear the old stop signal with
+./clear-stop-signal.sh. A flock lock prevents a second launcher from
+clearing the first running batch's stop signal.
+
+To upscale metadata with a filename containing spaces:
+
+    ./run-2x-upscale-from-metadata.sh "/path to/image_metadata.json" 2
+
+Forge startup uses launch.py --api on Linux without forcing Windows/NVIDIA
+memory flags. A missing Forge virtualenv is an error rather than a silent
+fallback to a wrong Python environment. Other failures point to launch logs.
+
+Linux tests and a dry-run smoke test pass. A full Linux Forge/GPU render and
+live desktop integration still need hands-on verification. Don't mistake
+CI green for GPU compatibility across every distro.
+
