@@ -1,0 +1,80 @@
+name: Nightrun 2.2 source release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'nightrun2.2/**'
+      - '.github/workflows/nightrun22-release.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nightrun-2-2-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install test dependencies
+        run: python -m pip install requests Pillow
+      - name: Check actual 2.0-derived code
+        run: |
+          python -m compileall -q nightrun2.2/nightrun_2.0/modules
+          python -m json.tool nightrun2.2/nightrun_2.0/config.json >/dev/null
+          python -m unittest discover -s nightrun2.2/tests -p 'test_*.py' -v
+      - name: Build Nightrun 2.2 ZIP from maintained modular source
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile, ZIP_DEFLATED
+
+          source = Path('nightrun2.2/nightrun_2.0')
+          output = Path('nightrun_2_2.zip')
+          if not (source / 'nightrun.py').exists() or not (source / 'modules' / 'nightrun_runtime.py').exists():
+              raise RuntimeError('Missing modular 2.0-derived engine: refusing to publish a 1.5 downgrade')
+          count = 0
+          with ZipFile(output, 'w', compression=ZIP_DEFLATED, compresslevel=9) as archive:
+              for file in sorted(source.rglob('*')):
+                  if not file.is_file() or any(part in ('__pycache__', '.git', 'venv') for part in file.parts):
+                      continue
+                  if file.name.endswith(('.pyc', '.pyo')) or file.name.startswith('config.local'):
+                      continue
+                  archive.write(file, (Path('nightrun_2.2') / file.relative_to(source)).as_posix())
+                  count += 1
+              for file in sorted(Path('nightrun2.2/tests').glob('test_*.py')):
+                  archive.write(file, (Path('nightrun_2.2/tests') / file.name).as_posix())
+                  count += 1
+          with ZipFile(output) as archive:
+              bad = archive.testzip()
+              if bad:
+                  raise RuntimeError(f'Bad archive entry: {bad}')
+              names = archive.namelist()
+              assert 'nightrun_2.2/nightrun.py' in names
+              assert 'nightrun_2.2/modules/nightrun_runtime.py' in names
+              assert 'nightrun_2.2/config.json' in names
+              assert 'nightrun_2.2/README.txt' in names
+          print(f'Packed {count} files into {output} ({output.stat().st_size:,} bytes)')
+          PY
+          sha256sum nightrun_2_2.zip > SHA256SUMS
+          cat SHA256SUMS
+      - name: Publish v2.2 without touching any previous release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view v2.2 --repo "${GITHUB_REPOSITORY}" >/dev/null 2>&1; then
+            echo "v2.2 already exists. Leaving that release and older versions untouched."
+            exit 0
+          fi
+          gh release create v2.2 nightrun_2_2.zip SHA256SUMS \
+            --repo "${GITHUB_REPOSITORY}" --target "${GITHUB_SHA}" \
+            --title "Nightrun 2.2" \
+            --notes-file nightrun2.2/nightrun_2.0/GITHUB_RELEASE_NOTES.md \
+            --latest
