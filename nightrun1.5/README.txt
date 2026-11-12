@@ -6,58 +6,39 @@ It builds varied prompts from plain text pools, runs Forge through the API,
 writes replayable metadata for every image, and includes a drag-and-drop
 metadata upscaler that can recreate missing base images before upscaling.
 
-The project is designed for sharing. The public config stays portable, while
-first-run setup writes machine-specific paths and hardware choices into
-config.local.json.
+I kept the shared config portable. First-run setup writes your own paths and
+hardware settings into config.local.json instead of baking them into the project.
 
 
-For Impatient People
---------------------
+Quick start
+-----------
 
 1. Run First Setup.bat
 2. Run Validation Stress Test.bat
 3. Run One DRY TEST.bat
-4. Run Nightrun BASE only.bat
-5. Use Stop After Current Image.bat when you want it to finish cleanly
+4. Run Nightrun BASE only.bat (or FULL upscale if you want the extra pass)
+5. When you've had enough, use Stop After Current Image.bat
 
-
-What It Does
+The launchers expect this folder two levels below the Forge root.
+Put it at Forge/workflows/nightrun1.5/ (with Forge's venv/ at the root).
+What it does
 ------------
 
-- Generates large batches of prompts and images from modular .txt pools.
-- Runs Forge through the built-in API instead of a locked workflow graph.
-- Supports base-only generation, full generation with scheduled upscales, dry
-  prompt tests, and validation stress tests.
-- Writes a prompt text file, metadata JSON, log, summary, and contact sheet for
-  each run.
-- Can replay metadata later for 2x, 3x, 4x, or custom-size upscales.
-- Can recreate a missing base image from metadata before upscaling it.
-- Scans local LoRA folders and skips missing LoRAs instead of crashing.
-- Supports LoRA aliases when CivitAI display names do not match local filenames.
-- Uses GPU/VRAM setup profiles so the same package can work on different PCs.
-- Includes a large franchise-inspired catalog that keeps world details coherent.
-- Includes stop-after-current-image control for long Nightrun sessions.
-- Includes prompt history analysis to catch repetitive outputs.
-- Lets your VRAM/GPU to rest between long sessions, heat-spikes and configurable intervals.
+Nightrun takes prompt fragments from plain text pools, mixes them according to
+configurable rules, and sends batches to the local Forge API. It saves enough
+metadata to understand or replay a result later, and can upscale from metadata
+even when the original base image is gone.
 
-Main Idea
----------
+There are validation and dry-run modes, LoRA matching, clean stop signals,
+temperature pauses and scheduled cooling breaks. You shouldn't need to sit
+watching the progress bar all night.
+Why I made it this way
+----------------------
 
-A normal random prompt tool can easily become nonsense because every part is
-pulled from unrelated pools. This pipeline tries to avoid that.
-
-When no franchise module is selected, it behaves like a broad art randomizer.
-It combines character, clothing, pose, lighting, environment, camera, style,
-color, effects, detail, and optional LoRAs.
-
-When a franchise/world module is selected, the runner pulls themed outfits,
-environments, props, factions, creatures, architecture, technology, magic,
-lighting, palettes, and cinematic language from that same module. Riskier
-generic pools are disabled in coherent mode so the result does not mix random
-wizard robes, cyberpunk armor, wasteland bunkers, and spaceship interiors unless
-fusion mode is intentionally active.
-
-
+Purely random prompts are good at making nonsense. I kept the everyday text
+pools editable, then added optional franchise/world modules to keep related
+outfits, environments and props in the same visual world. Fusion mode can loosen
+those limits on purpose. You can keep it coherent or let it get weird.
 Requirements
 ------------
 
@@ -74,10 +55,10 @@ This pack does not download checkpoints, LoRAs, extensions, or models. It only
 uses what is already installed locally.
 
 
-Fast Start
-----------
+Getting started
+---------------
 
-1. Put this folder somewhere inside or near your Forge / Forge-Neo install.
+1. Place this folder two levels below the Forge / Forge-Neo root.
    A common layout is:
 
      sd-webui-forge-neo/workflows/nightrun1.5
@@ -654,75 +635,20 @@ Unicode / weird path text
   consoles and editors better. Runtime reading uses UTF-8 tolerant loading.
 
 
-Nerd Corner: Extra Details Most Users Can Ignore
-------------------------------------------------
+A few implementation notes
+--------------------------
 
-Config and API
+- Forge API calls stay local at 127.0.0.1:7860 by default.
+- config.local.json contains your machine's paths. Don't publish it.
+- Selection memory is in-process only; it does not write a permanent database.
+- Validation saves a limited sample of prompts to keep reports readable.
+- STOP_AFTER_CURRENT_IMAGE.txt is checked between images and during cooling.
+- Temperature waiting uses nvidia-smi and may not work on other GPU setups.
+- The metadata upscaler writes a .metadata.json sidecar for chained upscales.
+- tools/rebuild_prompt_pools.py is for development, not the normal setup.
 
-- The main config resolver prefers config.local.json when launchers select it,
-  but config.json remains the safe shared fallback.
-- Paths in config can be relative to the Forge repo or absolute.
-- The runner starts Forge with launch.py --api when the API is not already alive.
-- API calls are sent to http://127.0.0.1:7860/sdapi/v1/ by default.
-- Forge options are applied through /sdapi/v1/options before generation.
-- Base generation uses txt2img with override_settings for checkpoint, VAE,
-  forge_preset, and CLIP skip where configured.
-- Upscaling uses img2img with the Ultimate SD Upscale script args expected by
-  Forge installations that expose that extension through the API.
-
-Prompt Building
-
-- The positive prompt formatter normalizes comma spacing, removes duplicate
-  comma-separated fragments, strips blocked positive terms, and rejects broken
-  comma layouts.
-- The negative prompt is built from negative_base plus every loaded negative
-  pool line.
-- selection_memory is runtime-only. It does not write a memory database. It just
-  penalizes recently picked items during the current process.
-- Color anti-repetition detects broad families like blue, cyan/teal, red,
-  purple, green, gold, black, silver, and iridescent.
-- Heterochromia in the eyes pool is intentionally rare through
-  selection_memory.heterochromia_chance.
-- boost_if_any can raise a pool chance when earlier categories were selected.
-- With a world module active, risky generic pools are blocked in coherent mode.
-  In fusion mode they are multiplied by fusion_risky_pool_chance_multiplier.
-
-LoRA Handling
-
-- LoRA scanning caches results per repo, folder list, and alias map for the
-  current Python process.
-- LoRA names are normalized by removing non-alphanumeric characters and using
-  lowercase, which helps with spaces, underscores, hyphens, and CivitAI titles.
-- The final LoRA list is de-duplicated after always_loras, random_loras,
-  lora_pools, and lora_synergies are combined.
-
-Run Behavior
-
-- Validation writes only the first 10 sampled prompts into validation_report.json
-  to keep the file readable.
-- summary.json stores all per-image result metadata collected during the run.
-- Contact sheets are created only when images exist.
-- STOP_AFTER_CURRENT_IMAGE.txt is checked before a new image, after an image,
-  and during long-run chill sleeps.
-- Long-run chill only activates when count is above long_run_chill.only_when_count_over.
-- Temperature waiting is NVIDIA-focused because it uses nvidia-smi.
-
-Setup and Compatibility
-
-- setup_pipeline.py checks NVIDIA first, then Windows video controller data,
-  then rocm-smi on Linux when available.
-- setup_pipeline.py writes JSON with ensure_ascii=True on purpose for stronger
-  Windows console/editor compatibility.
-- upscale_from_metadata.py repairs common mojibake path text before deciding an
-  image is missing.
-- The metadata upscaler writes a sidecar .metadata.json next to the new upscale.
-  Chained upscales use that output_image first in auto mode.
-- If Pillow is available, image size is read with Pillow. If not, PNG dimensions
-  are read directly from the PNG header.
-- tools/rebuild_prompt_pools.py is a developer helper for rebuilding the shipped
-  pool files. Normal users do not need it.
-
-
+If something fails, run validation before debugging a real batch. The reports
+are a lot easier to deal with than a half-finished overnight run.
 License / Usage Note
 --------------------
 
