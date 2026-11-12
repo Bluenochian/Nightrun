@@ -22,7 +22,7 @@ for folder in modules pools tools assets; do
   mkdir -p -- "$APP/$folder"
   cp -a -- "$SRC/$folder/." "$APP/$folder/"
 done
-for file in nightrun nightrun.py config.json requirements.txt README.md; do
+for file in nightrun nightrun.py config.json requirements.txt README.md GUIDE.md; do
   cp -f -- "$SRC/$file" "$APP/$file"
 done
 chmod 755 "$APP/nightrun"

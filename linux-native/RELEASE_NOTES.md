@@ -1,24 +1,24 @@
 # Nightrun — Linux Native
 
-**Separate Linux edition. No new numerical version.**
+**The Linux edition is separate. No version bump.**
 
-We already had a Linux launch path, but it was still attached to a combined
-Windows/Linux ZIP. This is a proper independent Linux package with the same
-modular engine, without the Windows-specific launchers.
+Linux users don't have to install a Windows-oriented release and work out
+which batch scripts to ignore. This package has its own installer, native
+desktop shortcuts, XDG settings, and `nightrun-linux` command.
 
-## What's included
+## What you get
 
-- A Linux-only `.tar.gz` and `.zip`. No `.bat` or `.ico` files.
-- A `nightrun-linux` terminal command for setup, dry runs, validation,
-  real batches, stopping, history analysis and metadata upscaling.
-- A **no-sudo per-user installer**, KDE/GNOME application-menu entries and PNG
-  icons. Works with XDG app/config/state locations and paths containing spaces.
-- A dedicated Python venv for the small runtime dependencies, installed
-  explicitly during setup instead of silently while rendering.
-- Writable user-level batch locks and stop signals. Second launches cannot
-  accidentally erase an active batch's stop request.
-- The existing three prompt engines, curated franchise catalog, full prompt
-  pools, LoRA resolution and Forge API workflow. Nothing stripped out there.
+- Linux-only `.tar.gz` and `.zip` with no Windows `.bat` or `.ico` files.
+- The maintained modular Classic / Combinator / Franchise engines, their
+  prompt pools, LoRAs, Forge generation and metadata replay.
+- A per-user installation with **no sudo**, isolated Python dependencies,
+  KDE/GNOME menu entries and PNG icons.
+- A separate local config, user-level stop signals and a batch lock. A second
+  launch won't clear the first run's stop request. Because that would be
+  exceptionally stupid.
+- A **proper user guide** showing exactly how to install, connect Forge,
+  edit `config.local.json`, keep customized prompt pools across upgrades,
+  adjust LoRAs and engine weights, and troubleshoot failures.
 
 ## Install
 
@@ -26,18 +26,24 @@ modular engine, without the Windows-specific launchers.
 tar -xzf nightrun-linux-native.tar.gz
 cd nightrun-linux
 bash install.sh
-nightrun-linux setup --repo "/path/to/Forge"
-nightrun-linux validate
-nightrun-linux dry-run --count 1
+~/.local/bin/nightrun-linux setup --repo "/path/to/Forge"
+~/.local/bin/nightrun-linux validate --count 100
+~/.local/bin/nightrun-linux dry-run --count 5
+~/.local/bin/nightrun-linux base --count 1
 ```
 
-A real one-image test is still recommended before an overnight batch.
-Linux Forge versions, GPU drivers and extensions differ, and simulated
-tests don't make those differences vanish.
+Yes, the `/path/to/Forge` part is a placeholder. Please replace it.
 
-Numbered releases [2.3](https://github.com/Bluenochian/Nightrun/releases/tag/v2.3),
-[2.2](https://github.com/Bluenochian/Nightrun/releases/tag/v2.2),
-[2.0](https://github.com/Bluenochian/Nightrun/releases/tag/release2)
+The **[Linux Native guide](https://github.com/Bluenochian/Nightrun/blob/main/linux-native/GUIDE.md)**
+covers what those commands do, what to customize and where the files go.
+A copy is included in the download.
+
+Automated Linux tests and dry runs verify the installer and workflow.
+Actual GPU rendering depends on your Forge, models, drivers and extensions.
+Test one image before your first overnight run.
+
+Windows is still available as [Nightrun 2.2](https://github.com/Bluenochian/Nightrun/releases/tag/v2.2).
+The older [2.0](https://github.com/Bluenochian/Nightrun/releases/tag/release2)
 and [1.5](https://github.com/Bluenochian/Nightrun/releases/tag/release)
-remain available, unchanged. Linux Native has its own **versionless**
-`linux-native` tag.
+releases are kept. The redundant combined 2.3 release was retired; Linux
+Native isn't masquerading as a numbered Windows upgrade anymore.

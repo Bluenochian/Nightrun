@@ -1,104 +1,85 @@
 # Nightrun — Linux Native
 
-This is the **separate Linux edition**, not a new Nightrun version number.
-It runs the same maintained modular image-generation engine as the existing
-2.3 build, but the package is Linux-only: no Windows batch launchers, no
-Windows icon files, and no need to put it inside Forge's workflow directory.
+**A proper Linux edition. Not 2.4, not another numbered version.**
 
-I wanted a Linux release that acts like a Linux program rather than a Windows
-ZIP wearing a shell script. So this one has XDG-aware user installation,
-application menu entries, PNG icons, and one terminal command.
+The same modular prompt engines, worlds, pools and upscaling workflow, now
+packaged like a Linux desktop app. No Windows launchers, no placing it two
+folders below Forge, and no `sudo` required.
 
-## Installation
+## Start here
 
-Download **nightrun-linux-native.tar.gz** from the
+**[Read the complete Linux Native user guide](GUIDE.md)** — installation, connecting Forge,
+the first render, what to edit, custom prompt pools, LoRAs, engines, upscaling,
+stopping batches and troubleshooting.
+
+Already know what you're doing? Download the
 [Linux Native release](https://github.com/Bluenochian/Nightrun/releases/tag/linux-native):
 
 ```bash
 tar -xzf nightrun-linux-native.tar.gz
 cd nightrun-linux
 bash install.sh
+
+~/.local/bin/nightrun-linux setup --repo "/path/to/Forge"
+~/.local/bin/nightrun-linux validate --count 100
+~/.local/bin/nightrun-linux dry-run --count 5
+~/.local/bin/nightrun-linux base --count 1
 ```
 
-The installer runs as **your desktop user**, without sudo. It creates a private
-Python virtual environment and openly installs `requests` and `Pillow`.
-You'll need Python 3 with `venv`, util-linux `flock`, and an internet
-connection for first-time Python dependency installation. If dependencies are
-already provided by the Python interpreter you want to use, run
-`bash install.sh --no-deps` instead.
+Replace `/path/to/Forge` with your actual installation. The setup script
+checks Forge's path, GPU profile and checkpoints. No magical path detection can
+fix a folder that isn't your Forge directory.
 
-To connect your Forge installation:
+## What gets installed
 
-```bash
-~/.local/bin/nightrun-linux setup --repo "$HOME/Stable-Diffusion-Forge"
-```
-
-Or run `nightrun-linux setup` and enter the folder when prompted.
-First setup detects your GPU, checkpoint and output paths. Your settings
-live **outside the app folder** and remain intact when you reinstall.
-
-Then try these in order:
-
-```bash
-nightrun-linux validate --count 100
-nightrun-linux dry-run --count 5
-nightrun-linux base --count 20
-nightrun-linux full --count 20
-nightrun-linux stop
-```
-
-`base` and `full` send real image-generation jobs to Forge's local API;
-`validate` and `dry-run` don't. The application menu includes
-**Nightrun** (base mode) and **Nightrun Metadata Upscaler**.
-
-For an old render, use:
-
-```bash
-nightrun-linux upscale "/path to/0001_metadata.json" --scale 2
-```
-
-If Forge isn't already running, the app tries its own `launch.py --api`
-using the **Forge virtual environment**, not an unrelated Python installation.
-The Forge models, extensions and VRAM requirements remain yours to manage.
-
-## Native Linux paths
-
-| Item | Default |
+| Item | Default location |
 | --- | --- |
-| Installed app + isolated venv | `~/.local/share/nightrun-linux/` |
+| App and private Python environment | `~/.local/share/nightrun-linux/` |
 | Command | `~/.local/bin/nightrun-linux` |
-| App menu entries | `~/.local/share/applications/` |
-| Local configuration | `~/.config/nightrun-linux/config.local.json` |
-| Stop signal, lock, setup report | `~/.local/state/nightrun-linux/` |
-| Outputs and run logs | Your chosen Forge output directory |
+| Desktop entries | `~/.local/share/applications/` |
+| Your configuration | `~/.config/nightrun-linux/config.local.json` |
+| Stop file, batch lock and setup report | `~/.local/state/nightrun-linux/` |
+| Renders and logs | The Forge output folder you choose |
 
-Application, config and state respect `XDG_DATA_HOME`,
-`XDG_CONFIG_HOME`, and `XDG_STATE_HOME`. Add
-`$HOME/.local/bin` to your PATH if you want to use the command by
-its short name from a terminal.
+These use XDG config/data/state locations where appropriate. You'll need Python
+3 and its `venv` module, util-linux `flock`, and your own working
+Forge / Forge-Neo installation. The installer creates a private venv and
+explicitly installs the few Python packages it needs.
 
-No root permissions or system-wide background services are required.
+**Edit `config.local.json`, not the bundled `config.json`.**
+Keep custom prompt pools in your XDG config folder so a future reinstall
+doesn't cheerfully replace them. The [editing section](GUIDE.md#4-what-you-can-actually-edit)
+explains the actual keys. The [pool section](GUIDE.md#5-edit-prompt-pools-without-losing-them)
+shows where to put your own text.
 
-## Upgrades and uninstall
+## Commands
 
-Run `bash install.sh` again from a newer Linux Native archive.
-Your local configuration, output folder and previous renders are separate
-from the installed code, so they aren't overwritten.
+```text
+nightrun-linux setup       Connect local Forge and choose model/output paths
+nightrun-linux validate    Check the config, pools and LoRAs
+nightrun-linux dry-run     Generate prompts without GPU rendering
+nightrun-linux base        Render base images
+nightrun-linux full        Render with scheduled upscaling
+nightrun-linux upscale     Replay/upscale an image from metadata JSON
+nightrun-linux analyze     Inspect prompt variety across old runs
+nightrun-linux stop        Stop after the current image
+nightrun-linux clear-stop  Clear a leftover stop signal
+nightrun-linux config-path Print the config file location
+```
 
-Uninstall with `bash uninstall.sh` from the archive. Personal config,
-state and generated images are preserved. You can clean those manually if
-you really want them gone.
+Add `--count 5` to override the configured batch size. Try
+`base --count 1` before your first overnight run. Your GPU isn't a
+beta tester with infinite patience.
 
-## Compatibility and limits
+## Updating and uninstalling
 
-This edition is **native Linux packaging**, not a new rendering engine.
-NVIDIA temperature monitoring still depends on `nvidia-smi`; it won't
-automatically work with every AMD/Intel driver and Forge backend.
+Install a newer Linux Native package with `bash install.sh`.
+The config and output folders stay separate from application code. To remove
+the program, run `bash uninstall.sh` from the extracted package;
+personal configs, state and renders stay put.
 
-CI covers the Linux package, command-line setup, dry-run behavior, and
-installation paths. No automated check can guarantee a real GPU render will
-work on every Linux distro. Try one image before leaving it unattended.
+Full Linux Forge/GPU and driver compatibility depends on the local machine;
+the CI tests use simulated/offline runs. We aren't pretending otherwise.
 
-The existing [numbered Nightrun releases](https://github.com/Bluenochian/Nightrun/releases)
-are preserved. This Linux edition uses the versionless `linux-native`
-release tag instead of inventing a 2.4.
+[Full guide](GUIDE.md) · [Linux Native release notes](RELEASE_NOTES.md) ·
+[Windows 2.2](https://github.com/Bluenochian/Nightrun/releases/tag/v2.2)

@@ -40,7 +40,7 @@ def create(output: Path) -> dict:
             SOURCE / directory, package / directory,
             ignore=shutil.ignore_patterns("__pycache__", "*.pyc", "*.pyo"),
         )
-    for file in ("nightrun", "install.sh", "uninstall.sh", "README.md", "RELEASE_NOTES.md"):
+    for file in ("nightrun", "install.sh", "uninstall.sh", "README.md", "GUIDE.md", "RELEASE_NOTES.md"):
         shutil.copy2(LINUX / file, package / file)
         if file.endswith(".sh") or file == "nightrun":
             (package / file).chmod(0o755)
