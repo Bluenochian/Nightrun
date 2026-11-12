@@ -1,66 +1,44 @@
-# Nightrun 1.5 Release Notes
+# Nightrun 2.2 — fewer surprises after midnight
 
-Portable Forge / Forge-Neo prompt generation, metadata replay, and upscale pipeline.
+A proper maintenance update to **Nightrun 2.0**, not a repackaged 1.5 build.
 
-## Release Highlights
+You can still leave Forge to do its thing overnight. I'd just rather it didn't
+lie about failed renders or waste your time trying to restart Forge over a bad
+request. So I fixed those parts.
 
-- Project renamed and surfaced as `Nightrun`.
-- Main CLI entrypoint is now `nightrun.py`.
-- Internal engine module is now `nightrun_engine.py`.
-- Output folders now use the `nightrun-YYYYMMDD-HHMMSS` prefix.
-- Desktop shortcuts use the new bundled `nightrun.ico` and `nightrun_upscaler.ico`.
-- Old replaced launchers and old Forge icon files were removed from the package.
-- Legacy empty-folder cleanup still recognizes old `overnight-randomizer-*` output folders so upgraded users can clean failed/dry runs safely.
+## Fixed
 
-## Generator Changes
+- **Forge health checks:** HTTP errors (including 404/500) no longer count as a healthy API.
+- **Bad requests:** an HTTP 400-series error from Forge now fails with a useful message instead of pointlessly retrying and trying to restart it.
+- **LoRA name matching:** exact and alias matches still work; fuzzy matches must have a single unambiguous candidate. An uncertain guess gets skipped instead of loading the wrong model.
+- **Batch counts:** `--count 0` and negative image counts now fail early, rather than silently using the default or producing an empty "successful" batch.
+- **Honest summaries:** `summary.json` now distinguishes `OK`, `PARTIAL`, `FAILED` and `STOPPED` and records attempted, completed and failed counts.
+- **Cooling and stopping:** Stop After Current Image interrupts GPU cooldowns and between-image sleeps. The runner doesn't take an extra break after the last image.
+- **Pillow dependency:** no more surprise `pip install` during import. If Pillow isn't installed, raw PNGs still save; install Pillow for metadata stamping and contact sheets.
+- **Prompt filter:** repaired a missing `|` in a regex that had accidentally glued the blocked tokens into one impossible word.
 
-- Added a one-file `franchise_catalog.py` system instead of folder-based modules.
-- Added config controls for enabling/disabling franchise modules by module ID, source name, or label pattern.
-- Added chances for core franchise fields so users can tune how much each module controls.
-- Added `genre_core.txt` and `genre_root.txt` with short classic genres and named subgenres.
-- Added `exclusive_group` support so related pools, like genre pools, do not stack into noisy genre soup.
-- Added prompt concept memory to reduce repeated themes across a run.
-- Added stronger candle/candlelight repeat penalties.
-- Added stronger blue/cyan repetition pressure and low heterochromia chance.
-- Added final `prompt_cleanup` guardrails for repeated comma tags, recurring concept-family caps, and compact SD-style prompt length limits.
-- Added prompt map logging with colored categories.
-- Added `nightrun-*` run folder naming through config.
+## Kept from 2.0
 
-## Setup / Portability
+All three prompt engines (Classic / Combinator / Franchise), the rebuilt pool
+lists, the curated world modules, metadata replay, standalone upscaling and
+existing Windows launchers are still included.
 
-- First setup now preserves existing tuned `config.local.json` generation settings by default.
-- Added `--reset-local` for intentionally rebuilding local settings from a VRAM profile.
-- Added a stronger `tuned_6gb` VRAM profile for 6 GB GPUs.
-- 4-5 GB systems remain on the safer low profile.
-- Setup creates the `Nightrun` and `Upscaler` desktop shortcuts on Windows.
-- Paths are written as portable UTF-safe JSON text to avoid non-English path corruption.
+## One thing before you unzip
 
-## Upscaler
+**Don't overwrite your working install on the first attempt.** Extract
+`nightrun_2.2/` beside your older Nightrun folder, keep your
+`config.local.json`, run First Setup, Validation and a Dry Test, then try a
+small real batch.
 
-- Metadata upscaler keeps using an existing upscale as the source when chaining.
-- Missing base images can still be recreated from metadata when needed.
-- Scale factors such as 2x, 3x, 4x, or custom dimensions are supported.
+The ZIP contains the actual runner and pool files. It does **not** include
+checkpoints, model files, LoRAs, Forge, or Ultimate SD Upscale.
 
-## Prompt Quality / Debugging
+Windows is the main launcher target; the Python logic also has offline
+regression checks on Python 3.10, 3.12 and 3.13. Those tests do **not** replace
+a full overnight run against your particular Forge build and GPU.
 
-- Rebuilt and purged shipped prompt pools for local Stable Diffusion style prompting: shorter comma tags, fewer bloated lines, and less overpopulation for its own sake.
-- Added hand-curated front entries for major pools: concepts, characters, outfits, environments, poses, expressions, lighting, camera, styles, effects, composition, equipment, and palettes.
-- Reworked concept and character pools back to direct SD-readable archetypes/descriptors instead of poetic title mashups.
-- Clarified pool ownership: `fixed_prefix` owns subject identity, concept owns role/archetype, character owns expression/posture, clothing owns outfit, and environment owns scene.
-- Added redundant subject-term stripping so pool lines do not repeat `woman`, `girl`, `female`, or `lady` after the fixed prefix already established the subject.
-- Added a configurable curated-top weighting system so hand-picked pool entries appear more often without disabling the full pool.
-- Rebalanced recurring motif families so candles, vampire/gothic themes, blue/cyan palettes, rose/moon details, and similar strong motifs appear less often.
-- Added hundreds of short genre/subgenre roots, including punk derivatives, weird fiction, new weird, cli-fi, wuxia, xianxia, LitRPG, progression fantasy, ecological horror, analog horror, liminal horror, vaporwave, mecha, kaiju, and more.
-- Prompt variety analyzer now reports repeated concept families, including candles, gothic, vampire, blue/cyan, sci-fi, and wasteland motifs.
-- Analyzer still reports repeated colors, poses, cameras, outfits, environments, styles, modules, exact prompt repeats, and repeated comma tags.
-- Validation stress test checks pool files, prompt formatting, LoRA resolution, and generated prompt samples without rendering images.
+[Source and setup](https://github.com/Bluenochian/Nightrun/tree/main/nightrun2.2) ·
+[2.0 release — still available](https://github.com/Bluenochian/Nightrun/releases/tag/release2) ·
+[1.5 release — also still available](https://github.com/Bluenochian/Nightrun/releases/tag/release)
 
-## First Run
-
-1. Put this folder under `sd-webui-forge-neo/workflows/nightrun1.5`.
-2. Run `Run First Setup.bat`.
-3. Run `Run Validation Stress Test.bat`.
-4. Run `Run One DRY TEST.bat`.
-5. Start `Run Nightrun BASE only.bat` or `Run Nightrun FULL upscale.bat`.
-
-Do not upload `config.local.json`, render outputs, or personal model files.
+Now go render something. Your PC can do the babysitting.
