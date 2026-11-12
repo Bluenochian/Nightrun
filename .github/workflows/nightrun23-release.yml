@@ -1,0 +1,139 @@
+name: Nightrun 2.3 Linux + Windows release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'nightrun2.3/**'
+      - '.github/workflows/nightrun23-release.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nightrun-v2-3-release
+  cancel-in-progress: false
+
+jobs:
+  test:
+    name: ${{ matrix.os }} Python ${{ matrix.python }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            python: '3.10'
+          - os: ubuntu-latest
+            python: '3.12'
+          - os: ubuntu-latest
+            python: '3.13'
+          - os: windows-latest
+            python: '3.12'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install test dependencies
+        run: python -m pip install requests Pillow
+      - name: Python syntax and JSON sanity
+        run: |
+          python -m compileall -q nightrun2.3/nightrun_2.3/modules
+          python -m json.tool nightrun2.3/nightrun_2.3/config.json > nul
+        if: runner.os == 'Windows'
+      - name: Python syntax and JSON sanity (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          python -m compileall -q nightrun2.3/nightrun_2.3/modules
+          python -m json.tool nightrun2.3/nightrun_2.3/config.json >/dev/null
+          bash -n nightrun2.3/nightrun_2.3/*.sh
+      - name: Offline regression and Linux launcher tests
+        run: python -m unittest discover -s nightrun2.3/tests -p 'test_*.py' -v
+      - name: Check preserved Windows batch launchers
+        shell: python
+        run: |
+          from pathlib import Path
+          original = Path("nightrun2.2/nightrun_2.0")
+          current = Path("nightrun2.3/nightrun_2.3")
+          bats = sorted(original.glob("*.bat"))
+          assert len(bats) == 9, "Expected nine original Windows launchers"
+          for bat in bats:
+              assert (current / bat.name).read_bytes() == bat.read_bytes(), bat.name
+      - name: Linux dry run (does not call Forge)
+        if: runner.os == 'Linux' && matrix.python == '3.12'
+        shell: bash
+        run: |
+          export OVERNIGHT_FORGE_REPO="$RUNNER_TEMP/forge-test-space"
+          mkdir -p "$OVERNIGHT_FORGE_REPO"
+          python nightrun2.3/nightrun_2.3/nightrun.py \
+            --mode dry-run --count 1 --cleanup-empty never --config config.json
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          root = Path(os.environ["OVERNIGHT_FORGE_REPO"]) / "test-renders"
+          files = list(root.glob("nightrun-*/summary.json"))
+          assert len(files) == 1, files
+          data = json.loads(files[0].read_text())
+          assert data["status"] == "OK", data
+          assert data["count_attempted"] == 1, data
+          PY
+
+  release:
+    name: Publish new v2.3; keep v2.2 and older
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pack ZIP and Linux TAR.GZ
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile, ZIP_DEFLATED
+          import tarfile
+          source = Path("nightrun2.3/nightrun_2.3")
+          output = Path("nightrun_2_3.zip")
+          archive_tar = Path("nightrun_2_3.tar.gz")
+          tests = Path("nightrun2.3/tests")
+          if not (source / "modules" / "nightrun_runtime.py").is_file():
+              raise RuntimeError("Missing modular runtime")
+          def include(path):
+              return path.is_file() and not any(p in ("__pycache__", ".git", "venv", ".venv") for p in path.parts) and path.suffix not in (".pyc", ".pyo") and path.name not in ("config.local.json", "setup_report.json", ".nightrun.lock", "STOP_AFTER_CURRENT_IMAGE.txt", "test_nightrun_stamp.png")
+          files = sorted([p for p in source.rglob("*") if include(p)])
+          files += sorted(tests.glob("test_*.py"))
+          def arcname(file):
+              return Path("nightrun_2.3") / (file.relative_to(source) if file.is_relative_to(source) else Path("tests") / file.name)
+          with ZipFile(output, "w", ZIP_DEFLATED, compresslevel=9) as archive:
+              for file in files:
+                  archive.write(file, arcname(file).as_posix())
+          with tarfile.open(archive_tar, "w:gz") as archive:
+              for file in files:
+                  archive.add(file, arcname=arcname(file).as_posix())
+          with ZipFile(output) as archive:
+              assert archive.testzip() is None
+              names = set(archive.namelist())
+              for needed in (
+                  "nightrun_2.3/nightrun.py", "nightrun_2.3/common.sh",
+                  "nightrun_2.3/run-nightrun-base-only.sh",
+                  "nightrun_2.3/Run Nightrun BASE only.bat",
+                  "nightrun_2.3/modules/nightrun_runtime.py",
+                  "nightrun_2.3/README.txt",
+              ):
+                  assert needed in names, needed
+          print(f"Packaged {len(files)} files into {output} and {archive_tar}")
+          PY
+          sha256sum nightrun_2_3.zip nightrun_2_3.tar.gz > SHA256SUMS
+      - name: Create v2.3 without touching earlier releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view v2.3 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "v2.3 already exists, leaving it untouched."
+            exit 0
+          fi
+          gh release create v2.3 nightrun_2_3.zip nightrun_2_3.tar.gz SHA256SUMS \
+            --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
+            --title "Nightrun 2.3 — Linux + Windows" \
+            --notes-file nightrun2.3/nightrun_2.3/GITHUB_RELEASE_NOTES.md \
+            --latest
