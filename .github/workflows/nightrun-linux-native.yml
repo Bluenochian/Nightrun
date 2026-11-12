@@ -1,0 +1,73 @@
+name: Nightrun Linux Native
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'linux-native/**'
+      - '.github/workflows/nightrun-linux-native.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nightrun-linux-native
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ['3.10', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install build and test dependencies
+        run: python -m pip install --disable-pip-version-check requests Pillow
+      - name: Python source and Linux scripts
+        run: |
+          python -m compileall -q nightrun2.3/nightrun_2.3/modules linux-native
+          bash -n linux-native/nightrun linux-native/install.sh linux-native/uninstall.sh
+      - name: Build Linux-only archive
+        run: python linux-native/build.py --output "$RUNNER_TEMP/native"
+      - name: Linux Native integration tests
+        run: python -m unittest discover -s linux-native/tests -p 'test_*.py' -v
+      - name: Regression tests for inherited rendering engine
+        run: python -m unittest discover -s nightrun2.3/tests -p 'test_*.py' -v
+
+  publish:
+    runs-on: ubuntu-latest
+    needs: verify
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install packaging dependency
+        run: python -m pip install --disable-pip-version-check Pillow
+      - name: Package the standalone Linux distribution
+        run: |
+          python linux-native/build.py --output dist-linux-native
+          cd dist-linux-native
+          sha256sum --check SHA256SUMS
+      - name: Create the versionless Linux Native release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view linux-native --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "The Linux Native release already exists. No numbered releases were touched."
+            exit 0
+          fi
+          gh release create linux-native \
+            dist-linux-native/nightrun-linux-native.tar.gz \
+            dist-linux-native/nightrun-linux-native.zip \
+            dist-linux-native/SHA256SUMS \
+            --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
+            --title "Nightrun — Linux Native" \
+            --notes-file linux-native/RELEASE_NOTES.md \
+            --latest=false
