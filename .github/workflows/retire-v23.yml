@@ -1,0 +1,39 @@
+name: Retire superseded 2.3 combined release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/retire-v23.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  retire:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Remove only obsolete v2.3 release and its tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view v2.3 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release delete v2.3 --repo "$GITHUB_REPOSITORY" --yes --cleanup-tag
+          else
+            echo 'v2.3 release already absent.'
+            if gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/v2.3" >/dev/null 2>&1; then
+              gh api -X DELETE "repos/$GITHUB_REPOSITORY/git/refs/tags/v2.3"
+            fi
+          fi
+      - name: Verify Windows 2.2 and Linux Native remain
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for tag in v2.2 linux-native release2 release; do
+            gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null
+          done
+          if gh release view v2.3 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo 'v2.3 is unexpectedly still published' >&2; exit 1
+          fi
+          echo 'Old releases retained; superseded 2.3 is gone.'
